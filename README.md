@@ -10,6 +10,9 @@ npm install
 
 # Run
 npx tsx mtg-jumpstarts.ts "<series name>"
+
+# Export to CSV (for Google Sheets import)
+npx tsx mtg-jumpstarts.ts "<series name>" --csv output.csv
 ```
 
 **Examples:**
@@ -17,7 +20,7 @@ npx tsx mtg-jumpstarts.ts "<series name>"
 ```bash
 npx tsx mtg-jumpstarts.ts "Foundations Jumpstart"
 npx tsx mtg-jumpstarts.ts "Avatar: The Last Airbender"
-npx tsx mtg-jumpstarts.ts "Marvel"
+npx tsx mtg-jumpstarts.ts "Jumpstart 2022" --csv j22.csv
 ```
 
 ## Requirements
@@ -32,7 +35,7 @@ export ANTHROPIC_API_KEY=sk-ant-...
 ## What it does
 
 1. Finds the series page on mtg.wiki
-2. Discovers all theme names and their URLs
+2. Discovers all theme names, colors, and their URLs
 3. Fetches each theme page in parallel
 4. Uses Claude to extract the decklist from the HTML
 5. Looks up live Scryfall prices for every card
@@ -41,17 +44,38 @@ export ANTHROPIC_API_KEY=sk-ant-...
 ## Output
 
 ```
-=== FOUNDATIONS JUMPSTART ===
-Found 65 themes.
+=== AVATAR LAST AIRBENDER JUMPSTART ===
+Found 66 themes.
 
---- Angels ---
-Creatures (8 cards)  $4.21
-  2x Serra Angel  $0.25 ea  $0.50
+--- Aang ---
+Creatures (8 cards)  $9.47
+  1x Aang, Airbending Master  $8.24 ea  $8.24
   ...
-[20 cards total | Deck value: $6.43 | Power: Mid]
+[20 cards total | Deck value: $11.56 | Power: ★★★☆☆ (3/5)]
 ```
 
-Power tiers: **Budget** (< $5) · **Mid** ($5–$15) · **Premium** (> $15)
+Power is rated **1–5 stars** on a z-score bell curve relative to the series mean — most decks land at 3★, true outliers at 1★ or 5★.
+
+## CSV export
+
+Add `--csv <file>` to write a flat CSV alongside the normal output:
+
+```bash
+npx tsx mtg-jumpstarts.ts "Avatar: The Last Airbender" --csv avatar.csv
+```
+
+One row per card. Columns:
+
+| Series | Theme | Color | Type | Qty | Card | Unit Price | Line Total | Deck Total | Power Tier |
+|--------|-------|-------|------|-----|------|------------|------------|------------|------------|
+| Avatar: The Last Airbender | Aang | White | Creatures | 1 | Aang, Airbending Master | 8.24 | 8.24 | 11.56 | 3 |
+
+- **Color** — `White` / `Blue` / `Black` / `Red` / `Green` / `Other`
+- **Power Tier** — raw number 1–5 (sortable/filterable in Sheets)
+- Prices are bare numbers (no `$`) so spreadsheet formulas work
+- Cards with unknown prices have empty price cells
+
+Import into Google Sheets via **File → Import → Upload**.
 
 ## Piping output
 
