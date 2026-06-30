@@ -5,8 +5,12 @@ import { writeFileSync } from 'node:fs';
 import * as XLSX from 'xlsx';
 import type { PricedDecklist } from './types.js';
 
+export function formatResultsJson(keyword: string, decklists: PricedDecklist[]): string {
+  return JSON.stringify({ series: keyword, themeCount: decklists.length, decks: decklists }, null, 2);
+}
+
 export function printResultsJson(keyword: string, decklists: PricedDecklist[]): void {
-  console.log(JSON.stringify({ series: keyword, themeCount: decklists.length, decks: decklists }, null, 2));
+  console.log(formatResultsJson(keyword, decklists));
 }
 
 export function exportCsv(keyword: string, decklists: PricedDecklist[], filepath: string): void {
