@@ -44,3 +44,19 @@ export type PricedDecklist = {
   powerLevel: number; // 1–5, z-score relative to series
   synergies: Synergy[];
 };
+
+export type BakedCard = { title: string; type: string; qty: number };
+
+export type BakedDecklist = {
+  theme: string;
+  color: Color;
+  description: string;
+  cards: BakedCard[];
+  synergies: Synergy[];
+};
+
+export type BakedSeries = {
+  series: string;
+  themeCount: number;
+  decks: BakedDecklist[];
+};
