@@ -67,10 +67,11 @@ export async function callAgent<T>(
   instructions: string,
   htmlContent: string,
   maxTokens: number,
+  model = 'claude-haiku-4-5-20251001',
 ): Promise<T> {
   return semaphore.run(async () => {
     const response = await client.messages.create({
-      model: 'claude-haiku-4-5-20251001',
+      model,
       max_tokens: maxTokens,
       tools: [tool],
       tool_choice: { type: 'tool', name: tool.name },
