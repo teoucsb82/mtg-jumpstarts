@@ -70,7 +70,7 @@ export async function callAgent<T>(
   model = 'claude-haiku-4-5-20251001',
 ): Promise<T> {
   return semaphore.run(async () => {
-    const response = await client.messages.create({
+    const stream = client.messages.stream({
       model,
       max_tokens: maxTokens,
       tools: [tool],
@@ -83,6 +83,7 @@ export async function callAgent<T>(
         ],
       }],
     });
+    const response = await stream.finalMessage();
 
     if (response.stop_reason === 'max_tokens') {
       throw new Error(`Response truncated (hit max_tokens=${maxTokens}) for tool ${tool.name}`);

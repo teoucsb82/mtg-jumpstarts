@@ -185,7 +185,7 @@ export async function analyzeSynergies(
   const instructions = `You are a Magic: The Gathering deckbuilding expert analyzing a Jumpstart series.
 Jumpstart packs are 20-card half-decks designed to be combined two at a time into one 40-card deck.
 
-For each theme below, recommend 3-5 OTHER themes from this same list that would combine well into a
+For each theme below, recommend 2-3 OTHER themes from this same list that would combine well into a
 40-card deck, using Magic deckbuilding fundamentals (curve, removal/threat balance, complementary
 archetypes, color identity). Generally avoid pairing two decks of the same color — Jumpstart by design
 discourages mono-color pairs — unless there's a genuinely compelling synergistic reason, in which case
@@ -201,7 +201,7 @@ THEMES:`;
 
   const result = await withRetry(
     () => callAgent<{ pairings: { theme: string; recommendations: Pairing[] }[] }>(
-      client, semaphore, PAIRINGS_TOOL, instructions, content, 8192, 'claude-sonnet-5',
+      client, semaphore, PAIRINGS_TOOL, instructions, content, 32000, 'claude-sonnet-5',
     ),
     'pairing analysis',
   );
