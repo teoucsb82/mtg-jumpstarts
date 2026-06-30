@@ -1,7 +1,12 @@
 // Formats and prints results to stdout. Progress messages go to stderr
 // so that stdout remains clean (pipeable to jq, files, etc.).
 
+import { writeFileSync } from 'node:fs';
 import type { PricedDecklist } from './types.js';
+
+function stars(tier: number): string {
+  return '★'.repeat(tier) + '☆'.repeat(5 - tier);
+}
 
 export function printResults(keyword: string, decklists: PricedDecklist[]): void {
   const fmt = (n: number) => `$${n.toFixed(2)}`;
@@ -31,8 +36,42 @@ export function printResults(keyword: string, decklists: PricedDecklist[]): void
     }
 
     console.log(
-      `[${totalCards} cards total | Deck value: ${fmt(decklist.deckTotal)} | Power: ${decklist.powerTier}]`,
+      `[${totalCards} cards total | Deck value: ${fmt(decklist.deckTotal)} | Power: ${stars(decklist.powerTier)} (${decklist.powerTier}/5)]`,
     );
     console.log('');
   }
+}
+
+export function exportCsv(keyword: string, decklists: PricedDecklist[], filepath: string): void {
+  const esc = (v: string | number) => `"${String(v).replace(/"/g, '""')}"`;
+
+  const rows: string[] = [
+    ['Series', 'Theme', 'Color', 'Type', 'Qty', 'Card', 'Unit Price', 'Line Total', 'Deck Total', 'Power Tier']
+      .map(esc).join(','),
+  ];
+
+  for (const deck of decklists) {
+    for (const cat of deck.categories) {
+      for (const card of cat.cards) {
+        const lineTotal = card.unitPrice !== null
+          ? (card.unitPrice * card.qty).toFixed(2)
+          : '';
+        rows.push([
+          keyword,
+          deck.theme,
+          deck.color,
+          cat.name,
+          card.qty,
+          card.name,
+          card.unitPrice !== null ? card.unitPrice.toFixed(2) : '',
+          lineTotal,
+          deck.deckTotal.toFixed(2),
+          deck.powerTier,
+        ].map(esc).join(','));
+      }
+    }
+  }
+
+  writeFileSync(filepath, rows.join('\n'), 'utf8');
+  console.error(`Exported ${decklists.length} decks to ${filepath}`);
 }

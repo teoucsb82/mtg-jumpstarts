@@ -27,16 +27,19 @@ import {
   extractThemeFromPage,
 } from './src/agents.js';
 import { priceDecklists } from './src/pricing.js';
-import { printResults } from './src/output.js';
+import { printResults, exportCsv } from './src/output.js';
 import type { Decklist } from './src/types.js';
 
 async function main(): Promise<void> {
   const keyword = process.argv[2];
+  const csvFlagIdx = process.argv.indexOf('--csv');
+  const csvPath = csvFlagIdx !== -1 ? process.argv[csvFlagIdx + 1] : null;
+
   if (!keyword) {
-    console.error('Usage: npx tsx mtg-jumpstarts.ts "<series name>"');
+    console.error('Usage: npx tsx mtg-jumpstarts.ts "<series name>" [--csv <file>]');
     console.error('Examples:');
     console.error('  npx tsx mtg-jumpstarts.ts "Foundations Jumpstart"');
-    console.error('  npx tsx mtg-jumpstarts.ts "Avatar: The Last Airbender"');
+    console.error('  npx tsx mtg-jumpstarts.ts "Avatar: The Last Airbender" --csv avatar.csv');
     process.exit(1);
   }
 
@@ -126,8 +129,16 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
-  const pricedDecklists = await priceDecklists(decklists);
+  // Attach color from theme discovery: match on exact name or numbered variant prefix
+  // (e.g. Theme "Angels" → decklists "Angels 1", "Angels 2")
+  const coloredDecklists: Decklist[] = decklists.map(d => {
+    const match = themes.find(t => d.theme === t.name || d.theme.startsWith(t.name + ' '));
+    return { ...d, color: match?.color ?? '' };
+  });
+
+  const pricedDecklists = await priceDecklists(coloredDecklists);
   printResults(keyword, pricedDecklists);
+  if (csvPath) exportCsv(keyword, pricedDecklists, csvPath);
 }
 
 // Only run when invoked directly (not when imported as a module)

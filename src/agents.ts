@@ -73,7 +73,8 @@ PAGE CONTENT:`;
         const name = fragment
           ? fragment.replace(/_/g, ' ').replace(/&#39;/g, "'").replace(/&amp;/g, '&').replace(/&quot;/g, '"')
           : t.name;
-        return { name, url: baseUrl };
+        const color = baseUrl.match(/Decklists_-_(White|Blue|Black|Red|Green|Other)/i)?.[1] ?? '';
+        return { name, url: baseUrl, color };
       })
       .filter(t => {
         const key = `${t.name}::${t.url}`;
@@ -85,11 +86,11 @@ PAGE CONTENT:`;
 
   // No anchors: use URLs as-is, constructing any that are missing the /Decklists_- path
   return result.themes.map(theme => {
-    if (!theme.url.includes('/Decklists_-_')) {
-      const slug = theme.name.replace(/\s+/g, '_');
-      return { ...theme, url: `${seriesUrl}/Decklists_-_${slug}` };
-    }
-    return theme;
+    const url = theme.url.includes('/Decklists_-_')
+      ? theme.url
+      : `${seriesUrl}/Decklists_-_${theme.name.replace(/\s+/g, '_')}`;
+    const color = url.match(/Decklists_-_(White|Blue|Black|Red|Green|Other)/i)?.[1] ?? '';
+    return { ...theme, url, color };
   });
 }
 
