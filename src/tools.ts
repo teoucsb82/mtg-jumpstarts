@@ -9,6 +9,10 @@ export const DECKLIST_ITEM_SCHEMA = {
   type: 'object',
   properties: {
     theme: { type: 'string', description: 'Theme name' },
+    description: {
+      type: 'string',
+      description: 'How this deck plays in 1-2 sentences, e.g. "big creatures", "spell heavy", "lots of tokens"',
+    },
     categories: {
       type: 'array',
       items: {
@@ -31,7 +35,7 @@ export const DECKLIST_ITEM_SCHEMA = {
       },
     },
   },
-  required: ['theme', 'categories'],
+  required: ['theme', 'description', 'categories'],
 };
 
 // Used by discoverThemes: returns all theme names + their page URLs
@@ -74,5 +78,38 @@ export const DECKLISTS_TOOL: Anthropic.Tool = {
       decklists: { type: 'array', items: DECKLIST_ITEM_SCHEMA },
     },
     required: ['decklists'],
+  },
+};
+
+// Used by analyzeSynergies: returns recommended deck pairings for every theme in the series
+export const PAIRINGS_TOOL: Anthropic.Tool = {
+  name: 'report_pairings',
+  description: 'Report recommended deck pairings for every theme in the series',
+  input_schema: {
+    type: 'object',
+    properties: {
+      pairings: {
+        type: 'array',
+        items: {
+          type: 'object',
+          properties: {
+            theme: { type: 'string', description: 'The theme these pairings are for' },
+            recommendations: {
+              type: 'array',
+              items: {
+                type: 'object',
+                properties: {
+                  theme: { type: 'string', description: 'Name of the recommended pairing theme (must be from the provided list)' },
+                  reason: { type: 'string', description: '1-2 sentences on why this pairs well with the main theme specifically' },
+                },
+                required: ['theme', 'reason'],
+              },
+            },
+          },
+          required: ['theme', 'recommendations'],
+        },
+      },
+    },
+    required: ['pairings'],
   },
 };
