@@ -34,7 +34,14 @@ export async function priceDecklists(decklists: Decklist[]): Promise<PricedDeckl
       deckTotal += categoryTotal;
       return { name: cat.name, cards, categoryTotal };
     });
-    return { theme: decklist.theme, color: decklist.color ?? '', categories, deckTotal };
+    return {
+      theme: decklist.theme,
+      color: decklist.color ?? '',
+      categories,
+      deckTotal,
+      description: decklist.description,
+      recommendedPairings: decklist.recommendedPairings ?? [],
+    };
   });
 
   // Second pass: z-score power tiers relative to this series
