@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.107.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1"
+  }
+}

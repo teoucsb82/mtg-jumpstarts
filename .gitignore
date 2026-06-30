@@ -1,0 +1,5 @@
+node_modules/
+generated/
+.DS_Store
+*.js
+*.d.ts
