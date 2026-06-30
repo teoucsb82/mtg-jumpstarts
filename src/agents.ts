@@ -4,9 +4,9 @@
 //          on a shared color-group page (handles numbered variants like Angels 1/Angels 2).
 
 import Anthropic from '@anthropic-ai/sdk';
-import type { Theme, Decklist } from './types.js';
+import type { Theme, Decklist, Pairing } from './types.js';
 import { stripHtml } from './fetch.js';
-import { THEMES_TOOL, DECKLIST_TOOL, DECKLISTS_TOOL } from './tools.js';
+import { THEMES_TOOL, DECKLIST_TOOL, DECKLISTS_TOOL, PAIRINGS_TOOL } from './tools.js';
 import { Semaphore, withRetry, callAgent } from './claude.js';
 
 // ─── Phase 1: Theme discovery ─────────────────────────────────────────────────
@@ -126,6 +126,9 @@ IMPORTANT — numbered variants: some themes have multiple versions (e.g. "${the
 
 Ignore every other theme on this page. Return only decklists for "${theme.name}".
 
+For each decklist, also write a 1-2 sentence description of how the deck plays (e.g. "big creatures",
+"spell heavy", "lots of tokens") based on the cards in it.
+
 Use the report_decklists tool to return the decklist(s) you find.
 
 PAGE CONTENT:`;
@@ -153,6 +156,9 @@ Extract the theme name and all cards grouped by category (Creatures, Instants, S
 Enchantments, Artifacts, Planeswalkers, Lands, etc.). Preserve category order as shown.
 Use qty=1 for any card with no explicit quantity listed.
 
+Also write a 1-2 sentence description of how the deck plays (e.g. "big creatures", "spell heavy",
+"lots of tokens") based on the cards you extracted.
+
 Use the report_decklist tool to return the structured decklist.
 
 PAGE CONTENT:`;
@@ -161,4 +167,57 @@ PAGE CONTENT:`;
     () => callAgent<Decklist>(client, semaphore, DECKLIST_TOOL, instructions, content, 4096),
     theme.name,
   );
+}
+
+// ─── Synergy / pairing recommendations ────────────────────────────────────────
+// One consolidated call per series: sees every theme's description + color at once,
+// so it can reason about the whole series (e.g. avoid same-color pairings) instead
+// of judging each theme in isolation. Uses Sonnet — synergy judgment needs real
+// Magic deckbuilding reasoning, not just structured extraction.
+
+export async function analyzeSynergies(
+  client: Anthropic,
+  semaphore: Semaphore,
+  themes: { name: string; color: string; description: string }[],
+): Promise<Map<string, Pairing[]>> {
+  const content = themes.map(t => `${t.name} (${t.color}): ${t.description}`).join('\n');
+
+  const instructions = `You are a Magic: The Gathering deckbuilding expert analyzing a Jumpstart series.
+Jumpstart packs are 20-card half-decks designed to be combined two at a time into one 40-card deck.
+
+For each theme below, recommend 3-5 OTHER themes from this same list that would combine well into a
+40-card deck, using Magic deckbuilding fundamentals (curve, removal/threat balance, complementary
+archetypes, color identity). Generally avoid pairing two decks of the same color — Jumpstart by design
+discourages mono-color pairs — unless there's a genuinely compelling synergistic reason, in which case
+explain why in the reason.
+
+For each recommendation, give a 1-2 sentence reason specific to why it pairs well with THIS theme, not
+a generic blurb. Only recommend themes that appear in the list below. If the series has very few
+themes, it's fine to return fewer than 3 — never fabricate a pairing.
+
+Use the report_pairings tool to return recommendations for every theme listed.
+
+THEMES:`;
+
+  const result = await withRetry(
+    () => callAgent<{ pairings: { theme: string; recommendations: Pairing[] }[] }>(
+      client, semaphore, PAIRINGS_TOOL, instructions, content, 8192, 'claude-sonnet-5',
+    ),
+    'pairing analysis',
+  );
+
+  return new Map(result.pairings.map(p => [p.theme, p.recommendations ?? []]));
+}
+
+// Defensive merge: drop any recommended theme name that doesn't actually exist in this
+// series (handles model hallucination without a retry).
+export function mergeRecommendedPairings(
+  decklists: Decklist[],
+  pairingsMap: Map<string, Pairing[]>,
+): Decklist[] {
+  const validThemes = new Set(decklists.map(d => d.theme));
+  return decklists.map(d => ({
+    ...d,
+    recommendedPairings: (pairingsMap.get(d.theme) ?? []).filter(p => validThemes.has(p.theme)),
+  }));
 }
