@@ -4,7 +4,8 @@
 //          on a shared color-group page (handles numbered variants like Angels 1/Angels 2).
 
 import Anthropic from '@anthropic-ai/sdk';
-import type { Theme, Decklist, Pairing } from './types.js';
+import type { Theme, Decklist, AgentSynergy, Synergy } from './types.js';
+import { normalizeColor } from './types.js';
 import { stripHtml } from './fetch.js';
 import { THEMES_TOOL, DECKLIST_TOOL, DECKLISTS_TOOL, PAIRINGS_TOOL } from './tools.js';
 import { Semaphore, withRetry, callAgent } from './claude.js';
@@ -179,7 +180,7 @@ export async function analyzeSynergies(
   client: Anthropic,
   semaphore: Semaphore,
   themes: { name: string; color: string; description: string }[],
-): Promise<Map<string, Pairing[]>> {
+): Promise<Map<string, AgentSynergy[]>> {
   const content = themes.map(t => `${t.name} (${t.color}): ${t.description}`).join('\n');
 
   const instructions = `You are a Magic: The Gathering deckbuilding expert analyzing a Jumpstart series.
@@ -200,7 +201,7 @@ Use the report_pairings tool to return recommendations for every theme listed.
 THEMES:`;
 
   const result = await withRetry(
-    () => callAgent<{ pairings: { theme: string; recommendations: Pairing[] }[] }>(
+    () => callAgent<{ pairings: { theme: string; recommendations: AgentSynergy[] }[] }>(
       client, semaphore, PAIRINGS_TOOL, instructions, content, 32000, 'claude-sonnet-5',
     ),
     'pairing analysis',
@@ -210,14 +211,17 @@ THEMES:`;
 }
 
 // Defensive merge: drop any recommended theme name that doesn't actually exist in this
-// series (handles model hallucination without a retry).
-export function mergeRecommendedPairings(
+// series (handles model hallucination without a retry). Looks up each recommended
+// theme's own color so the final Synergy carries {title, color, reasoning}.
+export function mergeSynergies(
   decklists: Decklist[],
-  pairingsMap: Map<string, Pairing[]>,
+  synergiesMap: Map<string, AgentSynergy[]>,
 ): Decklist[] {
-  const validThemes = new Set(decklists.map(d => d.theme));
+  const colorByTheme = new Map(decklists.map(d => [d.theme, normalizeColor(d.color ?? '')]));
   return decklists.map(d => ({
     ...d,
-    recommendedPairings: (pairingsMap.get(d.theme) ?? []).filter(p => validThemes.has(p.theme)),
+    synergies: (synergiesMap.get(d.theme) ?? [])
+      .filter(s => colorByTheme.has(s.theme))
+      .map((s): Synergy => ({ title: s.theme, color: colorByTheme.get(s.theme)!, reasoning: s.reasoning })),
   }));
 }
