@@ -43,18 +43,34 @@ export ANTHROPIC_API_KEY=sk-ant-...
 
 ## Output
 
-```
-=== AVATAR LAST AIRBENDER JUMPSTART ===
-Found 66 themes.
+Results print as structured JSON to stdout (progress goes to stderr):
 
---- Aang ---
-Creatures (8 cards)  $9.47
-  1x Aang, Airbending Master  $8.24 ea  $8.24
-  ...
-[20 cards total | Deck value: $11.56 | Power: ★★★☆☆ (3/5)]
+```json
+{
+  "series": "Avatar: The Last Airbender",
+  "themeCount": 66,
+  "decks": [
+    {
+      "theme": "Aang",
+      "color": "white",
+      "description": "Airbending tempo deck built around evasive creatures and tactical disruption.",
+      "cards": [
+        { "title": "Aang, Airbending Master", "type": "Creatures", "qty": 1, "unitPrice": 8.24, "lineTotal": 8.24 }
+      ],
+      "cardCount": 20,
+      "deckTotal": 11.56,
+      "powerLevel": 3,
+      "synergies": [
+        { "title": "Zuko", "color": "red", "reasoning": "Firebending aggro pairs well with Aang's evasive tempo, balancing curve and removal." }
+      ]
+    }
+  ]
+}
 ```
 
-Power is rated **1–5 stars** on a z-score bell curve relative to the series mean — most decks land at 3★, true outliers at 1★ or 5★.
+- **`color`** — one of `white` / `blue` / `black` / `red` / `green` / `multi`
+- **`powerLevel`** — rated **1–5** on a z-score bell curve relative to the series mean — most decks land at 3, true outliers at 1 or 5
+- A deck with a card count other than 20 logs a `⚠` warning to stderr (not stdout) during processing
 
 ## CSV export
 
@@ -66,12 +82,12 @@ npx tsx mtg-jumpstarts.ts "Avatar: The Last Airbender" --csv avatar.csv
 
 One row per card. Columns:
 
-| Series | Theme | Color | Type | Qty | Card | Unit Price | Line Total | Deck Total | Power Tier |
-|--------|-------|-------|------|-----|------|------------|------------|------------|------------|
-| Avatar: The Last Airbender | Aang | White | Creatures | 1 | Aang, Airbending Master | 8.24 | 8.24 | 11.56 | 3 |
+| Series | Theme | Color | Type | Qty | Card | Unit Price | Line Total | Deck Total | Power Level |
+|--------|-------|-------|------|-----|------|------------|------------|------------|-------------|
+| Avatar: The Last Airbender | Aang | white | Creatures | 1 | Aang, Airbending Master | 8.24 | 8.24 | 11.56 | 3 |
 
-- **Color** — `White` / `Blue` / `Black` / `Red` / `Green` / `Other`
-- **Power Tier** — raw number 1–5 (sortable/filterable in Sheets)
+- **Color** — `white` / `blue` / `black` / `red` / `green` / `multi`
+- **Power Level** — raw number 1–5 (sortable/filterable in Sheets)
 - Prices are bare numbers (no `$`) so spreadsheet formulas work
 - Cards with unknown prices have empty price cells
 
