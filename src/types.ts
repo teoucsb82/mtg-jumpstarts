@@ -1,23 +1,46 @@
+export type Color = 'white' | 'blue' | 'black' | 'red' | 'green' | 'multi';
+
+const KNOWN_COLORS: Record<string, Color> = {
+  white: 'white',
+  blue: 'blue',
+  black: 'black',
+  red: 'red',
+  green: 'green',
+};
+
+export function normalizeColor(raw: string): Color {
+  return KNOWN_COLORS[raw.toLowerCase()] ?? 'multi';
+}
+
 export type Theme = { name: string; url: string; color: string };
 export type Card = { qty: number; name: string };
 export type Category = { name: string; cards: Card[] };
-export type Pairing = { theme: string; reason: string };
+export type AgentSynergy = { theme: string; reasoning: string };
+export type Synergy = { title: string; color: Color; reasoning: string };
+
 export type Decklist = {
   theme: string;
   color?: string;
   categories: Category[];
   description: string;
-  recommendedPairings?: Pairing[];
+  synergies?: Synergy[];
 };
 
-export type PricedCard = Card & { unitPrice: number | null };
-export type PricedCategory = { name: string; cards: PricedCard[]; categoryTotal: number };
+export type PricedCard = {
+  title: string;
+  type: string;
+  qty: number;
+  unitPrice: number | null;
+  lineTotal: number | null;
+};
+
 export type PricedDecklist = {
   theme: string;
-  color: string;
-  categories: PricedCategory[];
-  deckTotal: number;
-  powerTier: number; // 1–5, z-score relative to series
+  color: Color;
   description: string;
-  recommendedPairings: Pairing[];
+  cards: PricedCard[];
+  cardCount: number;
+  deckTotal: number;
+  powerLevel: number; // 1–5, z-score relative to series
+  synergies: Synergy[];
 };
