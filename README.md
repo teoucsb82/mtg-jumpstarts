@@ -1,49 +1,48 @@
 # mtg-jumpstarts
 
-CLI tool that scrapes [mtg.wiki](https://mtg.wiki) to extract decklists for any MTG Jumpstart series, then fetches live USD prices from Scryfall.
+MCP server that serves baked-in decklists for every MTG Jumpstart-format series, with live USD prices from Scryfall. Published as a Claude Code plugin — no Anthropic API key needed to use it.
 
-## Quickstart
+A separate maintainer-only script (re)generates the baked decklist data by scraping [mtg.wiki](https://mtg.wiki) and using Claude to extract it.
 
-```bash
-# Install dependencies
-npm install
+## Supported series
 
-# Run
-npx tsx mtg-jumpstarts.ts "<series name>"
+Only these 6 series are valid — anything else (e.g. "Spider-Man", "Bloomburrow") is rejected with an error instead of being scraped on demand:
 
-# Export to CSV (for Google Sheets import)
-npx tsx mtg-jumpstarts.ts "<series name>" --csv output.csv
-```
+- `Jumpstart`
+- `Jumpstart 2022`
+- `Lord of the Rings: Tales of Middle-earth Jumpstart`
+- `Foundations Jumpstart`
+- `Avatar: The Last Airbender`
+- `Marvel Super Heroes`
 
-**Examples:**
+(`Jumpstart: Historic Horizons` is excluded — Arena-only digital release, no paper Scryfall prices.)
 
-```bash
-npx tsx mtg-jumpstarts.ts "Foundations Jumpstart"
-npx tsx mtg-jumpstarts.ts "Avatar: The Last Airbender"
-npx tsx mtg-jumpstarts.ts "Jumpstart 2022" --csv j22.csv
-```
+## Using the MCP server
 
-## Requirements
+### Local development
 
-- Node.js 18+
-- An Anthropic API key (Claude extracts decklists from wiki HTML)
+Register the server at project scope (this repo only, not your global Claude Code config):
 
 ```bash
-export ANTHROPIC_API_KEY=sk-ant-...
+claude mcp add mtg-jumpstarts -s project -- npx tsx src/mcp-server.ts
 ```
 
-## What it does
+Restart Claude Code in this directory and approve the pending `mtg-jumpstarts` server when prompted. Then call the `get_jumpstart_decklists` tool with a `series` argument, e.g. "use the mtg-jumpstarts MCP tool to get Avatar: The Last Airbender decklists".
 
-1. Finds the series page on mtg.wiki
-2. Discovers all theme names, colors, and their URLs
-3. Fetches each theme page in parallel
-4. Uses Claude to extract the decklist from the HTML
-5. Looks up live Scryfall prices for every card
-6. Prints results to stdout (progress to stderr, so output is pipeable)
+### Publish / install as a plugin
+
+This repo is both the plugin and its own marketplace. Others install it with:
+
+```bash
+claude plugin marketplace add teoucsb82/mtg-jumpstarts
+claude plugin install mtg-jumpstarts@mtg-jumpstarts
+```
+
+Bump `version` in `.claude-plugin/plugin.json` and tag a release for each published change — installers only get updates when that field changes.
 
 ## Output
 
-Results print as structured JSON to stdout (progress goes to stderr):
+The `get_jumpstart_decklists` tool returns structured JSON:
 
 ```json
 {
@@ -70,34 +69,15 @@ Results print as structured JSON to stdout (progress goes to stderr):
 
 - **`color`** — one of `white` / `blue` / `black` / `red` / `green` / `multi`
 - **`powerLevel`** — rated **1–5** on a z-score bell curve relative to the series mean — most decks land at 3, true outliers at 1 or 5
-- A deck with a card count other than 20 logs a `⚠` warning to stderr (not stdout) during processing
+- A deck with a card count other than 20 logs a `⚠` warning to stderr when the underlying data was baked (see below), not at request time
 
-## CSV export
+## Regenerating baked data (maintainer only)
 
-Add `--csv <file>` to write a flat CSV alongside the normal output:
-
-```bash
-npx tsx mtg-jumpstarts.ts "Avatar: The Last Airbender" --csv avatar.csv
-```
-
-One row per card. Columns:
-
-| Series | Theme | Color | Type | Qty | Card | Unit Price | Line Total | Deck Total | Power Level |
-|--------|-------|-------|------|-----|------|------------|------------|------------|-------------|
-| Avatar: The Last Airbender | Aang | white | Creatures | 1 | Aang, Airbending Master | 8.24 | 8.24 | 11.56 | 3 |
-
-- **Color** — `white` / `blue` / `black` / `red` / `green` / `multi`
-- **Power Level** — raw number 1–5 (sortable/filterable in Sheets)
-- Prices are bare numbers (no `$`) so spreadsheet formulas work
-- Cards with unknown prices have empty price cells
-
-Import into Google Sheets via **File → Import → Upload**.
-
-## Piping output
-
-Progress goes to stderr; card data goes to stdout — so you can redirect cleanly:
+`data/<slug>.json` holds the static theme/card data (no prices) for each series. Regenerate it with:
 
 ```bash
-npx tsx mtg-jumpstarts.ts "Foundations Jumpstart" > results.txt
-npx tsx mtg-jumpstarts.ts "Foundations Jumpstart" 2>/dev/null  # suppress progress
+export ANTHROPIC_API_KEY=sk-ant-...
+npx tsx scripts/refresh-data.ts "<series name>"
 ```
+
+`<series name>` must be one of the 6 supported series listed above. This scrapes mtg.wiki, uses Claude to extract each theme's decklist, and writes `data/<slug>.json` — no prices, no console output beyond progress logged to stderr. Run it whenever a new series releases or mtg.wiki content changes; the published MCP server never runs this itself.
