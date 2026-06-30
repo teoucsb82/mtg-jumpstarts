@@ -100,9 +100,9 @@ export const PAIRINGS_TOOL: Anthropic.Tool = {
                 type: 'object',
                 properties: {
                   theme: { type: 'string', description: 'Name of the recommended pairing theme (must be from the provided list)' },
-                  reason: { type: 'string', description: '1-2 sentences on why this pairs well with the main theme specifically' },
+                  reasoning: { type: 'string', description: '1-2 sentences on why this pairs well with the main theme specifically' },
                 },
-                required: ['theme', 'reason'],
+                required: ['theme', 'reasoning'],
               },
             },
           },
