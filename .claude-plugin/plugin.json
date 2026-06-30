@@ -1,0 +1,11 @@
+{
+  "name": "mtg-jumpstarts",
+  "description": "Get MTG Jumpstart series decklists with live Scryfall prices",
+  "version": "1.0.0",
+  "mcpServers": {
+    "mtg-jumpstarts": {
+      "command": "npx",
+      "args": ["tsx", "${CLAUDE_PLUGIN_ROOT}/src/mcp-server.ts"]
+    }
+  }
+}

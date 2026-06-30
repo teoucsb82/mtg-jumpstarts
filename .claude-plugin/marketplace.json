@@ -1,0 +1,12 @@
+{
+  "name": "mtg-jumpstarts",
+  "owner": { "name": "teoucsb82" },
+  "description": "MTG Jumpstart decklist tools",
+  "plugins": [
+    {
+      "name": "mtg-jumpstarts",
+      "source": "./",
+      "description": "Get MTG Jumpstart series decklists with live Scryfall prices"
+    }
+  ]
+}
