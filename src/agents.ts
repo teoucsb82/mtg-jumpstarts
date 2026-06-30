@@ -17,19 +17,34 @@ export async function discoverThemes(
   html: string,
   seriesUrl: string,
 ): Promise<Theme[]> {
-  const content = stripHtml(html);
+  // href attributes are stripped by stripHtml, so extract Decklists links first.
+  // This gives the agent accurate URL→theme mappings without requiring it to
+  // guess color-page assignments from dense, mixed table text.
+  const linkRe = /href="(\/page\/[^"]*\/Decklists[^"#]*)(?:#([^"]*))?"[^>]*>([^<]+)<\/a>/gi;
+  const extractedLinks: string[] = [];
+  let m: RegExpExecArray | null;
+  while ((m = linkRe.exec(html)) !== null) {
+    const [, path, anchor, label] = m;
+    const url = `https://mtg.wiki${path}${anchor ? '#' + anchor : ''}`;
+    extractedLinks.push(`${label.trim()}: ${url}`);
+  }
+
+  const linksBlock = extractedLinks.length > 0
+    ? `DECKLIST LINKS FOUND ON PAGE:\n${extractedLinks.join('\n')}\n\n`
+    : '';
+
+  const content = `${linksBlock}${stripHtml(html)}`;
+
   const instructions = `You are parsing a Magic: The Gathering Jumpstart series wiki page.
 The series page URL is: ${seriesUrl}
 
-Find all navigation links that point to pages with "Decklists" in the URL.
-
-IMPORTANT — return URLs EXACTLY as they appear on the page, including any #anchor fragments.
+${extractedLinks.length > 0
+  ? `Decklist page links have been pre-extracted above (DECKLIST LINKS FOUND ON PAGE). Use those exact URLs.
+Prefer anchor URLs (e.g. /Decklists_-_White#Angels) over top-level color-page links (/Decklists_-_White) — the anchors give us individual theme names.`
+  : `Find all navigation links that point to pages with "Decklists" in the URL.
+IMPORTANT — return URLs EXACTLY as they appear, including any #anchor fragments.
 Example of correct URL: "${seriesUrl}/Decklists_-_White#Angels"
-Example of WRONG URL:   "${seriesUrl}/Decklists_-_Angels"  ← do NOT construct URLs like this
-
-Do NOT guess or construct URLs. Only return URLs you actually see in the page content.
-If you see both top-level links (/Decklists_-_White) and anchor links (/Decklists_-_White#Angels),
-return the anchor versions — they give us the individual theme names we need.
+Do NOT guess or construct URLs.`}
 
 Use the report_themes tool to return all theme names and their exact URLs.
 
@@ -54,7 +69,10 @@ PAGE CONTENT:`;
       .map(t => {
         const [baseUrl, fragment] = t.url.split('#');
         // Anchor name → theme name (e.g. "Angels_1" → "Angels 1", "At_the_Zoo" → "At the Zoo")
-        const name = fragment ? fragment.replace(/_/g, ' ') : t.name;
+        // Also decode basic HTML entities that survive href extraction (e.g. N&#39;er-do-wells → N'er-do-wells)
+        const name = fragment
+          ? fragment.replace(/_/g, ' ').replace(/&#39;/g, "'").replace(/&amp;/g, '&').replace(/&quot;/g, '"')
+          : t.name;
         return { name, url: baseUrl };
       })
       .filter(t => {

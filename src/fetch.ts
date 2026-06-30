@@ -8,6 +8,10 @@ export function buildSeriesUrl(keyword: string): string {
     .split(/\s+/)
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join('_');
+  // Don't double-append if keyword already contains "Jumpstart" (e.g. "Jumpstart 2022", "Foundations Jumpstart")
+  if (/jumpstart/i.test(keyword)) {
+    return `https://mtg.wiki/page/${normalized}`;
+  }
   return `https://mtg.wiki/page/${normalized}_Jumpstart`;
 }
 
