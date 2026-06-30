@@ -25,21 +25,27 @@ import {
   isSamePageGrouped,
   extractDecklist,
   extractThemeFromPage,
+  analyzeSynergies,
+  mergeSynergies,
 } from './src/agents.js';
 import { priceDecklists } from './src/pricing.js';
-import { printResults, exportCsv } from './src/output.js';
-import type { Decklist } from './src/types.js';
+import { printResultsJson, exportCsv, exportXlsx } from './src/output.js';
+import type { Decklist, AgentSynergy } from './src/types.js';
+import { normalizeColor } from './src/types.js';
 
 async function main(): Promise<void> {
   const keyword = process.argv[2];
   const csvFlagIdx = process.argv.indexOf('--csv');
   const csvPath = csvFlagIdx !== -1 ? process.argv[csvFlagIdx + 1] : null;
+  const xlsxFlagIdx = process.argv.indexOf('--xlsx');
+  const xlsxPath = xlsxFlagIdx !== -1 ? process.argv[xlsxFlagIdx + 1] : null;
 
   if (!keyword) {
-    console.error('Usage: npx tsx mtg-jumpstarts.ts "<series name>" [--csv <file>]');
+    console.error('Usage: npx tsx mtg-jumpstarts.ts "<series name>" [--csv <file>] [--xlsx <file>]');
     console.error('Examples:');
     console.error('  npx tsx mtg-jumpstarts.ts "Foundations Jumpstart"');
     console.error('  npx tsx mtg-jumpstarts.ts "Avatar: The Last Airbender" --csv avatar.csv');
+    console.error('  npx tsx mtg-jumpstarts.ts "Marvel Super Heroes" --xlsx marvel.xlsx');
     process.exit(1);
   }
 
@@ -133,12 +139,26 @@ async function main(): Promise<void> {
   // (e.g. Theme "Angels" → decklists "Angels 1", "Angels 2")
   const coloredDecklists: Decklist[] = decklists.map(d => {
     const match = themes.find(t => d.theme === t.name || d.theme.startsWith(t.name + ' '));
-    return { ...d, color: match?.color ?? '' };
+    return { ...d, color: normalizeColor(match?.color ?? '') };
   });
 
-  const pricedDecklists = await priceDecklists(coloredDecklists);
-  printResults(keyword, pricedDecklists);
+  // ── Phase 3: Cross-theme synergy recommendations ───────────────────────────
+  console.error('\nAnalyzing cross-theme synergies...');
+  const synergyInput = coloredDecklists.map(d => ({
+    name: d.theme,
+    color: d.color ?? '',
+    description: d.description,
+  }));
+  const synergiesMap = await analyzeSynergies(client, semaphore, synergyInput).catch(err => {
+    console.error(`  ✗ synergy analysis: ${err}`);
+    return new Map<string, AgentSynergy[]>();
+  });
+  const decklistsWithSynergies = mergeSynergies(coloredDecklists, synergiesMap);
+
+  const pricedDecklists = await priceDecklists(decklistsWithSynergies);
+  printResultsJson(keyword, pricedDecklists);
   if (csvPath) exportCsv(keyword, pricedDecklists, csvPath);
+  if (xlsxPath) exportXlsx(keyword, pricedDecklists, xlsxPath);
 }
 
 // Only run when invoked directly (not when imported as a module)
