@@ -79,22 +79,29 @@ Tips: Airbend your own creatures for value · Stack experience counters early ·
 
 ```json
 {
-  "theme": "Aang",
-  "color": "white",
-  "description": "This mono-white deck revolves around airbending — exiling nonland permanents (often your own creatures) so they can be recast cheaply for {2}, and Aang, Airbending Master converts that motion into free tokens.",
-  "playstyle": ["Go-wide tokens", "Blink/exile value", "Airbending synergy"],
-  "tips": ["Airbend your own creatures for value", "Stack experience counters early"],
+  "theme": "Scarlet",
+  "color": "red",
+  "description": "Scarlet is a mono-red spells-matter deck centered on The Vision and Scarlet Witch, who adds a red mana and a +1/+1 counter to herself every time you cast a spell, letting you chain additional spells off the extra mana she generates while growing into a real threat.",
+  "playstyle": ["Spells-matter", "Storm-lite", "Value/burn"],
+  "tips": [
+    "Chain spells to grow Vision and Scarlet Witch",
+    "Cast second spell to trigger Wanda's Vision",
+    "Save Grapeshot for a big spell-heavy turn",
+    "Loki copies your best cheap spell",
+    "Molten Lavamancer farms tokens off burn"
+  ],
   "cards": [
-    { "title": "Aang, Airbending Master", "type": "Creatures", "qty": 1, "unitPrice": 8.35, "lineTotal": 8.35 },
-    { "title": "Cloudshift", "type": "Instants", "qty": 1, "unitPrice": 1.08, "lineTotal": 1.08 }
+    { "title": "Stark Industries Executive", "type": "Creatures", "qty": 1, "unitPrice": 0.12, "lineTotal": 0.12, "rarity": "common", "colors": ["R"] },
+    { "title": "Loki Laufeyson", "type": "Creatures", "qty": 1, "unitPrice": 0.18, "lineTotal": 0.18, "rarity": "uncommon", "colors": ["R"] },
+    { "title": "The Vision and Scarlet Witch", "type": "Creatures", "qty": 1, "unitPrice": 59.61, "lineTotal": 59.61, "rarity": "mythic", "colors": ["R"] }
   ],
   "cardCount": 20,
-  "deckTotal": 11.69,
-  "powerLevel": 4
+  "deckTotal": 74.14,
+  "powerLevel": 5
 }
 ```
 
-Every card comes with a live Scryfall price, and `powerLevel` (1-5) ranks each deck against the rest of its series.
+Every card comes with a live Scryfall price, rarity, and colors, and `powerLevel` (1-5) ranks each deck against the rest of its series — Scarlet's $59.61 mythic pulls it to a 5/5 here. There's no `leader` field on this tool: it's derived from whichever card(s) have the highest rarity, computed when you ask for a printable insert card (see below).
 
 ## It reasons about strategy too
 
