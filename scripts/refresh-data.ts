@@ -36,6 +36,7 @@ import {
   describeDecks,
 } from '../src/agents.js';
 import { parseScryfallDeckBlocks, parseThemeColors, matchBaseThemeColor } from '../src/wikiDeckBlocks.js';
+import { fetchScryfallCardData } from '../src/scryfall.js';
 import { bakeSeries } from '../src/baking.js';
 import { SERIES_NAMES, resolveSeriesSlug, SERIES_WIKI_URL_OVERRIDES } from '../src/series.js';
 import type { SeriesName } from '../src/series.js';
@@ -87,18 +88,30 @@ async function main(): Promise<void> {
     console.error(`Found ${inlineDecks.length} decklists embedded directly on the series page.`);
     const themeColors = parseThemeColors(seriesHtml);
 
-    console.error('Generating deck descriptions (one consolidated call)...');
-    const descriptions = await describeDecks(client, semaphore, inlineDecks);
-
     coloredDecklists = inlineDecks.map(d => ({
       theme: d.theme,
       categories: d.categories,
-      description: descriptions.get(d.theme) ?? '',
+      description: '',
       color: normalizeColor(matchBaseThemeColor(d.theme, themeColors)),
     }));
   } else {
     coloredDecklists = await extractViaThemeDiscovery(client, semaphore, seriesHtml, seriesUrl);
   }
+
+  // ── Descriptions: oracle-text-grounded, one unified step for every series type ──
+  console.error(`\nFetching oracle text for ${coloredDecklists.length} themes' cards...`);
+  const allCardNames = [...new Set(
+    coloredDecklists.flatMap(d => d.categories.flatMap(cat => cat.cards.map(c => c.name))),
+  )];
+  const cardData = await fetchScryfallCardData(allCardNames);
+  const cardText = new Map([...cardData].map(([name, info]) => [name, info.text]));
+
+  console.error('Generating descriptions (Sonnet, batched)...');
+  const descriptions = await describeDecks(client, semaphore, coloredDecklists, cardText);
+  coloredDecklists = coloredDecklists.map(d => ({
+    ...d,
+    description: descriptions.get(d.theme) ?? d.description,
+  }));
 
   // ── Bake: flatten + write static data, no prices ────────────────────────────
   const baked = bakeSeries(keyword, coloredDecklists);
