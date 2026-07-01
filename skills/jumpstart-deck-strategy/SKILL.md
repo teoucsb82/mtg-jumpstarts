@@ -51,7 +51,7 @@ When asked "what pairs well with X," pull the full list of themes/colors/descrip
 
 ## Generating a deck insert card
 
-When asked for a "cheat sheet" or "deck insert card" for a theme (a printable double-sided 2"x3.5" card):
+When asked for a "cheat sheet" or "deck insert card" for a theme (a printable double-sided 3.5"x2" landscape card, Roboto Mono 8pt, hard-wrapped to a fixed 46x13 character grid per face):
 
 1. Call `get_jumpstart_decklists` for the series if you haven't already.
 2. Reason about up to 5 pairing themes for the target theme, using the heuristics above (color balance, curve, removal/threat balance, evasion, archetype identity, color pie). For each, write the reason as 5-6 keywords or a short phrase (e.g. "ally colors, mana fixing, protects combo"), not a full sentence — this field is specifically for the small printed insert card, not general chat (the "Giving recommendations" section above still uses full sentences).
