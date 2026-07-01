@@ -27,6 +27,8 @@ export type DeckInsertCardInput = {
 const RARITY_RANK: Record<string, number> = { mythic: 4, rare: 3, special: 3, bonus: 3, uncommon: 2, common: 1 };
 
 const WIDTH = 46;
+const HEIGHT = 13;
+const SYNERGY_MIN_RESERVE = 2;
 
 function capitalize(word: string): string {
   return word.charAt(0).toUpperCase() + word.slice(1);
@@ -51,6 +53,23 @@ function rarityLetter(rarity: string | null): string | null {
   }
 }
 
+function wrapText(text: string, width: number = WIDTH): string[] {
+  const words = text.split(' ');
+  const lines: string[] = [];
+  let current = '';
+  for (const word of words) {
+    const candidate = current ? `${current} ${word}` : word;
+    if (candidate.length > width && current) {
+      lines.push(current);
+      current = word;
+    } else {
+      current = candidate;
+    }
+  }
+  if (current) lines.push(current);
+  return lines.length > 0 ? lines : [''];
+}
+
 function formatCardLine(card: DeckInsertCardCard): string {
   const qtyPrefix = card.qty > 1 ? `${card.qty}x ` : '';
   const title = `${qtyPrefix}${card.title}`;
@@ -67,7 +86,7 @@ function selectLeaders(cards: DeckInsertCardCard[]): { names: string[]; rarity: 
 
   const maxRank = Math.max(...candidates.map(c => RARITY_RANK[c.rarity!.toLowerCase()]));
   const top = candidates.filter(c => RARITY_RANK[c.rarity!.toLowerCase()] === maxRank);
-  return { names: [...new Set(top.map(c => c.title))], rarity: capitalize(top[0].rarity!.toLowerCase()) };
+  return { names: [...new Set(top.map(c => c.title))], rarity: top[0].rarity!.toLowerCase() };
 }
 
 function groupByCategory(cards: DeckInsertCardCard[]): { name: string; cards: DeckInsertCardCard[] }[] {
@@ -90,21 +109,41 @@ export function formatDeckInsertCard(input: DeckInsertCardInput): { front: strin
   const powerCircles = '●'.repeat(powerLevel) + '○'.repeat(5 - powerLevel);
   const leaders = selectLeaders(cards);
 
-  const front = [
-    ...(series ? [series] : []),
-    theme,
-    `Color: ${colorLabel(color)}`,
-    `Power Level: ${powerCircles}`,
-    ...(leaders ? [`${leaders.names.length > 1 ? 'Leaders' : 'Leader'}: ${leaders.names.join(', ')} (${leaders.rarity})`] : []),
-    '',
-    `Playstyle: ${playstyle.join(', ')}`,
-    '',
-    'Tips:',
-    ...tips.map(t => `  - ${t}`),
-    '',
-    'Synergies:',
-    ...pairings.map(p => `  ${p.theme} (${colorLabel(p.color)}) - ${p.reason}`),
-  ].join('\n');
+  const frontLines: string[] = [];
+
+  frontLines.push(...wrapText(`**${theme}**${series ? ` — ${series}` : ''} (${colorLabel(color)}) ${powerCircles}`));
+
+  if (leaders) {
+    const letter = rarityLetter(leaders.rarity);
+    const label = leaders.names.length > 1 ? 'Leaders' : 'Leader';
+    const tag = letter ? ` (${letter})` : '';
+    frontLines.push(...wrapText(`${label}: ${leaders.names.join(', ')}${tag}`));
+  }
+
+  frontLines.push(...wrapText(`**Playstyle:** ${playstyle.join(', ')}`));
+
+  const tipsCap = Math.max(0, HEIGHT - frontLines.length - SYNERGY_MIN_RESERVE);
+  const tipLines: string[] = [];
+  for (let i = 0; i < tips.length; i++) {
+    const prefix = i === 0 ? '**Tips:** ' : '- ';
+    const candidate = wrapText(`${prefix}${tips[i]}`);
+    if (tipLines.length + candidate.length > tipsCap) break;
+    tipLines.push(...candidate);
+  }
+  frontLines.push(...tipLines);
+
+  const synergyBudget = Math.max(0, HEIGHT - frontLines.length);
+  const synergyLines: string[] = [];
+  for (let i = 0; i < pairings.length; i++) {
+    const p = pairings[i];
+    const prefix = i === 0 ? '**Synergies:** ' : '- ';
+    const candidate = wrapText(`${prefix}${p.theme}(${colorLabel(p.color).charAt(0)}): ${p.reason}`);
+    if (synergyLines.length + candidate.length > synergyBudget) break;
+    synergyLines.push(...candidate);
+  }
+  frontLines.push(...synergyLines);
+
+  const front = frontLines.join('\n');
 
   const nonland = groupByCategory(cards.filter(c => !c.type.startsWith('Lands'))).flatMap(g => g.cards);
   const back = nonland.map(formatCardLine).join('\n');
