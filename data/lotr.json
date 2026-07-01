@@ -1,0 +1,1346 @@
+{
+  "series": "Lord of the Rings: Tales of Middle-earth Jumpstart",
+  "themeCount": 20,
+  "decks": [
+    {
+      "theme": "Courageous 1",
+      "color": "white",
+      "description": "Small Hobbit creatures with protective instants and removal effects. The deck focuses on weenie creatures and combat tricks.",
+      "cards": [
+        {
+          "title": "Saradoc, Master of Buckland",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Esquire of the King",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Samwise the Stouthearted",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Took Reaper",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rosie Cotton of South Lane",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Errand-Rider of Gondor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bill the Pony",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Lost to Legend",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Fog on the Barrow-Downs",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Slip On the Ring",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Escape from Orthanc",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Courageous 2",
+      "color": "white",
+      "description": "Small Hobbit creatures backed by instant-speed tricks and removal. This deck applies early pressure with efficient creatures and combat tricks.",
+      "cards": [
+        {
+          "title": "Saradoc, Master of Buckland",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Nimble Hobbit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Samwise the Stouthearted",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Took Reaper",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rosie Cotton of South Lane",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Eastfarthing Farmer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bill the Pony",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Reprieve",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Hobbit's Sting",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Slip On the Ring",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Escape from Orthanc",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Tricksy 1",
+      "color": "blue",
+      "description": "Blue-based flyers with evasion and card advantage through draw spells. This deck plays flying creatures and group control effects.",
+      "cards": [
+        {
+          "title": "Elvish Mariner",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Nimrodel Watcher",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pelargir Survivor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Captain of Umbar",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Elrond, Lord of Rivendell",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Meneldor, Swift Savior",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Willow-Wind",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Council's Deliberation",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Glorious Gale",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Arwen's Gift",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Horses of the Bruinen",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Land",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Tricksy 2",
+      "color": "blue",
+      "description": "Flying creatures with control elements and lockdown abilities via Saruman and control spells. The deck uses evasion and disruption to control the game.",
+      "cards": [
+        {
+          "title": "Elvish Mariner",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Nimrodel Watcher",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pelargir Survivor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ithilien Kingfisher",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Elrond, Lord of Rivendell",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Saruman the White",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Willow-Wind",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Saruman's Trickery",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Glorious Gale",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Arwen's Gift",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Horses of the Bruinen",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Land",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Mordor 1",
+      "color": "black",
+      "description": "Sacrifice-focused black creatures with creature removal and direct damage effects. The deck values creatures for sacrifice outlets and discard themes.",
+      "cards": [
+        {
+          "title": "Ringwraiths",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gollum, Patient Plotter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Uruk-hai Berserker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Nazgûl",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gothmog, Morgul Lieutenant",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Cirith Ungol Patrol",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Nasty End",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Gollum's Bite",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Shelob's Ambush",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Mordor Muster",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Claim the Precious",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Land",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Mordor 2",
+      "color": "black",
+      "description": "Black creatures with removal spells and sacrifice synergies. The deck uses creature destruction and evasion through sacrifice outlets.",
+      "cards": [
+        {
+          "title": "Ringwraiths",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gollum, Patient Plotter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Dunland Crebain",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gríma Wormtongue",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gothmog, Morgul Lieutenant",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Cirith Ungol Patrol",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bitter Downfall",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Nasty End",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Orcish Medicine",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Mordor Muster",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Lash of the Balrog",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Land",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Marauders 1",
+      "color": "red",
+      "description": "Aggressive red creatures with multiple sorcery-based damage and board clears. This deck focuses on creature-heavy aggro with burn spells.",
+      "cards": [
+        {
+          "title": "Battle-Scarred Goblin",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Erebor Flamesmith",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gimli, Counter of Kills",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Grishnákh, Brash Instigator",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Olog-hai Crusher",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gimli's Fury",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Assault on Osgiliath",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Foray of Orcs",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Fear, Fire, Foes!",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Quarrel's End",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Swarming of Moria",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Land",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Marauders 2",
+      "color": "red",
+      "description": "Red aggressive creatures backed by damage spells and creature removal. The deck plays fast creatures with direct damage effects.",
+      "cards": [
+        {
+          "title": "Erebor Flamesmith",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Goblin Fireleaper",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gimli, Counter of Kills",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Grishnákh, Brash Instigator",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Olog-hai Crusher",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Smite the Deathless",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Rush the Room",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Assault on Osgiliath",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Foray of Orcs",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Quarrel's End",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Swarming of Moria",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Land",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Journey 1",
+      "color": "green",
+      "description": "Green creatures with toughness focus and Ent synergies, featuring large creatures and ramp. The deck plays big creatures and regeneration effects.",
+      "cards": [
+        {
+          "title": "Brandywine Farmer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Dúnedain Rangers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Elanor Gardner",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Meriadoc Brandybuck",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mirkwood Spider",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mirrormere Guardian",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Quickbeam, Upstart Ent",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bombadil's Song",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Gift of Strands",
+          "type": "Enchantment",
+          "qty": 1
+        },
+        {
+          "title": "Ent's Fury",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Revive the Shire",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Land",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Journey 2",
+      "color": "green",
+      "description": "Green creatures including Ents and utility creatures with creature-focused instants and ramp. The deck plays mid-sized creatures with acceleration.",
+      "cards": [
+        {
+          "title": "Brandywine Farmer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Elanor Gardner",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Enraged Huorn",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Meriadoc Brandybuck",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Peregrin Took",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Quickbeam, Upstart Ent",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wose Pathfinder",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pippin's Bravery",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Stew the Coneys",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Galadhrim Bow",
+          "type": "Artifact",
+          "qty": 1
+        },
+        {
+          "title": "Revive the Shire",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Land",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Mortals 1",
+      "color": "white",
+      "description": "Human and Hobbit creatures with removal and artifact support. The deck plays various mid-size creatures with broad utility.",
+      "cards": [
+        {
+          "title": "Eagle of Deliverance",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Took Reaper",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Eastfarthing Farmer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Soldier of the Grey Host",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Shire Shirriff",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Éowyn, Lady of Rohan",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Faramir, Field Commander",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Second Breakfast",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Fog on the Barrow-Downs",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Banish from Edoras",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Barrow-Blade ",
+          "type": "Artifact",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Mortals 2",
+      "color": "white",
+      "description": "Human and Hobbit creatures with instant-speed tricks and flying support through Eagles. The deck combines ground creatures with evasion.",
+      "cards": [
+        {
+          "title": "Eagle of Deliverance",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "East-Mark Cavalier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Took Reaper",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Errand-Rider of Gondor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Samwise the Stouthearted",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Faramir, Field Commander",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Landroval, Horizon Witness",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Slip On the Ring",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Reprieve",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Banish from Edoras",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Inherited Envelope ",
+          "type": "Artifact",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Cunning 1",
+      "color": "blue",
+      "description": "Blue-based control creatures with enchantment support and evasion. The deck uses flying creatures and removal with creature utility.",
+      "cards": [
+        {
+          "title": "Minas Tirith Garrison",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pelargir Survivor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Captain of Umbar",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Knights of Dol Amroth",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ioreth of the Healing House",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Meneldor, Swift Savior",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bewitching Leechcraft",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "The Bath Song",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Glorious Gale",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Arwen's Gift",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Horses of the Bruinen",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Island ",
+          "type": "Lands",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Cunning 2",
+      "color": "blue",
+      "description": "Blue control creatures with artifact support and enchantment effects. The deck plays creatures with disruption and card utility.",
+      "cards": [
+        {
+          "title": "Minas Tirith Garrison",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pelargir Survivor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Captain of Umbar",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Knights of Dol Amroth",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bill Ferny, Bree Swindler",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Elrond, Lord of Rivendell",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bewitching Leechcraft",
+          "type": "Enchantment",
+          "qty": 1
+        },
+        {
+          "title": "Isolation at Orthanc ",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Lórien Revealed",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Horses of the Bruinen",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Mirror of Galadriel",
+          "type": "Artifact",
+          "qty": 1
+        },
+        {
+          "title": "Island ",
+          "type": "Land",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Orcish 1",
+      "color": "black",
+      "description": "Black aggressive creatures with removal spells and creature destruction. The deck focuses on fast creatures with sacrifice and removal synergies.",
+      "cards": [
+        {
+          "title": "Warg Rider",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Easterling Vanguard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Dunland Crebain",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mirkwood Bats",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gorbag of Minas Morgul",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gothmog, Morgul Lieutenant",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mordor Muster",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Sam's Desperate Rescue",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Orcish Medicine",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Bitter Downfall ",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Grond, the Gatebreaker ",
+          "type": "Artifact",
+          "qty": 1
+        },
+        {
+          "title": "Swamp ",
+          "type": "Land",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Orcish 2",
+      "color": "black",
+      "description": "Black creatures with evasion and artifact support for big threats. The deck plays creatures with removal and enchantment-based aggression.",
+      "cards": [
+        {
+          "title": "Warg Rider",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Easterling Vanguard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Dunland Crebain",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mordor Trebuchet",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gorbag of Minas Morgul",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gothmog, Morgul Lieutenant",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Voracious Fell Beast",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mordor Muster",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Lash of the Balrog",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Nasty End",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "March from the Black Gate",
+          "type": "Enchantment",
+          "qty": 1
+        },
+        {
+          "title": "Swamp ",
+          "type": "Land",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Riders 1",
+      "color": "red",
+      "description": "Red aggressive Rohirrim creatures with damage spells and haste/evasion effects. The deck focuses on creature-heavy aggro with combat boosts.",
+      "cards": [
+        {
+          "title": "Riders of the Mark",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rohirrim Lancer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Relentless Rohirrim",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Erkenbrand, Lord of Westfold",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Éomer of the Riddermark",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fear, Fire, Foes!",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Quarrel's End",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Rally at the Hornburg",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Gimli's Fury",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Smite the Deathless ",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Rising of the Day",
+          "type": "Enchantment",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Land",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Riders 2",
+      "color": "red",
+      "description": "Red creatures with artifact support and creature-focused combat tricks. The deck plays aggressive creatures with equipment and pump effects.",
+      "cards": [
+        {
+          "title": "Riders of the Mark",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rohirrim Lancer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Haradrim Spearmaster",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Relentless Rohirrim",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Erkenbrand, Lord of Westfold",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Éomer of the Riddermark",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fear, Fire, Foes!",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Rally at the Hornburg",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Smite the Deathless ",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Book of Mazarbul",
+          "type": "Enchantment",
+          "qty": 1
+        },
+        {
+          "title": "Gimli's Axe",
+          "type": "Artifact",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Land",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Elven 1",
+      "color": "green",
+      "description": "Green creatures with flying elves and removal spells, featuring mid-size creatures and direct damage. The deck plays diverse creatures with board interaction.",
+      "cards": [
+        {
+          "title": "Mirkwood Channeler",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Lothlórien Lookout",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Chance-Met Elves",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Galadhrim Guide",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Enraged Huorn",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Glorfindel, Dauntless Rescuer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Celeborn the Wise",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Shower of Arrows",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Stew the Coneys",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Entish Restoration ",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Lembas",
+          "type": "Artifact",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Land",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "theme": "Elven 2",
+      "color": "green",
+      "description": "Green creatures including Elves and Ents with creature synergies and ramp effects. The deck focuses on mid-sized creatures with artifact support.",
+      "cards": [
+        {
+          "title": "Mirkwood Channeler",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mirkwood Spider",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Lothlórien Lookout",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Chance-Met Elves",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Galadhrim Guide",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Celeborn the Wise",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Quickbeam, Upstart Ent",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Revive the Shire ",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Bombadil's Song ",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Stew the Coneys",
+          "type": "Instant",
+          "qty": 1
+        },
+        {
+          "title": "Ent-Draught Basin ",
+          "type": "Artifact",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Land",
+          "qty": 8
+        }
+      ]
+    }
+  ]
+}
