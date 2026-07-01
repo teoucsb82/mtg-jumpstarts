@@ -121,69 +121,45 @@ Deck pairings aren't pre-computed — Claude reasons about them live from the ac
 
 ## Printable deck insert cards
 
-Ask for a "deck insert card" or "cheat sheet" and Claude reasons about pairings (same live logic as above), picks the deck's leader card(s) (its rare/mythic "face" card — ties are shown in full, not arbitrarily broken), and formats a double-sided, business-card-sized (2"x3.5", portrait) insert — front with theme, color, power level, leader, playstyle, tips, and synergies; back with the full decklist tagged by rarity and color. Real example, a trickier 4-color deck:
+Ask for a "deck insert card" or "cheat sheet" and Claude reasons about pairings (same live logic as above), picks the deck's leader card(s) (its rare/mythic "face" card — ties are shown in full, not arbitrarily broken), and formats a double-sided, business-card-sized (3.5"x2", landscape, Roboto Mono 8pt) insert, hard-wrapped to a fixed 46x13 character grid per face — front with theme, color, power level, leader, playstyle, tips, and synergies; back with the nonland decklist tagged by rarity and color. Real example, a trickier 4-color deck:
 
 > **"Give me a printable cheat sheet for the Fantastic Four Marvel deck"**
 
 **FRONT**
 ```
-Marvel Super Heroes
-Fantastic
-Color: Multicolor
-Power Level: ●●●○○
-Leader: The Fantastic Four (Mythic)
-
-Playstyle: Value/card-draw engine, Counter synergy, Go-wide defense into big finisher
-
-Tips:
-  - Chain draws off Mister Fantastic
-  - Use Sue Storm for free Walls
-  - Grow The Thing before attacking
-  - Combo Thing Swing with pumped Heroes
-  - Ramp mana with Farseek/Terramorphic first
-
-Synergies:
-  Trained (Green) - counter-doubling combos Sue Storm Walls
-  Geniuses (Blue) - own Reed Richards, stacks card-draw engine
-  Thor (Red) - damage-doubling turns Torch pings lethal
-  Squadron (White) - Hero tribal buffs, exalted lone attacker
-  Towering (Green) - ramp, power-4 payoffs, fixes 4-color mana
+**Fantastic** — Marvel Super Heroes
+(Multicolor) ●●●○○
+Leader: The Fantastic Four (M)
+**Playstyle:** Value/card-draw engine, Counter
+synergy, Go-wide defense into big finisher
+**Tips:** Chain draws off Mister Fantastic
+- Use Sue Storm for free Walls
+- Grow The Thing before attacking
+- Combo Thing Swing with pumped Heroes
+- Ramp mana with Farseek/Terramorphic first
+**Synergies:** Trained(G): counter-doubling
+combos Sue Storm Walls
 ```
 
 **BACK**
 ```
-Fantastic
-
-Creatures (6)
-  Human Torch, Johnny Storm (Uncommon, R)
-  H.E.R.B.I.E. Scout Unit (Common, C)
-  Mister Fantastic, Reed Richards (Uncommon, U)
-  Invisible Woman, Sue Storm (Uncommon, W)
-  The Thing, Ben Grimm (Uncommon, G)
-  The Fantastic Four (Mythic, G/R/U/W)
-Instants (4)
-  Wall Off (Common, W)
-  Fantastic Bounce (Common, U)
-  Inspired Fire (Common, R)
-  Thing Swing (Common, G)
-Sorceries (1)
-  Farseek (Common, G)
-Artifacts (1)
-  Daily Bugle Newspaper (Uncommon, C)
-Lands (8)
-  Baxter Building (Uncommon, C)
-  Thriving Grove (Common, C)
-  Pym Technologies (Common, C)
-  Forest (Common, C)
-  Plains (Common, C)
-  Island (Common, C)
-  Mountain (Common, C)
-  Terramorphic Expanse (Common, C)
+Human Torch, Johnny Storm               (U, R)
+H.E.R.B.I.E. Scout Unit                 (C, C)
+Mister Fantastic, Reed Richards         (U, U)
+Invisible Woman, Sue Storm              (U, W)
+The Thing, Ben Grimm                    (U, G)
+The Fantastic Four                (M, G/R/U/W)
+Wall Off                                (C, W)
+Fantastic Bounce                        (C, U)
+Inspired Fire                           (C, R)
+Thing Swing                             (C, G)
+Farseek                                 (C, G)
+Daily Bugle Newspaper                   (U, C)
 ```
 
 > This pack is 4-color (WURG), missing only black — no clean ally-color fit exists. Claude called that out and reinforced the deck's existing colors instead, picking pairings on actual card-text synergy: Trained's counter-doubling plays directly off Sue Storm's Wall trigger, Geniuses has its own Reed Richards to stack the draw engine, and Thor's damage-doubling turns Human Torch's draw-pings into real burn.
 
-Output is plain text, no price info, no forced line-wrapping — drop it into a design tool to lay out and print.
+Output is plain text with `**bold**` markdown labels (renders as bold when pasted into a markdown-aware app like Notion, Bear, or Google Docs), no price info, hard-wrapped and budget-packed to the fixed 46x13 grid — paste it straight in, no reflowing needed.
 
 ## License
 
