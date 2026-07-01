@@ -65,8 +65,10 @@ The `get_jumpstart_decklists` tool returns structured JSON:
 ```
 
 - **`color`** — one of `white` / `blue` / `black` / `red` / `green` / `multi`
-- **`powerLevel`** — rated **1–5** on a z-score bell curve relative to the series mean — most decks land at 3, true outliers at 1 or 5
+- **`powerLevel`** — rated **1–5** on a z-score bell curve relative to the series mean — most decks land at 3, true outliers at 1 or 5. It's a price-based proxy, not a measure of competitive strength — see the skill below for how to reason about it.
 - A deck with a card count other than 20 logs a `⚠` warning to stderr when the underlying data was baked (see below), not at request time
+
+Deck pairings/synergies aren't pre-computed — a bundled skill (`skills/jumpstart-deck-strategy/`) gives the calling assistant Magic deckbuilding/color-pie knowledge so it can reason about pairings live from the returned data, grounded in the actual `cards` array rather than assumed card knowledge.
 
 ## Regenerating baked data (maintainer only)
 
