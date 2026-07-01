@@ -28,7 +28,8 @@ import {
   extractThemeFromPage,
 } from '../src/agents.js';
 import { bakeSeries } from '../src/baking.js';
-import { SERIES_NAMES, resolveSeriesSlug } from '../src/series.js';
+import { SERIES_NAMES, resolveSeriesSlug, SERIES_WIKI_URL_OVERRIDES } from '../src/series.js';
+import type { SeriesName } from '../src/series.js';
 import type { Decklist } from '../src/types.js';
 import { normalizeColor } from '../src/types.js';
 
@@ -56,7 +57,8 @@ async function main(): Promise<void> {
   console.error(`\nSearching for "${keyword}" Jumpstart themes on mtg.wiki...`);
   let seriesHtml: string;
   let seriesUrl: string;
-  const primaryUrl = buildSeriesUrl(keyword);
+  // resolveSeriesSlug (above) already validated `keyword` is a real SeriesName.
+  const primaryUrl = SERIES_WIKI_URL_OVERRIDES[keyword as SeriesName] ?? buildSeriesUrl(keyword);
 
   try {
     seriesHtml = await fetchHtml(primaryUrl);

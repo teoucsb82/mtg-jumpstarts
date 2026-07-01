@@ -34,3 +34,12 @@ export function resolveSeriesSlug(name: string): string {
   }
   return SERIES_SLUGS[name];
 }
+
+// A small number of series don't map cleanly from display name to mtg.wiki
+// page title via buildSeriesUrl's generic guess. Verified overrides for
+// those (checked directly against mtg.wiki, not guessed):
+//  - "Jumpstart" alone guesses /page/Jumpstart, which is a short overview
+//    stub with no theme/decklist links — the real page is Jumpstart_(2020).
+export const SERIES_WIKI_URL_OVERRIDES: Partial<Record<SeriesName, string>> = {
+  'Jumpstart': 'https://mtg.wiki/page/Jumpstart_(2020)',
+};

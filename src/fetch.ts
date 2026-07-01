@@ -39,7 +39,10 @@ export async function fetchHtml(url: string): Promise<string> {
 export async function fetchSeriesPageWithFallback(
   keyword: string,
 ): Promise<{ html: string; url: string }> {
-  const query = encodeURIComponent(`${keyword} Jumpstart`);
+  // Don't double-append if keyword already contains "Jumpstart" (mirrors buildSeriesUrl) —
+  // otherwise the search query becomes "...Jumpstart Jumpstart" and returns unrelated pages.
+  const searchTerm = /jumpstart/i.test(keyword) ? keyword : `${keyword} Jumpstart`;
+  const query = encodeURIComponent(searchTerm);
   const searchUrl = `https://mtg.wiki/api.php?action=query&list=search&srsearch=${query}&format=json`;
   const res = await fetch(searchUrl, { headers: { 'User-Agent': 'mtg-jumpstarts-cli/1.0' } });
   if (!res.ok) throw new Error(`MediaWiki search failed: HTTP ${res.status}`);
