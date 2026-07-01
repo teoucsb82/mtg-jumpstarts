@@ -231,12 +231,25 @@ Use the report_descriptions tool to return one row per deck, using the exact the
 
 DECKLISTS (card lines show "qty x name — oracle text"):`;
 
-  const result = await withRetry(
-    () => callAgent<{ descriptions: { theme: string; description: string }[] }>(
-      client, semaphore, DESCRIPTIONS_TOOL, instructions, content, 8192, 'claude-sonnet-5',
-    ),
+  // claude-sonnet-5 has been observed occasionally double-wrapping this tool's
+  // array field as an escaped JSON string (e.g. `{"descriptions": "{\"descriptions\":[...]}"}`)
+  // instead of a native array — reproduced with both streaming and non-streaming
+  // calls, on an unchanged schema shape, so it's model behavior, not an SDK bug.
+  // Normalize both shapes; if the string isn't valid JSON, let it throw so
+  // withRetry retries the whole call rather than silently returning nothing.
+  const rows = await withRetry(
+    async () => {
+      const result = await callAgent<{ descriptions: unknown }>(
+        client, semaphore, DESCRIPTIONS_TOOL, instructions, content, 8192, 'claude-sonnet-5',
+      );
+      const raw = typeof result.descriptions === 'string'
+        ? (JSON.parse(result.descriptions).descriptions ?? [])
+        : (result.descriptions ?? []);
+      if (!Array.isArray(raw)) throw new Error('report_descriptions did not return an array');
+      return raw as { theme: string; description: string }[];
+    },
     `deck descriptions batch ${batchIndex}`,
   );
 
-  return new Map((result.descriptions ?? []).map(d => [d.theme, d.description]));
+  return new Map(rows.map(d => [d.theme, d.description]));
 }
