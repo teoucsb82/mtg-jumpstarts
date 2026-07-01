@@ -2,12 +2,13 @@
 
 ## Goal
 
-Add a way to generate the text for a printable double-sided deck insert card (business-card
-sized, 2"x3.5") for a single Jumpstart theme:
+Generate the text for a printable double-sided deck insert card (business-card sized,
+2"x3.5", portrait orientation) for a single Jumpstart theme:
 
-- **Front**: series, theme, color, power level, description, up to 5 suggested pairings
-  (theme + color + reason each).
-- **Back**: the full 20-card decklist, grouped by category with per-category counts.
+- **Front**: series, theme, color, power level, leader card(s) (the pack's rare/mythic
+  "face" card), description, up to 5 suggested pairings (theme + color + reason each).
+- **Back**: the full 20-card decklist, grouped by category, each card tagged with rarity
+  and color.
 
 ## Architecture
 
@@ -20,10 +21,12 @@ pre-computed"). This feature follows the same split:
 2. Claude reasons about up to 5 pairings for the target theme, using the heuristics already
    documented in the skill.
 3. Claude calls a **new** MCP tool, `format_deck_insert_card`, passing the target theme's own
-   data (already in hand from step 1) plus the pairings it chose in step 2.
+   data (already in hand from step 1, including per-card rarity/colors — see below) plus the
+   pairings it chose in step 2.
 
 The new tool is a **pure text formatter** — no network calls, no file reads, no Claude API
-calls. It only lays out the two card faces from its input.
+calls. Leader-card selection is deterministic (highest rarity present), not a judgment call,
+so it lives in the formatter too, not in the skill.
 
 ```
 get_jumpstart_decklists → Claude reasons about pairings (skill) → format_deck_insert_card → text
@@ -32,6 +35,24 @@ get_jumpstart_decklists → Claude reasons about pairings (skill) → format_dec
 One card per call — no batch/whole-series mode. If a user wants cards for a whole series,
 Claude loops the 3-step flow once per theme.
 
+## Data pipeline: rarity + colors
+
+`get_jumpstart_decklists` already fetches live Scryfall data for pricing via
+`fetchScryfallPrices` → `/cards/collection` (`src/scryfall.ts`). That same API response
+already includes `rarity` and `colors` for every card — confirmed live against the real
+"Agents of S.H.I.E.L.D." deck (e.g. `Nick Fury, Spymaster` → `rare`, `['W']`; `Plains` →
+`common`, `[]`). **No baked-data regeneration needed** — this is purely capturing fields
+already present in a call that's already being made.
+
+- `scryfall.ts`: rename `fetchScryfallPrices` → `fetchScryfallCardData`. Returns
+  `Map<string, { price: number | null; rarity: string | null; colors: string[] }>` instead of
+  `Map<string, number | null>`. `colors` stays in Scryfall's own W/U/B/R/G shorthand — no
+  conversion needed, it's already the abbreviated form the back-of-card needs.
+- `types.ts`: `PricedCard` gains `rarity: string | null` and `colors: string[]`.
+- `pricing.ts`: `priceDecklists` passes the new fields through onto each `PricedCard`. This is
+  the only construction site for `PricedCard`, so no other call sites need updating.
+- This is an additive, non-breaking change to `get_jumpstart_decklists`'s public output.
+
 ## New tool (`src/mcp-server.ts`)
 
 ```ts
@@ -39,9 +60,9 @@ server.registerTool(
   'format_deck_insert_card',
   {
     title: 'Format deck insert card',
-    description: 'Format the front and back text for a printable double-sided Jumpstart deck insert card (2"x3.5"), given one theme\'s deck data and its suggested pairings.',
+    description: 'Format the front and back text for a printable double-sided Jumpstart deck insert card (2"x3.5", portrait), given one theme\'s deck data and its suggested pairings. Reason about the pairings yourself (see the jumpstart-deck-strategy skill) before calling this — it only formats, it does not choose pairings.',
     inputSchema: {
-      series: z.string().optional().describe('Series name shown on the card, e.g. "Marvel Super Heroes"'),
+      series: z.string().optional(),
       theme: z.string(),
       color: z.enum(['white', 'blue', 'black', 'red', 'green', 'multi']),
       description: z.string(),
@@ -50,6 +71,8 @@ server.registerTool(
         title: z.string(),
         type: z.string(),
         qty: z.number().int(),
+        rarity: z.string().nullable(),
+        colors: z.array(z.string()),
       })).min(1),
       pairings: z.array(z.object({
         theme: z.string(),
@@ -58,100 +81,150 @@ server.registerTool(
       })).min(1).max(5),
     },
   },
-  async (input) => ({ content: [{ type: 'text' as const, text: formatDeckInsertCard(input) }] }),
+  async (input) => {
+    const { front, back } = formatDeckInsertCard(input);
+    return { content: [{ type: 'text' as const, text: front }, { type: 'text' as const, text: back }] };
+  },
 );
 ```
 
-No error branches beyond zod's own schema validation — there's no I/O to fail.
+Two separate content blocks (front, back) instead of one combined string. No error branches
+beyond zod's own schema validation — there's no I/O to fail.
 
-## Formatter (`src/deckInsertCard.ts`, new file)
+## Formatter (`src/deckInsertCard.ts`)
 
 ```ts
-export function formatDeckInsertCard(input: DeckInsertCardInput): string
+export function formatDeckInsertCard(input: DeckInsertCardInput): { front: string; back: string }
 ```
 
-- Power level renders as filled/empty circles: `'●'.repeat(powerLevel) + '○'.repeat(5 - powerLevel)`.
-- Cards are grouped by `type` into categories, ordered using the canonical category order
-  (see below), with a `(N cards)` count per category.
-- No prices anywhere in the output.
-- No hard-wrapping — plain text, caller controls layout/sizing downstream (e.g. Canva, Word).
+### Leader card(s)
 
-Output shape (both faces in one string, clearly delimited):
+Deterministic, not reasoned: rank rarity (`mythic` > `rare`/`special`/`bonus` > `uncommon` >
+`common`), take cards ranked **uncommon or higher**, find the max rank among those, and list
+*every* card at that max rank (deduped by title) — not just one. Ties are common in practice
+(verified: "Agents of S.H.I.E.L.D." has 2 tied rares, no mythic), so forcing a single pick
+would be arbitrary. If no card ranks above common (or rarity data is missing), omit the
+Leader(s) line entirely rather than dumping the whole card list.
+
+### Front
+
+Plain text, no hard-wrapping — the description and pairing reasons are free-text prose;
+Claude/the user's layout tool reflows them naturally.
 
 ```
-=== FRONT ===
 Marvel Super Heroes
-Agents of S.H.I.E.L.D. (White)
+Agents of S.H.I.E.L.D.
+Color: White
 Power Level: ●●○○○
+Leaders: Agent Phil Coulson, Nick Fury, Spymaster (Rare)
 
 An agent-focused deck with espionage and support cards that leverages
 S.H.I.E.L.D. themed creatures and equipment to control the board.
 
 Suggested Pairings:
-  Web-Slinging (White) - shares a low curve and evasive threats for an
+  Soaring (Blue) - shares a low curve and evasive threats for an
     aggressive, synergistic clock.
-  Soaring (Blue) - flying finishers back up S.H.I.E.L.D.'s ground-based
-    control plan.
+  ...
+```
 
-=== BACK ===
-Agents of S.H.I.E.L.D. — Deck List (20 cards)
+- `series` line omitted if not provided.
+- Deck-level `color` capitalized for display (`white` → `White`, `multi` → `Multicolor`).
+- Pairing `color` (free text from Claude) is capitalized for display consistency regardless of
+  the case Claude sent it in — cosmetic normalization only, not validation.
+- "Leader:" (singular) vs "Leaders:" (plural) depending on count.
+
+### Back
+
+```
+Agents of S.H.I.E.L.D.
 
 Creatures (7)
-  1x Agent Phil Coulson
-  1x Peggy Carter, Secret Agent
-  1x Agent 13, Sharon Carter
-  1x Agents of S.H.I.E.L.D.
-  1x Quake, Agent of S.H.I.E.L.D.
-  1x Borough Backup
-  1x Nick Fury, Spymaster
+  Agent Phil Coulson (Rare, W)
+  Peggy Carter, Secret Agent (Uncommon, W)
+  Agent 13, Sharon Carter (Uncommon, W)
+  Agents of S.H.I.E.L.D. (Common, W)
+  Quake, Agent of S.H.I.E.L.D. (Uncommon, W)
+  Borough Backup (Common, W)
+  Nick Fury, Spymaster (Rare, W)
 Instants (1)
-  1x Helicarrier Strike
+  Helicarrier Strike (Common, W)
 Enchantments (2)
-  1x Strategic Intervention
-  1x Web Up
+  Strategic Intervention (Uncommon, W)
+  Web Up (Common, W)
 Artifacts (2)
-  1x S.H.I.E.L.D. Helicarrier
-  1x S.H.I.E.L.D. Spy Kit
+  S.H.I.E.L.D. Helicarrier (Uncommon, C)
+  S.H.I.E.L.D. Spy Kit (Common, W)
 Lands (8)
-  1x Thriving Heath
-  7x Plains
+  Thriving Heath (Common, C)
+  7x Plains (Common, C)
 ```
 
-If `series` is omitted, that line is dropped from the front rather than printed empty.
+Per-card line: `  {qty > 1 ? qty + 'x ' : ''}{title} ({Rarity}, {Colors})`.
 
-## Shared refactor: category order (`src/types.ts`)
+- No qty prefix for the (overwhelming) common case of qty 1; restored (`7x `) only when qty >
+  1. This isn't land-specific — it's a general rule, and it also correctly covers the rare
+  non-land duplicates that exist in the real baked data (e.g. 2x "Archaeomender" in Jumpstart
+  2020, 2x "Ancestral Anger" in Foundations) without special-casing card type.
+- Rarity spelled out (`Rare`, `Uncommon`, `Common`, `Mythic`) — capitalized from Scryfall's
+  lowercase value. Kept as full words (not abbreviated) to avoid colliding with `C` for
+  colorless.
+- Colors use Scryfall's own shorthand directly: `W`/`U`/`B`/`R`/`G`, joined `/` for multicolor
+  (e.g. `W/U`), `C` for colorless (empty `colors` array — artifacts, lands).
+- No forced column-alignment/right-justification of the `(Rarity, Colors)` tag, and no
+  programmatic line-wrapping. See "Print sizing math" below for why this was tried and
+  rejected — plain inline text, single space before the tag, is the right call for the actual
+  physical target.
+- No `(N cards)` on the title line (always 20, guaranteed, redundant) — category headers keep
+  their counts since those genuinely vary per theme.
 
-`src/output.ts:49` currently defines `ALL_TYPES` as a local const inside `exportXlsx`. Extract
-it to a shared, exported constant so both `exportXlsx` and the new formatter use the same
-canonical category order instead of drifting independently:
+### Print sizing math (why no alignment/wrapping)
 
-```ts
-export const CATEGORY_ORDER = ['Creatures', 'Instants', 'Sorceries', 'Enchantments', 'Artifacts', 'Lands'] as const;
-```
+Explored during design, kept here since the reasoning isn't obvious from the code:
 
-`output.ts` imports and uses it in place of its local `ALL_TYPES`; `deckInsertCard.ts` imports
-it to order categories on the back of the card. Categories are matched with `card.type.startsWith(t)`
-(existing convention, since baked `type` values are plain strings like `"Creatures"`). Any
-category not in `CATEGORY_ORDER` is appended at the end in first-seen order, so unexpected
-`type` values never silently disappear.
+- A monospace character is ≈0.6× the font's point size wide, so characters-per-inch ≈
+  120 / font-size-pt (matches classic Courier metrics: 12pt = 10 CPI).
+- The back face has a **hard floor** of ~21 lines (title + 5 category headers + one line per
+  card) — every line must appear, there's no graceful degradation for cutting a card.
+- Landscape orientation (3.5" wide × 2" tall) can't fit 21 lines below ~5pt — unusable.
+  Portrait (2" wide × 3.5" tall) fits 21 lines at a readable ~9-11pt. **Portrait is the
+  intended orientation.**
+- Portrait's width is only ~19-23 characters at that font size. A fixed-column
+  right-justified table (tag always starting at the same column, wrapping to a second line
+  when a card entry doesn't fit) was prototyped and rejected: at that width almost every card
+  wraps, growing the back face from 21 to 33-35 lines — worse than not aligning at all.
+- Plain inline text (`title (Rarity, Colors)`, single space, no padding) lets each user's own
+  print/layout tool reflow naturally instead of us forcing a 2-line split on nearly every
+  entry.
 
 ## Skill update (`skills/jumpstart-deck-strategy/SKILL.md`)
 
-Add a new section, "Generating a deck insert card", documenting the 3-step flow above and
-pointing back at the existing "What to check when evaluating a pairing" / "Color pie"
-sections for the pairing reasoning itself (no duplication of that guidance).
+Add a "Generating a deck insert card" section covering:
+
+1. The 3-step flow (call `get_jumpstart_decklists` → reason about pairings using the
+   heuristics already in this skill → call `format_deck_insert_card` with the theme's data +
+   those pairings).
+2. **Presentation instructions** (this is the actual fix for the original complaint — Claude
+   had been paraphrasing the tool's output into prose instead of relaying it): the tool
+   returns 2 text blocks (front, back). Relay each **verbatim** in its own fenced code block
+   under a short header (e.g. "**FRONT** (copy this):" / "**BACK** (copy this):"). Do not
+   summarize, paraphrase, merge into prose, or add/drop any line — the whole point is
+   copy/paste-ready print content.
 
 ## Testing
 
 No test framework exists in this repo. Verify manually: run the MCP server locally, call
-`format_deck_insert_card` with the real "Agents of S.H.I.E.L.D." deck from `data/marvel.json`
-(the same deck used in this spec's examples) plus a few hand-picked pairings, and confirm the
-output matches the shape above — category grouping/counts, circle rendering, series-omitted
-case.
+`format_deck_insert_card` with the real "Agents of S.H.I.E.L.D." deck (including live
+rarity/colors from Scryfall) plus a few hand-picked pairings, and confirm output matches the
+shape above — leader selection (both tied rares appear), category grouping/counts, qty-prefix
+rule, color abbreviation/colorless handling, series-omitted case.
 
 ## Out of scope
 
 - Batch/whole-series generation in one call.
-- Any pricing information on the card (front or back).
-- Hard-wrapping/column-fitting text to the physical 2"x3.5" dimensions — plain text only.
+- Any pricing information on the card (front or back) — rarity/color data is fetched via the
+  same Scryfall call as price, but price itself is never part of this tool's output, including
+  as an internal tiebreaker (leader ties are shown in full instead of arbitrarily broken by
+  price).
+- Hard-wrapping/column-fitting text to the physical 2"x3.5" dimensions — rejected after doing
+  the print-sizing math (see above); plain inline text instead.
 - Hardcoded/server-side pairing logic — pairings always come from the caller.
