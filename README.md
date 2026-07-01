@@ -15,8 +15,6 @@ Just ask Claude, e.g.:
 
 > "Use mtg-jumpstarts to get the Avatar: The Last Airbender decklists"
 >
-> "What's a good beginner-friendly pairing in Marvel Super Heroes Jumpstart?"
->
 > "Show me the most expensive Foundations Jumpstart decks"
 
 **Supported series:**
@@ -45,7 +43,23 @@ Just ask Claude, e.g.:
 }
 ```
 
-Every card comes with a live Scryfall price, and `powerLevel` (1-5) ranks each deck against the rest of its series. Ask Claude which decks pair well together, what to expect power-wise, or anything else — it reasons about strategy live from the actual card data, not a canned answer.
+Every card comes with a live Scryfall price, and `powerLevel` (1-5) ranks each deck against the rest of its series.
+
+## It reasons about strategy too
+
+Deck pairings aren't pre-computed — Claude reasons about them live from the actual returned card data, using a bundled Magic-deckbuilding skill. Real example:
+
+> **"What's a good beginner-friendly pairing in Marvel Super Heroes Jumpstart?"**
+>
+> **Recommendation: Web-Slinging (White) + Soaring (Blue)**
+>
+> - **Ally colors** — White/Blue sit next to each other on the color wheel, so the strategies naturally reinforce rather than fight each other.
+> - **Simple, low-complexity cards** — mostly vanilla/French-vanilla creatures (Spider-Man, Falcon, Vulture, etc.) with a handful of straightforward combat tricks (Thwip!, Whoosh!). No graveyard loops, sacrifice engines, or combo pieces to track — good for a new player.
+> - **Curve/plan fit** — Web-Slinging brings small, efficient early bodies; Soaring brings evasive fliers as the closer. Together you get a full curve instead of two decks front-loaded the same way.
+> - **Built-in fixing** — each pack includes a Thriving land (Heath/Isle), so splashing the other color is smooth even without extra help.
+> - Both sit at `powerLevel` 2, so it's an even, non-overwhelming matchup rather than one deck steamrolling the other.
+>
+> If you want something punchier instead, Speedy (Red) + Rampaging (Green) is the aggressive-but-still-simple alternative: haste creatures early, big green stompers to close — also allied colors, also no fiddly synergies to learn.
 
 ## License
 
