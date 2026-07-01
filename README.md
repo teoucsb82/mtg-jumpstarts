@@ -9,6 +9,20 @@ claude plugin marketplace add teoucsb82/mtg-jumpstarts
 claude plugin install mtg-jumpstarts@mtg-jumpstarts
 ```
 
+## Update
+
+Custom marketplaces auto-refresh on startup, so re-running the install command picks up the latest version:
+
+```
+claude plugin install mtg-jumpstarts@mtg-jumpstarts
+```
+
+If your marketplace listing seems stale, force a refresh first:
+
+```
+claude plugin marketplace update mtg-jumpstarts
+```
+
 ## Use it
 
 Just ask Claude, e.g.:
