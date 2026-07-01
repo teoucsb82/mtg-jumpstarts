@@ -16,6 +16,8 @@ Just ask Claude, e.g.:
 > "Use mtg-jumpstarts to get the Avatar: The Last Airbender decklists"
 >
 > "Show me the most expensive Foundations Jumpstart decks"
+>
+> "Make a deck insert card for Agents of S.H.I.E.L.D. from Marvel Super Heroes Jumpstart"
 
 **Supported series:**
 
@@ -60,6 +62,53 @@ Deck pairings aren't pre-computed — Claude reasons about them live from the ac
 > - Both sit at `powerLevel` 2, so it's an even, non-overwhelming matchup rather than one deck steamrolling the other.
 >
 > If you want something punchier instead, Speedy (Red) + Rampaging (Green) is the aggressive-but-still-simple alternative: haste creatures early, big green stompers to close — also allied colors, also no fiddly synergies to learn.
+
+## Printable deck insert cards
+
+Ask for a "deck insert card" or "cheat sheet" and Claude reasons about pairings (same live logic as above), then formats a double-sided, business-card-sized (2"x3.5") insert — front with theme, power level, and suggested pairings; back with the full decklist. Real example:
+
+> **"Make a deck insert card for Agents of S.H.I.E.L.D. from Marvel Super Heroes Jumpstart"**
+
+```
+=== FRONT ===
+Marvel Super Heroes
+Agents of S.H.I.E.L.D. (White)
+Power Level: ●●○○○
+
+An agent-focused deck with espionage and support cards that leverages S.H.I.E.L.D. themed creatures and equipment to control the board.
+
+Suggested Pairings:
+  Soaring (blue) - Blue is an ally of white, and its evasive fliers give this control shell the reach it lacks (only 7 creatures) — Web Up and Strategic Intervention buy time for fliers to close the game.
+  Iron Man (blue) - Ally-color artifact synergy: Iron Suitcase, Collector's Case, and Futurist Forge stack with S.H.I.E.L.D. Spy Kit and Helicarrier, and its creatures are equip-worthy bodies for this deck's gear.
+  Trained (green) - Green allies with white and adds eight more creatures plus extra removal and combat tricks (Punishing Punch, Colossal Collision), filling out the curve this support-heavy pack is missing.
+  Great Lakes Avengers (green) - Its quirky utility creatures and instants echo the espionage/support-cards identity of Agents of S.H.I.E.L.D., adding board presence without changing the game plan.
+  Tenacious (green) - A resilient, creature-heavy green pack that applies sustained pressure while this deck's control pieces protect the board.
+
+=== BACK ===
+Agents of S.H.I.E.L.D. — Deck List (20 cards)
+
+Creatures (7)
+  1x Agent Phil Coulson
+  1x Peggy Carter, Secret Agent
+  1x Agent 13, Sharon Carter
+  1x Agents of S.H.I.E.L.D.
+  1x Quake, Agent of S.H.I.E.L.D.
+  1x Borough Backup
+  1x Nick Fury, Spymaster
+Instants (1)
+  1x Helicarrier Strike
+Enchantments (2)
+  1x Strategic Intervention
+  1x Web Up
+Artifacts (2)
+  1x S.H.I.E.L.D. Helicarrier
+  1x S.H.I.E.L.D. Spy Kit
+Lands (8)
+  1x Thriving Heath
+  7x Plains
+```
+
+Output is plain text, no price info — drop it into a design tool to lay out and print.
 
 ## License
 
