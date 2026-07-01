@@ -1,8 +1,18 @@
 // Pure text formatter for a printable double-sided Jumpstart deck insert card
-// (2"x3.5"). No network/file/Claude API calls — layout only. Pairing reasoning
-// happens upstream, in the calling Claude via the jumpstart-deck-strategy skill.
+// (2"x3.5", portrait). No network/file/Claude API calls — layout only. Pairing
+// reasoning happens upstream, in the calling Claude via the jumpstart-deck-strategy
+// skill; leader-card selection is deterministic (highest rarity present) so it's
+// handled here instead.
+//
+// Back-of-card lines are plain inline text ("title (Rarity, Colors)"), not a
+// column-aligned table — portrait's ~19-23 usable characters at a readable font
+// size can't hold a right-justified table without wrapping nearly every card,
+// which grows the back face past what portrait's height can fit. See the design
+// doc for the print-sizing math.
 
 import { CATEGORY_ORDER } from './types.js';
+
+export type DeckInsertCardCard = { title: string; type: string; qty: number; rarity: string | null; colors: string[] };
 
 export type DeckInsertCardInput = {
   series?: string;
@@ -10,12 +20,35 @@ export type DeckInsertCardInput = {
   color: string;
   description: string;
   powerLevel: number;
-  cards: { title: string; type: string; qty: number }[];
+  cards: DeckInsertCardCard[];
   pairings: { theme: string; color: string; reason: string }[];
 };
 
-function groupByCategory(cards: DeckInsertCardInput['cards']): { name: string; cards: DeckInsertCardInput['cards'] }[] {
-  const byCategory = new Map<string, DeckInsertCardInput['cards']>();
+const RARITY_RANK: Record<string, number> = { mythic: 4, rare: 3, special: 3, bonus: 3, uncommon: 2, common: 1 };
+
+function capitalize(word: string): string {
+  return word.charAt(0).toUpperCase() + word.slice(1);
+}
+
+function colorLabel(color: string): string {
+  return color.toLowerCase() === 'multi' ? 'Multicolor' : capitalize(color);
+}
+
+function colorTag(colors: string[]): string {
+  return colors.length === 0 ? 'C' : colors.join('/');
+}
+
+function selectLeaders(cards: DeckInsertCardCard[]): { names: string[]; rarity: string } | null {
+  const candidates = cards.filter(c => (c.rarity ? RARITY_RANK[c.rarity.toLowerCase()] ?? 0 : 0) >= 2);
+  if (candidates.length === 0) return null;
+
+  const maxRank = Math.max(...candidates.map(c => RARITY_RANK[c.rarity!.toLowerCase()]));
+  const top = candidates.filter(c => RARITY_RANK[c.rarity!.toLowerCase()] === maxRank);
+  return { names: [...new Set(top.map(c => c.title))], rarity: capitalize(top[0].rarity!.toLowerCase()) };
+}
+
+function groupByCategory(cards: DeckInsertCardCard[]): { name: string; cards: DeckInsertCardCard[] }[] {
+  const byCategory = new Map<string, DeckInsertCardCard[]>();
   for (const card of cards) {
     const key = CATEGORY_ORDER.find(t => card.type.startsWith(t)) ?? card.type;
     const group = byCategory.get(key);
@@ -28,35 +61,38 @@ function groupByCategory(cards: DeckInsertCardInput['cards']): { name: string; c
   return [...ordered, ...extras].map(name => ({ name, cards: byCategory.get(name)! }));
 }
 
-export function formatDeckInsertCard(input: DeckInsertCardInput): string {
+export function formatDeckInsertCard(input: DeckInsertCardInput): { front: string; back: string } {
   const { series, theme, color, description, powerLevel, cards, pairings } = input;
 
   const powerCircles = '●'.repeat(powerLevel) + '○'.repeat(5 - powerLevel);
-  const cardCount = cards.reduce((sum, c) => sum + c.qty, 0);
-  const capitalizedColor = color.charAt(0).toUpperCase() + color.slice(1);
+  const leaders = selectLeaders(cards);
 
-  const frontLines = [
-    '=== FRONT ===',
+  const front = [
     ...(series ? [series] : []),
-    `${theme} (${capitalizedColor})`,
+    theme,
+    `Color: ${colorLabel(color)}`,
     `Power Level: ${powerCircles}`,
+    ...(leaders ? [`${leaders.names.length > 1 ? 'Leaders' : 'Leader'}: ${leaders.names.join(', ')} (${leaders.rarity})`] : []),
     '',
     description,
     '',
     'Suggested Pairings:',
-    ...pairings.map(p => `  ${p.theme} (${p.color}) - ${p.reason}`),
-  ];
+    ...pairings.map(p => `  ${p.theme} (${colorLabel(p.color)}) - ${p.reason}`),
+  ].join('\n');
 
   const categories = groupByCategory(cards);
-  const backLines = [
-    '=== BACK ===',
-    `${theme} — Deck List (${cardCount} cards)`,
+  const back = [
+    theme,
     '',
     ...categories.flatMap(({ name, cards: categoryCards }) => [
       `${name} (${categoryCards.reduce((sum, c) => sum + c.qty, 0)})`,
-      ...categoryCards.map(c => `  ${c.qty}x ${c.title}`),
+      ...categoryCards.map(c => {
+        const qtyPrefix = c.qty > 1 ? `${c.qty}x ` : '';
+        const rarity = c.rarity ? capitalize(c.rarity.toLowerCase()) : 'Unknown';
+        return `  ${qtyPrefix}${c.title} (${rarity}, ${colorTag(c.colors)})`;
+      }),
     ]),
-  ];
+  ].join('\n');
 
-  return [...frontLines, '', ...backLines].join('\n');
+  return { front, back };
 }

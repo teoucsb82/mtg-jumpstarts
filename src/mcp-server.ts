@@ -61,7 +61,7 @@ server.registerTool(
   'format_deck_insert_card',
   {
     title: 'Format deck insert card',
-    description: 'Format the front and back text for a printable double-sided Jumpstart deck insert card (2"x3.5"), given one theme\'s deck data and its suggested pairings. Reason about the pairings yourself (see the jumpstart-deck-strategy skill) before calling this — it only formats, it does not choose pairings.',
+    description: 'Format the front and back text for a printable double-sided Jumpstart deck insert card (2"x3.5", portrait), given one theme\'s deck data (including per-card rarity/colors, as returned by get_jumpstart_decklists) and its suggested pairings. Reason about the pairings yourself (see the jumpstart-deck-strategy skill) before calling this — it only formats, it does not choose pairings. Returns 2 text blocks (front, back) — relay each verbatim in its own fenced code block, do not paraphrase into prose.',
     inputSchema: {
       series: z.string().optional().describe('Series name shown on the card, e.g. "Marvel Super Heroes"'),
       theme: z.string().describe('Exact theme name'),
@@ -72,6 +72,8 @@ server.registerTool(
         title: z.string(),
         type: z.string().describe('Category, e.g. "Creatures", "Lands"'),
         qty: z.number().int(),
+        rarity: z.string().nullable().describe('Scryfall rarity, e.g. "rare", or null if unknown'),
+        colors: z.array(z.string()).describe('Scryfall color letters, e.g. ["W"]; empty array = colorless'),
       })).min(1).describe('Full 20-card decklist for this theme'),
       pairings: z.array(z.object({
         theme: z.string(),
@@ -80,7 +82,10 @@ server.registerTool(
       })).min(1).max(5).describe('Up to 5 suggested pairing themes from the same series'),
     },
   },
-  async (input) => ({ content: [{ type: 'text' as const, text: formatDeckInsertCard(input) }] }),
+  async (input) => {
+    const { front, back } = formatDeckInsertCard(input);
+    return { content: [{ type: 'text' as const, text: front }, { type: 'text' as const, text: back }] };
+  },
 );
 
 const transport = new StdioServerTransport();

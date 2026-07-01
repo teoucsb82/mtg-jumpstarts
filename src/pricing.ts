@@ -3,7 +3,7 @@
 // mean deck value of the series: most decks land at 3, true outliers at 1 or 5.
 
 import type { BakedDecklist, PricedDecklist, PricedCard } from './types.js';
-import { fetchScryfallPrices } from './scryfall.js';
+import { fetchScryfallCardData } from './scryfall.js';
 
 function zScoreTier(z: number): number {
   if (z < -1.5) return 1;
@@ -17,15 +17,24 @@ export async function priceDecklists(decklists: BakedDecklist[]): Promise<Priced
   const allNames = [...new Set(decklists.flatMap(d => d.cards.map(c => c.title)))];
 
   console.error(`Looking up prices for ${allNames.length} unique cards via Scryfall...`);
-  const priceMap = await fetchScryfallPrices(allNames);
+  const cardDataMap = await fetchScryfallCardData(allNames);
 
   const priced = decklists.map(decklist => {
     let deckTotal = 0;
     const cards: PricedCard[] = decklist.cards.map(card => {
-      const unitPrice = priceMap.get(card.title) ?? null;
+      const info = cardDataMap.get(card.title);
+      const unitPrice = info?.price ?? null;
       const lineTotal = unitPrice !== null ? unitPrice * card.qty : null;
       if (lineTotal !== null) deckTotal += lineTotal;
-      return { title: card.title, type: card.type, qty: card.qty, unitPrice, lineTotal };
+      return {
+        title: card.title,
+        type: card.type,
+        qty: card.qty,
+        unitPrice,
+        lineTotal,
+        rarity: info?.rarity ?? null,
+        colors: info?.colors ?? [],
+      };
     });
     const cardCount = cards.reduce((sum, c) => sum + c.qty, 0);
 

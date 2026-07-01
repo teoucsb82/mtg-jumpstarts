@@ -35,6 +35,8 @@ export type PricedCard = {
   qty: number;
   unitPrice: number | null;
   lineTotal: number | null;
+  rarity: string | null;
+  colors: string[];
 };
 
 export type PricedDecklist = {
