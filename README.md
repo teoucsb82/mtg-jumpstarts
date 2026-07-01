@@ -17,7 +17,7 @@ Just ask Claude, e.g.:
 >
 > "Show me the most expensive Foundations Jumpstart decks"
 >
-> "Make a deck insert card for Agents of S.H.I.E.L.D. from Marvel Super Heroes Jumpstart"
+> "Give me a printable cheat sheet for the Fantastic Four Marvel deck"
 
 **Supported series:**
 
@@ -65,50 +65,61 @@ Deck pairings aren't pre-computed — Claude reasons about them live from the ac
 
 ## Printable deck insert cards
 
-Ask for a "deck insert card" or "cheat sheet" and Claude reasons about pairings (same live logic as above), then formats a double-sided, business-card-sized (2"x3.5") insert — front with theme, power level, and suggested pairings; back with the full decklist. Real example:
+Ask for a "deck insert card" or "cheat sheet" and Claude reasons about pairings (same live logic as above), picks the deck's leader card(s) (its rare/mythic "face" card — ties are shown in full, not arbitrarily broken), and formats a double-sided, business-card-sized (2"x3.5", portrait) insert — front with theme, color, power level, leader, and suggested pairings; back with the full decklist tagged by rarity and color. Real example, a trickier 4-color deck:
 
-> **"Make a deck insert card for Agents of S.H.I.E.L.D. from Marvel Super Heroes Jumpstart"**
+> **"Give me a printable cheat sheet for the Fantastic Four Marvel deck"**
 
+**FRONT**
 ```
-=== FRONT ===
 Marvel Super Heroes
-Agents of S.H.I.E.L.D. (White)
-Power Level: ●●○○○
+Fantastic
+Color: Multicolor
+Power Level: ●●●○○
+Leader: The Fantastic Four (Mythic)
 
-An agent-focused deck with espionage and support cards that leverages S.H.I.E.L.D. themed creatures and equipment to control the board.
+A multicolor deck themed around the Fantastic Four with a four-card game-winning combo, featuring the iconic heroes and their signature spells.
 
 Suggested Pairings:
-  Soaring (blue) - Blue is an ally of white, and its evasive fliers give this control shell the reach it lacks (only 7 creatures) — Web Up and Strategic Intervention buy time for fliers to close the game.
-  Iron Man (blue) - Ally-color artifact synergy: Iron Suitcase, Collector's Case, and Futurist Forge stack with S.H.I.E.L.D. Spy Kit and Helicarrier, and its creatures are equip-worthy bodies for this deck's gear.
-  Trained (green) - Green allies with white and adds eight more creatures plus extra removal and combat tricks (Punishing Punch, Colossal Collision), filling out the curve this support-heavy pack is missing.
-  Great Lakes Avengers (green) - Its quirky utility creatures and instants echo the espionage/support-cards identity of Agents of S.H.I.E.L.D., adding board presence without changing the game plan.
-  Tenacious (green) - A resilient, creature-heavy green pack that applies sustained pressure while this deck's control pieces protect the board.
-
-=== BACK ===
-Agents of S.H.I.E.L.D. — Deck List (20 cards)
-
-Creatures (7)
-  1x Agent Phil Coulson
-  1x Peggy Carter, Secret Agent
-  1x Agent 13, Sharon Carter
-  1x Agents of S.H.I.E.L.D.
-  1x Quake, Agent of S.H.I.E.L.D.
-  1x Borough Backup
-  1x Nick Fury, Spymaster
-Instants (1)
-  1x Helicarrier Strike
-Enchantments (2)
-  1x Strategic Intervention
-  1x Web Up
-Artifacts (2)
-  1x S.H.I.E.L.D. Helicarrier
-  1x S.H.I.E.L.D. Spy Kit
-Lands (8)
-  1x Thriving Heath
-  7x Plains
+  Marvelous (White) - White is ally to both blue and green here, and Super Villain Lockup / Quantum Entanglement give control to protect Reed, Sue, Ben, and Johnny while you assemble the combo, backed by evasive closers like Captain Marvel.
+  Wild (Green) - Reinforces the green slot directly, and Terramorphic Expanse plus Thriving Grove are exactly the fixing a 4-color deck needs to reliably cast the GRUW bomb The Fantastic Four.
+  Thor (Red) - Reinforces red and brings real removal in Lightning Bolt and Lightning Strike to clear blockers and protect the four fragile one-drop heroes.
+  Soaring (Blue) - Doubles down on blue with evasive fliers, and Dismissive Denial is a counterspell that can protect The Fantastic Four itself once it hits the table.
 ```
 
-Output is plain text, no price info — drop it into a design tool to lay out and print.
+**BACK**
+```
+Fantastic
+
+Creatures (6)
+  Human Torch, Johnny Storm (Uncommon, R)
+  H.E.R.B.I.E. Scout Unit (Common, C)
+  Mister Fantastic, Reed Richards (Uncommon, U)
+  Invisible Woman, Sue Storm (Uncommon, W)
+  The Thing, Ben Grimm (Uncommon, G)
+  The Fantastic Four (Mythic, G/R/U/W)
+Instants (4)
+  Wall Off (Common, W)
+  Fantastic Bounce (Common, U)
+  Inspired Fire (Common, R)
+  Thing Swing (Common, G)
+Sorceries (1)
+  Farseek (Common, G)
+Artifacts (1)
+  Daily Bugle Newspaper (Uncommon, C)
+Lands (8)
+  Baxter Building (Uncommon, C)
+  Thriving Grove (Common, C)
+  Pym Technologies (Common, C)
+  Forest (Common, C)
+  Plains (Common, C)
+  Island (Common, C)
+  Mountain (Common, C)
+  Terramorphic Expanse (Common, C)
+```
+
+> This pack is 4-color (WURG), missing only black — no clean ally-color fit exists. Claude called that out and picked pairings on actual card synergy (fixing, removal, protection) instead of forcing the usual color-wheel heuristic.
+
+Output is plain text, no price info, no forced line-wrapping — drop it into a design tool to lay out and print.
 
 ## License
 
