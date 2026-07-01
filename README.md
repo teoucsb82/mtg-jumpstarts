@@ -27,11 +27,40 @@ claude plugin marketplace update mtg-jumpstarts
 
 Just ask Claude, e.g.:
 
-> "Use mtg-jumpstarts to get the Avatar: The Last Airbender decklists"
+> "Use mtg-jumpstarts to get the Avatar: The Last Airbender decklist for Aang"
 >
 > "Show me the most expensive Foundations Jumpstart decks"
 >
 > "Give me a printable cheat sheet for the Fantastic Four Marvel deck"
+
+Real example:
+
+**Aang** (mono-white, Power Level 4/5) — go-wide tokens via airbending: exile your own creatures for value, then Aang converts those exile triggers into experience counters that make Ally tokens each upkeep.
+
+```
+Creatures (8)
+  Aang, Airbending Master (Mythic) — $8.35
+  Appa, Loyal Sky Bison (Uncommon) — $0.23
+  Invasion Reinforcements (Uncommon) — $0.19
+  Kindly Customer (Common) — $0.27
+  Koala-Sheep (Common) — $0.13
+  Kyoshi Warriors (Common) — $0.14
+  Momo, Rambunctious Rascal (Uncommon) — $0.19
+  Water Tribe Captain (Common) — $0.08
+Instants (3)
+  Airbending Lesson (Common) — $0.23
+  Cloudshift (Common) — $1.08
+  Enter the Avatar State (Uncommon) — $0.38
+Enchantments (1)
+  Path to Redemption (Common) — $0.11
+Lands (2)
+  Thriving Heath — 1
+  Plains — 7
+
+Total: 20 cards, ~$11.69
+```
+
+Tips: Airbend your own creatures for value · Stack experience counters early · Blink ETB creatures with Cloudshift · Use Path to Redemption on threats you can't otherwise answer
 
 **Supported series:**
 
@@ -52,16 +81,16 @@ Just ask Claude, e.g.:
 {
   "theme": "Aang",
   "color": "white",
-  "description": "Airbending tempo deck built around evasive creatures and tactical disruption.",
-  "playstyle": ["Evasive tempo", "Tactical disruption"],
-  "tips": ["Race with fliers", "Disrupt blockers, then swing"],
+  "description": "This mono-white deck revolves around airbending — exiling nonland permanents (often your own creatures) so they can be recast cheaply for {2}, and Aang, Airbending Master converts that motion into free tokens.",
+  "playstyle": ["Go-wide tokens", "Blink/exile value", "Airbending synergy"],
+  "tips": ["Airbend your own creatures for value", "Stack experience counters early"],
   "cards": [
-    { "title": "Aang, Airbending Master", "type": "Creatures", "qty": 1, "unitPrice": 8.24, "lineTotal": 8.24 },
-    { "title": "Gale Force", "type": "Instants", "qty": 1, "unitPrice": 0.15, "lineTotal": 0.15 }
+    { "title": "Aang, Airbending Master", "type": "Creatures", "qty": 1, "unitPrice": 8.35, "lineTotal": 8.35 },
+    { "title": "Cloudshift", "type": "Instants", "qty": 1, "unitPrice": 1.08, "lineTotal": 1.08 }
   ],
   "cardCount": 20,
-  "deckTotal": 11.56,
-  "powerLevel": 3
+  "deckTotal": 11.69,
+  "powerLevel": 4
 }
 ```
 
@@ -97,18 +126,21 @@ Color: Multicolor
 Power Level: ●●●○○
 Leader: The Fantastic Four (Mythic)
 
-Playstyle: Multicolor combo, Value engine
+Playstyle: Value/card-draw engine, Counter synergy, Go-wide defense into big finisher
 
 Tips:
-  - Chain all four heroes together
-  - Reed cycles through all 4 modes
-  - Protect the engine, then swing
+  - Chain draws off Mister Fantastic
+  - Use Sue Storm for free Walls
+  - Grow The Thing before attacking
+  - Combo Thing Swing with pumped Heroes
+  - Ramp mana with Farseek/Terramorphic first
 
 Synergies:
-  Marvelous (White) - ally colors, control, protects combo
-  Wild (Green) - color fixing, GRUW support
-  Thor (Red) - removal, protects heroes
-  Soaring (Blue) - evasive closers, protects finisher
+  Trained (Green) - counter-doubling combos Sue Storm Walls
+  Geniuses (Blue) - own Reed Richards, stacks card-draw engine
+  Thor (Red) - damage-doubling turns Torch pings lethal
+  Squadron (White) - Hero tribal buffs, exalted lone attacker
+  Towering (Green) - ramp, power-4 payoffs, fixes 4-color mana
 ```
 
 **BACK**
@@ -142,7 +174,7 @@ Lands (8)
   Terramorphic Expanse (Common, C)
 ```
 
-> This pack is 4-color (WURG), missing only black — no clean ally-color fit exists. Claude called that out and picked pairings on actual card synergy (fixing, removal, protection) instead of forcing the usual color-wheel heuristic.
+> This pack is 4-color (WURG), missing only black — no clean ally-color fit exists. Claude called that out and reinforced the deck's existing colors instead, picking pairings on actual card-text synergy: Trained's counter-doubling plays directly off Sue Storm's Wall trigger, Geniuses has its own Reed Richards to stack the draw engine, and Thor's damage-doubling turns Human Torch's draw-pings into real burn.
 
 Output is plain text, no price info, no forced line-wrapping — drop it into a design tool to lay out and print.
 
