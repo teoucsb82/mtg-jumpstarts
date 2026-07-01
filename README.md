@@ -17,6 +17,11 @@ Only these 6 series are valid — anything else (e.g. "Spider-Man", "Bloomburrow
 
 (`Jumpstart: Historic Horizons` is excluded — Arena-only digital release, no paper Scryfall prices.)
 
+## Requirements
+
+- Node.js 18+
+- An Anthropic API key — only needed for `scripts/refresh-data.ts` (regenerating baked data below), never for running the MCP server itself.
+
 ## Using the MCP server
 
 ### Local development
@@ -79,4 +84,6 @@ export ANTHROPIC_API_KEY=sk-ant-...
 npx tsx scripts/refresh-data.ts "<series name>"
 ```
 
-`<series name>` must be one of the 6 supported series listed above. This scrapes mtg.wiki, uses Claude to extract each theme's decklist, and writes `data/<slug>.json` — no prices, no console output beyond progress logged to stderr. Run it whenever a new series releases or mtg.wiki content changes; the published MCP server never runs this itself.
+`<series name>` must be one of the 6 supported series listed above. This scrapes mtg.wiki and writes `data/<slug>.json` — no prices, no console output beyond progress logged to stderr. Run it whenever a new series releases or mtg.wiki content changes; the published MCP server never runs this itself.
+
+Most series use Claude to extract each theme's decklist from the wiki page. LOTR Jumpstart is the exception: its decklists are rendered by mtg.wiki in a fully deterministic markup format, so they're parsed directly (`src/wikiDeckBlocks.ts`) with no extraction call at all — only a single lightweight call to generate descriptions.
