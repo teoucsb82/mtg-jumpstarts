@@ -42,6 +42,8 @@ export async function priceDecklists(decklists: BakedDecklist[]): Promise<Priced
       theme: decklist.theme,
       color: decklist.color,
       description: decklist.description,
+      playstyle: decklist.playstyle,
+      tips: decklist.tips,
       cards,
       cardCount,
       deckTotal,

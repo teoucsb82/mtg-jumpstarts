@@ -143,7 +143,7 @@ PAGE CONTENT:`;
     theme.name,
   );
 
-  return (result.decklists ?? []).map(d => ({ ...d, description: '' }));
+  return (result.decklists ?? []).map(d => ({ ...d, description: '', playstyle: [], tips: [] }));
 }
 
 // ─── Single decklist extraction (individual-page series) ─────────────────────
@@ -169,7 +169,7 @@ PAGE CONTENT:`;
     () => callAgent<Decklist>(client, semaphore, DECKLIST_TOOL, instructions, content, 4096),
     theme.name,
   );
-  return { ...result, description: '' };
+  return { ...result, description: '', playstyle: [], tips: [] };
 }
 
 // ─── Description generation (oracle-text-grounded) ────────────────────────────
@@ -182,12 +182,14 @@ PAGE CONTENT:`;
 
 const DESCRIPTION_BATCH_SIZE = 10;
 
+export type DeckDescription = { description: string; playstyle: string[]; tips: string[] };
+
 export async function describeDecks(
   client: Anthropic,
   semaphore: Semaphore,
   decks: { theme: string; categories: Category[] }[],
   cardText: Map<string, string | null>,
-): Promise<Map<string, string>> {
+): Promise<Map<string, DeckDescription>> {
   const batches = chunk(decks, DESCRIPTION_BATCH_SIZE);
   const results = await Promise.all(
     batches.map((batch, i) => describeBatch(client, semaphore, batch, cardText, i)),
@@ -201,7 +203,7 @@ async function describeBatch(
   decks: { theme: string; categories: Category[] }[],
   cardText: Map<string, string | null>,
   batchIndex: number,
-): Promise<Map<string, string>> {
+): Promise<Map<string, DeckDescription>> {
   const content = decks.map(d => {
     const cardLines = d.categories.flatMap(cat =>
       cat.cards.map(card => {
@@ -215,16 +217,22 @@ async function describeBatch(
   const instructions = `You are summarizing Magic: The Gathering Jumpstart decklists for players who want a
 real sense of how each deck plays before drafting or building around it.
 
-For each decklist below, write a full paragraph (not 1-2 sentences) describing:
-1. Its overall strategy and playstyle.
-2. Only if the actual card text below genuinely supports it — 1-2 concrete combos or
-   synergies, naming the specific cards and what they do together (e.g. "Card A's trigger
-   feeds Card B's ability"). Do not invent a combo that isn't really there: if the deck is a
-   straightforward value/curve pile with no standout interaction, say so plainly and describe
-   its game plan instead.
+For each decklist below, report three things:
+1. description — a full paragraph (not 1-2 sentences) describing its overall strategy and
+   playstyle, and, only if the actual card text below genuinely supports it, 1-2 concrete
+   combos or synergies, naming the specific cards and what they do together (e.g. "Card A's
+   trigger feeds Card B's ability"). Do not invent a combo that isn't really there: if the deck
+   is a straightforward value/curve pile with no standout interaction, say so plainly and
+   describe its game plan instead.
+2. playstyle — the same overall archetype as 1-3 short keyword tags instead of prose (e.g.
+   "Attack-alone aggro", "Go-wide tokens", "Counter buffs").
+3. tips — 3-5 short, punchy, human-readable tips for how to actually play this deck (general
+   strategy plus any real combos from point 1), each a 1-6 word phrase, not a sentence (e.g.
+   "Lean into exile to recycle cards").
 
-Avoid generic filler ("big creatures", "spell heavy", "lots of tokens") unless immediately
-backed by the specific cards that make it true.
+The description paragraph (point 1) must avoid generic filler ("big creatures", "spell heavy",
+"lots of tokens") unless immediately backed by the specific cards that make it true — playstyle
+tags and tips are short by design and don't need that same qualifier.
 
 Use the report_descriptions tool to return one row per deck, using the exact theme name given
 (copy it verbatim, including any numbered suffix like "1" or "2").
@@ -246,10 +254,10 @@ DECKLISTS (card lines show "qty x name — oracle text"):`;
         ? (JSON.parse(result.descriptions).descriptions ?? [])
         : (result.descriptions ?? []);
       if (!Array.isArray(raw)) throw new Error('report_descriptions did not return an array');
-      return raw as { theme: string; description: string }[];
+      return raw as { theme: string; description: string; playstyle: string[]; tips: string[] }[];
     },
     `deck descriptions batch ${batchIndex}`,
   );
 
-  return new Map(rows.map(d => [d.theme, d.description]));
+  return new Map(rows.map(d => [d.theme, { description: d.description, playstyle: d.playstyle, tips: d.tips }]));
 }

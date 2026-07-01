@@ -104,8 +104,24 @@ export const DESCRIPTIONS_TOOL: Anthropic.Tool = {
                 'plan instead. Avoid generic filler ("big creatures", "spell heavy", "lots of tokens") ' +
                 'unless immediately backed by specifics.',
             },
+            playstyle: {
+              type: 'array',
+              items: { type: 'string' },
+              description:
+                'Overall playstyle as 1-3 short keyword tags (e.g. ["Attack-alone aggro", "Counter ' +
+                'buffs"]) — tags, not sentences.',
+            },
+            tips: {
+              type: 'array',
+              items: { type: 'string' },
+              description:
+                '3-5 short, punchy, human-readable tips for how to actually play this deck — general ' +
+                'strategy and any concrete combos, grounded in the specific cards and their rules text ' +
+                'provided (e.g. "Lean into exile to recycle cards"). Each tip is a short phrase, 1-6 ' +
+                'words, not a full sentence. Avoid generic filler unless immediately backed by specifics.',
+            },
           },
-          required: ['theme', 'description'],
+          required: ['theme', 'description', 'playstyle', 'tips'],
         },
       },
     },

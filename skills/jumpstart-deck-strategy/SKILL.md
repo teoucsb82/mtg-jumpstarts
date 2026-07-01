@@ -43,7 +43,7 @@ Default to favoring an ally-color pairing when recommending a second deck, unles
 
 ## `powerLevel` caveat
 
-The tool's `powerLevel` (1-5) is a **price-based** signal — a z-score of the deck's total Scryfall value relative to the series mean. It's a reasonable proxy (rarer/more powerful cards tend to cost more) but it is NOT a direct measure of competitive strength. A deck can be cheap and excellent (efficient commons) or expensive and clunky (an overcosted mythic bomb with no support). When asked about a deck's actual strength or play pattern, read the `cards` and `description` fields — don't just cite the number.
+The tool's `powerLevel` (1-5) is a **price-based** signal — a z-score of the deck's total Scryfall value relative to the series mean. It's a reasonable proxy (rarer/more powerful cards tend to cost more) but it is NOT a direct measure of competitive strength. A deck can be cheap and excellent (efficient commons) or expensive and clunky (an overcosted mythic bomb with no support). When asked about a deck's actual strength or play pattern, read the `cards`, `description`, `playstyle`, and `tips` fields — don't just cite the number.
 
 ## Giving recommendations
 
@@ -55,5 +55,5 @@ When asked for a "cheat sheet" or "deck insert card" for a theme (a printable do
 
 1. Call `get_jumpstart_decklists` for the series if you haven't already.
 2. Reason about up to 5 pairing themes for the target theme, using the heuristics above (color balance, curve, removal/threat balance, evasion, archetype identity, color pie). For each, write the reason as 5-6 keywords or a short phrase (e.g. "ally colors, mana fixing, protects combo"), not a full sentence — this field is specifically for the small printed insert card, not general chat (the "Giving recommendations" section above still uses full sentences).
-3. Call `format_deck_insert_card` with the target theme's own data (theme, color, description, powerLevel, cards — including each card's `rarity`/`colors`, straight from `get_jumpstart_decklists`) plus the pairings from step 2. That tool only formats text and picks the leader card(s) — it does not choose pairings itself, so step 2 must happen first.
+3. Call `format_deck_insert_card` with the target theme's own data (theme, color, playstyle, tips, powerLevel, cards — including each card's `rarity`/`colors`, straight from `get_jumpstart_decklists`) plus the pairings from step 2. `playstyle`/`tips` are baked fields — pass them through verbatim, don't rewrite them. That tool only formats text and picks the leader card(s) — it does not choose pairings itself, so step 2 must happen first.
 4. **Relay the result verbatim.** The tool returns 2 text blocks, front and back. Present each in its own fenced code block under a short header (e.g. "**FRONT** (copy this):" / "**BACK** (copy this):"). Do not summarize, paraphrase, merge into prose, or add/drop any line — the card text is meant to be copied straight into a print layout tool, so anything you rewrite has to be manually fixed by the user.

@@ -39,6 +39,8 @@ Just ask Claude, e.g.:
   "theme": "Aang",
   "color": "white",
   "description": "Airbending tempo deck built around evasive creatures and tactical disruption.",
+  "playstyle": ["Evasive tempo", "Tactical disruption"],
+  "tips": ["Race with fliers", "Disrupt blockers, then swing"],
   "cards": [
     { "title": "Aang, Airbending Master", "type": "Creatures", "qty": 1, "unitPrice": 8.24, "lineTotal": 8.24 },
     { "title": "Gale Force", "type": "Instants", "qty": 1, "unitPrice": 0.15, "lineTotal": 0.15 }
@@ -69,7 +71,7 @@ Deck pairings aren't pre-computed — Claude reasons about them live from the ac
 
 ## Printable deck insert cards
 
-Ask for a "deck insert card" or "cheat sheet" and Claude reasons about pairings (same live logic as above), picks the deck's leader card(s) (its rare/mythic "face" card — ties are shown in full, not arbitrarily broken), and formats a double-sided, business-card-sized (2"x3.5", portrait) insert — front with theme, color, power level, leader, and suggested pairings; back with the full decklist tagged by rarity and color. Real example, a trickier 4-color deck:
+Ask for a "deck insert card" or "cheat sheet" and Claude reasons about pairings (same live logic as above), picks the deck's leader card(s) (its rare/mythic "face" card — ties are shown in full, not arbitrarily broken), and formats a double-sided, business-card-sized (2"x3.5", portrait) insert — front with theme, color, power level, leader, playstyle, tips, and synergies; back with the full decklist tagged by rarity and color. Real example, a trickier 4-color deck:
 
 > **"Give me a printable cheat sheet for the Fantastic Four Marvel deck"**
 
@@ -81,13 +83,18 @@ Color: Multicolor
 Power Level: ●●●○○
 Leader: The Fantastic Four (Mythic)
 
-A multicolor deck themed around the Fantastic Four with a four-card game-winning combo, featuring the iconic heroes and their signature spells.
+Playstyle: Multicolor combo, Value engine
 
-Suggested Pairings:
-  Marvelous (White) - White is ally to both blue and green here, and Super Villain Lockup / Quantum Entanglement give control to protect Reed, Sue, Ben, and Johnny while you assemble the combo, backed by evasive closers like Captain Marvel.
-  Wild (Green) - Reinforces the green slot directly, and Terramorphic Expanse plus Thriving Grove are exactly the fixing a 4-color deck needs to reliably cast the GRUW bomb The Fantastic Four.
-  Thor (Red) - Reinforces red and brings real removal in Lightning Bolt and Lightning Strike to clear blockers and protect the four fragile one-drop heroes.
-  Soaring (Blue) - Doubles down on blue with evasive fliers, and Dismissive Denial is a counterspell that can protect The Fantastic Four itself once it hits the table.
+Tips:
+  - Chain all four heroes together
+  - Reed cycles through all 4 modes
+  - Protect the engine, then swing
+
+Synergies:
+  Marvelous (White) - ally colors, control, protects combo
+  Wild (Green) - color fixing, GRUW support
+  Thor (Red) - removal, protects heroes
+  Soaring (Blue) - evasive closers, protects finisher
 ```
 
 **BACK**

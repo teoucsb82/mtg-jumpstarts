@@ -20,6 +20,8 @@ export function bakeSeries(series: string, decklists: Decklist[]): BakedSeries {
       theme: d.theme,
       color: normalizeColor(d.color ?? ''),
       description: d.description,
+      playstyle: d.playstyle,
+      tips: d.tips,
       cards,
     };
   });

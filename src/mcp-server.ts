@@ -66,7 +66,8 @@ server.registerTool(
       series: z.string().optional().describe('Series name shown on the card, e.g. "Marvel Super Heroes"'),
       theme: z.string().describe('Exact theme name'),
       color: z.enum(['white', 'blue', 'black', 'red', 'green', 'multi']),
-      description: z.string().describe('Full paragraph: playstyle, strategy, and any concrete combos grounded in the cards'),
+      playstyle: z.array(z.string()).min(1).max(3).describe('Keyword tags for overall playstyle, e.g. ["Big creatures", "Buffs"] — pass through from get_jumpstart_decklists verbatim, do not rewrite'),
+      tips: z.array(z.string()).min(1).max(5).describe('Short punchy strategy/combo bullets (1-6 words each) — pass through from get_jumpstart_decklists verbatim, do not rewrite'),
       powerLevel: z.number().int().min(1).max(5),
       cards: z.array(z.object({
         title: z.string(),

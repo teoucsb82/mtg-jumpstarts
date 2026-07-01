@@ -27,6 +27,8 @@ export type Decklist = {
   color?: string;
   categories: Category[];
   description: string;
+  playstyle: string[];
+  tips: string[];
 };
 
 export type PricedCard = {
@@ -43,6 +45,8 @@ export type PricedDecklist = {
   theme: string;
   color: Color;
   description: string;
+  playstyle: string[];
+  tips: string[];
   cards: PricedCard[];
   cardCount: number;
   deckTotal: number;
@@ -55,6 +59,8 @@ export type BakedDecklist = {
   theme: string;
   color: Color;
   description: string;
+  playstyle: string[];
+  tips: string[];
   cards: BakedCard[];
 };
 

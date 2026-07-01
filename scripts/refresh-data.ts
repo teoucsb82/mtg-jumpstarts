@@ -92,6 +92,8 @@ async function main(): Promise<void> {
       theme: d.theme,
       categories: d.categories,
       description: '',
+      playstyle: [],
+      tips: [],
       color: normalizeColor(matchBaseThemeColor(d.theme, themeColors)),
     }));
   } else {
@@ -108,10 +110,15 @@ async function main(): Promise<void> {
 
   console.error('Generating descriptions (Sonnet, batched)...');
   const descriptions = await describeDecks(client, semaphore, coloredDecklists, cardText);
-  coloredDecklists = coloredDecklists.map(d => ({
-    ...d,
-    description: descriptions.get(d.theme) ?? d.description,
-  }));
+  coloredDecklists = coloredDecklists.map(d => {
+    const generated = descriptions.get(d.theme);
+    return {
+      ...d,
+      description: generated?.description ?? d.description,
+      playstyle: generated?.playstyle ?? d.playstyle,
+      tips: generated?.tips ?? d.tips,
+    };
+  });
 
   // ── Bake: flatten + write static data, no prices ────────────────────────────
   const baked = bakeSeries(keyword, coloredDecklists);

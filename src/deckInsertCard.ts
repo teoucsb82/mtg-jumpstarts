@@ -18,7 +18,8 @@ export type DeckInsertCardInput = {
   series?: string;
   theme: string;
   color: string;
-  description: string;
+  playstyle: string[];
+  tips: string[];
   powerLevel: number;
   cards: DeckInsertCardCard[];
   pairings: { theme: string; color: string; reason: string }[];
@@ -62,7 +63,7 @@ function groupByCategory(cards: DeckInsertCardCard[]): { name: string; cards: De
 }
 
 export function formatDeckInsertCard(input: DeckInsertCardInput): { front: string; back: string } {
-  const { series, theme, color, description, powerLevel, cards, pairings } = input;
+  const { series, theme, color, playstyle, tips, powerLevel, cards, pairings } = input;
 
   const powerCircles = '●'.repeat(powerLevel) + '○'.repeat(5 - powerLevel);
   const leaders = selectLeaders(cards);
@@ -74,9 +75,12 @@ export function formatDeckInsertCard(input: DeckInsertCardInput): { front: strin
     `Power Level: ${powerCircles}`,
     ...(leaders ? [`${leaders.names.length > 1 ? 'Leaders' : 'Leader'}: ${leaders.names.join(', ')} (${leaders.rarity})`] : []),
     '',
-    description,
+    `Playstyle: ${playstyle.join(', ')}`,
     '',
-    'Suggested Pairings:',
+    'Tips:',
+    ...tips.map(t => `  - ${t}`),
+    '',
+    'Synergies:',
     ...pairings.map(p => `  ${p.theme} (${colorLabel(p.color)}) - ${p.reason}`),
   ].join('\n');
 
