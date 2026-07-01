@@ -1,5 +1,7 @@
 {
   "type": "module",
+  "description": "MCP server + Claude Code plugin serving baked-in MTG Jumpstart decklists with live Scryfall prices",
+  "keywords": ["mcp", "claude-code-plugin", "magic-the-gathering", "model-context-protocol", "mtg"],
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.107.0",
