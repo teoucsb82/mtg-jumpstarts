@@ -3,6 +3,7 @@
 
 import { writeFileSync } from 'node:fs';
 import * as XLSX from 'xlsx';
+import { CATEGORY_ORDER } from './types.js';
 import type { PricedDecklist } from './types.js';
 
 export function formatResultsJson(keyword: string, decklists: PricedDecklist[]): string {
@@ -46,15 +47,13 @@ export function exportXlsx(keyword: string, decklists: PricedDecklist[], filepat
   const fmt = (n: number | null) => n !== null ? parseFloat(n.toFixed(2)) : null;
 
   // ── Sheet 1: Summary (one row per deck) ──────────────────────────────────────
-  const ALL_TYPES = ['Creatures', 'Instants', 'Sorceries', 'Enchantments', 'Artifacts', 'Lands'];
-
-  const summaryHeader = ['Deck', 'Total ($)', 'Power (1-5)', 'Stars', 'Description', ...ALL_TYPES.map(t => `${t} ($)`)];
+  const summaryHeader = ['Deck', 'Total ($)', 'Power (1-5)', 'Stars', 'Description', ...CATEGORY_ORDER.map(t => `${t} ($)`)];
   const summaryRows = decklists.map(deck => {
     const byType: Record<string, number> = {};
     for (const card of deck.cards) {
       if (card.lineTotal === null) continue;
       // match loosely (e.g. "Creatures" matches "Creatures (7 cards)")
-      const key = ALL_TYPES.find(t => card.type.startsWith(t)) ?? card.type;
+      const key = CATEGORY_ORDER.find(t => card.type.startsWith(t)) ?? card.type;
       byType[key] = (byType[key] ?? 0) + card.lineTotal;
     }
     return [
@@ -63,7 +62,7 @@ export function exportXlsx(keyword: string, decklists: PricedDecklist[], filepat
       deck.powerLevel,
       '★'.repeat(deck.powerLevel) + '☆'.repeat(5 - deck.powerLevel),
       deck.description,
-      ...ALL_TYPES.map(t => fmt(byType[t] ?? null)),
+      ...CATEGORY_ORDER.map(t => fmt(byType[t] ?? null)),
     ];
   });
 

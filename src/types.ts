@@ -12,6 +12,12 @@ export function normalizeColor(raw: string): Color {
   return KNOWN_COLORS[raw.toLowerCase()] ?? 'multi';
 }
 
+// Canonical category display order, shared by xlsx export and the deck insert card
+// formatter. Matched with `card.type.startsWith(t)` since baked `type` values are
+// plain strings like "Creatures". Anything not in this list is appended at the end
+// in first-seen order rather than dropped.
+export const CATEGORY_ORDER = ['Creatures', 'Instants', 'Sorceries', 'Enchantments', 'Artifacts', 'Lands'] as const;
+
 export type Theme = { name: string; url: string; color: string };
 export type Card = { qty: number; name: string };
 export type Category = { name: string; cards: Card[] };

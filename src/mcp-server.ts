@@ -11,6 +11,7 @@ import { z } from 'zod';
 import { SERIES_NAMES, resolveSeriesSlug } from './series.js';
 import { priceDecklists } from './pricing.js';
 import { formatResultsJson } from './output.js';
+import { formatDeckInsertCard } from './deckInsertCard.js';
 import type { BakedSeries, PricedDecklist } from './types.js';
 
 function loadBakedSeries(slug: string): BakedSeries {
@@ -54,6 +55,32 @@ server.registerTool(
     const priced: PricedDecklist[] = await priceDecklists(baked.decks);
     return { content: [{ type: 'text' as const, text: formatResultsJson(baked.series, priced) }] };
   },
+);
+
+server.registerTool(
+  'format_deck_insert_card',
+  {
+    title: 'Format deck insert card',
+    description: 'Format the front and back text for a printable double-sided Jumpstart deck insert card (2"x3.5"), given one theme\'s deck data and its suggested pairings. Reason about the pairings yourself (see the jumpstart-deck-strategy skill) before calling this — it only formats, it does not choose pairings.',
+    inputSchema: {
+      series: z.string().optional().describe('Series name shown on the card, e.g. "Marvel Super Heroes"'),
+      theme: z.string().describe('Exact theme name'),
+      color: z.enum(['white', 'blue', 'black', 'red', 'green', 'multi']),
+      description: z.string().describe('How this deck plays, 1-2 sentences'),
+      powerLevel: z.number().int().min(1).max(5),
+      cards: z.array(z.object({
+        title: z.string(),
+        type: z.string().describe('Category, e.g. "Creatures", "Lands"'),
+        qty: z.number().int(),
+      })).min(1).describe('Full 20-card decklist for this theme'),
+      pairings: z.array(z.object({
+        theme: z.string(),
+        color: z.string(),
+        reason: z.string().describe('1-2 sentences on why this pairs well with the main theme'),
+      })).min(1).max(5).describe('Up to 5 suggested pairing themes from the same series'),
+    },
+  },
+  async (input) => ({ content: [{ type: 'text' as const, text: formatDeckInsertCard(input) }] }),
 );
 
 const transport = new StdioServerTransport();

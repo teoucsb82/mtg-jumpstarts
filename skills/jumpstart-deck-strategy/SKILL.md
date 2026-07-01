@@ -48,3 +48,11 @@ The tool's `powerLevel` (1-5) is a **price-based** signal — a z-score of the d
 ## Giving recommendations
 
 When asked "what pairs well with X," pull the full list of themes/colors/descriptions from the same `get_jumpstart_decklists` response (it returns the whole series in one call) and reason across the heuristics above. Give a specific reason tied to the actual cards/colors involved — not a generic "these combine well" answer.
+
+## Generating a deck insert card
+
+When asked for a "cheat sheet" or "deck insert card" for a theme (a printable double-sided 2"x3.5" card):
+
+1. Call `get_jumpstart_decklists` for the series if you haven't already.
+2. Reason about up to 5 pairing themes for the target theme, using the heuristics above (color balance, curve, removal/threat balance, evasion, archetype identity, color pie). Write a specific 1-2 sentence reason for each, same standard as any other pairing recommendation.
+3. Call `format_deck_insert_card` with the target theme's own data (theme, color, description, powerLevel, cards) plus the pairings from step 2. That tool only formats text — it does not choose pairings itself, so step 2 must happen first.
