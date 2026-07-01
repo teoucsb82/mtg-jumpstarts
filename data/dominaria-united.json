@@ -1,0 +1,886 @@
+{
+  "series": "Dominaria United Jumpstart",
+  "themeCount": 10,
+  "decks": [
+    {
+      "theme": "Coalition Corps",
+      "color": "white",
+      "description": "This is a go-wide white token-swarm deck that wants to flood the board with small creatures and then pump them all at once. Captain's Call, Resolute Reinforcements, and Argivian Cavalier all produce 1/1 Soldier tokens, which feed Griffin Protector (gets +1/+1 whenever another creature enters) and Serra Redeemer (puts two +1/+1 counters on any other creature with power 2 or less that enters, turning every fresh token into a 3/3). Argivian Phalanx gets cheaper the more creatures you control thanks to Affinity for creatures, so a board full of tokens lets you cast it for next to nothing. Charismatic Vanguard and Join Forces provide finishing overrun-style pump effects, while Prayer of Binding offers clean removal and Love Song of Night and Day provides card advantage, an extra flyer, and late-game counters. The overall plan is simple: generate a critical mass of bodies, let Serra Redeemer and Griffin Protector scale them up passively, then swing with a wide board backed by a pump spell.",
+      "playstyle": [
+        "Go-wide tokens",
+        "Counter buffs",
+        "Wide-board aggro"
+      ],
+      "tips": [
+        "Flood board with Soldier tokens",
+        "Play Serra Redeemer early",
+        "Cast Argivian Phalanx off wide board",
+        "Save Join Forces for lethal swing",
+        "Use Prayer of Binding on threats"
+      ],
+      "cards": [
+        {
+          "title": "Clockwork Drawbridge",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Resolute Reinforcements",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Argivian Cavalier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Charismatic Vanguard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Griffin Protector",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Argivian Phalanx",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Serra Redeemer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Captain's Call",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Prayer of Binding",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Love Song of Night and Day",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Join Forces",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random White rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Coalition Legion",
+      "color": "white",
+      "description": "A leaner version of the white token/go-wide strategy, this deck still relies on Argivian Cavalier's token generation and Serra Redeemer's ability to drop two +1/+1 counters on any small creature that enters, quickly turning 1/1s into 3/3s. Griffin Protector grows every time another creature enters, rewarding a steady stream of new bodies, while Benalish Faithbonder and Argivian Cavalier both use Enlist to borrow power from untapped creatures when attacking. Take Up the Shield and Join Forces give combat tricks that can save a creature or blow out a block, and Knight of Dawn's Light adds a lifegain angle alongside Prayer of Binding's exile-and-gain-life effect. Love Song of Night and Day rounds things out with card draw, a flying token, and late-game counters. The deck plays a steady curve of value creatures and combat tricks rather than a single big combo, aiming to grind out an advantage through incremental buffs and card advantage.",
+      "playstyle": [
+        "Value creatures",
+        "Counter buffs",
+        "Midrange white"
+      ],
+      "tips": [
+        "Trigger Serra Redeemer often",
+        "Use Enlist to boost attackers",
+        "Hold Join Forces for combat trick",
+        "Gain life with Prayer of Binding",
+        "Play Griffin Protector before token makers"
+      ],
+      "cards": [
+        {
+          "title": "Samite Herbalist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Benalish Faithbonder",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Knight of Dawn's Light",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Argivian Cavalier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Charismatic Vanguard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Griffin Protector",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Serra Redeemer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Take Up the Shield",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Join Forces",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Prayer of Binding",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Love Song of Night and Day",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random White rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Mystic Mischief",
+      "color": "blue",
+      "description": "This deck is a classic blue spells-matter tempo deck built around casting instants and sorceries to enable card advantage and cheap threats. Tolarian Terror gets cheaper for every instant/sorcery in your graveyard, so early cheap spells like Impulse and Impede Momentum quickly make it castable for very little mana, and Cosmic Epiphany later refills your hand by drawing a card for each instant/sorcery in the graveyard, rewarding the same spell-heavy graveyard. Founding the Third Path's Read Ahead chapters let you free-cast a cheap spell, mill, then later flashback a spell from the graveyard, tying the whole graveyard theme together. Defenders like Coral Colony and Academy Wall hold the ground early (Academy Wall also loots whenever you cast a spell) while Frostfist Strider and Impede Momentum tap down opposing threats with stun counters to buy time until Tolarian Terror and other threats close the game.",
+      "playstyle": [
+        "Spells matter",
+        "Tempo control",
+        "Graveyard value"
+      ],
+      "tips": [
+        "Fill graveyard with cheap spells",
+        "Cast Tolarian Terror for less",
+        "Time Cosmic Epiphany late",
+        "Stun-lock with Frostfist Strider",
+        "Use Founding chapter I for free spell"
+      ],
+      "cards": [
+        {
+          "title": "Coral Colony",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Soaring Drake",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Academy Wall",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Talas Lookout",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tolarian Terror",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Frostfist Strider",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Impulse",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Ertai's Scorn",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Founding the Third Path",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Cosmic Epiphany",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Impede Momentum",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Blue rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Arcane Mischief",
+      "color": "blue",
+      "description": "Another spells-matter blue deck, this build leans harder into the payoff of casting instants and sorceries every turn. Djinn of the Fountain offers a modal ability triggered by any instant/sorcery cast, letting you pump it, blink it out of removal range, or scry, while Haunting Figment becomes unblockable any turn you've cast a spell, making it a reliable evasive clock. Combat Research turns any attacker into a card-drawing engine on combat damage, and pairs well with Haunting Figment's evasion to keep drawing extra cards each turn. Academy Wall loots away excess spells while Frostfist Strider and Impede Momentum stun down blockers, and Cosmic Epiphany again rewards a graveyard full of instants and sorceries with a big card-draw burst late. The deck's core interaction is casting a spell to both trigger Djinn of the Fountain and enable Haunting Figment's evasion in the same turn, creating consistent unblockable damage backed by card draw.",
+      "playstyle": [
+        "Spells matter",
+        "Evasive tempo",
+        "Card draw engine"
+      ],
+      "tips": [
+        "Cast a spell before combat",
+        "Enchant Haunting Figment with Combat Research",
+        "Blink Djinn to dodge removal",
+        "Save Cosmic Epiphany for big draw",
+        "Stun blockers with Frostfist Strider"
+      ],
+      "cards": [
+        {
+          "title": "Haunting Figment",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Soaring Drake",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Academy Wall",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Talas Lookout",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Frostfist Strider",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Djinn of the Fountain",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Impulse",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Shore Up",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Combat Research",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Cosmic Epiphany",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Impede Momentum",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Blue rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Totally Ruthless",
+      "color": "black",
+      "description": "This black deck is a sacrifice-and-attrition build that wants to grind opponents down by trading creatures for value. Cult Conscript can return itself from the graveyard whenever a non-Skeleton creature you control dies, giving you a recurring sacrifice fodder engine, while Phyrexian Vivisector scries whenever any of your creatures dies and Sengir Connoisseur grows a +1/+1 counter whenever creatures die, both rewarding the deck's sacrifice outlets. Gibbering Barricade turns any creature into life and a card, Bone Splinters demands a sacrifice to destroy a creature outright, and Splatter Goblin's death trigger shrinks an opposing creature. Tyrannical Pitlord grants a huge temporary +3/+3 flying boost to a chosen creature but then forces you to sacrifice that same creature when the Pitlord leaves, which combos naturally with the deck's sacrifice outlets and death-triggered value creatures like Sengir Connoisseur and Phyrexian Vivisector. Braids's Frightful Return adds discard, reanimation, and a late sacrifice-or-lose-life threat, tying the whole grindy plan together.",
+      "playstyle": [
+        "Sacrifice value",
+        "Attrition midrange",
+        "Death triggers"
+      ],
+      "tips": [
+        "Recur Cult Conscript with sacrifices",
+        "Sac fodder to Gibbering Barricade",
+        "Trigger Sengir Connoisseur with deaths",
+        "Combo Tyrannical Pitlord with sac outlets",
+        "Use Bone Splinters on big threats"
+      ],
+      "cards": [
+        {
+          "title": "Cult Conscript",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Phyrexian Vivisector",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Splatter Goblin",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Phyrexian Rager",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gibbering Barricade",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sengir Connoisseur",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tyrannical Pitlord",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bone Splinters",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Cut Down",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Battle-Rage Blessing",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Braids's Frightful Return",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Black rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Totally Merciless",
+      "color": "black",
+      "description": "A black sacrifice/attrition deck similar in shape to its counterpart, this build again turns creature deaths into resources. Phyrexian Vivisector scries on any creature death and Sengir Connoisseur grows with a +1/+1 counter whenever creatures die, both triggering off the deck's own sacrifice effects and combat trades. Writhing Necromass gets cheaper for every creature card already in your graveyard, so a few early trades or Phyrexian Rager-style value creatures dying quickly makes it a cheap deathtouch threat. Tyrannical Pitlord again grants a huge but temporary +3/+3 flying buff to a chosen creature, which you then must sacrifice when the Pitlord leaves — feeding directly into Sengir Connoisseur and Phyrexian Vivisector's death triggers. Eerie Soultender mills itself into the graveyard for later recursion, Knight of Dusk's Shadow shuts off opposing lifegain while chipping in menace damage, and Braids's Frightful Return and Pilfer add discard disruption to grind the opponent out of resources.",
+      "playstyle": [
+        "Sacrifice value",
+        "Attrition midrange",
+        "Death triggers"
+      ],
+      "tips": [
+        "Fill graveyard for cheap Writhing Necromass",
+        "Combo Tyrannical Pitlord with sac outlets",
+        "Trigger Sengir Connoisseur with deaths",
+        "Shut off lifegain with Knight of Dusk's Shadow",
+        "Recur creatures via Eerie Soultender"
+      ],
+      "cards": [
+        {
+          "title": "Knight of Dusk's Shadow",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Phyrexian Vivisector",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Eerie Soultender",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Phyrexian Rager",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sengir Connoisseur",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Writhing Necromass",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tyrannical Pitlord",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Battle-Rage Blessing",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Extinguish the Light",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Braids's Frightful Return",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Pilfer",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Black rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Ready to Attack",
+      "color": "red",
+      "description": "A red aggressive deck built around swinging with multiple creatures and pumping through combat tricks. Electrostatic Infantry grows a +1/+1 counter every time you cast an instant or sorcery, rewarding the deck's spell suite of Lightning Strike, Twinferno, and Jaya's Firenado. Twinferno itself can either copy your next instant/sorcery or grant double strike, combining well with Ragefire Hellkite, which gains double strike whenever it attacks if you sacrifice another creature — Phoenix Chick is a perfect sacrifice target since it can return itself from the graveyard tapped and attacking whenever you attack with three or more creatures by paying {R}{R}. Coalition Warbrute's Enlist lets it borrow power from tapped-out attackers, and Hammerhand pushes through extra damage by preventing a blocker while granting haste. The deck wants to attack with everything, using its burn spells and stun/removal effects to clear the way and close games quickly.",
+      "playstyle": [
+        "Aggro burn",
+        "Attack-alone aggro",
+        "Combat tricks"
+      ],
+      "tips": [
+        "Attack with 3+ for Phoenix Chick",
+        "Sac fodder to Ragefire Hellkite",
+        "Pump Electrostatic Infantry with spells",
+        "Use Twinferno for double strike or copy",
+        "Clear blockers with Hammerhand"
+      ],
+      "cards": [
+        {
+          "title": "Phoenix Chick",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Electrostatic Infantry",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Goblin Picker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Flowstone Kavu",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Dragon Whelp",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Coalition Warbrute",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ragefire Hellkite",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hammerhand",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Lightning Strike",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Twinferno",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Jaya's Firenado",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Red rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Ready to Charge",
+      "color": "red",
+      "description": "This red deck plays a similar aggressive, spell-fueled beatdown plan to its counterpart. Electrostatic Infantry again grows off every instant or sorcery cast, benefiting from Flowstone Infusion, Furious Bellow, Twinferno, and Jaya's Firenado in the spell suite. Twinferno's modal ability to copy a spell or grant double strike pairs directly with Ragefire Hellkite, which gains double strike on attack if you sacrifice another creature — Balduvian Berserker is a great sacrifice fodder choice since its death trigger deals damage equal to its power to any target, effectively getting a Bolt out of a creature you were sacrificing anyway. Molten Monstrosity scales down in cost based on your biggest creature's power, letting an early Coalition Warbrute or Dragon Whelp make it cheap, while Yavimaya Steelcrusher and Coalition Warbrute both use Enlist to punch above their weight in combat. The deck wants to curve out, use its burn to clear blockers or finish the opponent, and lean on Ragefire Hellkite plus sacrifice fodder for a big double-strike finish.",
+      "playstyle": [
+        "Aggro burn",
+        "Sacrifice synergy",
+        "Combat tricks"
+      ],
+      "tips": [
+        "Sac Balduvian Berserker to Hellkite",
+        "Cheapen Molten Monstrosity with big creatures",
+        "Pump Electrostatic Infantry with spells",
+        "Enlist with untapped creatures",
+        "Copy spells with Twinferno"
+      ],
+      "cards": [
+        {
+          "title": "Electrostatic Infantry",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Yavimaya Steelcrusher",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Balduvian Berserker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Dragon Whelp",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Coalition Warbrute",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Molten Monstrosity",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ragefire Hellkite",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Flowstone Infusion",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Twinferno",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Furious Bellow",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Jaya's Firenado",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Red rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Beast Territory",
+      "color": "green",
+      "description": "A green Domain deck that wants to maximize the number of basic land types among your lands to scale its big creatures. Territorial Maro's power and toughness equal twice your basic land type count, and Briar Hydra puts that many +1/+1 counters on a creature whenever it connects, so both reward the dual lands like Tangled Islet, Wooded Ridgeline, Radiant Grove, and Haunted Mire that each add a second color and count toward Domain. Sunbathing Rootwalla's activated ability similarly scales with land types for a repeatable pump. Slimefoot's Survey directly fetches two more basic-land-type lands onto the battlefield, actively growing your Domain count while also filtering your draws. Floriferous Vinewall digs for lands early to ensure you hit your five-color manabase, Deathbloom Gardener fixes any remaining color needs, and Bite Down lets a big creature fight down an opposing threat using its inflated power. The deck's core plan is stacking land types to make its Domain payoffs enormous, then overwhelming with size and trample.",
+      "playstyle": [
+        "Domain ramp",
+        "Big creatures",
+        "Land-type synergy"
+      ],
+      "tips": [
+        "Fetch land types with Slimefoot's Survey",
+        "Maximize basic land types",
+        "Grow Briar Hydra on connect",
+        "Fix mana with Deathbloom Gardener",
+        "Fight with Bite Down using big power"
+      ],
+      "cards": [
+        {
+          "title": "Floriferous Vinewall",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sunbathing Rootwalla",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Deathbloom Gardener",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Magnigoth Sentry",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Territorial Maro",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Linebreaker Baloth",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mossbeard Ancient",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Briar Hydra",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bite Down",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Broken Wings",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Slimefoot's Survey",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Tangled Islet",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Wooded Ridgeline",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Radiant Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Haunted Mire",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 4
+        },
+        {
+          "title": "Random Green rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Monster Territory",
+      "color": "green",
+      "description": "This green Domain deck pushes the land-type-matters theme even further than its counterpart, packing more payoffs that scale directly with the number of basic land types among your lands. Territorial Maro, Nishoba Brawler, and Briar Hydra all key off Domain for power, toughness, or counters, while Gaea's Might grants a creature +1/+1 for each basic land type as an instant-speed trick, and Yavimaya Sojourner gets cheaper the more land types you control. The Weatherseed Treaty's Read Ahead chapters ramp a basic land into play, then make a Saproling, then finish by pumping a creature with trample scaled again by Domain — tying the whole card into the same land-type engine as Briar Hydra and Territorial Maro. Slimefoot's Survey doubles as ramp and Domain fixing by fetching two more land-type lands at once, while Floriferous Vinewall smooths out the early land drops needed to hit five colors. The deck's game plan is to aggressively diversify its manabase early, then dump its Domain payoffs onto the board as increasingly enormous threats.",
+      "playstyle": [
+        "Domain ramp",
+        "Big creatures",
+        "Land-type synergy"
+      ],
+      "tips": [
+        "Prioritize diverse land types",
+        "Ramp with Weatherseed Treaty chapter I",
+        "Pump with Gaea's Might at instant speed",
+        "Cheapen Yavimaya Sojourner via Domain",
+        "Grow Briar Hydra with combat damage"
+      ],
+      "cards": [
+        {
+          "title": "Floriferous Vinewall",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sunbathing Rootwalla",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Nishoba Brawler",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Briar Hydra",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Magnigoth Sentry",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Territorial Maro",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Yavimaya Sojourner",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gaea's Might",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Bite Down ",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Slimefoot's Survey",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "The Weatherseed Treaty",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Tangled Islet",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Wooded Ridgeline",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Radiant Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Haunted Mire",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 4
+        },
+        {
+          "title": "Random Green rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    }
+  ]
+}

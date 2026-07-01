@@ -1,0 +1,896 @@
+{
+  "series": "Phyrexia: All Will Be One Jumpstart",
+  "themeCount": 10,
+  "decks": [
+    {
+      "theme": "Mite-y 1",
+      "color": "white",
+      "description": "This white deck goes wide with cheap Phyrexian Mite tokens and pushes poison damage through toxic creatures. Mite Overseer pumps every token you control with +1/+0 and first strike during your turn, so tokens from Basilica Shepherd, Charge of the Mites, and Infested Fleshcutter's attack trigger all swing as efficient first-strikers. Infested Fleshcutter is a key engine piece: equip it to any creature and every attack spawns another 1/1 toxic Mite token, snowballing your board and poison clock simultaneously. Sinew Dancer's Corrupted ability turns into a repeatable tapper once an opponent hits three poison counters, letting you lock down blockers turn after turn while Porcelain Zealot pumps your best toxic attacker even harder before combat. Removal like Planar Disruption and Vanish into Eternity clears blockers so your token swarm and toxic creatures can connect.",
+      "playstyle": [
+        "Poison aggro",
+        "Go-wide tokens",
+        "White weenie"
+      ],
+      "tips": [
+        "Equip Infested Fleshcutter for token snowball",
+        "Attack each turn for Mite Overseer buff",
+        "Use Sinew Dancer to lock blockers post-Corrupted",
+        "Pump toxic creatures with Porcelain Zealot",
+        "Clear key blockers with exile removal"
+      ],
+      "cards": [
+        {
+          "title": "Mite Overseer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bladed Ambassador",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sinew Dancer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Duelist of Deep Faith",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Basilica Shepherd",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Annex Sentry",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Porcelain Zealot",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Planar Disruption",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Charge of the Mites",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Vanish into Eternity",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Infested Fleshcutter",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        },
+        {
+          "title": "The Fair Basilica",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Random White rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Mite-y 2",
+      "color": "white",
+      "description": "A leaner white poison-and-tokens deck built around toxic creatures and combat tricks that reward having toxic on the buffed creature. Compleat Devotion and Porcelain Zealot both scale their bonus specifically when the target has toxic, turning creatures like Duelist of Deep Faith or Crawling Chorus into bigger threats than a vanilla pump would suggest, and Compleat Devotion additionally cantrips into a card when it hits a toxic creature. Mandible Justiciar grows whenever another artifact enters, so casting Mite Overseer's token-making ability or dropping Bladed Ambassador's related artifacts triggers repeated pump. Crawling Chorus dying replaces itself with a Mite token, keeping the toxic pressure alive even through removal, while Zealot's Conviction and Apostle of Invasion get considerably stronger once the opponent is Corrupted (three or more poison counters), turning the back half of the game into fast, hard-to-block damage.",
+      "playstyle": [
+        "Poison aggro",
+        "Toxic value",
+        "Aura/pump synergy"
+      ],
+      "tips": [
+        "Target toxic creatures with pump spells",
+        "Trigger Mandible Justiciar with artifacts",
+        "Let Crawling Chorus die into a Mite",
+        "Push for three poison counters",
+        "Cast Zealot's Conviction post-Corrupted"
+      ],
+      "cards": [
+        {
+          "title": "Mite Overseer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bladed Ambassador",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Crawling Chorus",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mandible Justiciar",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Duelist of Deep Faith",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Porcelain Zealot",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Apostle of Invasion",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Zealot's Conviction",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Ossification",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Compleat Devotion",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Vanish into Eternity",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        },
+        {
+          "title": "The Fair Basilica",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Random White rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Progress 1",
+      "color": "blue",
+      "description": "A blue tempo-value deck centered on oil counters and proliferate, aiming to bounce or tap down blockers while quietly generating card advantage. Serum Sovereign and Ichor Synthesizer both accrue oil counters whenever you cast a noncreature spell, letting your cheap draw/bounce spells like Serum Snare and Distorted Curiosity double as fuel for Serum Sovereign's repeatable card-draw-and-scry activation and Ichor Synthesizer's unblockable growth. Glistener Seer and Tamiyo's Immobilizer come preloaded with oil counters that convert directly into scry or tap effects, and Mesmerizing Dose taps a creature down then proliferates, adding an extra oil counter to your own permanents while locking the opponent's blocker. Thrummingbird backs this up by proliferating every time it connects in the air, spreading extra oil counters across the board and pushing Ichor Synthesizer and Serum Sovereign toward their payoff thresholds faster.",
+      "playstyle": [
+        "Tempo control",
+        "Oil counters",
+        "Card advantage"
+      ],
+      "tips": [
+        "Cast noncreature spells to fuel oil counters",
+        "Attack with Thrummingbird to proliferate",
+        "Tap blockers with Mesmerizing Dose then proliferate",
+        "Use Distorted Curiosity once opponent is Corrupted",
+        "Convert oil counters into scry/draws"
+      ],
+      "cards": [
+        {
+          "title": "Serum Sovereign",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Thrummingbird",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Glistener Seer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ichor Synthesizer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Chrome Prowler",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Meldweb Curator",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Quicksilver Fisher",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mesmerizing Dose",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Serum Snare",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Tamiyo's Immobilizer",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Distorted Curiosity",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "The Surgical Bay",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        },
+        {
+          "title": "Random Blue rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Progress 2",
+      "color": "blue",
+      "description": "Another blue oil-counter deck, but more control-leaning with a real counterspell and bounce-based tempo plays. Bring the Ending is a soft counter that becomes a hard counter once the opponent is Corrupted with three or more poison counters, so early proliferate effects from Thrummingbird and Experimental Augury matter beyond just card selection. Trawler Drake and Atmosphere Surgeon both grow off oil counters gained whenever you cast noncreature spells, with Atmosphere Surgeon converting those counters into granting flying to push through damage. Surgical Skullbomb offers a flexible two-mode artifact, either cracking for a cantrip or bouncing a blocker while replacing itself, and Mesmerizing Dose again locks down a creature while proliferating your existing oil and poison counters, tightening the loop between tempo plays and Corrupted payoffs like Bring the Ending and Distorted Curiosity's cost reduction.",
+      "playstyle": [
+        "Tempo control",
+        "Oil counters",
+        "Soft counterspells"
+      ],
+      "tips": [
+        "Hold Bring the Ending for Corrupted lock",
+        "Feed Trawler Drake with noncreature spells",
+        "Use Atmosphere Surgeon to push flying damage",
+        "Bounce blockers with Surgical Skullbomb",
+        "Proliferate to reach Corrupted thresholds"
+      ],
+      "cards": [
+        {
+          "title": "Serum Sovereign",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Thrummingbird",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Chrome Prowler",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Atmosphere Surgeon",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Trawler Drake",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Myr Custodian",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Experimental Augury",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Bring the Ending",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Mesmerizing Dose",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Distorted Curiosity",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Surgical Skullbomb",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "The Surgical Bay",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        },
+        {
+          "title": "Random Blue rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Corruption 1",
+      "color": "black",
+      "description": "A black toxic/attrition deck that turns creature deaths into value and recursion while pressuring the opponent with poison counters. Kinzu of the Bleak Coven is the centerpiece: whenever another nontoken creature you control dies, you can pay 2 life and exile it to make a 1/1 toxic copy, effectively upgrading any dying creature into a permanent poison threat. Testament Bearer's death trigger digs three cards deep for a card while binning the rest, and Nimraiser Paladin both deals two poison counters on hit and returns a cheap creature from the graveyard, feeding more bodies back into Kinzu's engine. Removal like Annihilating Glare and Anoint with Affliction (which gets cheaper/better once the opponent is Corrupted) clears the way, while Feed the Infection punishes Corrupted opponents directly for extra life loss on top of card draw.",
+      "playstyle": [
+        "Poison aggro",
+        "Death-trigger value",
+        "Sacrifice/recursion"
+      ],
+      "tips": [
+        "Let creatures die into Kinzu copies",
+        "Recur creatures with Nimraiser Paladin",
+        "Hold removal for Corrupted discounts",
+        "Dig with Testament Bearer's death trigger",
+        "Push poison counters before Feed the Infection"
+      ],
+      "cards": [
+        {
+          "title": "Kinzu of the Bleak Coven",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bonepicker Skirge",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pestilent Syphoner",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Testament Bearer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ambulatory Edifice",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Nimraiser Paladin",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Annihilating Glare",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Drown in Ichor",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Feed the Infection",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Anoint with Affliction",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Dross Skullbomb",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "The Dross Pits",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        },
+        {
+          "title": "Random Black rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Corruption 2",
+      "color": "black",
+      "description": "A black toxic sacrifice deck that leans harder into death triggers and poison synergy than Corruption 1. Kinzu of the Bleak Coven again turns dying nontoken creatures into 1/1 toxic copies, while Stinging Hivemaster's death trigger replaces itself with a toxic Mite token, and Necrogen Communion grants toxic 2 to an enchanted creature while returning it to the battlefield when it dies, effectively making that creature a recursive poison-dealing threat under Kinzu's engine too. Chittering Skitterling turns any artifact or creature you're willing to sacrifice into a card once the opponent is Corrupted, rewarding you for pushing poison counters early with Bilious Skulldweller's deathtouch/toxic body or Vraska's Fall forcing a sacrifice while adding a poison counter. Offer Immortality protects your key toxic threats from removal or lets them survive a fight, keeping the sacrifice/toxic loop running turn after turn.",
+      "playstyle": [
+        "Poison aggro",
+        "Sacrifice value",
+        "Death-trigger recursion"
+      ],
+      "tips": [
+        "Sac fodder into Kinzu for copies",
+        "Enchant creatures with Necrogen Communion for recursion",
+        "Sac for cards with Corrupted Skitterling",
+        "Force sacrifices with Vraska's Fall",
+        "Protect key threats with Offer Immortality"
+      ],
+      "cards": [
+        {
+          "title": "Kinzu of the Bleak Coven",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bonepicker Skirge",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Stinging Hivemaster",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Testament Bearer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bilious Skulldweller",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Chittering Skitterling",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Nimraiser Paladin",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Offer Immortality",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Vraska's Fall",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Infectious Inquiry",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Necrogen Communion",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "The Dross Pits",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        },
+        {
+          "title": "Random Black rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Rebellious 1",
+      "color": "red",
+      "description": "A red Equipment-aggro deck that builds a threat, arms it, and swings for reach damage. Barbed Batterfist, Vulshok Splitter, and Hexgold Halberd all have For Mirrodin!, creating a 2/2 Rebel token and immediately attaching themselves for free value, quickly assembling a well-equipped attacker even from an empty board. Rhuk, Hexgold Nabber is the payoff: whenever another equipped creature you control attacks or dies, you may move all its Equipment onto Rhuk, letting you consolidate multiple weapons onto a hasty trampler even after a creature trades away, effectively making your Equipment nearly unkillable as a value source. Rebel Salvo's affinity for Equipment makes it cheap to cast in this deck and deals a big chunk of direct removal damage while stripping indestructible, and Furnace Punisher plus Volt Charge provide direct reach to close out games regardless of board state.",
+      "playstyle": [
+        "Equipment aggro",
+        "Voltron",
+        "Direct damage reach"
+      ],
+      "tips": [
+        "Equip For Mirrodin! tokens immediately",
+        "Move Equipment onto Rhuk when creatures die",
+        "Cast cheap Rebel Salvo off Equipment count",
+        "Use Furnace Punisher/Volt Charge to close games",
+        "Give haste via Furnace Strider's oil counters"
+      ],
+      "cards": [
+        {
+          "title": "Rhuk, Hexgold Nabber",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Furnace Punisher",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Chimney Rabble",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Furnace Strider",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Resistance Skywarden",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Free from Flesh",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Volt Charge",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Rebel Salvo",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Barbed Batterfist",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Vulshok Splitter",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Hexgold Halberd",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "The Autonomous Furnace",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        },
+        {
+          "title": "Random Red rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Rebellious 2",
+      "color": "red",
+      "description": "A red Equipment-affinity deck that discounts and buffs its way to a fast, hard-to-remove attacker. Bladegraft Aspirant makes Equipment spells cost less and cheapens activated abilities that target it, synergizing directly with Oxidda Finisher's affinity for Equipment to make that trampler cheap once a few Equipment are down. Barbed Batterfist, Vulshok Splitter, and Hexgold Halberd each trigger For Mirrodin! to generate a 2/2 Rebel token pre-equipped, quickly filling the board with cheap bodies before Rhuk, Hexgold Nabber can gather all their Equipment onto itself whenever an equipped creature attacks or dies. Prosthetic Injector adds a toxic angle by granting +0/+2 and toxic 1 to whatever it's equipped to, and Hexgold Slash punishes toxic creatures on the opposing side for extra damage, while Molten Rebuke offers flexible removal that can also blow up problematic opposing Equipment.",
+      "playstyle": [
+        "Equipment aggro",
+        "Voltron",
+        "Affinity for Equipment"
+      ],
+      "tips": [
+        "Cheapen Equipment with Bladegraft Aspirant",
+        "Cast Oxidda Finisher off Equipment count",
+        "Consolidate gear onto Rhuk",
+        "Equip Prosthetic Injector for toxic damage",
+        "Save Molten Rebuke for Equipment or creatures"
+      ],
+      "cards": [
+        {
+          "title": "Rhuk, Hexgold Nabber",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Furnace Punisher",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bladegraft Aspirant",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Oxidda Finisher",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hexgold Slash",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Blazing Crescendo",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Molten Rebuke",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Barbed Batterfist",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Vulshok Splitter",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Prosthetic Injector",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Hexgold Halberd",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "The Autonomous Furnace",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        },
+        {
+          "title": "Random Red rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Toxic 1",
+      "color": "green",
+      "description": "A green toxic ramp/value deck that stacks high toxic values on a few key creatures and uses proliferate to accelerate poison counters. Paladin of Predation and Venomous Brutalizer hit hard with toxic 6 and toxic 3 respectively, and Venomous Brutalizer's optional {1}{G} proliferate on entry pushes existing poison counters further along immediately. Cankerbloom and Copper Longlegs both sacrifice for proliferate, giving you repeatable ways to spread poison and other counters even without combat damage, while Contagious Vorrac either finds a land or proliferates if it whiffs, smoothing your draws either way. Goliath Hatchery is the key payoff: once the opponent is Corrupted (three or more poison counters), its upkeep trigger lets you draw cards equal to a chosen creature's total toxic value, so parking a high-toxic creature like Paladin of Predation on the battlefield can refill your hand every turn while Phyrexian Atlas's Corrupted ability chips away at opposing life as a bonus.",
+      "playstyle": [
+        "Poison ramp",
+        "Proliferate value",
+        "Toxic beatdown"
+      ],
+      "tips": [
+        "Sac Cankerbloom/Longlegs to proliferate",
+        "Proliferate off Venomous Brutalizer's ETB",
+        "Keep high-toxic creatures alive for Goliath Hatchery",
+        "Use Contagious Vorrac to smooth draws",
+        "Land Titanic Growth/Infectious Bite for reach"
+      ],
+      "cards": [
+        {
+          "title": "Cankerbloom",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Copper Longlegs",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Branchblight Stalker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Contagious Vorrac",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Venomous Brutalizer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Paladin of Predation",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ichorspit Basilisk",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Titanic Growth",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Infectious Bite",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Phyrexian Atlas",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Goliath Hatchery",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "The Hunter Maze",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        },
+        {
+          "title": "Random Green rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Toxic 2",
+      "color": "green",
+      "description": "A green toxic midrange deck that protects its poison threats with hexproof/indestructible effects and grinds value from Corrupted triggers. Goliath Hatchery again rewards reaching three or more opponent poison counters by letting you draw cards equal to a chosen creature's toxic value on your upkeep, making Paladin of Predation's toxic 6 or the 3/3 toxic Beast tokens from Viral Spawning prime targets to keep alive. Tyvar's Stand and Maze's Mantle both protect key toxic attackers: Tyvar's Stand grants hexproof and indestructible outright, while Maze's Mantle's flash Aura gives hexproof specifically to toxic creatures on top of a +2/+2 boost, letting you push through combat tricks or removal safely. Viral Spawning doubles as a late-game recursive threat since it gains flashback once the opponent is Corrupted, letting you rebuild your Beast token board from the graveyard, while Lattice-Blade Mantis and Rustvine Cultivator's oil-counter abilities offer repeatable utility (untapping itself or your lands) to keep the toxic pressure and mana flowing.",
+      "playstyle": [
+        "Poison midrange",
+        "Toxic beatdown",
+        "Protection tricks"
+      ],
+      "tips": [
+        "Protect toxic threats with Tyvar's Stand",
+        "Flash in Maze's Mantle for hexproof",
+        "Flashback Viral Spawning post-Corrupted",
+        "Keep big toxic creature for Goliath Hatchery draw",
+        "Untap lands with Rustvine Cultivator oil"
+      ],
+      "cards": [
+        {
+          "title": "Cankerbloom ",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rustvine Cultivator",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Branchblight Stalker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Contagious Vorrac",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Lattice-Blade Mantis",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Paladin of Predation",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ruthless Predation",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Viral Spawning",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Tyvar's Stand",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Goliath Hatchery",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Maze's Mantle",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "The Hunter Maze",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        },
+        {
+          "title": "Random Green rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    }
+  ]
+}

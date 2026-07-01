@@ -5,7 +5,19 @@
     {
       "theme": "Courageous 1",
       "color": "white",
-      "description": "Small Hobbit creatures with protective instants and removal effects. The deck focuses on weenie creatures and combat tricks.",
+      "description": "This is a mono-white Halfling/Food value deck built around Saradoc, Master of Buckland, whose ability to spit out 1/1 Halfling tokens whenever a small creature enters synergizes directly with Rosie Cotton of South Lane, which puts a +1/+1 counter on a creature every time any token is created. Bill the Pony adds two Food tokens (also triggering Rosie Cotton) and lets you sacrifice Food to make a creature deal damage equal to its toughness, which pairs well with counter-laden bodies. Samwise the Stouthearted flashes in to rebuy a permanent that died this turn while tempting you with the Ring, and Slip On the Ring gives a flicker effect that can reset ETBs like Rosie Cotton's Food generation or Errand-Rider's card draw. The overall plan is to go wide with small, cheap Halflings, snowball counters off of token generation, and grind out incremental value and lifegain from Food while using tricks like Escape from Orthanc and Fog on the Barrow-Downs to swing combat.",
+      "playstyle": [
+        "Go-wide tokens",
+        "Counter synergy",
+        "Value grind"
+      ],
+      "tips": [
+        "Play Rosie Cotton early for counters",
+        "Flicker with Slip On the Ring for ETBs",
+        "Chain small creatures into Saradoc tokens",
+        "Sac Food with Bill the Pony to punch through",
+        "Use Samwise to rebuy dead permanents"
+      ],
       "cards": [
         {
           "title": "Saradoc, Master of Buckland",
@@ -66,13 +78,30 @@
           "title": "Plains",
           "type": "Lands",
           "qty": 8
+        },
+        {
+          "title": "Random White rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Courageous 2",
       "color": "white",
-      "description": "Small Hobbit creatures backed by instant-speed tricks and removal. This deck applies early pressure with efficient creatures and combat tricks.",
+      "description": "Like its counterpart, this mono-white deck centers on Saradoc, Master of Buckland generating Halfling tokens off small creatures, while Rosie Cotton of South Lane converts every token creation into a permanent +1/+1 counter, meaning Bill the Pony's two Foods or Eastfarthing Farmer's single Food each also trigger a counter from Rosie. Eastfarthing Farmer doubles up by pumping a creature based on total Food count the moment it enters, and Bill the Pony's Food-sac ability turns any buffed creature into a toughness-based attacker, letting big counters translate directly into damage. Nimble Hobbit taps down blockers on attack by sacrificing Food or paying mana, keeping combat math in your favor, while Reprieve and Hobbit's Sting provide cheap interaction that scales off your board and Food count. This deck wants to flood the board with small bodies and Food, stack counters via Rosie Cotton, and close games with evasive or tapped-down attackers.",
+      "playstyle": [
+        "Go-wide tokens",
+        "Counter synergy",
+        "Tempo tricks"
+      ],
+      "tips": [
+        "Trigger Rosie Cotton with every token",
+        "Stack Food before Eastfarthing Farmer",
+        "Tap blockers with Nimble Hobbit",
+        "Scale Hobbit's Sting with board width",
+        "Sac Food to finish with Bill the Pony"
+      ],
       "cards": [
         {
           "title": "Saradoc, Master of Buckland",
@@ -133,13 +162,30 @@
           "title": "Plains",
           "type": "Lands",
           "qty": 8
+        },
+        {
+          "title": "Random White rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Tricksy 1",
       "color": "blue",
-      "description": "Blue-based flyers with evasion and card advantage through draw spells. This deck plays flying creatures and group control effects.",
+      "description": "This mono-blue deck is built entirely around the scry mechanic feeding multiple payoffs: Elvish Mariner taps down opposing permanents equal to cards scried, Nimrodel Watcher becomes an unblockable attacker whenever you scry, Elrond, Lord of Rivendell scries on every creature entering and tempts the Ring on a second trigger in a turn, and Willow-Wind's ETB scry 2 alone can tap two permanents via Elvish Mariner while also making Nimrodel Watcher unblockable. Council's Deliberation lets you loot itself back from the graveyard into a fresh draw once you scry with an Island in play, and Arwen's Gift and Horses of the Bruinen both scry while restocking your hand or bouncing threats. Meneldor, Swift Savior offers a blink outlet on combat damage to reset ETB scry triggers. The deck's core gameplan is to chain repeated small scry triggers into tempo swings (tapping down blockers or attackers) and card selection rather than raw board presence.",
+      "playstyle": [
+        "Scry synergy",
+        "Tempo control",
+        "Card selection"
+      ],
+      "tips": [
+        "Chain scry triggers for tempo",
+        "Use Elvish Mariner to tap blockers",
+        "Attack with unblockable Nimrodel Watcher",
+        "Blink Meneldor to reset ETBs",
+        "Hold up Glorious Gale for legendaries"
+      ],
       "cards": [
         {
           "title": "Elvish Mariner",
@@ -200,13 +246,30 @@
           "title": "Island",
           "type": "Land",
           "qty": 8
+        },
+        {
+          "title": "Random Blue rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Tricksy 2",
       "color": "blue",
-      "description": "Flying creatures with control elements and lockdown abilities via Saruman and control spells. The deck uses evasion and disruption to control the game.",
+      "description": "This mono-blue deck shares the scry-matters core with its counterpart—Elvish Mariner taps nonland permanents equal to cards scried, Nimrodel Watcher turns unblockable off any scry, Elrond, Lord of Rivendell scries on every creature ETB and doubles into a Ring temptation—but adds an amass Orc subtheme through Saruman the White, who amasses Orcs 2 whenever you cast your second spell in a turn, and Saruman's Trickery, a counterspell that also amasses Orcs 1. This lets the deck build a growing Army body alongside its tempo plays, using Willow-Wind and Arwen's Gift for extra scry fuel and Horses of the Bruinen to bounce threats while scrying. The plan is to control the board with counterspells and taps from scry triggers early, then close with an amassed Army creature and an unblockable Nimrodel Watcher chipping in.",
+      "playstyle": [
+        "Scry synergy",
+        "Amass value",
+        "Tempo control"
+      ],
+      "tips": [
+        "Fire two spells a turn for Saruman",
+        "Use scry to tap down threats",
+        "Keep Nimrodel Watcher unblockable",
+        "Counter key spells with Saruman's Trickery",
+        "Grow your Army with amass triggers"
+      ],
       "cards": [
         {
           "title": "Elvish Mariner",
@@ -267,13 +330,30 @@
           "title": "Island",
           "type": "Land",
           "qty": 8
+        },
+        {
+          "title": "Random Blue rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Mordor 1",
       "color": "black",
-      "description": "Sacrifice-focused black creatures with creature removal and direct damage effects. The deck values creatures for sacrifice outlets and discard themes.",
+      "description": "This mono-black deck leans hard into the Ring-tempts-you mechanic and sacrifice synergies. Nazgûl puts a +1/+1 counter on each Wraith you control whenever the Ring tempts you, and with cards like Uruk-hai Berserker, Claim the Precious, and Gollum's Bite all tempting the Ring independently, Wraiths such as Ringwraiths and Nazgûl itself grow quickly; Ringwraiths also returns itself from the graveyard to hand the moment the Ring tempts you, letting it recur as a repeatable -3/-3 removal engine. Gollum, Patient Plotter can be sacrificed and rebought by sacrificing another creature, feeding both Cirith Ungol Patrol's sac-to-draw ability and Nasty End's sacrifice-for-cards spell, which draws three cards instead of two if the sacrificed creature was legendary. The deck's plan is to trade removal and sacrifice fodder for card advantage and Ring temptations, growing its Wraith and Orc Army bodies into inevitable late-game threats.",
+      "playstyle": [
+        "Sacrifice value",
+        "Ring tempts synergy",
+        "Attrition/control"
+      ],
+      "tips": [
+        "Chain Ring temptations for counters",
+        "Sac legendaries into Nasty End",
+        "Recur Ringwraiths from graveyard",
+        "Feed Gollum sacrifices for repeat value",
+        "Grow Nazgûl off every temptation"
+      ],
       "cards": [
         {
           "title": "Ringwraiths",
@@ -334,13 +414,30 @@
           "title": "Swamp",
           "type": "Land",
           "qty": 8
+        },
+        {
+          "title": "Random Black rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Mordor 2",
       "color": "black",
-      "description": "Black creatures with removal spells and sacrifice synergies. The deck uses creature destruction and evasion through sacrifice outlets.",
+      "description": "This mono-black sacrifice deck again uses the Ring-tempts-you mechanic and heavy removal, but shifts more into an aristocrats shell: Gríma Wormtongue can sacrifice another creature to drain a life, amassing Orcs 2 extra if that creature was legendary, while Cirith Ungol Patrol sacrifices creatures to draw cards and make Food, and Gollum, Patient Plotter can be bought back from the graveyard by sacrificing a creature, feeding both of those engines and triggering another Ring temptation on its own exit from the battlefield. Ringwraiths returns itself to hand whenever the Ring tempts you, letting you recast its -3/-3 removal ETB repeatedly, and cheap removal like Bitter Downfall and Lash of the Balrog (which can also be paid for with a sacrifice) clears blockers to enable the sacrifice engine. Dunland Crebain and Mordor Muster keep amassing the Orc Army, giving the deck a growing threat to close games once the sacrifice value has ground the opponent down.",
+      "playstyle": [
+        "Sacrifice value",
+        "Ring tempts synergy",
+        "Attrition/control"
+      ],
+      "tips": [
+        "Sac legendaries to Gríma for extra Orcs",
+        "Recur Gollum via sacrifice",
+        "Rebuy Ringwraiths off Ring temptations",
+        "Feed Cirith Ungol Patrol for card draw",
+        "Amass Orcs to close the game"
+      ],
       "cards": [
         {
           "title": "Ringwraiths",
@@ -401,13 +498,30 @@
           "title": "Swamp",
           "type": "Land",
           "qty": 8
+        },
+        {
+          "title": "Random Black rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Marauders 1",
       "color": "red",
-      "description": "Aggressive red creatures with multiple sorcery-based damage and board clears. This deck focuses on creature-heavy aggro with burn spells.",
+      "description": "This mono-red Goblin/Orc aggro deck is built around the amass mechanic and burn payoffs, using Grishnákh, Brash Instigator to amass Orcs 2 on entry and then steal a nonlegendary blocker with power at or below the amassed Army's power, granting it haste to swing right back. Foray of Orcs and Swarming of Moria both amass while also either dealing damage or ramping with a Treasure, feeding Assault on Osgiliath, which gives all Goblins and Orcs (including the Army token) double strike and haste for an explosive alpha strike. Gimli, Counter of Kills pings opponents for 1 whenever any of their creatures dies, turning removal spells like Fear, Fire, Foes! into extra reach, while Erebor Flamesmith burns opponents every time you cast an instant or sorcery, rewarding the deck's spell-heavy burn suite. The gameplan is to amass an Army, steal or kill blockers, and finish with a hasty double-strike swarm.",
+      "playstyle": [
+        "Amass aggro",
+        "Go-wide burn",
+        "Tempo steal"
+      ],
+      "tips": [
+        "Amass early to build the Army",
+        "Steal blockers with Grishnákh",
+        "Alpha strike with Assault on Osgiliath",
+        "Ping opponents via Gimli's trigger",
+        "Chain spells to trigger Erebor Flamesmith"
+      ],
       "cards": [
         {
           "title": "Battle-Scarred Goblin",
@@ -468,13 +582,30 @@
           "title": "Mountain",
           "type": "Land",
           "qty": 8
+        },
+        {
+          "title": "Random Red rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Marauders 2",
       "color": "red",
-      "description": "Red aggressive creatures backed by damage spells and creature removal. The deck plays fast creatures with direct damage effects.",
+      "description": "This mono-red Goblin/Orc aggro deck again leans on the amass mechanic, with Grishnákh, Brash Instigator amassing Orcs 2 and temporarily stealing a small blocker with haste, and Foray of Orcs and Swarming of Moria both building the Army while adding damage or a Treasure for ramp. Assault on Osgiliath turns the whole Goblin/Orc board, Army included, into double strikers with haste for a lethal swing, and Rush the Room grants first strike (and haste if the target is a Goblin or Orc) to push through extra damage. Goblin Fireleaper can pump itself before trading into a bigger creature, dealing damage equal to its power when it dies, while Gimli, Counter of Kills and Erebor Flamesmith punish opponents further whenever their creatures die or you cast spells. The deck wants to curve out with cheap aggressive creatures, grow an Army via amass, and end games with a hasty double-strike alpha strike.",
+      "playstyle": [
+        "Amass aggro",
+        "Go-wide burn",
+        "Tempo steal"
+      ],
+      "tips": [
+        "Amass to grow your Army",
+        "Steal blockers with Grishnákh",
+        "Pump Goblin Fireleaper before it dies",
+        "Swing wide with Assault on Osgiliath",
+        "Punish deaths via Gimli's trigger"
+      ],
       "cards": [
         {
           "title": "Erebor Flamesmith",
@@ -535,13 +666,30 @@
           "title": "Mountain",
           "type": "Land",
           "qty": 8
+        },
+        {
+          "title": "Random Red rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Journey 1",
       "color": "green",
-      "description": "Green creatures with toughness focus and Ent synergies, featuring large creatures and ramp. The deck plays big creatures and regeneration effects.",
+      "description": "This mono-green Halfling/Food ramp-value deck ties Food generation into land ramp and combat pumps: Elanor Gardner searches a basic land onto the battlefield if you sacrificed a Food that turn, meaning Brandywine Farmer's Food (made on entering or leaving) or Meriadoc Brandybuck's Food (made whenever Halflings attack) can be cashed in to fuel Elanor's land search. Quickbeam, Upstart Ent hands out +2/+2 and trample to up to two creatures whenever a Treefolk enters, and Ent's Fury lets a big creature both grow a counter and fight an opposing blocker. Mirkwood Spider grants deathtouch to a legendary creature on attack, turning any legendary threat into a must-answer blocker-killer, while Bombadil's Song and Gift of Strands add hexproof or a scry-fueled +3/+3 buff to protect your key creatures. The deck's plan is to steadily ramp lands off Food sacrifice, pump wide with Quickbeam and combat tricks, and grind through combat using deathtouch and toughness-boosted fights.",
+      "playstyle": [
+        "Ramp value",
+        "Food synergy",
+        "Combat tricks"
+      ],
+      "tips": [
+        "Sac Food to fuel Elanor's land search",
+        "Attack with Halflings for extra Food",
+        "Spread Quickbeam's buff to two creatures",
+        "Give a legendary deathtouch via Mirkwood Spider",
+        "Protect key threats with hexproof tricks"
+      ],
       "cards": [
         {
           "title": "Brandywine Farmer",
@@ -602,13 +750,30 @@
           "title": "Forest",
           "type": "Land",
           "qty": 8
+        },
+        {
+          "title": "Random Green rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Journey 2",
       "color": "green",
-      "description": "Green creatures including Ents and utility creatures with creature-focused instants and ramp. The deck plays mid-sized creatures with acceleration.",
+      "description": "This mono-green deck doubles down on Food generation as its central engine: Peregrin Took makes every token creation produce an additional Food, so Brandywine Farmer, Elanor Gardner, and Meriadoc Brandybuck's Halfling-attack trigger all flood extra Food, which can be cashed into Peregrin Took's own sacrifice-three-Foods-to-draw ability or into Elanor Gardner's land search off sacrificing Food. Stew the Coneys and Pippin's Bravery both let you sacrifice Food (or in Stew's case, simply create one) to push extra combat damage, while Quickbeam, Upstart Ent buffs two creatures with +2/+2 and trample whenever a Treefolk enters, and Galadhrim Bow flashes in to instantly beef up and untap a blocker or attacker. The deck's plan is to snowball Food tokens into card advantage, land ramp, and combat pumps, grinding value while occasionally punching through with trample-boosted or power-matched removal effects.",
+      "playstyle": [
+        "Food synergy",
+        "Ramp value",
+        "Grindy midrange"
+      ],
+      "tips": [
+        "Double Food output via Peregrin Took",
+        "Sac Foods to draw extra cards",
+        "Ramp lands off Food sacrifice",
+        "Buff two creatures with Quickbeam",
+        "Flash in Galadhrim Bow as a trick"
+      ],
       "cards": [
         {
           "title": "Brandywine Farmer",
@@ -669,13 +834,30 @@
           "title": "Forest",
           "type": "Land",
           "qty": 8
+        },
+        {
+          "title": "Random Green rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Mortals 1",
       "color": "white",
-      "description": "Human and Hobbit creatures with removal and artifact support. The deck plays various mid-size creatures with broad utility.",
+      "description": "This is a white value/tempo deck built around protecting and pumping a small creature core while chipping away with removal and combat tricks. Eagle of Deliverance drops an indestructible counter on a small-power creature (drawing a card if that creature is 2 power or less), which pairs nicely with cheap bodies like Eastfarthing Farmer or Took Reaper to guarantee a cantrip. Shire Shirriff lets you sacrifice a token (easily made from Eastfarthing Farmer's Food or Second Breakfast's Food) to exile an opposing creature for as long as Shirriff survives, essentially a removal spell stapled to a vigilance body. Éowyn, Lady of Rohan and Faramir, Field Commander both reward an aggressive, creature-dense battlefield: Éowyn hands out first strike/vigilance and cheapens equip costs (great with Barrow-Blade), while Faramir draws cards off creature deaths and turns Ring-tempting into Human Soldier tokens as long as someone else is the Ring-bearer. Removal like Banish from Edoras (cheaper on tapped creatures) and Fog on the Barrow-Downs neutralizes blockers or threats, letting your equipped, buffed creatures push through.",
+      "playstyle": [
+        "Value midrange",
+        "Equipment aggro",
+        "Token/sacrifice synergy"
+      ],
+      "tips": [
+        "Target small creatures with Eagle of Deliverance",
+        "Sac tokens to Shire Shirriff for removal",
+        "Equip Barrow-Blade cheaply via Éowyn",
+        "Attack after tapping down blockers with Banish from Edoras",
+        "Keep Ring-bearer off Faramir for tokens"
+      ],
       "cards": [
         {
           "title": "Eagle of Deliverance",
@@ -736,13 +918,30 @@
           "title": "Plains",
           "type": "Lands",
           "qty": 8
+        },
+        {
+          "title": "Random White rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Mortals 2",
       "color": "white",
-      "description": "Human and Hobbit creatures with instant-speed tricks and flying support through Eagles. The deck combines ground creatures with evasion.",
+      "description": "A white legendary-matters deck that leans on card advantage and blink/reanimation effects to grind out value. Errand-Rider of Gondor draws a card on entry but can mill itself back if you lack a legendary creature, so this deck wants legendaries like Faramir and Samwise on board to keep cards in hand. Samwise the Stouthearted flashes in to return a permanent that died this turn straight to your hand while triggering the Ring, synergizing with Took Reaper's death trigger and Faramir's death-triggered card draw. Slip On the Ring exiles and returns your own creature, re-triggering enter-the-battlefield effects like Eagle of Deliverance's indestructible counter or Errand-Rider's card draw, while also tempting the Ring again. Landroval, Horizon Witness grants flying to a non-flying attacker whenever you swing with multiple creatures, helping evasive damage get through, and Reprieve plus Banish from Edoras give you tempo and hard removal to control the board while you assemble your value engine.",
+      "playstyle": [
+        "Legendary value",
+        "Blink/ETB recursion",
+        "Ring-tempting"
+      ],
+      "tips": [
+        "Flash Samwise after a creature dies same turn",
+        "Blink creatures with Slip On the Ring for extra ETBs",
+        "Keep legendaries out to fuel Errand-Rider",
+        "Swing wide to grant flying via Landroval",
+        "Stack Ring temptations for Faramir tokens"
+      ],
       "cards": [
         {
           "title": "Eagle of Deliverance",
@@ -803,13 +1002,30 @@
           "title": "Plains",
           "type": "Lands",
           "qty": 8
+        },
+        {
+          "title": "Random White rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Cunning 1",
       "color": "blue",
-      "description": "Blue-based control creatures with enchantment support and evasion. The deck uses flying creatures and removal with creature utility.",
+      "description": "A blue card-draw/control deck that wants to flood the hand and turn that raw card advantage into stats and mana. Minas Tirith Garrison's power scales directly with cards in your hand, and its attack trigger lets you tap Humans to draw even more cards, feeding right back into its own power. Captain of Umbar loots, The Bath Song draws-then-discards twice before refilling your graveyard into your library and adding mana, and Arwen's Gift gets cheaper with legendary creatures while scrying and drawing two — all of this keeps your hand stuffed for Garrison and for Knights of Dol Amroth, which grows a +1/+1 counter every time you draw your second card in a turn. Ioreth of the Healing House can untap Garrison or other permanents to re-enable blocks or activated abilities, while Bewitching Leechcraft locks down a blocker by permanently taxing its untap step, and Glorious Gale/Horses of the Bruinen provide tempo and removal-adjacent answers along with extra Ring temptations.",
+      "playstyle": [
+        "Card-draw payoff",
+        "Control tempo",
+        "Hand-size scaling"
+      ],
+      "tips": [
+        "Hoard cards to pump Minas Tirith Garrison",
+        "Draw twice a turn for Knights of Dol Amroth counters",
+        "Tap Humans on attack to refill hand",
+        "Use Bewitching Leechcraft to strand blockers",
+        "Untap key permanents with Ioreth"
+      ],
       "cards": [
         {
           "title": "Minas Tirith Garrison",
@@ -870,13 +1086,30 @@
           "title": "Island ",
           "type": "Lands",
           "qty": 8
+        },
+        {
+          "title": "Random Blue rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Cunning 2",
       "color": "blue",
-      "description": "Blue control creatures with artifact support and enchantment effects. The deck plays creatures with disruption and card utility.",
+      "description": "Another blue hand-size and scry deck, this version doubles down on scrying to trigger repeatable payoffs and cheat down big spells. Elrond, Lord of Rivendell scries whenever any of your creatures enters, and the Ring tempts you if that happens twice in one turn, meshing with a deck full of small creatures and card draw. Minas Tirith Garrison again scales off hand size and lets you tap Humans on attack to draw extra cards, while Knights of Dol Amroth grows from drawing a second card each turn — both fueled by Captain of Umbar's loot and Lórien Revealed's straight three-card draw (or its Islandcycling mode when you need a land instead). Mirror of Galadriel gets cheaper for each legendary creature you control, turning it into a repeatable scry-and-draw engine in the late game, and Bill Ferny, Bree Swindler offers a unique combat trick that either nets a Treasure or bait-and-switches a Horse for three Treasures if blocked.",
+      "playstyle": [
+        "Scry payoffs",
+        "Card-draw payoff",
+        "Legendary synergy"
+      ],
+      "tips": [
+        "Land two ETB triggers in a turn for Elrond's Ring temptation",
+        "Loot with Captain of Umbar to hit second draws",
+        "Cheapen Mirror of Galadriel with legendaries",
+        "Bait blocks with Bill Ferny for Treasures",
+        "Keep hand full for Garrison's power"
+      ],
       "cards": [
         {
           "title": "Minas Tirith Garrison",
@@ -937,13 +1170,30 @@
           "title": "Island ",
           "type": "Land",
           "qty": 8
+        },
+        {
+          "title": "Random Blue rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Orcish 1",
       "color": "black",
-      "description": "Black aggressive creatures with removal spells and creature destruction. The deck focuses on fast creatures with sacrifice and removal synergies.",
+      "description": "A black Amass tribal deck that builds one big Orc Army token and protects it while draining life through token creation and sacrifice triggers. Warg Rider grants menace to all your Orcs/Goblins and amasses 2 every combat, quickly snowballing the shared Army; Dunland Crebain and Gothmog, Morgul Lieutenant also amass on entry, and Gothmog's static ability gives all your creature tokens (including the Army) deathtouch, making it a scary blocker or attacker. Mirkwood Bats punishes any token creation or sacrifice with 1 life loss to opponents, so every Amass trigger and every Gorbag of Minas Morgul sacrifice (which trades a damaged Orc for a card or Treasure) chips in extra damage. Orcish Medicine can save your Army with indestructible or push extra damage with lifelink, while Mordor Muster and Sam's Desperate Rescue smooth your draws and refill the yard, giving this deck steady incremental advantage on top of its growing Amass threat.",
+      "playstyle": [
+        "Amass tribal",
+        "Aristocrats-lite",
+        "Token drain"
+      ],
+      "tips": [
+        "Feed one Army token every Amass trigger",
+        "Trigger Mirkwood Bats off any token event",
+        "Sac Orcs to Gorbag after damage for value",
+        "Use Orcish Medicine to protect the Army",
+        "Deathtouch tokens via Gothmog make big blockers"
+      ],
       "cards": [
         {
           "title": "Warg Rider",
@@ -1004,13 +1254,30 @@
           "title": "Swamp ",
           "type": "Land",
           "qty": 8
+        },
+        {
+          "title": "Random Black rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Orcish 2",
       "color": "black",
-      "description": "Black creatures with evasion and artifact support for big threats. The deck plays creatures with removal and enchantment-based aggression.",
+      "description": "A black Amass sacrifice deck that turns creature deaths into card advantage and mana while still growing a central Army threat. Warg Rider and Dunland Crebain amass early, March from the Black Gate adds a passive amass trigger every time an Army attacks, and Mordor Trebuchet creates a temporary flying Construct attacker whenever you swing with Goblins/Orcs, adding extra unblockable-ish damage each combat. Nasty End and Lash of the Balrog both want fodder: Nasty End sacrifices a creature to draw two (three if it was legendary), and Lash of the Balrog can sacrifice a creature instead of paying {4} to destroy a target creature, turning your expendable Orc tokens into both removal and card draw. Gorbag of Minas Morgul lets damaged Orcs sacrifice themselves for a card or Treasure, and Voracious Fell Beast is a great disruption piece that forces an opposing sacrifice and nets you Food, keeping this deck's sacrifice theme working on both sides of the board.",
+      "playstyle": [
+        "Amass tribal",
+        "Sacrifice value",
+        "Removal-heavy"
+      ],
+      "tips": [
+        "Grow the Army every attack with March from the Black Gate",
+        "Sac legendaries to Nasty End for max cards",
+        "Use Lash of the Balrog as sac-fueled removal",
+        "Swing wide to trigger Mordor Trebuchet's flyer",
+        "Let Voracious Fell Beast strip a blocker on entry"
+      ],
       "cards": [
         {
           "title": "Warg Rider",
@@ -1071,13 +1338,30 @@
           "title": "Swamp ",
           "type": "Land",
           "qty": 8
+        },
+        {
+          "title": "Random Black rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Riders 1",
       "color": "red",
-      "description": "Red aggressive Rohirrim creatures with damage spells and haste/evasion effects. The deck focuses on creature-heavy aggro with combat boosts.",
+      "description": "A red-white Human aggro deck focused on hasty, wide attacks that keep refilling the board with Soldier tokens. Riders of the Mark gets cheaper for every Human you control, hits hard with trample and haste, and at end of turn bounces itself back to hand while creating a number of 1/1 Human Soldier tokens equal to its toughness, letting you recast it later for another wave of tokens. Erkenbrand, Lord of Westfold pumps the whole team +1/+0 every time he or another Human enters, so token generators like Rally at the Hornburg and Quarrel's End (which also loots a card) directly power up your attackers the same turn they hit the battlefield. Éomer of the Riddermark rewards having the biggest creature on board with more tokens, Gimli's Fury and Fear, Fire, Foes! provide finishing reach or sweeper-style removal, and Rising of the Day grants universal haste plus a boost to legendaries, letting you deploy your whole hand and swing immediately.",
+      "playstyle": [
+        "Human aggro",
+        "Go-wide tokens",
+        "Haste synergy"
+      ],
+      "tips": [
+        "Recast Riders of the Mark for repeat token waves",
+        "Trigger Erkenbrand's pump with token makers",
+        "Swing with everyone thanks to haste enablers",
+        "Keep the biggest creature for Éomer's token",
+        "Use Fear, Fire, Foes! to clear small blockers"
+      ],
       "cards": [
         {
           "title": "Riders of the Mark",
@@ -1138,13 +1422,30 @@
           "title": "Mountain",
           "type": "Land",
           "qty": 8
+        },
+        {
+          "title": "Random Red rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Riders 2",
       "color": "red",
-      "description": "Red creatures with artifact support and creature-focused combat tricks. The deck plays aggressive creatures with equipment and pump effects.",
+      "description": "Another red-white Human aggro build that leans harder into equipment and incremental team pumps to close games fast. Riders of the Mark again bounces itself after attacking to spit out Human Soldier tokens equal to its toughness, refueling the board for Erkenbrand, Lord of Westfold's +1/+0 trigger whenever a Human enters. Haradrim Spearmaster adds another +1/+0 buff each combat, and Book of Mazarbul's final chapter grants your whole team +1/+0 and menace for a turn, stacking with Gimli's Axe (+3/+0 and menace on legendary creatures) to punch through blockers. Rally at the Hornburg both makes tokens and grants Humans haste, letting fresh Soldiers swing the turn they're made, while Éomer of the Riddermark and Rohirrim Lancer add more evasive, incentivized attackers, and Fear, Fire, Foes! and Smite the Deathless serve as your removal to clear the way.",
+      "playstyle": [
+        "Human aggro",
+        "Equipment synergy",
+        "Go-wide tokens"
+      ],
+      "tips": [
+        "Rebuy Riders of the Mark for more tokens",
+        "Equip Gimli's Axe for menace",
+        "Time Book of Mazarbul's chapter III with an alpha strike",
+        "Give new tokens haste via Rally at the Hornburg",
+        "Stack +1/+0 triggers with Erkenbrand"
+      ],
       "cards": [
         {
           "title": "Riders of the Mark",
@@ -1205,13 +1506,30 @@
           "title": "Mountain",
           "type": "Land",
           "qty": 8
+        },
+        {
+          "title": "Random Red rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Elven 1",
       "color": "green",
-      "description": "Green creatures with flying elves and removal spells, featuring mid-size creatures and direct damage. The deck plays diverse creatures with board interaction.",
+      "description": "A green Elf tribal deck built entirely around scrying to fuel a cluster of counters-matter payoffs. Chance-Met Elves puts a +1/+1 counter on itself the first time you scry each turn, while Celeborn the Wise grows by the number of cards looked at whenever you scry (so double-scry effects like Galadhrim Guide's scry 2 or Lembas's scry 1 into a draw compound quickly), and Glorfindel, Dauntless Rescuer gets +1/+1 and a rider evasion effect every time you scry. Lothlórien Lookout and Celeborn himself scry whenever Elves attack, so simply swinging with your team keeps the whole engine running turn after turn. Mirkwood Channeler adds a big trample pump to any Elf based on Forest count, and Stew the Coneys acts as pseudo-removal by having one of your creatures fight an opponent's, all while Shower of Arrows cleans up fliers or artifacts/enchantments that would otherwise dodge your ground attackers.",
+      "playstyle": [
+        "Elf tribal",
+        "Scry payoffs",
+        "Counter buffs"
+      ],
+      "tips": [
+        "Attack with Elves to trigger scry chains",
+        "Stack scry-2 effects for Celeborn's growth",
+        "Land first scry for Chance-Met Elves counter",
+        "Fight down blockers with Stew the Coneys",
+        "Pump an Elf huge with Mirkwood Channeler"
+      ],
       "cards": [
         {
           "title": "Mirkwood Channeler",
@@ -1272,13 +1590,30 @@
           "title": "Forest",
           "type": "Land",
           "qty": 8
+        },
+        {
+          "title": "Random Green rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     },
     {
       "theme": "Elven 2",
       "color": "green",
-      "description": "Green creatures including Elves and Ents with creature synergies and ramp effects. The deck focuses on mid-sized creatures with artifact support.",
+      "description": "A green Elf/Treefolk hybrid deck that still centers on scrying as its core engine but adds a burst pump sub-theme from Ents. Chance-Met Elves and Celeborn the Wise both reward scrying (a counter for the former, temporary growth scaled to cards seen for the latter), fed by Galadhrim Guide's scry 2 and Lothlórien Lookout's attack-triggered scry, keeping the engine humming each combat. Quickbeam, Upstart Ent triggers whenever it or another Treefolk enters to give up to two creatures +2/+2 and trample, a strong finisher alongside Mirkwood Channeler's Forest-scaled trample pump on an Elf. Mirkwood Spider adds a combat trick angle by granting deathtouch to a legendary creature you control when it attacks, letting a legendary trade up against much bigger blockers, while Stew the Coneys again offers fight-based removal to clear the way for your buffed attackers.",
+      "playstyle": [
+        "Elf/Treefolk tribal",
+        "Scry payoffs",
+        "Counter/pump buffs"
+      ],
+      "tips": [
+        "Chain scry triggers for Celeborn's growth",
+        "Grow Chance-Met Elves on first scry",
+        "Buff two attackers with Quickbeam's ETB",
+        "Grant deathtouch via Mirkwood Spider to trade up",
+        "Fight removal with Stew the Coneys"
+      ],
       "cards": [
         {
           "title": "Mirkwood Channeler",
@@ -1339,6 +1674,11 @@
           "title": "Forest",
           "type": "Land",
           "qty": 8
+        },
+        {
+          "title": "Random Green rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
         }
       ]
     }

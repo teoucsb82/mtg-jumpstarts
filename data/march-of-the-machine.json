@@ -1,0 +1,846 @@
+{
+  "series": "March of the Machine Jumpstart",
+  "themeCount": 10,
+  "decks": [
+    {
+      "theme": "Brood 1",
+      "color": "white",
+      "description": "This white Phyrexian deck grinds out value through the incubate mechanic, turning nearly every creature that enters into an artifact-token engine that can later transform into a 0/0 that already carries +1/+1 counters. Essence of Orthodoxy and Norn's Inquisitor both trigger incubate 2 off Phyrexians entering, while Tiller of Flesh incubates whenever you cast a spell targeting a permanent, meaning cheap combat tricks like Angelic Intervention or removal like Cut Short double as token generators. Seedpod Caretaker directly plugs into this plan, letting you either buff an existing board piece or immediately transform an Incubator token into a body, smoothing out the awkward two-turn incubate clock. Alabaster Host Intercessor offers temporary exile removal, and Phyrexian Pegasus lets your ground threats fly in for the last points of damage. Overall the deck is a slow-building value pile that converts spellslinging and ETBs into a growing army of artifact creatures, closing games with evasive fliers and incidental removal rather than any single explosive combo.",
+      "playstyle": [
+        "Incubate value engine",
+        "Go-wide artifacts",
+        "White midrange"
+      ],
+      "tips": [
+        "Target your own stuff with spells",
+        "Trigger incubate off ETBs",
+        "Use Seedpod Caretaker to flip tokens",
+        "Save Pegasus to push flying damage",
+        "Exile blockers with Intercessor"
+      ],
+      "cards": [
+        {
+          "title": "Essence of Orthodoxy",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Norn's Inquisitor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Phyrexian Pegasus",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Alabaster Host Sanctifier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Infected Defector",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Alabaster Host Intercessor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Seedpod Caretaker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tiller of Flesh",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sunder the Gateway",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Angelic Intervention",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Cut Short",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random White or colorless rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Brood 2",
+      "color": "white",
+      "description": "A near-mirror of the other white Phyrexian brood build, this deck leans on the same incubate core — Essence of Orthodoxy and Tiller of Flesh both spin up Incubator tokens off Phyrexians entering or targeted spells — but swaps in more combat-boosting tricks like Aerial Boost and Inspired Charge to close games once the incubated army is online. Seedpod Caretaker again serves as the flexible piece that either counters up a creature or flips an Incubator token into an immediate body, while Seal from Existence provides a Ward-protected pseudo-removal spell that can lock down a problematic opponent permanent. The overall plan is patient board development through incremental token generation followed by a wide alpha strike buffed by team-wide pump spells, rather than any single hard combo.",
+      "playstyle": [
+        "Incubate value engine",
+        "Go-wide artifacts",
+        "White aggro-midrange"
+      ],
+      "tips": [
+        "Flip Incubators with Seedpod Caretaker",
+        "Time Inspired Charge for lethal swings",
+        "Protect key permanent with Seal from Existence",
+        "Use flying tricks to close",
+        "Chain ETBs for extra incubates"
+      ],
+      "cards": [
+        {
+          "title": "Essence of Orthodoxy",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Phyrexian Pegasus",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Seedpod Caretaker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Norn's Inquisitor ",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Alabaster Host Sanctifier ",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Infected Defector",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Alabaster Host Intercessor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tiller of Flesh",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Aerial Boost",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Inspired Charge",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Seal from Existence",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random White or colorless rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Overachiever 1",
+      "color": "blue",
+      "description": "This mono-blue tempo deck is built around convoke creatures and bounce/tap effects that repeatedly reset the board while chipping in with evasive attackers. Nearly every spell — Thunderhead Squadron, Referee Squad, Interdisciplinary Mascot, Temporal Cleansing, and Meeting of Minds — carries convoke, so tapping down your own creatures to cast a bounce or draw spell is completely normal here, letting you deploy threats and answers on the same turn. Tidal Terror rewards having extra bodies by tapping two other creatures to become unblockable, while Zephyr Winder's combat damage trigger lets you untap a creature you just tapped for convoke or blocking, effectively getting double duty out of your board. Referee Squad and Temporal Cleansing act as pseudo-removal, tapping down or bouncing problem permanents to buy tempo, and Oracle of Tragedy's flexible enters/dies trigger smooths draws or refuels the graveyard-shuffle plan. The deck wants to out-tempo opponents with cheap evasive threats and disruption rather than grind for pure card advantage.",
+      "playstyle": [
+        "Blue tempo",
+        "Convoke value",
+        "Tap/bounce disruption"
+      ],
+      "tips": [
+        "Convoke to cast two spells a turn",
+        "Untap tapped creatures with Zephyr Winder",
+        "Use Tidal Terror for unblockable swings",
+        "Tap down blockers with Referee Squad",
+        "Bounce attackers cheaply with Ephara's Dispersal"
+      ],
+      "cards": [
+        {
+          "title": "Zephyr Winder",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Expedition Lookout",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Preening Champion",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Thunderhead Squadron",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tidal Terror",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Referee Squad",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Oracle of Tragedy",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Interdisciplinary Mascot",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Temporal Cleansing",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Ephara's Dispersal",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Meeting of Minds",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Blue or colorless rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Overachiever 2",
+      "color": "blue",
+      "description": "Another convoke-heavy blue tempo build, this version doubles down on tap-and-stun effects to shut down opposing blockers while its evasive fliers close the game. Wicked Slumber can tap and stun two creatures at once, and Referee Squad does the same to a single target on entry, together locking down multiple blockers for a turn or more so Tidal Terror and Thunderhead Squadron can get through unopposed. Xerex Strobe-Knight rewards the deck's naturally spell-dense turns (helped by convoke letting you cast more spells per turn) by tapping to mint a 2/2 Knight whenever you've cast two or more spells that turn. Astral Wingspan and Interdisciplinary Mascot smooth draws and buff a flier, while Zephyr Winder's untap trigger keeps convoked creatures ready to block or attack again. The overall gameplan is tempo-based board control: stun their creatures, swing with fliers and unblockables, and grind incremental card advantage.",
+      "playstyle": [
+        "Blue tempo",
+        "Stun/tap lockdown",
+        "Convoke value"
+      ],
+      "tips": [
+        "Cast two spells to flip Xerex online",
+        "Stack stun counters with Wicked Slumber",
+        "Convoke to develop and disrupt same turn",
+        "Untap attackers via Zephyr Winder",
+        "Push through with Tidal Terror"
+      ],
+      "cards": [
+        {
+          "title": "Zephyr Winder",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Expedition Lookout",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Xerex Strobe-Knight",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Thunderhead Squadron",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tidal Terror",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Referee Squad",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Oracle of Tragedy",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Interdisciplinary Mascot",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ephara's Dispersal",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Wicked Slumber",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Astral Wingspan",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Blue or colorless rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Expendable 1",
+      "color": "black",
+      "description": "This black sacrifice-and-recursion deck wants creatures to die repeatedly, converting each death into card selection, incubated tokens, or direct damage. Seer of Stolen Sight surveils whenever any of your creatures or artifacts hit the graveyard, so sacrifice outlets and combat losses all fuel it, and Gift of Compleation piggybacks on the same trigger condition by surveiling whenever a Phyrexian you control dies. Terror of Towashi turns the graveyard into a resource on offense, letting you pay to reanimate a creature (turning it into a Phyrexian) straight off an attack trigger, effectively refilling your board with recurring threats. Scorn-Blade Berserker can be sacrificed for a card once its counter is placed, feeding both the graveyard and the surveil triggers, while incubate cards like Gift of Compleation slowly build up extra artifact bodies in the background. The deck plays a long, attritional game, using cheap creatures and removal like Deadly Derision to trade efficiently while its sacrifice synergies keep the card advantage flowing.",
+      "playstyle": [
+        "Sacrifice value",
+        "Black attrition",
+        "Graveyard recursion"
+      ],
+      "tips": [
+        "Sac fodder to trigger Seer of Stolen Sight",
+        "Reanimate with Terror of Towashi attacks",
+        "Cash in Scorn-Blade Berserker for cards",
+        "Let Phyrexians die for extra surveil",
+        "Grind with efficient removal"
+      ],
+      "cards": [
+        {
+          "title": "Terror of Towashi",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Seer of Stolen Sight",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Injector Crocodile ",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Dreg Recycler ",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Etched Familiar ",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ichor Shade ",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Scorn-Blade Berserker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Final Flourish ",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Unseal the Necropolis ",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Deadly Derision ",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Gift of Compleation",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Black or colorless rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Expendable 2",
+      "color": "black",
+      "description": "This black sacrifice deck weaponizes creature deaths for both card advantage and direct life drain, with several pieces feeding off each other. Dreg Recycler is a repeatable sac outlet that drains 1 life each activation, and Compleated Huntmaster does the same for an incubated 3/3-in-waiting, meaning your artifacts and creatures are constantly convertible into tokens or damage. Corrupted Conviction demands a sacrifice to draw two cards, pairing perfectly with Etched Familiar (which drains 2 life on death) or Injector Crocodile (which incubates 3 on death), so you're never sacrificing a creature for nothing. Seer of Stolen Sight surveils off any of these deaths, and Gift of Compleation surveils specifically off dying Phyrexians, so the incubated tokens from Injector Crocodile, Compleated Huntmaster, and Gift of Compleation itself keep the surveil engine running. Terror of Towashi caps the plan by reanimating a creature from the graveyard on attack, letting your best sacrifice fodder come back for another cycle. The deck plays a grindy, attritional game where nearly every creature dying is upside rather than a loss.",
+      "playstyle": [
+        "Sacrifice value",
+        "Black attrition",
+        "Graveyard recursion"
+      ],
+      "tips": [
+        "Sac into Corrupted Conviction for cards",
+        "Chain deaths through Dreg Recycler",
+        "Let Injector Crocodile die for incubate",
+        "Reanimate best creature with Terror of Towashi",
+        "Surveil off every death"
+      ],
+      "cards": [
+        {
+          "title": "Terror of Towashi",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Injector Crocodile",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Seer of Stolen Sight",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Dreg Recycler",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Etched Familiar",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Scorn-Blade Berserker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Compleated Huntmaster",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Corrupted Conviction",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Deadly Derision",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Failed Conversion ",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Gift of Compleation",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Black or colorless rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Reinforcement 1",
+      "color": "red",
+      "description": "This red deck is built around backup and token-copying to snowball combat math extremely quickly. Orthion, Hero of Lavabrink can copy any creature you control as a hasty temporary token, letting you double up on your best attacker or ETB effect for a turn, while backup creatures like Fearless Skald, Redcap Heelslasher, and Cragsmasher Yeti each drop a permanent +1/+1 counter and grant a keyword (double strike, first strike, or trample respectively) to another creature when they enter. Axgard Artisan converts the first +1/+1 counter placed on it each turn into a free Treasure, so aiming backup triggers at Axgard Artisan itself generates ramp while still buffing a threat. Ral's Reinforcements adds bodies to copy with Orthion or hold up convoke costs, and burn spells like Stoke the Flames and Volcanic Spite close out the game once the board is stacked with counters and keywords.",
+      "playstyle": [
+        "Backup counters aggro",
+        "Red go-wide burn",
+        "Token copying"
+      ],
+      "tips": [
+        "Aim backup triggers at Axgard Artisan",
+        "Copy your best creature with Orthion",
+        "Stack keywords onto one big attacker",
+        "Use Treasures to power out burn",
+        "Finish with Stoke the Flames"
+      ],
+      "cards": [
+        {
+          "title": "Orthion, Hero of Lavabrink",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Axgard Artisan",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Cragsmasher Yeti",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fearless Skald",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Karsus Depthguard ",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hangar Scrounger ",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Redcap Heelslasher",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ral's Reinforcements",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Coming In Hot ",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Volcanic Spite ",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Stoke the Flames",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Red or colorless rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Reinforcement 2",
+      "color": "red",
+      "description": "A second take on the red backup/counters shell, this build leans even harder into keyword-granting ETBs and haste enablers to push through big alpha strikes. Backup creatures — Cragsmasher Yeti (trample), Redcap Heelslasher (first strike), Fearless Skald (double strike), and Hangar Scrounger (a rummage effect) — each place a permanent counter and hand off a temporary keyword, and Axgard Artisan again turns the first counter it receives each turn into a Treasure for extra mana. Trailblazing Historian and Orthion, Hero of Lavabrink both grant haste, the latter letting you copy an already-buffed creature for a surprise extra attacker, so a creature stacked with backup counters and keywords can hit immediately or be duplicated for a bigger swing. Karsus Depthguard's defender clause turns off once its power hits 5, meaning enough backup counters can flip it into an attacker on its own. Removal like Shatter the Source and Volcanic Spite, plus the flash-equip Mirran Banesplitter, round out the deck's ability to clear blockers before swinging with its counter-laden team.",
+      "playstyle": [
+        "Backup counters aggro",
+        "Red go-wide burn",
+        "Token copying"
+      ],
+      "tips": [
+        "Route backup counters to Axgard Artisan",
+        "Copy your buffed creature with Orthion",
+        "Grant haste for surprise swings",
+        "Push Karsus Depthguard past 5 power",
+        "Clear blockers with Volcanic Spite"
+      ],
+      "cards": [
+        {
+          "title": "Orthion, Hero of Lavabrink",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Axgard Artisan",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Cragsmasher Yeti",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Trailblazing Historian",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Karsus Depthguard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hangar Scrounger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Redcap Heelslasher",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fearless Skald",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mirran Banesplitter",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Volcanic Spite",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Shatter the Source",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Red or colorless rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Buff 1",
+      "color": "green",
+      "description": "This green counters deck centers on Surrak and Goreclaw, which gives every other creature trample and drops a +1/+1 counter plus haste onto each nontoken creature as it enters, turning every new arrival into an immediate attacker. Kami of Whispered Hopes multiplies that value further, since it adds an extra +1/+1 counter to any counter placement on your permanents, meaning every Surrak trigger, Ruins Recluse activation, or Fertilid's Favor resolution nets even more growth, and its mana ability scales with its own power for gigantic ramp. Fairgrounds Trumpeter passively grows itself any turn a counter was placed anywhere under your control, rewarding the deck's counter-heavy shell without needing direct investment. Placid Rottentail offers late-game value from the graveyard, exiling itself to drop two counters on a creature once it's died. The overall plan is to flood the board with counter-laden, hasty, trampling threats and simply overpower opponents in combat.",
+      "playstyle": [
+        "+1/+1 counters ramp",
+        "Green midrange",
+        "Trample beatdown"
+      ],
+      "tips": [
+        "Land Surrak early for haste value",
+        "Double counters via Kami of Whispered Hopes",
+        "Grow Fairgrounds Trumpeter passively",
+        "Recur counters with Placid Rottentail",
+        "Ramp off Kami's power-based mana"
+      ],
+      "cards": [
+        {
+          "title": "Surrak and Goreclaw",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fairgrounds Trumpeter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ruins Recluse",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Placid Rottentail",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wary Thespian",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Converter Beast ",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Timberland Ancient ",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kami of Whispered Hopes",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Arachnoid Adaptation ",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Cosmic Hunger ",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Fertilid's Favor",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Forests",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Green or colorless rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Buff 2",
+      "color": "green",
+      "description": "A variant of the Surrak counters shell, this deck keeps the core engine — Surrak and Goreclaw granting trample and a haste-enabled +1/+1 counter to every nontoken creature entering, and Kami of Whispered Hopes turning every counter placement into an extra bonus counter — while adding more incubate synergy through Converter Beast and Blighted Burgeoning, both of which drop sizable Incubator tokens that also benefit from Kami's counter-doubling once they flip. Tandem Takedown turns two of your buffed creatures into removal, pumping them and firing their power at an opposing target, which synergizes well with a board full of counter-laden bodies from Surrak and Kami. Arachnoid Adaptation doubles as a combat trick and untapper, letting a creature ambush block or swing back the same turn after already attacking. The deck's plan remains the same: stack counters as efficiently as possible and win with oversized, trampling attackers.",
+      "playstyle": [
+        "+1/+1 counters ramp",
+        "Green midrange",
+        "Trample beatdown"
+      ],
+      "tips": [
+        "Double counters via Kami of Whispered Hopes",
+        "Flip Incubators for bonus counter value",
+        "Use Tandem Takedown as removal",
+        "Untap with Arachnoid Adaptation",
+        "Let Surrak hand out haste"
+      ],
+      "cards": [
+        {
+          "title": "Surrak and Goreclaw",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fairgrounds Trumpeter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Placid Rottentail",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wary Thespian",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Converter Beast",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Timberland Ancient",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ruins Recluse",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kami of Whispered Hopes",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Arachnoid Adaptation",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Tandem Takedown",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Blighted Burgeoning",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Forests",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Green or colorless rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    }
+  ]
+}

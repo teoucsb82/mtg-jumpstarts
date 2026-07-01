@@ -5,7 +5,18 @@
     {
       "theme": "Aang",
       "color": "white",
-      "description": "A balanced creature-focused deck with light removal and bounce effects. Relies on small to medium creatures with one powerful legend and utility spells for value.",
+      "description": "This mono-white deck revolves around airbending — exiling nonland permanents (often your own creatures) so they can be recast cheaply for {2}, and Aang, Airbending Master converts that motion into free tokens. Since Aang's ability gives an experience counter whenever one or more of your creatures leave the battlefield without dying, and each upkeep you make a 1/1 Ally token per experience counter, repeatedly airbending your own creatures with Appa, Loyal Sky Bison or Airbending Lesson snowballs into a growing army of Allies. Cloudshift doubles as a blink to reset ETB triggers like Kindly Customer's card draw or Koala-Sheep's lifegain, while also feeding Aang's experience-counter engine since the creature leaves without dying. Momo, Rambunctious Rascal and Water Tribe Captain give the deck reach and a way to finish once the token army is wide, and Path to Redemption offers a slow-but-guaranteed answer to problem creatures.",
+      "playstyle": [
+        "Go-wide tokens",
+        "Blink/exile value",
+        "Airbending synergy"
+      ],
+      "tips": [
+        "Airbend your own creatures for value",
+        "Stack experience counters early",
+        "Blink ETB creatures with Cloudshift",
+        "Use Path to Redemption on threats you can't otherwise answer"
+      ],
       "cards": [
         {
           "title": "Aang, Airbending Master",
@@ -82,7 +93,18 @@
     {
       "theme": "Swordmaster",
       "color": "white",
-      "description": "This deck focuses on equipping creatures with weapons and utilizing combat-focused instants to win through efficient sword mastery and dueling abilities.",
+      "description": "This is a white Equipment-matters deck built around Sokka, Swordmaster, who discounts Equipment spells based on your Ally count and auto-attaches an Equipment to himself each combat. Master Piandao's attack trigger digs four cards deep for an Ally, Equipment, or Lesson, refueling the plan, while Kyoshi Battle Fan and Meteor Sword each generate immediate value on entry (a free Ally token, or an outright permanent destroyed) before sticking around as ongoing buffs once equipped. Trusty Boomerang gives repeatable tapping to control combat, and Duelist's Heritage can push an equipped, buffed creature into a lethal double-strike swing. The overall gameplan is to accumulate cheap Allies to discount Equipment, then load up Sokka or another creature with multiple pieces of gear for a big, hard-to-answer beater.",
+      "playstyle": [
+        "Equipment aggro",
+        "Value creatures",
+        "Counter-light beatdown"
+      ],
+      "tips": [
+        "Play Allies first to cheapen Equipment",
+        "Let Sokka auto-equip each combat",
+        "Meteor Sword doubles as removal",
+        "Combine Duelist's Heritage with equipped attacker for double strike"
+      ],
       "cards": [
         {
           "title": "Aardvark Sloth",
@@ -159,7 +181,18 @@
     {
       "theme": "Airbending",
       "color": "white",
-      "description": "A creature-focused deck with multiple flyers and evasive creatures, supported by enchantments that boost your board presence.",
+      "description": "A dedicated airbending toolbox deck where nearly every card interacts with exiling nonland permanents for a cheap {2} recast. Aang, the Last Airbender and Airbender's Reversal can airbend your own creatures to reset ETB effects or airbend an opponent's threat to buy tempo, while Monk Gyatso protects your creatures by airbending them away whenever they become a target. Airbender Ascension is the deck's engine: it accumulates quest counters whenever any creature enters, and once it hits four, it blinks one of your creatures at end step, letting you loop ETB value from cards like Jeong Jeong's Deserters (+1/+1 counter) or Koala-Sheep (3 life) repeatedly. Aang gains lifelink whenever you cast a Lesson spell like Airbending Lesson, turning a card-draw spell into a combat safety valve too.",
+      "playstyle": [
+        "Blink/exile value",
+        "ETB recursion",
+        "Tempo control"
+      ],
+      "tips": [
+        "Airbend your own ETB creatures for repeat value",
+        "Build up Airbender Ascension quest counters",
+        "Use Monk Gyatso to dodge removal",
+        "Cast Lessons to trigger Aang's lifelink"
+      ],
       "cards": [
         {
           "title": "Aang, the Last Airbender",
@@ -236,7 +269,18 @@
     {
       "theme": "Freedom Fighters",
       "color": "white",
-      "description": "Rebel-focused creatures with versatile instant responses and artifact support for mid-game combat flexibility.",
+      "description": "This white aggro deck leans on cheap Allies and combat tricks to push through damage quickly. Jet, Rebel Leader is the standout payoff, letting you cheat a 3-mana-or-less creature straight onto the battlefield tapped and attacking whenever he attacks, instantly adding extra pressure. The Duke, Rebel Sentry can shift his own +1/+1 counter onto another creature while granting it hexproof, protecting your best threat from removal at instant speed. Toucan-Puffin and Wandering Musicians provide combat-trick-style pump on entry or attack, and Valorous Stance flexibly protects a creature or answers a big blocker. The deck wants to keep curving out with bodies and use its pump effects to force through damage every turn rather than grind for long-term value.",
+      "playstyle": [
+        "Aggro tempo",
+        "Combat tricks",
+        "Go-wide Allies"
+      ],
+      "tips": [
+        "Attack with Jet to cheat extra bodies in",
+        "Use The Duke to protect key threats",
+        "Save Valorous Stance for removal or protection",
+        "Curve out with cheap Allies"
+      ],
       "cards": [
         {
           "title": "The Duke, Rebel Sentry",
@@ -313,7 +357,18 @@
     {
       "theme": "Warriors",
       "color": "white",
-      "description": "A creature-focused deck centered around warrior creatures with combat bonuses from enchantments and artifacts. Emphasizes tactical, aggressive gameplay with strong warrior synergies.",
+      "description": "This deck is a Warrior tribal aggro build anchored by Suki, Kyoshi Captain, who pumps other Warriors and can grant attacking Warriors double strike for {3}{W}, turning a wide combat into a blowout. Sokka, Lateral Strategist rewards attacking as a group by drawing a card whenever he and at least one other creature attack, incentivizing all-out swings rather than trading off single creatures. Team Avatar flips that plan on its head by rewarding a lone attacker with a scaling +X/+X buff based on your total board, giving the deck a flexible finisher whether it goes wide or narrow. Equipment like Kyoshi Battle Fan and pump spells such as Sokka's Sword Training and Valorous Stance round out the toolkit to push through or protect key attackers.",
+      "playstyle": [
+        "Warrior tribal aggro",
+        "Go-wide combat",
+        "Alpha-strike finisher"
+      ],
+      "tips": [
+        "Attack with multiple creatures to draw off Sokka",
+        "Use Suki's double strike for lethal swings",
+        "Team Avatar rewards a lone big attacker",
+        "Protect key Warriors with Valorous Stance"
+      ],
       "cards": [
         {
           "title": "Invasion Reinforcements",
@@ -390,7 +445,18 @@
     {
       "theme": "Hei Bai (1)",
       "color": "white",
-      "description": "A balanced deck with creature-focused gameplay, featuring Hei Bai as a key spirit card with versatile instants for flexibility and disruption.",
+      "description": "This is a sacrifice-value deck centered on Hei Bai, Spirit of Balance, which grows by two +1/+1 counters each time it enters or attacks if you sacrifice another creature or artifact, and passes those counters to another creature when it eventually dies. Suki, Courageous Rescuer rewards any permanent leaving the battlefield on your turn with a free 1/1 Ally token (once per turn), meshing naturally with sacrifice fodder like Pretending Poxbearers, which itself leaves behind a token when it dies. Aang, A Lot to Learn grows every time another creature you control dies, turning your sacrifice fodder into a scaling threat, while That's Rough Buddy doubles its +1/+1 counters and draws a card if a creature already left the battlefield that turn, rewarding sequencing sacrifices before casting it. The overall plan is to sacrifice small, replaceable bodies to fuel Hei Bai and Aang while restocking the board with Ally tokens.",
+      "playstyle": [
+        "Sacrifice value",
+        "Counters synergy",
+        "Grindy midrange"
+      ],
+      "tips": [
+        "Sac fodder into Hei Bai for counters",
+        "Sequence deaths before That's Rough Buddy",
+        "Let Suki refill the board",
+        "Feed Aang with creature deaths"
+      ],
       "cards": [
         {
           "title": "Aang, A Lot to Learn",
@@ -467,7 +533,18 @@
     {
       "theme": "Hei Bai (2)",
       "color": "white",
-      "description": "A creature-heavy deck centered on Hei Bai with a mix of utility creatures and a sorcery for removal, offering flexibility in play patterns.",
+      "description": "A tighter version of the sacrifice-and-counters plan, this deck again builds around Hei Bai, Spirit of Balance growing via sacrifice and transferring its counters to another creature on death, alongside Aang, A Lot to Learn who gains a +1/+1 counter whenever another creature you control dies. Suki, Courageous Rescuer converts any permanent leaving play on your turn into a 1/1 Ally token, and Curious Farm Animals doubles as both sac fodder (with lifegain on death) and situational artifact/enchantment removal. Destined Confrontation is a unique board-control tool here: it forces both players to keep only low-power creatures, which can wipe an opponent's bigger threats while your own sacrifice-fodder Allies and small creatures often survive the cut. That's Rough Buddy again rewards a creature having already died that turn with a doubled counter payoff plus a card.",
+      "playstyle": [
+        "Sacrifice value",
+        "Counters synergy",
+        "Asymmetric board wipe"
+      ],
+      "tips": [
+        "Time Destined Confrontation to blow out bigger boards",
+        "Sac fodder into Hei Bai first",
+        "Feed Aang and Suki with deaths",
+        "Cash in That's Rough Buddy after a death"
+      ],
       "cards": [
         {
           "title": "Aardvark Sloth",
@@ -542,9 +619,20 @@
       ]
     },
     {
-      "theme": "Gliding (1)",
+      "theme": "Gliding 1",
       "color": "white",
-      "description": "An evasive flying-focused deck with small creatures and flying support. Features creatures with flying abilities paired with instants and artifacts that enable aerial superiority.",
+      "description": "This deck is a flying tribal build where Momo, Friendly Flier discounts your first flying creature spell each turn and grows whenever another flyer enters, rewarding a curve stacked with evasive creatures like Air Nomad Student, Appa, Loyal Sky Bison, and Toucan-Puffin. Air Nomad Student quietly grows every turn it doesn't attack, letting it develop into a real threat if held back, while Appa can also grant flying to a grounded creature or airbend a permanent for a cheap {2} recast, giving the deck some airbending flexibility on top of its flying theme. Glider Staff both exiles a creature for later value and grants +1/+1 and flying when equipped, reinforcing the all-flyers gameplan, and Yip Yip! gives a burst of pump (plus flying if the target is an Ally) to push through unblocked damage.",
+      "playstyle": [
+        "Flying tribal",
+        "Evasive aggro",
+        "Airbending value"
+      ],
+      "tips": [
+        "Sequence flyers to trigger Momo's discount and pump",
+        "Hold back Air Nomad Student to grow it",
+        "Equip Glider Staff for evasive threats",
+        "Use Appa's flying grant on ground creatures"
+      ],
       "cards": [
         {
           "title": "Aang, the Last Airbender",
@@ -619,9 +707,20 @@
       ]
     },
     {
-      "theme": "Gliding (2)",
+      "theme": "Gliding 2",
       "color": "white",
-      "description": "A flying-themed deck with airborne creatures and spell support. Combines flying creatures with instants and sorceries to control the skies.",
+      "description": "Similar to the other Gliding build, this deck leans on Momo, Friendly Flier's growing +1/+1 boosts whenever another flying creature enters and its discount on your first flying spell each turn, supported by Air Nomad Student's passive growth when it doesn't attack. Tale of Momo is a direct payoff for the deck's sacrifice/exile shuffle — it costs {2} less if a creature already left the battlefield under your control that turn, which airbending effects from Aang, the Last Airbender and Appa, Loyal Sky Bison, or a sacrifice from Inspired Insurgent, can enable, then tutors up another Ally creature to keep the flyers coming. Glider Staff again exiles a creature on entry while granting flying and a stat boost once equipped, and Yip Yip! provides a quick evasive pump. The deck wants to chain flying creatures into the battlefield to keep growing Momo while using airbending effects to enable its cheaper spells.",
+      "playstyle": [
+        "Flying tribal",
+        "Airbending value",
+        "Evasive aggro"
+      ],
+      "tips": [
+        "Airbend a creature to discount Tale of Momo",
+        "Chain flyers to grow Momo",
+        "Hold Air Nomad Student back to grow it",
+        "Equip Glider Staff for evasion"
+      ],
       "cards": [
         {
           "title": "Aang, the Last Airbender",
@@ -698,7 +797,18 @@
     {
       "theme": "Insurgent 1",
       "color": "white",
-      "description": "An aggressive creature-focused deck with fliers and combat tricks that punish opponents and leverage small efficient creatures.",
+      "description": "This white aggro-tempo deck combines airbending effects with evasive flyers and a light Ally sub-theme. Aang, the Last Airbender and Appa, Loyal Sky Bison can airbend permanents (yours or an opponent's) for tempo or to reset ETB triggers, while Airbender's Reversal flexibly destroys an attacking creature or airbends your own creature out of danger. Momo, Rambunctious Rascal punishes tapped attackers with 4 damage on entry, and Razor Rings does the same to attacking or blocking creatures with lifegain attached, giving the deck real removal alongside its evasive flying threats. Tale of Momo gets cheaper whenever a creature has left the battlefield under your control that turn — which the deck's own airbending effects and Inspired Insurgent's sacrifice ability can enable — letting it tutor up another Ally creature for value. The plan is to apply early pressure with cheap flyers and Allies, then use airbending and burn-style removal to clear blockers.",
+      "playstyle": [
+        "Flying tempo aggro",
+        "Airbending removal",
+        "Ally value"
+      ],
+      "tips": [
+        "Airbend blockers out of the way",
+        "Snipe tapped attackers with Momo",
+        "Discount Tale of Momo via airbending/sacrifice",
+        "Save Razor Rings for big attackers"
+      ],
       "cards": [
         {
           "title": "Aang, the Last Airbender",
@@ -775,7 +885,19 @@
     {
       "theme": "Insurgent 2",
       "color": "white",
-      "description": "A creature-heavy strategy deck with warrior synergies and combat-oriented enchantments that leverages efficient creatures and tactical combat tricks.",
+      "description": "This white Ally deck wants to go wide with cheap token generators and then swing for a big alpha strike buffed by combat tricks. Kyoshi Warriors and Kyoshi Warrior Guard pump out 1/1 Ally tokens, Sokka, Lateral Strategist rewards attacking as a group by drawing cards whenever he and at least one other creature attack, and Stand United gives an extra scry 2 to any Ally it targets, smoothing draws while pushing damage. Hakoda, Selfless Commander lets you peek at and cast Allies off the top of your library, and can be sacrificed for a team-wide +0/+5 and indestructible to blow out combat or survive a board wipe. Momo, Rambunctious Rascal snipes a tapped attacker for 4 when it enters, punishing opponents who swing in, while Appa, Loyal Sky Bison hands out flying or lets you 'airbend' a permanent into exile to recast cheaply later, effectively acting as a pseudo-blink/cost-reduction tool. Duelist's Heritage turning an attacker into a double striker is the deck's best finisher alongside That's Rough Buddy, which doubles its +1/+1 counters if a creature already left the battlefield that turn — synergizing with any of your token sacrifice or death triggers.",
+      "playstyle": [
+        "Go-wide Allies",
+        "Combat tricks",
+        "Aggro tempo"
+      ],
+      "tips": [
+        "Attack with Sokka for card draw",
+        "Save Hakoda sac for blowouts",
+        "Airbend permanents to recast cheap",
+        "Buff one attacker with Duelist's Heritage",
+        "Time That's Rough Buddy after a death"
+      ],
       "cards": [
         {
           "title": "Appa, Loyal Sky Bison",
@@ -852,7 +974,19 @@
     {
       "theme": "Alliance (1)",
       "color": "white",
-      "description": "Creature-focused deck with a mix of rebels and warriors, featuring evasion and combat tricks to win through creatures.",
+      "description": "A white Ally aggro deck built around swelling creature count to power up its payoffs. The Duke, Rebel Sentry moves +1/+1 counters around while granting hexproof, protecting your best threat, while Suki, Kyoshi Warrior scales her power directly off your creature count and creates an extra tapped-and-attacking Ally token whenever she swings, immediately feeding her own power-boost condition. Jet, Freedom Fighter deals damage equal to your creature count on entry, meaning the deck wants Kyoshi Warriors and other token generators out first to maximize his removal potential, and again rewards going wide. Sokka, Lateral Strategist and South Pole Voyager both convert extra creatures and Ally triggers into card draw and life gain, keeping the aggression fueled. Combat tricks like Fancy Footwork and Sokka's Sword Training let you ambush blockers or push extra damage, and Path to Redemption offers a way to lock down a problem creature before eventually exiling it for another token.",
+      "playstyle": [
+        "Go-wide Allies",
+        "Aggro",
+        "Counter synergy"
+      ],
+      "tips": [
+        "Build board before Jet enters",
+        "Attack with Suki to make tokens",
+        "Protect key creature with The Duke",
+        "Chain Sokka attacks for cards",
+        "Use Fancy Footwork to ambush blocks"
+      ],
       "cards": [
         {
           "title": "The Duke, Rebel Sentry",
@@ -929,7 +1063,19 @@
     {
       "theme": "Alliance (2)",
       "color": "white",
-      "description": "Creature-heavy deck with combat-focused instants and artifacts, designed to win through efficient creatures and tactical tricks.",
+      "description": "This white Ally deck leans on Jet, Rebel Leader, whose attack trigger can cheat a cheap creature straight onto the battlefield tapped and attacking, instantly adding to your board and to Suki, Kyoshi Warrior's power, since Suki's power equals your creature count and she also makes a tapped-and-attacking token whenever she attacks. South Pole Voyager and Sokka, Lateral Strategist both reward the resulting wide boards with life gain, card draw, and pure damage. Removal comes from Razor Rings, which kills an attacker or blocker outright and gains you life off the excess damage, complementing tricks like Acrobatic Leap and Fancy Footwork that can untap and rebuff a creature to threaten combat twice. Mechanical Glider and Glider Kids add evasive damage and card selection, while Inspired Insurgent offers a cheap answer to problem artifacts or enchantments. The overall plan is simple aggressive curve-out with tokens compounding your bigger payoffs.",
+      "playstyle": [
+        "Go-wide Allies",
+        "Aggro",
+        "Tempo tricks"
+      ],
+      "tips": [
+        "Attack with Jet to cheat creatures in",
+        "Grow Suki with more bodies",
+        "Use Razor Rings on big attackers",
+        "Untap creatures with Fancy Footwork",
+        "Keep Inspired Insurgent for key targets"
+      ],
       "cards": [
         {
           "title": "The Duke, Rebel Sentry",
@@ -1006,7 +1152,19 @@
     {
       "theme": "Katara",
       "color": "blue",
-      "description": "Control-focused deck with removal and bounce spells, featuring a mix of creatures and instant-speed answers to manage the board while building with waterbending themes.",
+      "description": "A blue tempo-control deck centered on waterbending value and card filtering. Katara, Waterbending Master rewards holding up instant-speed interaction by granting experience counters whenever you cast a spell on an opponent's turn, then lets her attack trigger loot for each counter, turning countermagic like It'll Quench Ya! and Sokka's Haiku into card advantage engines. Master Pakku's prowess and mill-on-tap ability synergizes with the deck's Lesson-matters subtheme, since Gran-Gran's cost reduction and Master Pakku's mill amount both scale with Lesson cards in the graveyard. Rowdy Snowballers taps down and stuns a blocker to protect your attackers, while Watery Grasp locks an opposing creature down before eventually shuffling it away with its waterbend ability. The deck plays a patient game, using cheap cantrips like Consider to dig for answers and Octopus Form to protect key creatures with hexproof and untap tricks, aiming to grind out card advantage before closing with evasive or protected attackers.",
+      "playstyle": [
+        "Blue tempo-control",
+        "Card draw value",
+        "Waterbend synergy"
+      ],
+      "tips": [
+        "Hold spells for Katara's experience",
+        "Waterbend using tapped permanents",
+        "Stack Lesson cards in graveyard",
+        "Lock threats with Watery Grasp",
+        "Protect attackers with Octopus Form"
+      ],
       "cards": [
         {
           "title": "Geyser Leaper",
@@ -1083,7 +1241,19 @@
     {
       "theme": "Librarian",
       "color": "blue",
-      "description": "A control-focused deck that draws cards and gains knowledge through card advantage mechanics, featuring creatures that reward library interactions and instant-speed tricks.",
+      "description": "This deck's whole identity is manipulating libraries rather than just the graveyard, built around Wan Shi Tong, All-Knowing and Dutiful Knowledge Seeker, both of which trigger whenever any card is put into any library from anywhere. Wan Shi Tong's own enter-the-battlefield ability buries a nonland permanent into a library, which not only removes a threat but also triggers his own ability to spawn two evasive Spirit tokens, and every subsequent library-shuffling effect keeps generating more Spirits and counters. Knowledge Seeker and Dutiful Knowledge Seeker both grow via card-draw triggers, rewarding the deck's heavy card-flow spells like Brainstorm and Accumulate Wisdom. Professor Zei, Anthropologist offers repeatable loot and can be sacrificed to rebuy a spent instant or sorcery, while Zuko's Exile provides clean removal that hands the opponent a Clue as consolation. The game plan is to control the board with bounce and exile effects while continually refilling your hand and growing an army of small evasive Spirits.",
+      "playstyle": [
+        "Blue control",
+        "Library manipulation",
+        "Value grind"
+      ],
+      "tips": [
+        "Trigger Wan Shi Tong with library effects",
+        "Chain draw spells for counters",
+        "Bounce threats before comboing off",
+        "Rebuy spells with Professor Zei",
+        "Use Spirits as evasive finishers"
+      ],
       "cards": [
         {
           "title": "Dutiful Knowledge Seeker",
@@ -1160,7 +1330,19 @@
     {
       "theme": "Adaptive",
       "color": "blue",
-      "description": "A versatile blue deck with diverse creatures and spellcasting, featuring utility spells like Frantic Search and card advantage tools. It adapts to various situations with a mix of combat and removal options.",
+      "description": "A blue tempo deck that blends flash shenanigans with a light flyers subtheme. The Blue Spirit lets your first creature each turn come down at instant speed and draws a card whenever a nontoken creature enters during combat, meaning ambushing with Rowdy Snowballers or Katara mid-combat both surprises blockers and refills your hand. Teo, Spirited Glider loots off any flying creature attack and can convert a discarded nonland card into a +1/+1 counter, rewarding you for keeping Glider Kids and other fliers in the air. Princess Yue offers unusual resilience: when she dies as a creature she returns as a land named Moon that can still scry, essentially recurring value from a 'dead' creature. The deck also has a bounce-based tempo package with Boomerang Basics and Lost in the Spirit World, both of which can reset an opponent's blocker while Boomerang Basics replaces itself if you bounce your own permanent, and Waterbending Lesson and Frantic Search keep the hand stocked for the flash and looting engines.",
+      "playstyle": [
+        "Blue tempo",
+        "Flash ambush",
+        "Flyers"
+      ],
+      "tips": [
+        "Flash creatures mid-combat with Blue Spirit",
+        "Attack fliers for Teo's loot",
+        "Bounce blockers before swinging",
+        "Let Yue die into a land",
+        "Waterbend to dig for answers"
+      ],
       "cards": [
         {
           "title": "The Blue Spirit",
@@ -1237,7 +1419,19 @@
     {
       "theme": "Spirit",
       "color": "blue",
-      "description": "Spirit-focused deck with creature-heavy strategy featuring multiple spirit cards and utility instants for control and card advantage.",
+      "description": "This deck leans into the Spirit tribal token subtheme and waterbending payoffs. Baboon Spirit creates a 1/1 Spirit token whenever another nontoken Spirit you control enters, and also has a blink ability that can flicker your own creatures for extra enter-the-battlefield value; combined with Benevolent River Spirit's scry-2 entrance and flying/ward body, the deck can generate incremental card advantage and unblockable-ish tokens (since Spirit tokens can't be blocked by non-Spirits) over time. Knowledge Seeker and Dutiful Knowledge Seeker both grow off card-draw and library-shuffling triggers respectively, rewarding the deck's Lost in the Spirit World and countermagic package. Dramatic Reversal can untap your whole nonland board after a big turn of tapping down creatures for waterbend costs, letting you re-use vigilance-less bodies or hold up mana. The overall plan is a grindy tempo game plan using Spirit tokens as evasive chip damage while countermagic like It'll Quench Ya! protects the board.",
+      "playstyle": [
+        "Spirit tribal",
+        "Blue tempo",
+        "Value tokens"
+      ],
+      "tips": [
+        "Flicker Spirits with Baboon Spirit",
+        "Chain Spirit ETBs for tokens",
+        "Untap with Dramatic Reversal after waterbending",
+        "Use Spirit tokens as evasive attackers",
+        "Protect board with It'll Quench Ya!"
+      ],
       "cards": [
         {
           "title": "Baboon Spirit",
@@ -1314,7 +1508,19 @@
     {
       "theme": "Underwater",
       "color": "blue",
-      "description": "A creature-focused deck with aquatic and sea creatures that provides evasion and utility through instants and enchantments.",
+      "description": "A blue deck built around aquatic creature synergies and waterbend-fueled tempo. Unagi's Spray punishes a blocker with -4/-0 and draws a card if you control a Fish, Octopus, Otter, Seal, Serpent, or Whale, which this deck's Giant Koi, Turtle-Seals, and Serpent of the Pass all satisfy, making it a cheap and reliable cantrip-removal spell. Tui and La, Moon and Ocean rewards tapping and untapping: it draws a card whenever tapped and grows with a +1/+1 counter whenever untapped, so cards like Octopus Form (which untaps a creature) or simply attacking and later untapping feed it directly into a snowballing threat. Invasion Submersible bounces a permanent on entry and can later be turned into a beefy 4/4-plus creature via its exhaust waterbend ability, while Honest Work neutralizes a problem creature by turning it into a vanilla 1/1. The deck grinds card advantage with Octopus Form's protective untap and Giant Koi's evasion, aiming to out-value opponents while its aquatic creatures chip in damage.",
+      "playstyle": [
+        "Blue tempo",
+        "Creature-type synergy",
+        "Waterbend value"
+      ],
+      "tips": [
+        "Untap Tui and La for counters",
+        "Use Octopus Form to protect and untap",
+        "Check for Fish/Otter/Serpent for Unagi's Spray",
+        "Waterbend Invasion Submersible into a threat",
+        "Neutralize threats with Honest Work"
+      ],
       "cards": [
         {
           "title": "Flying Dolphin-Fish",
@@ -1380,13 +1586,30 @@
           "title": "Island",
           "type": "Lands",
           "qty": 7
+        },
+        {
+          "title": "Coastal Piracy",
+          "type": "Enchantments",
+          "qty": 1
         }
       ]
     },
     {
-      "theme": "Wise 1",
+      "theme": "Wise (1)",
       "color": "blue",
-      "description": "A creature-focused deck with flying creatures and card draw effects that generate value through combat and spellcasting.",
+      "description": "A blue card-draw-matters deck that wants to draw multiple cards per turn to trigger its payoffs. Otter-Penguin gets bigger and unblockable whenever you draw your second card in a turn, and Messenger Hawk gets +2/+0 under the same condition, so stacking cheap cantrips like Consider, Waterbending Lesson, and Gran-Gran's tap-draw-discard ability is the deck's core engine. Coastal Piracy converts any unblocked combat damage into an extra card, stacking with Otter-Penguin's unblockable clause to guarantee card advantage every attack. Waterbender's Restoration can flicker your own creatures for a fresh round of enter-the-battlefield triggers (like Forecasting Fortune Teller's or Messenger Hawk's Clue creation), and Whirlwind Technique combines a two-card loot with airbending two creatures to dodge removal or reuse enter effects cheaply. Rowdy Snowballers taps down blockers to smooth the path for these draw-triggered attackers.",
+      "playstyle": [
+        "Blue card draw",
+        "Second-draw payoffs",
+        "Tempo aggro"
+      ],
+      "tips": [
+        "Draw two cards per turn",
+        "Attack with Otter-Penguin unblockable",
+        "Chain Consider and Waterbending Lesson",
+        "Flicker creatures with Waterbender's Restoration",
+        "Pair Coastal Piracy with evasive attackers"
+      ],
       "cards": [
         {
           "title": "Forecasting Fortune Teller",
@@ -1461,9 +1684,21 @@
       ]
     },
     {
-      "theme": "Wise 2",
+      "theme": "Wise (2)",
       "color": "blue",
-      "description": "An instant-heavy tempo deck with flying creatures and efficient blue spells to control the game while dealing damage through aerial threats.",
+      "description": "Similar to other card-draw decks in this cycle, this blue build is fully built around triggering 'draw your second card each turn' effects. Knowledge Seeker and Otter-Penguin both key off that exact trigger, growing in stats (and becoming temporarily unblockable for Otter-Penguin) while Tiger-Seal untaps itself whenever you hit that second draw, letting it attack and still be ready to block or tap for value again. Messenger Hawk's +2/+0 buff shares the same condition, meaning cheap draw spells like Consider and Sokka's Haiku (which also counters a spell while drawing and milling) are doing double duty as both interaction/card selection and creature pump enablers. The Blue Spirit adds a flash-creature angle, letting you ambush with a card-draw creature mid-combat and drawing an extra card for doing so. Whirlwind Technique's two-card loot plus airbending utility rounds out the deck's ability to protect creatures or reuse enter-the-battlefield effects while keeping the second-draw engine running every turn.",
+      "playstyle": [
+        "Blue card draw",
+        "Second-draw payoffs",
+        "Tempo control"
+      ],
+      "tips": [
+        "Always draw two cards a turn",
+        "Flash in Blue Spirit mid-combat",
+        "Untap Tiger-Seal via second draw",
+        "Counter spells with Sokka's Haiku",
+        "Airbend creatures to dodge removal"
+      ],
       "cards": [
         {
           "title": "The Blue Spirit",
@@ -1538,9 +1773,21 @@
       ]
     },
     {
-      "theme": "Soaring (1)",
+      "theme": "Soaring 1",
       "color": "blue",
-      "description": "A flying-focused deck with evasive creatures like Flying Dolphin-Fish and Teo, Spirited Glider that dominate the air while utilizing blue spells for utility.",
+      "description": "This mono-blue deck is built around evasive flyers and the card-draw payoffs they enable. Teo, Spirited Glider triggers a loot (draw then discard) whenever any flying creature attacks, and that discard feeds a +1/+1 counter onto a creature if the discarded card is nonland, meaning your Cat-Owl, Flying Dolphin-Fish, Messenger Hawk, and even the equipped-with-Mechanical-Glider ground creatures all become card-selection engines the moment they swing. Sokka, Lateral Strategist rewards attacking as a group by drawing a card whenever he and at least one other creature attack, stacking further card advantage on top of Teo's trigger. The Mechanist can turn spare Clue tokens (made by Forecasting Fortune Teller and Messenger Hawk) into surprise 3/1 flying attackers for a turn, letting you convert card-draw byproducts into extra evasive damage. Waterbend costs on Giant Koi and Watery Grasp let you tap down your fliers after they've already attacked (thanks to vigilance-granting effects or simply post-combat) to push through unblockable damage or lock down a blocker permanently. Overall this is a tempo-oriented flyers deck that wants to attack every turn with multiple evasive threats while chaining card draws to stay ahead on resources.",
+      "playstyle": [
+        "Evasive flyers tempo",
+        "Card draw engine",
+        "Waterbend utility"
+      ],
+      "tips": [
+        "Attack wide with fliers for Teo triggers",
+        "Sokka wants multiple attackers",
+        "Dump Clues into Mechanist's ability",
+        "Save waterbend mana for Giant Koi pushes",
+        "Discard nonlands to grow counters"
+      ],
       "cards": [
         {
           "title": "Cat-Owl",
@@ -1615,9 +1862,21 @@
       ]
     },
     {
-      "theme": "Soaring (2)",
+      "theme": "Soaring 2",
       "color": "blue",
-      "description": "A flying-heavy tempo deck with evasive creatures and blue spell tricks to protect and bounce creatures while attacking from the air.",
+      "description": "Like its counterpart, this mono-blue deck leans on flying creatures triggering repeated card selection, but adds a bigger waterbend payoff in Yue, the Moon Spirit, whose {5} waterbend plus tap lets you cast a noncreature spell for free — a huge mana cheat when paired with Benevolent River Spirit (itself cast via a {5} waterbend additional cost) or Watery Grasp to lock a threat down without spending real mana. Teo, Spirited Glider still turns every flying attack into a loot that can grow a creature with a +1/+1 counter, while Sokka, Lateral Strategist draws an extra card whenever he attacks alongside another creature, so attacking with your evasive squad (Cat-Owl, Flying Dolphin-Fish, Messenger Hawk) chains multiple draw triggers in a single combat step. Frantic Search offers pseudo-free card selection since it untaps three lands, effectively refunding its own cost and enabling you to hold up Octopus Form or Boomerang Basics at instant speed. The deck's identity is tempo flying beats backed by heavy card filtering, with waterbend tapping your board (including creatures that already attacked) to fund big spells or bounce/lock effects.",
+      "playstyle": [
+        "Evasive flyers tempo",
+        "Card filtering",
+        "Waterbend mana cheat"
+      ],
+      "tips": [
+        "Chain Teo and Sokka triggers by attacking together",
+        "Yue can cast spells for free via waterbend",
+        "Tap tapped attackers to fund waterbend",
+        "Frantic Search refunds itself via untapped lands",
+        "Hold Octopus Form to protect key attackers"
+      ],
       "cards": [
         {
           "title": "Benevolent River Spirit",
@@ -1694,7 +1953,19 @@
     {
       "theme": "Adept 1",
       "color": "blue",
-      "description": "A creature-focused waterbending deck with instant removal and control spells to disrupt opponents while building board presence.",
+      "description": "This is the Lessons-matters half of a mono-blue graveyard-value deck, where instants and sorceries filling the yard make everything cheaper and better. Serpent of the Pass gets progressively cheaper for every noncreature, nonland card in the graveyard and can even be cast with flash once three or more Lesson cards are in the graveyard, so early cantrips like Waterbending Lesson (draw three, discard one unless you waterbend) and Nightmares and Daydreams (which mills whenever you cast instants/sorceries) actively set up a cheap flash threat later in the game. Professor Zei doubles as a looter and later sacrifices himself to rebuy a key instant or sorcery from the graveyard, recurring your best spell. Katara, Bending Prodigy and Waterbend-fueled effects like Crashing Wave (tap creatures and hand out stun counters) and Dramatic Reversal (untap everything) give you both defensive tempo plays and ways to refuel via her late-game card draw. The overall plan is to fill the graveyard efficiently with cheap card draw and disruption spells, using that graveyard as a resource to discount and flash in Serpent of the Pass while grinding card advantage through Zei, Katara, and Nightmares and Daydreams.",
+      "playstyle": [
+        "Graveyard value control",
+        "Card filtering",
+        "Waterbend tempo"
+      ],
+      "tips": [
+        "Fill graveyard to discount Serpent of the Pass",
+        "Three Lessons in yard unlocks Serpent's flash",
+        "Rebuy key spells with Professor Zei",
+        "Use Crashing Wave to stun key blockers",
+        "Waterbend by tapping creatures, not just lands"
+      ],
       "cards": [
         {
           "title": "Forecasting Fortune Teller",
@@ -1771,7 +2042,19 @@
     {
       "theme": "Adept 2",
       "color": "blue",
-      "description": "A creature-heavy blue deck that uses instants and control spells to protect creatures and manage the board while developing a steady offense.",
+      "description": "This mono-blue deck doubles down on the Lesson-graveyard synergy with Master Pakku, who mills the opponent for X (X = Lessons in your graveyard) every time he becomes tapped, meaning waterbend activations or simple attacks with him snowball into serious mill pressure while also stocking Serpent of the Pass's discount and flash conditions. Serpent of the Pass again gets cheaper for each noncreature, nonland card in your graveyard and can be flashed in once three Lesson cards are there, making Waterbending Lesson, Consider, and Nightmares and Daydreams (which mills off your instant/sorcery casts) all pull double duty setting up a surprise blocker or attacker. Professor Zei loots for card selection and later cashes himself in to rebuy an instant or sorcery, while Teo, Spirited Glider turns flying attacks from Geyser Leaper or Iguana Parrot into loot-and-counter triggers. Lost Days offers a soft removal option that also nets you a Clue for later card draw. The deck wants to churn through its own graveyard with cheap draw spells, using that fuel to power discounted threats and incidental mill/discard value.",
+      "playstyle": [
+        "Lesson graveyard synergy",
+        "Mill/value control",
+        "Card filtering"
+      ],
+      "tips": [
+        "Tap Master Pakku often to mill",
+        "Stock graveyard to flash Serpent of the Pass",
+        "Rebuy spells with Professor Zei sacrifice",
+        "Loot with flying attacks via Teo",
+        "Use Lost Days plus Clue for value"
+      ],
       "cards": [
         {
           "title": "Geyser Leaper",
@@ -1848,7 +2131,19 @@
     {
       "theme": "Lessons (1)",
       "color": "blue",
-      "description": "A spell-heavy blue deck focused on card draw and board control with interactive instants and enchantments.",
+      "description": "This mono-blue deck is the purest expression of the Lesson graveyard payoff package: Gran-Gran discounts your noncreature spells by {1} once three or more Lesson cards sit in your graveyard, and Chakra Meditation rebates card disadvantage by only forcing a discard on its draw trigger if you're below that threshold, so the deck actively wants to mill or discard its own Lessons early. Katara, Seeking Revenge grows with each Lesson card in the graveyard and can loot on entry if you skip her waterbend cost, directly rewarding a graveyard full of Lessons with a bigger body. Platypus-Bear mills two cards on entry and loses its defender restriction once any Lesson is in the graveyard, letting a mid-combat mill turn a wall into an attacker. Accumulate Wisdom is a clean payoff, upgrading from a Divination-style card selection into an actual draw-three once the Lesson count is met. The plan is to prioritize casting and discarding Lesson spells (Waterbending Lesson-style cards, Whirlwind Technique) early to hit the three-Lesson threshold, then ride cheaper spells, a bigger Katara, and an unlocked Platypus-Bear attacker to close the game.",
+      "playstyle": [
+        "Lesson graveyard synergy",
+        "Value/card advantage",
+        "Incremental threats"
+      ],
+      "tips": [
+        "Get 3 Lessons in graveyard fast",
+        "Discard Lessons via Gran-Gran, Katara",
+        "Platypus-Bear attacks once Lesson is binned",
+        "Chakra Meditation rewards Lesson count",
+        "Katara scales with graveyard Lessons"
+      ],
       "cards": [
         {
           "title": "Giant Koi",
@@ -1925,7 +2220,19 @@
     {
       "theme": "Lessons (2)",
       "color": "blue",
-      "description": "A blue deck with modest creature presence that uses instants and enchantments for control and utility effects.",
+      "description": "Another Lesson-graveyard deck, this build adds Master Pakku's tap-triggered mill (scaling off Lessons in your graveyard) to the core Gran-Gran/Chakra Meditation discount package, meaning every attack or waterbend tap with Pakku both fuels your own Lesson count in the yard and eats into the opponent's library. Katara, Seeking Revenge again scales with Lessons in the graveyard and offers a conditional loot on entry, while Platypus-Bear's mill-two on entry helps hit the three-Lesson threshold that unlocks its own attacking ability as well as Gran-Gran's cost reduction and Accumulate Wisdom's upgrade into a full draw-three. Lost Days provides a bounce-to-library effect with a Clue attached for later card draw, and Waterbending Lesson plus Geyser Leaper's repeatable loot give you more ways to dig for and discard Lesson spells specifically. The deck's plan is the same grindy engine as its companion: prioritize milling/discarding Lesson cards early to flip on the cheap-spell and mill-scaling payoffs, then let Master Pakku and a buffed Katara close out games.",
+      "playstyle": [
+        "Lesson graveyard synergy",
+        "Mill/value engine",
+        "Incremental threats"
+      ],
+      "tips": [
+        "Hit 3 Lessons in graveyard ASAP",
+        "Tap Master Pakku to mill opponent",
+        "Platypus-Bear unlocks after any Lesson dies",
+        "Loot with Geyser Leaper, Gran-Gran",
+        "Lost Days plus Clue nets card advantage"
+      ],
       "cards": [
         {
           "title": "Geyser Leaper",
@@ -2002,7 +2309,19 @@
     {
       "theme": "Azula",
       "color": "black",
-      "description": "A control-focused deck with disruptive creatures and removal spells that punishes opponents for their choices while establishing board presence through efficient creatures.",
+      "description": "This mono-black-splash deck built around Azula, Ruthless Firebender is a discard-and-drain aggro-midrange strategy: Azula's attack trigger lets you discard a card to generate experience counters (and can pump herself with menace via her activated ability once you've stacked counters), while cards like Corrupt Court Official and Dark Deal punish the opponent's hand directly, and Fire Navy Trebuchet adds a free flying attacker every combat to keep pressure on. Lo and Li, Twin Tutors tutors up a Lesson or Noble card and grants lifelink to your Noble creatures and Lesson spells, meaning any Noble you have (including Lo and Li themselves) gains sustain in combat. Dai Li Censor turns spare creatures into a combat trick by sacrificing them for +2/+2, synergizing loosely with the deck's expendable bodies like Canyon Crawler's Food token and Fire Navy Trebuchet's disposable tokens. The overall plan is to apply steady pressure with Azula and evasive/disposable threats while stripping the opponent's hand and removing key blockers with Sold Out and Epic Downfall.",
+      "playstyle": [
+        "Discard aggro",
+        "Sacrifice value",
+        "Black midrange"
+      ],
+      "tips": [
+        "Discard to Azula for experience counters",
+        "Pump Azula late with experience counters",
+        "Trebuchet adds free flying attacker each turn",
+        "Lo and Li grants Noble lifelink",
+        "Strip hands with Corrupt Court Official, Dark Deal"
+      ],
       "cards": [
         {
           "title": "Azula, Ruthless Firebender",
@@ -2079,7 +2398,19 @@
     {
       "theme": "Ozai",
       "color": "black",
-      "description": "Creature-focused removal deck with efficient blockers and targeted removal spells to dismantle opponents.",
+      "description": "This mono-black sacrifice deck centers on Fire Lord Ozai, whose attack trigger lets you sacrifice a creature to add red mana equal to its power that persists through combat, directly enabling his own {6} ability to steal and cast a card off the top of each opponent's library — a genuine combo where sacrificing a big creature can fully or partially pay for that game-ending ramp-into-theft effect in the same turn. Zhao, Ruthless Admiral compounds this plan by pumping all your creatures +1/+0 whenever you sacrifice any permanent, so chaining sacrifices from Beetle-Headed Merchants (which draws a card and grows on attack when you sacrifice) or Canyon Crawler's Food token turns a defensive sacrifice into an aggressive team buff. Deadly Precision offers unconditional removal that can also be paid for by feeding it a spare artifact or creature instead of mana, tying back into the same sacrifice fodder theme. The deck wants to build up expendable bodies and tokens, then convert them through Ozai and Zhao into both mana/damage and card advantage, closing games with hand disruption from Ozai's Cruelty and Scarring Memories.",
+      "playstyle": [
+        "Sacrifice value",
+        "Black aggro-midrange",
+        "Ramp into card theft"
+      ],
+      "tips": [
+        "Sacrifice big creatures to fuel Ozai's mana",
+        "Chain sac triggers for Zhao's team pump",
+        "Use Deadly Precision's sac-cost alt payment",
+        "Beetle-Headed Merchants draws off sacrifice",
+        "Save Ozai's {6} ability for finishing"
+      ],
       "cards": [
         {
           "title": "Beetle-Headed Merchants",
@@ -2156,7 +2487,19 @@
     {
       "theme": "Bad Advice",
       "color": "black",
-      "description": "A creature-focused deck built around political manipulation and control effects. Features advisors and scheming creatures that work to disrupt opponents' plans through removal and cutthroat tactics.",
+      "description": "This mono-black deck is built around punishing the opponent's hand and graveyard while converting that disruption into permanent stat growth. Lo and Li, Royal Advisors put a +1/+1 counter on each Advisor you control whenever an opponent discards a card or mills, which directly synergizes with Hama, the Bloodbender's mill-three-and-exile effect and their own {2}{U/B} mill-four ability, as well as Corrupt Court Official's forced discard — every disruption spell you cast is also pumping your board. Long Feng, Grand Secretariat similarly rewards your own creatures and lands dying by handing out +1/+1 counters, meshing with Dai Li Censor's sacrifice-for-buff ability and Joo Dee's self-copy-then-sacrifice loop, which can generate a stream of expendable bodies to feed both Long Feng and Dai Li Censor. Hama's exile ability is especially notable since it lets you cast the opponent's own exiled spell for a scaling waterbend cost instead of its mana cost, effectively stealing their resources. The deck's plan is grinding hand and graveyard disruption that snowballs into a growing army of counter-laden threats.",
+      "playstyle": [
+        "Discard/mill disruption",
+        "Counters payoff",
+        "Sacrifice value"
+      ],
+      "tips": [
+        "Discard/mill triggers pump Lo and Li",
+        "Sac fodder feeds Long Feng counters",
+        "Joo Dee copies itself before sac'ing",
+        "Steal spells via Hama's exile effect",
+        "Chain Dai Li Censor with sac fodder"
+      ],
       "cards": [
         {
           "title": "Corrupt Court Official",
@@ -2233,7 +2576,19 @@
     {
       "theme": "Nightmares",
       "color": "black",
-      "description": "A creature-focused black deck with a mix of spirits and evasive creatures. Uses targeted removal and sorceries to control the board while developing threats.",
+      "description": "This mono-black sacrifice-and-reanimation deck squeezes value out of creatures dying repeatedly. Hei Bai, Spirit of Balance lets you sacrifice another creature or artifact on entry or attack to grow by two counters, and when it eventually leaves the battlefield those counters transfer to another creature you control, meaning even removing Hei Bai doesn't waste its investment. Koh, the Face Stealer exiles creatures (including ones that die elsewhere thanks to its passive exile-on-death trigger) and can borrow the activated/triggered abilities of whichever exiled creature you choose by paying 1 life, letting you reuse abilities like Hei Bai's sacrifice-growth or Pretending Poxbearers' death trigger on demand. Purple Pentapus can return itself from the graveyard by tapping a creature, feeding Hei Bai or Pirate Peddlers (which also grows off sacrifice) more fodder in a loop, while Zuko's Conviction and Desperate Plea recur or reanimate creatures straight from the graveyard, with Desperate Plea itself needing a sacrifice as its cost. Ruinous Waterbending caps off the plan as a boardwipe that can be waterbent to gain life off every creature that dies, turning your own sacrifice engine's mass death into a life swing.",
+      "playstyle": [
+        "Sacrifice value",
+        "Reanimator",
+        "Black attrition"
+      ],
+      "tips": [
+        "Sac fodder to grow Hei Bai",
+        "Koh can borrow exiled abilities",
+        "Purple Pentapus recurs by tapping creatures",
+        "Feed Desperate Plea's sac cost",
+        "Waterbend Ruinous Waterbending for lifegain"
+      ],
       "cards": [
         {
           "title": "Azula, On the Hunt",
@@ -2310,7 +2665,19 @@
     {
       "theme": "Siege Engines",
       "color": "black",
-      "description": "An artifact-focused deck that leverages artifacts and artifact synergies alongside creatures and removal spells to control the game.",
+      "description": "This black-heavy deck is built around Vehicles and sacrifice value, turning creatures and artifacts into card draw and stat growth rather than just attacking with them. Fire Navy Trebuchet and Fire Nation Warship give you evasive extra damage or a Clue on death, while Beetle-Headed Merchants and Fire Nation Engineer reward you for attacking by sacrificing fodder or piling +1/+1 counters onto attackers and Vehicles. The Fire Nation Drill and Tundra Tank double as removal and protection engines when crewed. A clean synergy: Fire Nation Engineer's raid trigger can put counters directly onto Tundra Tank or Fire Navy Trebuchet after you attack, making your Vehicles bigger and more resilient turn over turn, while Beetle-Headed Merchants sacrifices spent tokens like the Ballistic Boulder from Fire Navy Trebuchet (or Clue/Food tokens) into card draw. The deck grinds out card advantage from death triggers (Callous Inspector, Fire Nation Warship, Pretending Poxbearers) and closes games with removal like Heartless Act, Deadly Precision, and The Fire Nation Drill's enter-the-battlefield destroy ability.",
+      "playstyle": [
+        "Vehicle aggro",
+        "Sacrifice value",
+        "Counter synergy"
+      ],
+      "tips": [
+        "Crew Vehicles with expendable creatures",
+        "Sac dying tokens for cards",
+        "Use raid triggers to buff Vehicles",
+        "Save removal for blockers",
+        "Attack to fuel Beetle-Headed Merchants"
+      ],
       "cards": [
         {
           "title": "Beetle-Headed Merchants",
@@ -2385,9 +2752,21 @@
       ]
     },
     {
-      "theme": "Bounty Hunter (1)",
+      "theme": "Bounty Hunter 1",
       "color": "black",
-      "description": "Bounty Hunter focuses on cheap creatures with some discard and removal, featuring a strong creature-based gameplan with some enchantment support for added value.",
+      "description": "This mono-black-splash deck is a sacrifice-and-draw engine that wants to hit two-cards-drawn-per-turn thresholds to unlock evasion and life-drain payoffs. June, Bounty Hunter becomes unblockable once you've drawn two cards, and her own sacrifice ability plus Beetle-Headed Merchants, Giant Fly, and Pirate Peddlers all reward sacrificing creatures and artifacts for cards and counters. Nyla, Shirshu Sleuth turns graveyard creatures into a burst of Clues (at a life cost), directly feeding the Clue-cracking that pushes you toward that two-card threshold, and Bastion of Remembrance turns every creature death (from all this sacrificing) into direct opponent life loss and a token. The deck's core loop is sacrifice fodder into Clues and Pirate Peddlers/Giant Fly counters, crack Clues to hit two draws, then swing with an unblockable June or a buffed Peddlers.",
+      "playstyle": [
+        "Sacrifice value",
+        "Card-draw threshold",
+        "Grindy aggro"
+      ],
+      "tips": [
+        "Crack two Clues before combat",
+        "Sac fodder to Pirate Peddlers",
+        "Use Nyla to fuel Clues",
+        "Attack with June once drawing two",
+        "Let Bastion punish trades"
+      ],
       "cards": [
         {
           "title": "Azula, On the Hunt",
@@ -2462,9 +2841,21 @@
       ]
     },
     {
-      "theme": "Bounty Hunter (2)",
+      "theme": "Bounty Hunter 2",
       "color": "black",
-      "description": "Bounty Hunter focuses on small efficient creatures with direct removal and enchantments that generate value from creature interactions and sacrifices.",
+      "description": "A tighter version of the sacrifice-for-Clues plan, this deck leans even harder on turning permanent sacrifice into stats and damage. Zhao, Ruthless Admiral gives a team-wide +1/+0 anthem every time you sacrifice a permanent, which combos directly with June's sacrifice-for-Clue ability, Pirate Peddlers' counters, and the disposable Ballistic Boulder tokens from Fire Navy Trebuchet — every sac triggers Zhao's buff right before combat damage. Obsessive Pursuit compounds this further, handing out +1/+1 counters equal to the number of permanents sacrificed that turn (with lifelink at three or more), so a turn with several sacrifices can turn one attacker into a huge lifelinking threat. Azula, On the Hunt and June both want you drawing two cards a turn to unlock extra value and evasion, and Bastion of Remembrance converts the inevitable string of creature deaths into direct life drain.",
+      "playstyle": [
+        "Sacrifice value",
+        "Go-wide pump",
+        "Aristocrats"
+      ],
+      "tips": [
+        "Sac before attacks to buff Zhao",
+        "Stack sacrifices for Obsessive Pursuit",
+        "Crack Clues for card-draw payoffs",
+        "Trebuchet's boulder is free sac fodder",
+        "Push lifelink threat with 3+ sacs"
+      ],
       "cards": [
         {
           "title": "Azula, On the Hunt",
@@ -2541,7 +2932,19 @@
     {
       "theme": "Hunting (1)",
       "color": "black",
-      "description": "Creature-focused deck with hunters and flying creatures, supplemented by removal sorceries for dealing with threats.",
+      "description": "This deck is built to consistently draw two-plus cards in a turn to unlock evasion and lifelink payoffs across its creatures. June, Beetle-Headed Merchants, and Clue-generators like Messenger Hawk and Raven Eagle all feed extra draws, which then turns on Foggy Swamp Hunters' lifelink-and-menace, Messenger Hawk's +2/+0, and June's unblockable clause simultaneously. Diresight is the key enabler, letting you surveil and draw two cards in one shot to flip on every threshold ability at once, while Raven Eagle's graveyard exile doubles as extra Clue generation and a life-drain trigger once you draw your second card each turn. Removal like Deadly Precision, Epic Downfall, and Desperate Plea (which can also reanimate a smaller creature) rounds out the plan to control the board while your threshold creatures get progressively harder to interact with.",
+      "playstyle": [
+        "Card-draw threshold",
+        "Evasive aggro",
+        "Value grind"
+      ],
+      "tips": [
+        "Cast Diresight to flip thresholds",
+        "Crack Clues before combat",
+        "Attack once you've drawn two",
+        "Use Raven Eagle for extra Clues",
+        "Reanimate with Desperate Plea"
+      ],
       "cards": [
         {
           "title": "Beetle-Headed Merchants",
@@ -2618,7 +3021,19 @@
     {
       "theme": "Hunting (2)",
       "color": "black",
-      "description": "Creature-based hunting deck with hunters and removal spells, featuring some enchantment-based creature control.",
+      "description": "Very similar to its companion deck, this build again centers on drawing two or more cards each turn to unlock Foggy Swamp Hunters' lifelink-and-menace, Messenger Hawk's power boost, and June's unblockable ability, using Clue-makers and Diresight's surveil-then-draw-two to hit that threshold reliably. Raven Eagle again turns the second draw of the turn into direct life drain against the opponent while also exiling graveyard cards for extra Clues. This version trades some of the reanimation package for a harder removal suite: Azula Always Lies gives flexible -1/-1 or a +1/+1 counter, and Swampsnare Trap is a cheap, flying-hating -5/-3 aura that can outright kill most fliers for a discount. Ruthless Waterbender adds a repeatable pump outlet late game once lands are otherwise idle.",
+      "playstyle": [
+        "Card-draw threshold",
+        "Evasive aggro",
+        "Value grind"
+      ],
+      "tips": [
+        "Diresight to hit two-draw threshold",
+        "Attack unblocked with threshold creatures",
+        "Swampsnare cheap vs fliers",
+        "Raven Eagle drains on second draw",
+        "Pump Waterbender with spare mana"
+      ],
       "cards": [
         {
           "title": "Beetle-Headed Merchants",
@@ -2693,9 +3108,21 @@
       ]
     },
     {
-      "theme": "Reinforced (1)",
+      "theme": "Reinforced 1",
       "color": "black",
-      "description": "A creature-heavy deck with removal spells and board pressure, using mid-sized creatures to establish dominance.",
+      "description": "This deck builds a team of counter-laden creatures and uses menace plus counter-triggered abilities to push through damage. Hog-Monkey grants menace to any creature carrying a +1/+1 counter, synergizing with Fire Nation Salvagers (which drops a counter on a creature or Vehicle on entry) and Long Feng, Grand Secretariat (which adds a counter whenever a creature or land you control dies) to keep turning your board into unblockable-ish threats. Fire Nation Salvagers doubles as reanimation: once a countered creature connects, you steal a creature or Vehicle straight out of the opponent's graveyard. Buzzard-Wasp Colony recoups counters from creatures that die, so sacrifice fodder (fed by Beetle-Headed Merchants) isn't wasted value. Zuko, Seeking Honor snowballs with first strike from your noncreature spells and grows every time he connects, while Dai Li Indoctrination and Epic Downfall/Feed the Swarm give you flexible discard and removal to clear the way.",
+      "playstyle": [
+        "Counter synergy",
+        "Menace aggro",
+        "Value grind"
+      ],
+      "tips": [
+        "Load counters, give menace via Hog-Monkey",
+        "Let dying creatures feed Buzzard-Wasp Colony",
+        "Reanimate with Fire Nation Salvagers hits",
+        "Cast noncreature spells to buff Zuko",
+        "Sac fodder into Beetle-Headed Merchants"
+      ],
       "cards": [
         {
           "title": "Beetle-Headed Merchants",
@@ -2770,9 +3197,21 @@
       ]
     },
     {
-      "theme": "Reinforced (2)",
+      "theme": "Reinforced 2",
       "color": "black",
-      "description": "A creature-focused deck with instant-speed answers and targeted removal to control the board while developing threats.",
+      "description": "Another counters-and-menace deck, this build pushes even further into land-based value via earthbend. Earth Village Ruffians and Fatal Fissure both trigger earthbend on a creature's death, turning a land into a hasty 0/0 with counters that returns to the battlefield if it dies, letting Long Feng, Grand Secretariat pile even more +1/+1 counters onto your board every time a creature or land dies. Hog-Monkey again grants menace to countered creatures, and Fire Nation Salvagers both drops an entry counter and steals a creature/Vehicle from an opponent's graveyard once a countered creature connects. Buzzard-Wasp Colony scavenges counters off dying creatures to keep growing, and Zuko, Seeking Honor gains first strike off your noncreature spells while permanently growing on combat damage. Removal like Heartless Act, Deadly Precision, and Dai Li Indoctrination clears blockers so your counter-laden, menace-enabled attackers can get through.",
+      "playstyle": [
+        "Counter synergy",
+        "Menace aggro",
+        "Land-based value"
+      ],
+      "tips": [
+        "Trigger earthbend off creature deaths",
+        "Long Feng counters every death",
+        "Menace via Hog-Monkey to attack",
+        "Salvagers steal from opponent graveyard",
+        "Buzzard-Wasp recycles dying counters"
+      ],
       "cards": [
         {
           "title": "Buzzard-Wasp Colony",
@@ -2847,9 +3286,21 @@
       ]
     },
     {
-      "theme": "Relentless 1",
+      "theme": "Relentless",
       "color": "black",
-      "description": "Fast aggro deck with cheap threats and instant-speed removal, applying constant pressure with creatures and disruption.",
+      "description": "This variant of the sacrifice deck adds a token-copying engine and an anthem for every sacrifice made. Joo Dee, One of Many lets you tap to surveil and create a copy of herself, then sacrifice an artifact or creature — feeding both her own copy engine and Zhao, Ruthless Admiral's team-wide +1/+0 buff that triggers on every sacrifice, meaning each activation of Joo Dee both grows your board and pumps it. Fire Nation Occupation again punishes instant-speed interaction from your opponent by making 2/2 Soldiers whenever you cast a spell on their turn, working with Fire Nation Ambushers' flash to build a surprise board. Azula, On the Hunt provides ramp and Clues on attack at the cost of life, while Callous Inspector and Canyon Crawler give more sacrifice fodder and death-trigger value (a Clue or Food token) to keep the engine running. Removal like Heartless Act, Deadly Precision, and Azula Always Lies clears the way for your growing, buffed board to attack.",
+      "playstyle": [
+        "Sacrifice value",
+        "Token copy engine",
+        "Aristocrats"
+      ],
+      "tips": [
+        "Copy Joo Dee, then sac fodder",
+        "Every sac pumps team via Zhao",
+        "Flash in Ambushers on opponent's turn",
+        "Cast instants to trigger Fire Nation Occupation",
+        "Use Clues/Food from death triggers"
+      ],
       "cards": [
         {
           "title": "Azula, On the Hunt",
@@ -2924,9 +3375,21 @@
       ]
     },
     {
-      "theme": "Relentless 2",
+      "theme": "Relentless",
       "color": "black",
-      "description": "Efficient creature-based tempo deck that dominates the early game with evasive threats and flexible interaction spells.",
+      "description": "This variant of the sacrifice deck adds a token-copying engine and an anthem for every sacrifice made. Joo Dee, One of Many lets you tap to surveil and create a copy of herself, then sacrifice an artifact or creature — feeding both her own copy engine and Zhao, Ruthless Admiral's team-wide +1/+0 buff that triggers on every sacrifice, meaning each activation of Joo Dee both grows your board and pumps it. Fire Nation Occupation again punishes instant-speed interaction from your opponent by making 2/2 Soldiers whenever you cast a spell on their turn, working with Fire Nation Ambushers' flash to build a surprise board. Azula, On the Hunt provides ramp and Clues on attack at the cost of life, while Callous Inspector and Canyon Crawler give more sacrifice fodder and death-trigger value (a Clue or Food token) to keep the engine running. Removal like Heartless Act, Deadly Precision, and Azula Always Lies clears the way for your growing, buffed board to attack.",
+      "playstyle": [
+        "Sacrifice value",
+        "Token copy engine",
+        "Aristocrats"
+      ],
+      "tips": [
+        "Copy Joo Dee, then sac fodder",
+        "Every sac pumps team via Zhao",
+        "Flash in Ambushers on opponent's turn",
+        "Cast instants to trigger Fire Nation Occupation",
+        "Use Clues/Food from death triggers"
+      ],
       "cards": [
         {
           "title": "Azula, On the Hunt",
@@ -3003,7 +3466,19 @@
     {
       "theme": "Roku",
       "color": "red",
-      "description": "Avatar Roku leads a high-impact creature deck with powerful firebending magic, focused on strong individual threats and direct damage spells.",
+      "description": "This mono-red deck is built around legendary creatures, ritual-style mana bursts, and noncreature spells feeding prowess-style counters. Avatar Roku, Firebender generates six red mana whenever any player attacks and holds that mana through combat, which combos directly with Fang, Roku's Companion — Fang's attack trigger pumps another legendary creature by his own power, so you can use Roku's massive mana burst to pump Fang himself with his own {R}{R}{R} ability before he then boosts a second legendary attacker even further. Boar-q-pine grows a permanent counter every time you cast a noncreature spell, rewarding the deck's burn-and-pump suite (Firebending Lesson, Frantic Confrontation, Roku's Mastery). Jeong Jeong, the Deserter can grow himself and copy your next Lesson spell for double value, while Crescent Island Temple converts your Shrine count into a stream of prowess Monk tokens. The deck wants to ramp into a big attack step, use Roku's mana to pump through combat tricks, and clear blockers with kicked Firebending Lesson or Roku's Mastery.",
+      "playstyle": [
+        "Ramp aggro",
+        "Legendary synergy",
+        "Spells matter"
+      ],
+      "tips": [
+        "Attack to fuel Roku's mana burst",
+        "Pump Fang, then buff another legend",
+        "Cast noncreature spells to grow Boar-q-pine",
+        "Copy Lessons with Jeong Jeong",
+        "Kick Firebending Lesson for removal"
+      ],
       "cards": [
         {
           "title": "Avatar Roku, Firebender",
@@ -3080,7 +3555,19 @@
     {
       "theme": "Zuko",
       "color": "red",
-      "description": "A creature-light, spell-heavy deck focused on efficient burn spells and removal to deal direct damage while controlling the board with a small suite of utility creatures.",
+      "description": "This mono-red deck is built around casting noncreature spells during combat to fuel Zuko, Firebending Master's Firebending X ability and rack up experience counters, turning him into an ever-scaling mana engine and first striker. Mai, Jaded Edge and other prowess creatures grow every time you fire off a burn spell like Lightning Strike or Firebending Lesson, while Fists of Flame draws a card and pumps a creature with trample based on cards drawn that turn. Lost in Memories is the standout enabler here: enchanting a creature to grant flashback to an instant or sorcery in your graveyard whenever it connects lets you recast burn spells like Lightning Strike or Frantic Confrontation for extra value, especially once Fire Nation Attacks' own flashback cost becomes affordable late. The game plan is to curve out with cheap threats like Mongoose Lizard and Dragon Moose, then use combat-step spells to push through damage while triggering Zuko and prowess creatures simultaneously.",
+      "playstyle": [
+        "Spells-matter aggro",
+        "Prowess",
+        "Combat-trick burn"
+      ],
+      "tips": [
+        "Hold burn spells for combat",
+        "Attack with Zuko before casting spells",
+        "Use Lost in Memories to reflash burn",
+        "Grow Mai with noncreature spells",
+        "Save Fire Nation Attacks flashback for late game"
+      ],
       "cards": [
         {
           "title": "Dragon Moose",
@@ -3157,7 +3644,19 @@
     {
       "theme": "Fire Nation",
       "color": "red",
-      "description": "An aggressive red deck with creatures that deal direct damage and combat tricks to burn down opponents quickly.",
+      "description": "This deck leans hard into a 'spells matter' payoff package where every noncreature spell you cast triggers multiple creatures at once. Longshot, Rebel Bowman makes noncreature spells cheaper and pings opponents for 2 damage whenever you cast one, while Mai, Jaded Edge, Ty Lee, Artful Acrobat, and Firebending Student all get pumped or gain abilities from prowess and Zuko, Seeking Honor gains first strike off the same trigger. Storm of Memories is the key value piece: its Storm ability copies itself for every spell already cast that turn, then lets you exile and recast a cheap instant or sorcery from your graveyard for free, meaning a turn with several cheap spells can chain into extra free spells and extra Longshot triggers. The deck wants to jam as many cheap instants and sorceries as possible into a single turn to snowball damage through Longshot pings, prowess pumps, and evasive attackers like Ty Lee.",
+      "playstyle": [
+        "Spells-matter burn",
+        "Prowess",
+        "Storm/value chain"
+      ],
+      "tips": [
+        "Chain cheap spells in one turn",
+        "Cast noncreature spells before combat for Zuko first strike",
+        "Use Storm of Memories after multiple spells",
+        "Ty Lee removes blockers, then swing wide",
+        "Longshot pings add up fast"
+      ],
       "cards": [
         {
           "title": "Firebending Student",
@@ -3234,7 +3733,19 @@
     {
       "theme": "Iroh",
       "color": "red",
-      "description": "A creature-heavy deck with a mix of sorceries that focuses on powerful firebending effects and card advantage through hand disruption and reunion effects.",
+      "description": "This deck is built around growing a small crew of counter-laden creatures and then unleashing them with Iroh, Dragon of the West, whose combat-start trigger grants firebending 2 to every creature with a counter, generating a burst of red mana to fuel spells mid-combat. Iroh's own Mentor ability adds counters to attacking creatures with lesser power, while Jeong Jeong, the Deserter's exhaust ability both adds a permanent +1/+1 counter and sets up a free copy of your next Lesson spell, meaning casting Firebending Lesson after activating Jeong Jeong effectively doubles its damage output. Boar-q-pine also snowballs on counters whenever you cast a noncreature spell, and Deserter's Disciple can push a small counter-carrier through unblocked. The overall plan is a midrange counters shell that uses burn spells like Fiery Confluence and Iroh's Demonstration for board control while its creatures grow into a threatening attacking force backed by extra mana from firebending.",
+      "playstyle": [
+        "Counters midrange",
+        "Firebending ramp",
+        "Value burn"
+      ],
+      "tips": [
+        "Activate Jeong Jeong before Lesson spells",
+        "Attack with counter creatures to trigger Iroh's mana",
+        "Use Mentor to spread counters",
+        "Sequence Boar-q-pine spells for growth",
+        "Save Bolt Bend to redirect removal"
+      ],
       "cards": [
         {
           "title": "Boar-q-pine",
@@ -3311,7 +3822,19 @@
     {
       "theme": "Musicians",
       "color": "red",
-      "description": "A creature-focused deck with enchantments and artifacts that builds around nomadic musicians and dancers, featuring both direct damage and evasive creatures.",
+      "description": "This deck combines a go-wide token strategy with attack-triggered team pumps and Saga synergy. Chong and Lily, Nomads rewards attacking with Bards by either adding lore counters to your Sagas or converting existing lore counters into a team-wide +1/+0 buff, which directly interacts with The Cave of Two Lovers and Founding of Omashu, both Sagas that create 1/1 Ally tokens on chapter I and offer additional value later, feeding both the token count and the lore-counter payoff. Wandering Musicians and Founding of Omashu's chapter III both add flat pump effects on attack, stacking with Moku, Meandering Drummer's haste-granting noncreature-spell trigger to let freshly made tokens swing immediately. Freedom Fighter Recruit scales directly with your growing board of Ally tokens and Soldiers, making it a late-game payoff for the go-wide plan, while Secret Tunnel can push a pair of same-type creatures through unblocked for a finishing blow.",
+      "playstyle": [
+        "Go-wide tokens",
+        "Saga synergy",
+        "Attack-trigger pumps"
+      ],
+      "tips": [
+        "Attack with Bards to trigger Chong and Lily",
+        "Stack lore counters before big swings",
+        "Cast spells to haste tokens with Moku",
+        "Use Secret Tunnel to force damage through",
+        "Let Freedom Fighter Recruit scale with tokens"
+      ],
       "cards": [
         {
           "title": "Chong and Lily, Nomads",
@@ -3374,11 +3897,6 @@
           "qty": 1
         },
         {
-          "title": "War Balloon",
-          "type": "Artifacts",
-          "qty": 1
-        },
-        {
           "title": "Secret Tunnel",
           "type": "Lands",
           "qty": 1
@@ -3396,9 +3914,21 @@
       ]
     },
     {
-      "theme": "Firebending (1)",
+      "theme": "Firebending",
       "color": "red",
-      "description": "A creature-focused aggressive deck with removal spells and burn, featuring various Fire Nation characters and direct damage to finish opponents.",
+      "description": "A near-identical firebending shell to its counterpart, this deck again keys off Lesson cards being in the graveyard to power Fire Nation Cadets' firebending 2 and uses Jeong Jeong, the Deserter's exhaust ability to copy a Lesson spell for extra value, most notably doubling up Firebending Lesson's damage. Combustion Technique scales directly with Lesson cards in the graveyard, dealing more damage and exiling the target if lethal, making it a strong removal spell once a couple of Lessons have been cast or discarded. Yuyan Archers offers a rummaging effect to filter for Lesson cards or lands, while Moku, Meandering Drummer grants haste to the whole team off noncreature spells, letting freshly generated tokens from Fire Nation Attacks swing immediately. Zuko, Exiled Prince and Rough Rhino Cavalry provide huge bursts of red mana on attack that can be reinvested into burn spells or Jeong Jeong's exhaust ability, with Reckless Blaze serving as both a sweeper and a mana rebate engine.",
+      "playstyle": [
+        "Firebending ramp",
+        "Lesson synergy",
+        "Graveyard payoff burn"
+      ],
+      "tips": [
+        "Fill graveyard with Lesson cards early",
+        "Copy Lessons with Jeong Jeong's exhaust",
+        "Combustion Technique scales with graveyard Lessons",
+        "Haste tokens via Moku after Fire Nation Attacks",
+        "Reckless Blaze refunds mana from your dying creatures"
+      ],
       "cards": [
         {
           "title": "Dragon Moose",
@@ -3473,9 +4003,21 @@
       ]
     },
     {
-      "theme": "Firebending (2)",
+      "theme": "Firebending",
       "color": "red",
-      "description": "A creature-heavy deck with combat-focused instants and versatile warriors, emphasizing board presence with direct damage support.",
+      "description": "A near-identical firebending shell to its counterpart, this deck again keys off Lesson cards being in the graveyard to power Fire Nation Cadets' firebending 2 and uses Jeong Jeong, the Deserter's exhaust ability to copy a Lesson spell for extra value, most notably doubling up Firebending Lesson's damage. Combustion Technique scales directly with Lesson cards in the graveyard, dealing more damage and exiling the target if lethal, making it a strong removal spell once a couple of Lessons have been cast or discarded. Yuyan Archers offers a rummaging effect to filter for Lesson cards or lands, while Moku, Meandering Drummer grants haste to the whole team off noncreature spells, letting freshly generated tokens from Fire Nation Attacks swing immediately. Zuko, Exiled Prince and Rough Rhino Cavalry provide huge bursts of red mana on attack that can be reinvested into burn spells or Jeong Jeong's exhaust ability, with Reckless Blaze serving as both a sweeper and a mana rebate engine.",
+      "playstyle": [
+        "Firebending ramp",
+        "Lesson synergy",
+        "Graveyard payoff burn"
+      ],
+      "tips": [
+        "Fill graveyard with Lesson cards early",
+        "Copy Lessons with Jeong Jeong's exhaust",
+        "Combustion Technique scales with graveyard Lessons",
+        "Haste tokens via Moku after Fire Nation Attacks",
+        "Reckless Blaze refunds mana from your dying creatures"
+      ],
       "cards": [
         {
           "title": "Fire Nation Cadets",
@@ -3550,9 +4092,21 @@
       ]
     },
     {
-      "theme": "Powerful (1)",
+      "theme": "Powerful 1",
       "color": "red",
-      "description": "Creature-focused deck with large aggressive creatures and some spells to support them in combat.",
+      "description": "This deck is a red aggressive midrange pile focused on big attackers and cost reduction for its burn package. Uncle Iroh makes all your Lesson spells cheaper, letting you fire off Firebending Lesson more efficiently as both removal and a mana sink via its kicker. Fang, Roku's Companion pumps another legendary creature equal to his power whenever he attacks, directly boosting a creature like Uncle Iroh or any other legendary threat you control, and Fang's death trigger lets him return as a Spirit, making him a resilient recurring attacker. Twin Blades gives flash double strike to any creature at instant speed, turning combat tricks into surprise lethal swings, while Tiger-Dillo and Rough Rhino Cavalry provide big bodies that reward building a board of power-4-plus creatures. The overall plan is to grind with removal like Iroh's Demonstration and card draw from Cathartic Reunion while pushing through with evasive or pumped attackers.",
+      "playstyle": [
+        "Midrange aggro",
+        "Legendary synergy",
+        "Removal + big bodies"
+      ],
+      "tips": [
+        "Attack with Fang to pump legendaries",
+        "Cast Lessons cheaper with Uncle Iroh",
+        "Flash in Twin Blades for surprise damage",
+        "Build toward power-4 creatures for Tiger-Dillo",
+        "Use Deserter's Disciple to push small threats through"
+      ],
       "cards": [
         {
           "title": "Deserter's Disciple",
@@ -3627,9 +4181,21 @@
       ]
     },
     {
-      "theme": "Powerful (2)",
+      "theme": "Powerful 2",
       "color": "red",
-      "description": "Creature-heavy aggressive deck with powerful creatures backed up by combat tricks and card advantage spells.",
+      "description": "This deck is a red midrange fight-and-removal package built around big power stats and single-target interaction. Hog-Monkey Rampage rewards having power-4-or-greater creatures by granting a permanent +1/+1 counter before fighting, synergizing with Tiger-Dillo (which needs a power-4+ ally to attack or block) and Komodo Rhino's trample to push damage through after combat math swings in your favor. Combustion Man threatens to destroy any permanent on attack unless the opponent pays life equal to his power, acting as a recurring removal threat that opponents must respect every combat. Fang, Roku's Companion again provides a pump to another legendary creature (like Uncle Iroh) on attack and can return from death as a Spirit, while Uncle Iroh discounts Firebending Lesson for efficient removal, and Cathartic Reunion refills the hand after an aggressive start.",
+      "playstyle": [
+        "Midrange fight deck",
+        "Power-matters",
+        "Removal-heavy"
+      ],
+      "tips": [
+        "Build toward power-4 threats",
+        "Use Hog-Monkey Rampage to win fights",
+        "Combustion Man threatens board or life",
+        "Attack with Fang to pump Uncle Iroh",
+        "Discount Lessons via Uncle Iroh"
+      ],
       "cards": [
         {
           "title": "Combustion Man",
@@ -3706,7 +4272,19 @@
     {
       "theme": "Rebelling 1",
       "color": "red",
-      "description": "A scrappy rebel deck focused on small efficient creatures and combat tricks to overwhelm opponents with freedom fighters and rebel characters.",
+      "description": "This deck is a red-white aggressive rebels shell built around cheap creatures with enter-the-battlefield and attack triggers. Jet, Freedom Fighter deals damage equal to your creature count on entry, which scales well alongside Freedom Fighter Recruit (whose power also equals your creature count) and token generators like Treetop Freedom Fighters and Fire Nation Attacks. Smellerbee, Rebel Fighter grants haste to the rest of the team and can refill your hand by discarding it and drawing a card for each attacker, letting you dump your hand into an alpha strike and immediately draw back into gas. Longshot, Rebel Bowman discounts noncreature spells and pings opponents for 2 whenever you cast one, meaning cheap tricks like How to Start a Riot or Bumi Bash double as extra reach alongside combat damage.",
+      "playstyle": [
+        "Go-wide aggro",
+        "Creature-count payoffs",
+        "Burn support"
+      ],
+      "tips": [
+        "Build board before playing Jet",
+        "Attack wide to trigger Smellerbee's card draw",
+        "Chain noncreature spells for Longshot pings",
+        "Freedom Fighter Recruit scales with tokens",
+        "Use Smellerbee haste for surprise swings"
+      ],
       "cards": [
         {
           "title": "Freedom Fighter Recruit",
@@ -3783,7 +4361,19 @@
     {
       "theme": "Rebelling 2",
       "color": "red",
-      "description": "An aggressive rebel deck with strong creature synergies and combat-focused instants that leverages defectors and freedom fighters to attack consistently.",
+      "description": "A close variant of the other rebels deck, this build again scales Freedom Fighter Recruit and Jet, Freedom Fighter off your total creature count, encouraging you to flood the board with tokens from Treetop Freedom Fighters and Hook Swords (which creates a 1/1 Ally and immediately equips it for +1/+1 and first strike on your turn) before landing Jet for a bigger damage burst. Smellerbee, Rebel Fighter again gives the team haste and offers an aggressive hand-refill by discarding your hand to draw one card per attacker, synergizing with a low curve of disposable creatures. Longshot, Rebel Bowman discounts and rewards noncreature spells with direct damage, and finishers like Overwhelming Victory (which kills a creature and pumps your team with trample based on excess damage) or Run Amok can turn a wide attack into a lethal alpha strike.",
+      "playstyle": [
+        "Go-wide aggro",
+        "Creature-count payoffs",
+        "Alpha strike finishers"
+      ],
+      "tips": [
+        "Flood board before Jet enters",
+        "Equip Hook Swords for first strike",
+        "Dump hand into Smellerbee for redraw",
+        "Save Overwhelming Victory for finishing blow",
+        "Chain spells for Longshot damage"
+      ],
       "cards": [
         {
           "title": "Deserter's Disciple",
@@ -3858,9 +4448,21 @@
       ]
     },
     {
-      "theme": "Sparky Sparky 1",
+      "theme": "Sparky Sparky (1)",
       "color": "red",
-      "description": "Aggressive creature-heavy deck with direct damage instants and sorceries, focusing on red's fast burn strategy.",
+      "description": "This mono-red aggro deck is built around the firebending mechanic, where attacking creatures like Fire Sages, Ran and Shaw, and Zuko, Exiled Prince generate a burst of red mana during combat that can be spent on pump abilities or extra spells before blocks are even assigned. Zuko, Exiled Prince is the engine piece: his firebending 3 floats {R}{R}{R} on attack, which can immediately fund his own {3} ability to exile and play the top card of your library, effectively drawing extra gas the same turn he swings. Fire Nation Cadets gets firebending 2 once a Lesson card (like Combustion Technique or Firebending Lesson's cousin cards) hits the graveyard, and its {2} pump ability is easily fed by the mana its own attack trigger generates alongside other firebenders. Ran and Shaw can also mill/self-copy if three or more Dragon/Lesson cards are in the graveyard, doubling up a flying threat. The deck closes games with reach/menace tricks (How to Start a Riot, Earth Rumble Wrestlers' conditional trample) and removal like Combustion Man's attack-trigger extortion and Combustion Technique's scaling damage, all backed by a low curve built for constant attacking.",
+      "playstyle": [
+        "Aggro",
+        "Attack-trigger mana",
+        "Burn/removal"
+      ],
+      "tips": [
+        "Attack every turn to fuel firebending mana",
+        "Use Zuko's floating mana on his own exile ability",
+        "Fill graveyard with Lessons for bonus effects",
+        "Combustion Man punishes chump blocks or extorts damage",
+        "Save tricks for combat math swings"
+      ],
       "cards": [
         {
           "title": "Combustion Man",
@@ -3935,9 +4537,21 @@
       ]
     },
     {
-      "theme": "Sparky Sparky 2",
+      "theme": "Sparky Sparky (2)",
       "color": "red",
-      "description": "Fast red aggro deck with strong creatures and instant-speed trick support, designed for quick damage output.",
+      "description": "A leaner, more efficient version of the mono-red firebending aggro plan, again anchored by Zuko, Exiled Prince and Ran and Shaw generating combat-only red mana that snowballs into card advantage or extra pump. Zuko's firebending 3 attack trigger feeds his own {3}: exile-and-play ability, letting him dig for extra action the very turn he swings, while Fire Nation Cadets' firebending 2 (once a Lesson is in the yard) powers its own {2} pump the same way. Ran and Shaw again rewards a graveyard full of Dragons/Lessons with a free copy of itself. This build trades some of the top end for efficiency tools like Yuyan Archers' loot effect (discard to draw, filtering for Lessons) and burn spells such as Firebending Lesson and Overwhelming Victory, the latter of which both removes a blocker and pumps the team with trample for a potential lethal swing. Dragon Moose adds an immediate haste threat to keep the aggression constant from turn one.",
+      "playstyle": [
+        "Aggro",
+        "Attack-trigger mana",
+        "Burn/removal"
+      ],
+      "tips": [
+        "Curve out and keep attacking",
+        "Zuko's attack mana funds his exile ability",
+        "Loot with Yuyan Archers to find Lessons",
+        "Overwhelming Victory doubles as removal and finisher",
+        "Ran and Shaw rewards a full graveyard"
+      ],
       "cards": [
         {
           "title": "Combustion Man",
@@ -4014,7 +4628,19 @@
     {
       "theme": "Kyoshi",
       "color": "green",
-      "description": "A hybrid-based deck with balanced creature threats and utility spells, featuring Avatar Kyoshi and her warrior allies backed by defensive enchantments and land destruction.",
+      "description": "This green deck centers on the earthbend mechanic and Suki, Kyoshi Warrior's Ally tokens, turning lands into surprise threats while building a wide board of Allies. Avatar Kyoshi, Earthbender turns a land into an enormous 8/8-plus haste creature every combat and then untaps it, meaning that land keeps producing mana even after becoming an attacker, and Kyoshi herself has hexproof on your turn to protect the engine. Suki, Kyoshi Warrior scales her power off your total creature count and spawns a tapped-and-attacking 1/1 Ally token whenever she attacks, and Allies at Last gets cheaper for every Ally you control (including those Suki tokens), letting you eventually cast it for a discount to have two creatures fight down an opponent's blocker for free. Kyoshi Warrior Exemplars rewards the land-heavy late game by pumping the whole team +2/+2 once you hit eight lands, tying the deck's ramp and go-wide elements together into a single alpha strike.",
+      "playstyle": [
+        "Go-wide tokens",
+        "Land-based ramp/threats",
+        "Combat tricks"
+      ],
+      "tips": [
+        "Kyoshi turns a land into a huge threat and untaps it",
+        "Suki grows with your board and makes tokens",
+        "Allies at Last gets cheaper as tokens pile up",
+        "Hit 8 lands to trigger Kyoshi Warrior Exemplars",
+        "Use Rocky Rebuke/Allies at Last for pseudo-removal"
+      ],
       "cards": [
         {
           "title": "Avatar Kyoshi, Earthbender",
@@ -4091,7 +4717,19 @@
     {
       "theme": "Toph",
       "color": "green",
-      "description": "A creature-focused deck with emphasis on earthbending warriors and elemental creatures, combining efficient small creatures with enchantment support for board presence.",
+      "description": "A green earthbending midrange deck that turns lands into creatures and then compounds +1/+1 counters across the board. Toph, Earthbending Master accumulates experience counters off every land drop and then earthbends that many lands into hasty creatures when she attacks, and Solid Ground's counter-doubling static ability (any +1/+1 counters placed become one more) combos directly with all the earthbend effects (Badgermole, Earth Kingdom General, Earthbending Lesson, Toph herself), turning every earthbend trigger into extra-large counter piles. Badgermole gives trample to anything with a +1/+1 counter, which synergizes with the deck's abundance of counter-generating effects to push through damage, while Tale of Katara and Toph adds a counter to anything that taps for the first time each turn, further snowballing size. Earth Kingdom General turns all this counter-placement into incidental lifegain, giving the deck a grindy, resilient shell around its land-animating payoffs.",
+      "playstyle": [
+        "Counter buffs",
+        "Land-based ramp/threats",
+        "Midrange value"
+      ],
+      "tips": [
+        "Play lands every turn to build Toph's experience counters",
+        "Solid Ground doubles up on every earthbend trigger",
+        "Badgermole grants trample to countered creatures",
+        "Tap creatures for extra counters via Tale of Katara and Toph",
+        "Gain life passively via Earth Kingdom General"
+      ],
       "cards": [
         {
           "title": "Badgermole",
@@ -4168,7 +4806,19 @@
     {
       "theme": "At the Zoo",
       "color": "green",
-      "description": "Animal-focused aggro deck with diverse creatures from the Avatar universe's zoo, supplemented by creature-enhancing instants and artifacts for aggressive board presence.",
+      "description": "A green creature-type synergy deck where Diligent Zookeeper rewards stacking multiple creature types onto non-Human bodies, since it gives every non-Human creature +1/+1 for each of its own types. Creatures like Elephant-Mandrill, Eel-Hounds, and Turtle-Duck (which are all multi-typed animal-fusion creatures) get outsized boosts from Zookeeper's static ability, while Eel-Hounds' attack trigger additionally pumps another creature +2/+2 with trample to punch through blockers. The deck otherwise plays as a solid green value/curve pile, using Ostrich-Horse's mill-and-land-or-counter mode and Hog-Monkey Rampage's fight effect for removal, plus Pillar Launch as a combat trick that also untaps a blocker for defense. Bison Whistle provides late-game card advantage by digging the top of the library for value.",
+      "playstyle": [
+        "Creature-type synergy",
+        "Value midrange",
+        "Combat tricks"
+      ],
+      "tips": [
+        "Prioritize multi-typed animal creatures",
+        "Zookeeper scales with each creature's type count",
+        "Eel-Hounds attack trigger buffs a teammate",
+        "Use Hog-Monkey Rampage to fight down blockers",
+        "Bison Whistle digs for extra value late"
+      ],
       "cards": [
         {
           "title": "Animal Attendant",
@@ -4245,7 +4895,19 @@
     {
       "theme": "Bumi",
       "color": "green",
-      "description": "A creature-focused deck with utility spells and enchantments that provides defensive and resilience effects.",
+      "description": "A green earthbending/counters deck that builds toward big, hard-to-block threats and incidental value from a graveyard full of Lesson cards. Bumi, King of Three Trials scales his own entry effects (extra counters, scry, or earthbending) based on how many Lesson cards are already in your graveyard, rewarding you for having cast spells like Earthbending Lesson or Bumi's Feast Lecture earlier. Flopsie, Bumi's Buddy puts a +1/+1 counter on every creature you control on entry and makes anything with power 4+ effectively unblockable by more than one creature, which combines well with Badgermole's blanket trample for +1/+1-countered creatures to push huge chunks of damage through. Bumi's Feast Lecture doubles as both a Food generator and an earthbend spell scaling off Foods you already control, and Aang, A Lot to Learn grows every time a creature you control dies, giving the deck a grindy backup plan if the board gets traded away.",
+      "playstyle": [
+        "Counter buffs",
+        "Land-based ramp/threats",
+        "Midrange value"
+      ],
+      "tips": [
+        "Fill graveyard with Lessons before casting Bumi",
+        "Flopsie plus Badgermole pushes damage through",
+        "Power 4+ creatures dodge double blocks",
+        "Bumi's Feast Lecture scales with Food count",
+        "Aang grows as creatures die, so trade freely"
+      ],
       "cards": [
         {
           "title": "Aang, A Lot to Learn",
@@ -4322,7 +4984,19 @@
     {
       "theme": "Cabbages",
       "color": "green",
-      "description": "A creature-focused deck with animal companions and support spells, featuring the unfortunate Cabbage Merchant whose cabbages meet their doom.",
+      "description": "A green Food-matters deck where nearly every card either creates or sacrifices Food tokens to chain value. The Cabbage Merchant taps two untapped Foods for mana of any color, making it a mana engine that also punishes opponents' noncreature spells by generating more Food to feed itself, while Unlucky Cabbage Merchant turns every Food sacrifice into a free basic land tutor before shuffling itself away for a fresh copy later. Bumi's Feast Lecture directly rewards a wide Food board by earthbending lands for twice the number of Foods you control, meaning a deck that's been stockpiling Food from Elephant-Mandrill, The Art of Tea, and Leaves from the Vine can turn a handful of tokens into a genuinely huge land-creature. Bosco, Just a Bear also scales off legendary creatures for entry Food and can dump Foods into +1/+1 counters and trample later, giving the deck late-game payoffs for all the incidental sacrifice fodder it accumulates.",
+      "playstyle": [
+        "Food/sacrifice value",
+        "Ramp/land synergy",
+        "Grindy midrange"
+      ],
+      "tips": [
+        "Stockpile Food before big payoffs",
+        "Cabbage Merchant taps Foods for mana",
+        "Bumi's Feast Lecture scales with Food count",
+        "Unlucky Cabbage Merchant recurs via sacrifice",
+        "Sac Foods to fuel Bosco's counters"
+      ],
       "cards": [
         {
           "title": "Bosco, Just a Bear",
@@ -4397,9 +5071,21 @@
       ]
     },
     {
-      "theme": "Earthbending (1)",
+      "theme": "Earthbending",
       "color": "green",
-      "description": "A creature-focused deck with Toph and Earth Kingdom warriors that aims to control the ground with enchantments and utility spells.",
+      "description": "A second take on the green earthbend land-animation shell, again built around Toph, the Blind Bandit scaling her power with counters on your lands, but this time paired with Solid Ground's counter-doubling static ability that turns every earthbend trigger (from Badgermole, Earth Kingdom General, or Earthbending Lesson) into extra-large land creatures. Badgermole's blanket trample for anything with a +1/+1 counter ensures those pumped-up lands and creatures can actually push damage through blockers instead of getting chumped, while Tale of Katara and Toph adds ongoing incremental counters to any creature that taps for the first time each turn, rewarding both attacking and mana-tapping lands-as-creatures. Rebellious Captives' exhaust ability offers a late-game mana sink that both grows itself and earthbends another land, giving the deck extra reach once mana is plentiful.",
+      "playstyle": [
+        "Land-based ramp/threats",
+        "Counter buffs",
+        "Value midrange"
+      ],
+      "tips": [
+        "Earthbend lands, then double up with Solid Ground",
+        "Badgermole gives trample to countered threats",
+        "Tap creatures to trigger Tale of Katara and Toph",
+        "Dump excess mana into Rebellious Captives late",
+        "Toph's power scales with land counters"
+      ],
       "cards": [
         {
           "title": "Earth Kingdom General",
@@ -4474,9 +5160,21 @@
       ]
     },
     {
-      "theme": "Earthbending (2)",
+      "theme": "Earthbending",
       "color": "green",
-      "description": "A mid-range creature deck featuring Toph and earthbenders that combines solid ground effects with ramp spells for consistent board presence.",
+      "description": "A second take on the green earthbend land-animation shell, again built around Toph, the Blind Bandit scaling her power with counters on your lands, but this time paired with Solid Ground's counter-doubling static ability that turns every earthbend trigger (from Badgermole, Earth Kingdom General, or Earthbending Lesson) into extra-large land creatures. Badgermole's blanket trample for anything with a +1/+1 counter ensures those pumped-up lands and creatures can actually push damage through blockers instead of getting chumped, while Tale of Katara and Toph adds ongoing incremental counters to any creature that taps for the first time each turn, rewarding both attacking and mana-tapping lands-as-creatures. Rebellious Captives' exhaust ability offers a late-game mana sink that both grows itself and earthbends another land, giving the deck extra reach once mana is plentiful.",
+      "playstyle": [
+        "Land-based ramp/threats",
+        "Counter buffs",
+        "Value midrange"
+      ],
+      "tips": [
+        "Earthbend lands, then double up with Solid Ground",
+        "Badgermole gives trample to countered threats",
+        "Tap creatures to trigger Tale of Katara and Toph",
+        "Dump excess mana into Rebellious Captives late",
+        "Toph's power scales with land counters"
+      ],
       "cards": [
         {
           "title": "Badgermole",
@@ -4551,9 +5249,21 @@
       ]
     },
     {
-      "theme": "Earth Rumble (1)",
+      "theme": "Earth Rumble 1",
       "color": "green",
-      "description": "This deck focuses on creature combat with a fighting theme, featuring wrestlers and combat-heavy creatures that use instants like Hog-Monkey Rampage to dominate the battlefield.",
+      "description": "This green deck leans into big-power creatures and the earthbend mechanic to enable its power-4-matters payoffs. The Boulder, Ready to Rumble earthbends a number of lands equal to your creatures with power 4 or greater whenever it attacks, and Raucous Audience taps for double green mana specifically when you control such a big creature, so the deck actively wants to hit that power threshold to accelerate itself. Earth Rumble directly combines earthbending with a fight effect, animating a land and then having it fight an opponent's creature, functioning as both a threat and removal in one card, while Hog-Monkey Rampage rewards a power-4-or-greater creature you control with a bonus +1/+1 counter before it fights an opponent's creature. Master's Guidance rewards attacking with two-plus legendary creatures (Toph, the Blind Bandit and Uncle Iroh both qualify) by handing out counters and drawing cards off any power-4-or-greater creature on the field, tying the whole deck's threshold-based synergies into a cohesive value engine.",
+      "playstyle": [
+        "Power-matters",
+        "Land-based ramp/threats",
+        "Fight removal"
+      ],
+      "tips": [
+        "Hit power 4+ to trigger Raucous Audience and Boulder",
+        "Earth Rumble doubles as removal and threat",
+        "Attack with two legendaries for Master's Guidance",
+        "Hog-Monkey Rampage buffs before fighting",
+        "Toph's power scales off countered lands"
+      ],
       "cards": [
         {
           "title": "The Boulder, Ready to Rumble",
@@ -4628,9 +5338,21 @@
       ]
     },
     {
-      "theme": "Earth Rumble (2)",
+      "theme": "Earth Rumble 2",
       "color": "green",
-      "description": "A creature-focused deck featuring wrestlers and powerful creatures with instant-speed combat tricks to enable aggressive plays and control the board through fighting mechanics.",
+      "description": "This is a mono-green ramp-into-fatties deck built around the earthbend mechanic and big power-4+ creatures. Cards like The Boulder, Ready to Rumble and The Earth King reward you for filling the board with heavy hitters: The Boulder's attack trigger earthbends a land equal to the number of power-4+ creatures you control, turning your mana base into an army, while The Earth King searches for that many basic lands whenever your big creatures attack, snowballing your mana and battlefield presence simultaneously. Raucous Audience doubles as a mana dork that produces double green once you have a power-4+ threat online, accelerating you further, and Master's Guidance turns your end step into a card-draw engine as long as a power-4+ creature is around. Bosco, Just a Bear generates Food off legendary creatures which can then be sacrificed to pump Bosco himself with +1/+1 counters and trample, giving you a secondary combo of legendary density feeding Bosco's own growth. The deck wants to curve into midsize green threats, hit its earthbend and land-fetch triggers off attacking with big creatures, and close games with trampling, ever-growing bodies.",
+      "playstyle": [
+        "Ramp fatties",
+        "Earthbend land creatures",
+        "Legendary synergy"
+      ],
+      "tips": [
+        "Attack with power-4+ creatures for earthbend value",
+        "Feed Bosco Food for counters",
+        "Use Raucous Audience once big creatures are out",
+        "Master's Guidance draws cards off big attackers",
+        "Prioritize The Earth King for land ramp"
+      ],
       "cards": [
         {
           "title": "Bosco, Just a Bear",
@@ -4705,9 +5427,21 @@
       ]
     },
     {
-      "theme": "Earth Kingdom",
+      "theme": "Earth Kingdom 1",
       "color": "green",
-      "description": "A creature-focused deck with hybrid cards emphasizing small efficient creatures and utility artifacts, playing out creatures and support spells.",
+      "description": "This mono-green Ally tribal deck leans on token generation and counters-matter synergies to build a wide, ever-growing board. Suki, Kyoshi Warrior scales her own power with your total creature count and spawns a tapped, attacking 1/1 Ally token every combat, which directly feeds Haru, Hidden Talent's ability to earthbend a land into a growing threat whenever another Ally enters. Toph, the Blind Bandit turns your earthbent lands into a genuine payoff, since her power equals the total +1/+1 counters on your lands, meaning every earthbend trigger from Toph or Haru also grows her. Kyoshi Battle Fan adds yet another Ally token the moment it enters, further compounding Haru's earthbend triggers, while Allies at Last gets cheaper the more Allies you've amassed and can snipe down a blocker or finisher using your biggest attackers' power. The overall plan is to flood the board with Ally tokens and counter-laden lands, then swing wide for value and reach with Match the Odds scaling to opponent board state.",
+      "playstyle": [
+        "Go-wide Allies",
+        "Counters synergy",
+        "Earthbend value"
+      ],
+      "tips": [
+        "Play Haru before other Allies",
+        "Suki tokens trigger Haru's earthbend",
+        "Toph grows off any land counters",
+        "Use Allies at Last as cheap removal",
+        "Match the Odds scales vs wide boards"
+      ],
       "cards": [
         {
           "title": "Earth Kingdom Soldier",
@@ -4782,9 +5516,21 @@
       ]
     },
     {
-      "theme": "Earth Kingdom",
+      "theme": "Earth Kingdom 2",
       "color": "green",
-      "description": "A creature-heavy green deck with multiple strong creatures and hybrid cards, focused on building a board presence with synergistic creatures.",
+      "description": "A green Ally-and-earthbend deck that mixes wide token strategies with incidental lifegain. Earth Kingdom General's ability to gain life whenever you put +1/+1 counters on a creature synergizes directly with earthbend triggers from Toph, the Blind Bandit, Haru, Hidden Talent, and Earth Kingdom General's own enters-the-battlefield earthbend, meaning every earthbent land or counter placement chips in extra life alongside board growth. Haru's trigger off Allies entering pairs with Suki, Kyoshi Warrior's attack-triggered Ally tokens to keep generating small earthbend triggers turn after turn, while Great Divide Guide fixes mana across your lands and Allies so multicolor splashes like Mechanical Glider's equip cost are easy to support. Descendants' Path offers free casts when your library flips a matching creature type, rewarding a creature-type-dense build. Overall this deck grinds out value through incremental +1/+1 counters, steady lifegain, and a slowly widening board rather than any single explosive combo.",
+      "playstyle": [
+        "Go-wide Allies",
+        "Lifegain counters",
+        "Earthbend value"
+      ],
+      "tips": [
+        "Earth Kingdom General gains life off counters",
+        "Chain earthbend triggers with Toph and Haru",
+        "Suki tokens trigger Haru repeatedly",
+        "Use Great Divide Guide for fixing",
+        "Descendants' Path rewards Ally density"
+      ],
       "cards": [
         {
           "title": "Earth Kingdom General",
@@ -4859,9 +5605,21 @@
       ]
     },
     {
-      "theme": "Learning (1)",
+      "theme": "Learning 1",
       "color": "green",
-      "description": "A spell-heavy deck focused on learning and growth with combat training creatures and removal spells.",
+      "description": "This mono-green deck is built around Lesson cards filling the graveyard to unlock payoffs, alongside self-mill and land ramp. Sparring Dummy mills cards for value every turn, feeding the graveyard with Lessons that turn on Aang, A Lot to Learn's vigilance and Walltop Sentries' death-trigger lifegain, while also potentially finding land cards to keep in hand. Guru Pathik digs five cards deep for a Lesson, Saga, or Shrine to hand, and then rewards you further by putting a +1/+1 counter on another creature every time you cast one of those spell types, meaning Sparring Dummy's mills and Guru Pathik's tutoring work together to consistently trigger both Aang's growth (from creatures dying) and Guru Pathik's counter ability. Cracked Earth Technique doubles up on earthbend, turning two lands into hasty threats and gaining life in one shot, while Crystalline Armor scales with your land count to make a huge trampling threat. The deck's plan is to grind through incidental mill and land ramp, using Lessons in the graveyard as a passive value engine while building toward a big trampling finisher.",
+      "playstyle": [
+        "Lesson/graveyard value",
+        "Self-mill ramp",
+        "Counters midrange"
+      ],
+      "tips": [
+        "Mill early to fuel Lesson payoffs",
+        "Guru Pathik counters trigger off Lesson casts",
+        "Cracked Earth Technique doubles earthbend",
+        "Crystalline Armor scales with lands",
+        "Walltop Sentries gains life if Lesson is in yard"
+      ],
       "cards": [
         {
           "title": "Aang, A Lot to Learn",
@@ -4936,9 +5694,21 @@
       ]
     },
     {
-      "theme": "Learning (2)",
+      "theme": "Learning 2",
       "color": "green",
-      "description": "A creature-focused deck with combat training elements and enchantment support, featuring a mix of instants and sorceries.",
+      "description": "A mono-green Lesson-and-mill deck that uses self-mill to enable powerful graveyard-dependent payoffs while grinding value with Food and Clue tokens. Platypus-Bear and Sparring Dummy both mill cards, working to get a Lesson into the graveyard so that Platypus-Bear can attack despite its defender text and Walltop Sentries can gain 2 life when it dies, while also feeding Aang, A Lot to Learn's counter growth whenever a creature dies. Uncle Iroh discounts your Lesson spells and adds mana on attack, making it cheaper to chain Lessons like The Art of Tea, which both pumps a creature and creates a Food token for later lifegain. Master's Guidance rewards attacking with multiple legendary creatures (like Aang and Uncle Iroh together) by putting counters on attackers, and also draws a card each end step if you control a power-4+ creature. True Ancestry recurs a permanent from the graveyard while also handing you a Clue, tying together the deck's incidental card advantage. This is a grindy, attrition-based deck that slowly accumulates small edges from mill, Lessons, and recursion rather than relying on a single big combo.",
+      "playstyle": [
+        "Lesson/graveyard value",
+        "Self-mill grind",
+        "Legendary synergy"
+      ],
+      "tips": [
+        "Mill early for Lesson payoffs",
+        "Uncle Iroh discounts Lesson spells",
+        "Attack with two legendaries for Master's Guidance",
+        "True Ancestry rebuys key permanents",
+        "Platypus-Bear attacks once Lesson hits yard"
+      ],
       "cards": [
         {
           "title": "Aang, A Lot to Learn",
@@ -5015,7 +5785,19 @@
     {
       "theme": "Shrines",
       "color": "multi",
-      "description": "A multicolor temple-focused deck that combines creature synergies with enchantment-based shrines to build board presence and utility.",
+      "description": "This five-color Shrine tribal deck is built entirely around chaining legendary enchantment Shrines for compounding value, since each Shrine's enters-the-battlefield ability also triggers 'whenever another Shrine enters' on every other Shrine already on the battlefield. Playing Crescent Island Temple, Kyoshi Island Plaza, Northern Air Temple, Southern Air Temple, and The Spirit Oasis together means a single new Shrine can simultaneously make Monk tokens, fetch basic lands, drain the opponent, put +1/+1 counters on your whole board, and draw you a card, all triggered off the others' static abilities. Guru Pathik and Aang's Journey (kicked) both dig for Shrine cards to make sure you keep the chain going, while Hei Bai, Forest Guardian searches your library directly for a Shrine to cheat straight onto the battlefield, and its activated ability creates a Spirit token for each legendary enchantment (i.e., each Shrine) you control, turning your Shrine count directly into an army. White Lotus Hideout and Thriving Grove supply the five-color mana this build demands. The overall plan is a slow build-up where every Shrine you land triggers all the others, snowballing into card draw, life swings, tokens, and counters all at once.",
+      "playstyle": [
+        "Shrine synergy engine",
+        "Five-color value",
+        "Snowball enchantments"
+      ],
+      "tips": [
+        "Land Shrines in any order to trigger others",
+        "Hei Bai fetches a Shrine straight to battlefield",
+        "Guru Pathik and Aang's Journey dig for Shrines",
+        "Hei Bai's Spirits scale with Shrine count",
+        "Prioritize mana fixing lands early"
+      ],
       "cards": [
         {
           "title": "Guru Pathik",

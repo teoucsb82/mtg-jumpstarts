@@ -1,0 +1,846 @@
+{
+  "series": "The Brothers' War Jumpstart",
+  "themeCount": 10,
+  "decks": [
+    {
+      "theme": "Infantry 1",
+      "color": "white",
+      "description": "This is a white Soldier tribal deck built around the Jumpstart artifact-matters/counters shell. Rescue Retriever is the centerpiece: it flashes in, drops a +1/+1 counter on every other Soldier you control, and then prevents all damage to other attacking Soldiers, letting you swing wide with a buffed team that's virtually immune to combat damage that turn. Aeronaut Cavalry adds evasive flying stats while also handing out a counter, and Phalanx Vanguard grows whenever an artifact enters (Powerstone tokens off Static Net, the Reconstructed Thopter itself, or Veteran's Powerblade all feed it). Airlift Chaplain and Recruitment Officer dig into the deck for more bodies and lands, while Recommission and Reconstructed Thopter's unearth let you loop back cheap threats after they die. Static Net acts as both ramp and removal, exiling an opposing permanent while also generating a Powerstone that feeds Phalanx Vanguard. The overall plan is to flood the board with Soldiers, pump them with counters, and turn on Rescue Retriever's damage prevention to push through a lethal alpha strike.",
+      "playstyle": [
+        "Go-wide Soldiers",
+        "+1/+1 counters",
+        "Artifact synergy"
+      ],
+      "tips": [
+        "Flash Rescue Retriever before combat",
+        "Attack wide after Retriever's damage prevention",
+        "Use Static Net for removal and ramp",
+        "Recur creatures with Recommission",
+        "Feed Phalanx Vanguard with artifacts"
+      ],
+      "cards": [
+        {
+          "title": "Rescue Retriever",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Aeronaut Cavalry",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Airlift Chaplain",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Phalanx Vanguard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Warlord's Elite",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Reconstructed Thopter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Recruitment Officer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Lay Down Arms",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Recommission",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Veteran's Powerblade",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Static Net",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random White rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Infantry 2",
+      "color": "white",
+      "description": "Like its sibling, this white Soldier deck wants to fill the board and pump it with +1/+1 counters, but it leans harder into unearth-based recursion and artifact triggers. Scrapwork Cohort makes a Soldier token on entry and can come back via unearth, Yotian Frontliner buffs an ally every time it attacks and can also unearth back from the graveyard for another shot, and Ambush Paratrooper's flash flying body backs up a late-game overrun with its {5} anthem ability. Phalanx Vanguard and Thopter Architect both react to artifacts entering (Powerstone tokens from Static Net, or the tokens/creatures themselves) — Thopter Architect specifically grants flying to a creature whenever an artifact hits the battlefield, letting your beefed-up Soldiers punch through the air. Aeronaut Cavalry and Warlord's Elite add more counters and bodies, while Lay Down Arms and Static Net supply removal. The deck's game plan is to keep recurring cheap threats through unearth, stack counters onto your team, and close games with a sudden evasive attack.",
+      "playstyle": [
+        "Go-wide Soldiers",
+        "Unearth recursion",
+        "+1/+1 counters"
+      ],
+      "tips": [
+        "Unearth Scrapwork Cohort and Yotian Frontliner for value",
+        "Trigger Thopter Architect off any artifact",
+        "Stack counters with Aeronaut Cavalry",
+        "Use Static Net for tempo removal",
+        "Save Ambush Paratrooper's pump for a finishing swing"
+      ],
+      "cards": [
+        {
+          "title": "Rescue Retriever ",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Aeronaut Cavalry",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ambush Paratrooper",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Phalanx Vanguard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Thopter Architect",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Warlord's Elite",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Scrapwork Cohort",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Yotian Frontliner",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Lay Down Arms",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Static Net",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Veteran's Powerblade",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random White rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Powerstones 1",
+      "color": "blue",
+      "description": "This blue deck is all about generating Powerstone tokens to ramp into big draw-based payoffs. Geology Enthusiast, Koilos Roc, and Stern Lesson all create Powerstones, which feed Third Path Savant's {7}: draw two and Urza, Powerstone Prodigy's loot-then-Powerstone engine — discarding artifact cards off Urza triggers another Powerstone, compounding the mana advantage. Thopter Mechanic explicitly rewards drawing your second card each turn with a +1/+1 counter and leaves behind a flying Thopter when it dies, meshing well with the deck's card-draw-heavy spells like Stern Lesson and Combat Courier's sacrifice-to-draw. Take Flight turns any creature into a repeatable card-draw engine once it connects, while Urza's Rebuff and Weakstone's Subjugation provide interaction to protect your slow, value-oriented plan. This is a grindy ramp/draw deck: it doesn't want to race, it wants to out-card-advantage opponents with excess mana funneled into big late-game draw spells.",
+      "playstyle": [
+        "Powerstone ramp",
+        "Card draw value",
+        "Grindy control"
+      ],
+      "tips": [
+        "Prioritize early Powerstone generators",
+        "Discard artifacts to Urza for extra Powerstones",
+        "Chain draws to grow Thopter Mechanic",
+        "Enchant a flier with Take Flight for repeat draws",
+        "Save Urza's Rebuff to protect your plan"
+      ],
+      "cards": [
+        {
+          "title": "Geology Enthusiast",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Koilos Roc",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Third Path Savant",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Thopter Mechanic",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Urza, Powerstone Prodigy",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Combat Courier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Spotter Thopter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Stern Lesson",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Urza's Rebuff",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Take Flight",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Weakstone's Subjugation",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Blue rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Powerstones 2",
+      "color": "blue",
+      "description": "This blue deck shares its sibling's Powerstone ramp core but pushes further into artifact copying and card filtering. Geology Enthusiast, Koilos Roc, and Stern Lesson generate Powerstones to accelerate you into Urza, Powerstone Prodigy's repeatable loot engine, which itself makes more Powerstones whenever you discard artifact cards. Hulking Metamorph can copy any artifact or creature you control, making it especially strong copying Urza or a beefed-up Thopter Mechanic/Lat-Nam Adept, both of which grow off drawing a second card each turn. Mightstone's Animation turns any artifact, including your Powerstones themselves, into a 4/4 creature while drawing a card, giving the deck a way to convert spare ramp into a real threat. Involuntary Cooldown and Weakstone's Subjugation offer tempo-based interaction, stunning or locking down problem permanents while your ramp-into-value plan comes online. Overall this is a grindy artifact ramp deck focused on converting mana acceleration into card advantage and late-game bodies rather than aggression.",
+      "playstyle": [
+        "Powerstone ramp",
+        "Artifact synergy",
+        "Grindy value"
+      ],
+      "tips": [
+        "Ramp early with Powerstone makers",
+        "Copy your best permanent with Hulking Metamorph",
+        "Animate a Powerstone with Mightstone's Animation",
+        "Grow Thopter Mechanic and Lat-Nam Adept via draws",
+        "Stun key threats with Involuntary Cooldown"
+      ],
+      "cards": [
+        {
+          "title": "Geology Enthusiast",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Koilos Roc",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Lat-Nam Adept",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Thopter Mechanic",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Urza, Powerstone Prodigy",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Combat Courier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hulking Metamorph",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Stern Lesson",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Involuntary Cooldown",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Mightstone's Animation",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Weakstone's Subjugation",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Blue rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Unearth 1",
+      "color": "black",
+      "description": "This black deck is built around sacrifice synergies and recurring creatures from the graveyard via unearth. Terror Ballista, Ashnod's Harvester, and Scrapwork Rager can all be unearthed back for a hasty extra attack or value trigger, while Thraxodemon turns any expendable creature or artifact into a card off its sacrifice ability. Terror Ballista's attack trigger lets you sacrifice another creature to destroy an opposing creature outright, pairing well with expendable unearthed bodies or Kill-Zone Acrobat, which can sacrifice a creature or artifact on attack to gain flying and push through damage. No One Left Behind is a cheap reanimation spell that gets even cheaper against small creatures, and Clay Revenant can return itself from the graveyard to hand for another cast. Ravenous Gigamole mills into the graveyard while filtering for a creature, feeding both the sacrifice and reanimation plans. The deck grinds out value by recurring and sacrificing bodies for card advantage and removal, backed by hard removal like Go for the Throat.",
+      "playstyle": [
+        "Sacrifice value",
+        "Unearth recursion",
+        "Grindy attrition"
+      ],
+      "tips": [
+        "Sacrifice fodder to Terror Ballista's attack trigger",
+        "Unearth creatures for extra hasty attacks",
+        "Feed Thraxodemon expendable permanents for cards",
+        "Reanimate cheaply with No One Left Behind",
+        "Mill with Ravenous Gigamole to stock the graveyard"
+      ],
+      "cards": [
+        {
+          "title": "Terror Ballista",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ravenous Gigamole",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Thraxodemon",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ashnod's Harvester",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Clay Revenant",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Scrapwork Rager",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kill-Zone Acrobat",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ashnod's Intervention",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Go for the Throat",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Gruesome Realization",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "No One Left Behind",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Black rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Unearth 2",
+      "color": "black",
+      "description": "This black deck doubles down on filling and exploiting the graveyard. Gnawing Vermin and Ravenous Gigamole mill cards to stock the yard, directly fueling Gixian Skullflayer's upkeep trigger that adds a +1/+1 counter once three or more creature cards are in your graveyard, and making Overwhelming Remorse cheaper the more creatures pile up there. Terror Ballista, Ashnod's Harvester, and Scrapwork Rager all return via unearth for repeated hasty value, and Transmogrant Altar turns any creature sacrifice into either ramp or a 3/3 Zombie token, giving you a sacrifice outlet that also fixes mana. Dredging Claw specifically rewards creatures entering from the graveyard by letting you attach it for free, so anything coming back via unearth or Transmogrant Altar's token can immediately swing as a menace threat. The deck's plan is to mill and sacrifice its own creatures to grow Gixian Skullflayer, cheapen removal, and keep recurring hasty attackers.",
+      "playstyle": [
+        "Graveyard value",
+        "Unearth recursion",
+        "Sacrifice synergy"
+      ],
+      "tips": [
+        "Mill early to grow Gixian Skullflayer",
+        "Cheapen Overwhelming Remorse with graveyard creatures",
+        "Sacrifice into Transmogrant Altar for tokens or ramp",
+        "Attach Dredging Claw to recursive creatures",
+        "Chain unearth triggers for repeated value"
+      ],
+      "cards": [
+        {
+          "title": "Terror Ballista",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gixian Skullflayer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gnawing Vermin",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ravenous Gigamole",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Thraxodemon",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ashnod's Harvester",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Scrapwork Rager",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gruesome Realization",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Overwhelming Remorse",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Dredging Claw",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Transmogrant Altar",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Black rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Welded 1",
+      "color": "red",
+      "description": "This red deck is an artifact-and-discard themed aggro/midrange build leaning on unearth recursion. Mishra, Excavation Prodigy loots every turn and converts discarded artifact cards into a burst of {R}{R}, which can immediately fund unearth costs on Artificer's Dragon, Mishra's Juggernaut, or Scrapwork Mutt, all of which return from the graveyard as hasty attackers. Artificer's Dragon further pumps every artifact creature you control for {R}, turning Fallaji Dragon Engine and other prototype artifacts into bigger threats. Scrapwork Mutt's own loot effect and Bitter Reunion's discard-two-draw both feed Mishra's mana-generating discard trigger, creating a loop where you dig for gas while powering out hasty threats ahead of curve. Horned Stoneseeker ramps with a Powerstone on entry, and Bitter Reunion doubles as a haste enabler when sacrificed, letting you go over the top with an alpha strike once your board is stocked with unearthed creatures.",
+      "playstyle": [
+        "Artifact aggro",
+        "Unearth recursion",
+        "Discard-matters"
+      ],
+      "tips": [
+        "Discard artifacts to Mishra for free red mana",
+        "Fund unearth costs off Mishra's mana burst",
+        "Pump artifact creatures with Artificer's Dragon",
+        "Loot with Scrapwork Mutt and Bitter Reunion",
+        "Ramp early with Horned Stoneseeker's Powerstone"
+      ],
+      "cards": [
+        {
+          "title": "Artificer's Dragon",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fallaji Chaindancer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Horned Stoneseeker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mishra, Excavation Prodigy",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mishra's Juggernaut",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Scrapwork Mutt",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fallaji Dragon Engine",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Obliterating Bolt",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Unleash Shell",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Whirling Strike",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Bitter Reunion",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Red rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Welded 2",
+      "color": "red",
+      "description": "This red deck continues the artifact-discard-unearth theme with a heavier prototype and token package. Mishra, Excavation Prodigy again loots for value and converts discarded artifacts into {R}{R}, which can be poured straight into unearthing Artificer's Dragon, Mishra's Juggernaut, or Scrapwork Mutt for a surprise hasty attacker. Tomakul Scrapsmith mills into the graveyard while fishing for an artifact card, further feeding both the graveyard and Mishra's discard synergy, and Mishra's Research Desk can itself be unearthed for a second card-selection trigger. Mishra's Onslaught doubles as either two artifact Soldier tokens (which power up Artificer's Dragon's anthem) or a wide team pump, giving the deck flexible ways to close games. Excavation Explosion combines direct damage with ramp by leaving behind a Powerstone token, smoothing your curve while removing a blocker. Overall this build wants to loot and discard artifacts to fuel Mishra's mana engine, then dump hasty recurring threats and tokens onto the board for a quick kill.",
+      "playstyle": [
+        "Artifact aggro",
+        "Unearth recursion",
+        "Discard-matters"
+      ],
+      "tips": [
+        "Discard artifacts to fuel Mishra's mana burst",
+        "Unearth Juggernaut or Dragon for surprise damage",
+        "Make tokens with Mishra's Onslaught to pump Dragon",
+        "Mill with Tomakul Scrapsmith for artifact value",
+        "Use Excavation Explosion to ramp and remove blockers"
+      ],
+      "cards": [
+        {
+          "title": "Artificer's Dragon",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Horned Stoneseeker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mishra, Excavation Prodigy",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Scrapwork Mutt",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tomakul Scrapsmith",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fallaji Dragon Engine",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mishra's Juggernaut",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Excavation Explosion",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Mishra's Onslaught",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Unleash Shell",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Mishra's Research Desk",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Red rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Titanic 1",
+      "color": "green",
+      "description": "This green deck is a ramp-and-prototype midrange build focused on turning mana acceleration into oversized threats. Cradle Clearcutter taps for green mana equal to its own power, so growing it (or just casting other prototype creatures like Iron-Craw Crusher and Rust Goliath early) snowballs your mana quickly toward Woodcaller Automaton, which untaps and animates one of your lands into a hasty Treefolk equal to its stats when cast for full cost. Sarinth Steelseeker rewards every artifact entering (including Powerstones from Argothian Opportunist) by digging for extra lands, keeping your ramp plan consistent, while Blanchwood Prowler mills for a land card of its own. Iron-Craw Crusher's attack trigger pumps another attacker by its own power, letting a big prototype creature carry a second attacker to lethal alongside it. The deck's plan is to ramp hard through Powerstones and mana dorks, cast oversized prototype threats, and finish with fight spells like Bushwhack or combat tricks like Giant Growth and Gaea's Gift to push through damage.",
+      "playstyle": [
+        "Ramp midrange",
+        "Prototype big creatures",
+        "Fight removal"
+      ],
+      "tips": [
+        "Ramp with Cradle Clearcutter and Powerstones",
+        "Cast Woodcaller Automaton to animate a land",
+        "Pump a second attacker with Iron-Craw Crusher",
+        "Dig for lands via Sarinth Steelseeker's artifact triggers",
+        "Use Bushwhack to fight down blockers"
+      ],
+      "cards": [
+        {
+          "title": "Woodcaller Automaton",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Argothian Opportunist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Blanchwood Prowler",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sarinth Steelseeker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Iron-Craw Crusher",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rust Goliath",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Cradle Clearcutter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Giant Growth",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Gaea's Gift",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Shoot Down",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Bushwhack",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Green rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "theme": "Titanic 2",
+      "color": "green",
+      "description": "This green deck follows the same ramp-into-prototype-threats plan as its sibling, with extra emphasis on pumping and fighting. Cradle Clearcutter again taps for mana equal to its power, ramping you toward Woodcaller Automaton's land-animation trigger and other big prototype bodies like Iron-Craw Crusher and Rust Goliath. Perimeter Patrol and Sarinth Steelseeker both trigger off artifacts entering, so casting prototype creatures (which are artifacts) or generating tokens gives Perimeter Patrol a temporary power boost and lets Sarinth Steelseeker dig for extra lands. Tawnos's Tinkering can drop two +1/+1 counters and untap any artifact, creature, or land, letting you re-use a tapped Cradle Clearcutter for a fresh burst of mana or turn a land into a surprise creature. Epic Confrontation and Bushwhack give you fight-based removal backed by pump, and Iron-Craw Crusher's attack trigger again lets you buff a second attacker for a bigger combined swing. This is a ramp midrange deck that wants to flood mana into oversized threats and clear blockers through fights rather than direct removal.",
+      "playstyle": [
+        "Ramp midrange",
+        "Prototype big creatures",
+        "Fight removal"
+      ],
+      "tips": [
+        "Ramp with Cradle Clearcutter's power-based mana",
+        "Untap key permanents with Tawnos's Tinkering",
+        "Trigger Perimeter Patrol off artifact entries",
+        "Fight down blockers with Epic Confrontation",
+        "Pump a second attacker via Iron-Craw Crusher"
+      ],
+      "cards": [
+        {
+          "title": "Woodcaller Automaton",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Argothian Sprite",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Cradle Clearcutter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Iron-Craw Crusher",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rust Goliath",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Perimeter Patrol",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sarinth Steelseeker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tawnos's Tinkering",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Bushwhack",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Shoot Down",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Epic Confrontation",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 8
+        },
+        {
+          "title": "Random Green rare/mythic (varies by pack)",
+          "type": "Random Rare",
+          "qty": 1
+        }
+      ]
+    }
+  ]
+}

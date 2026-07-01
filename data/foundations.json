@@ -5,7 +5,19 @@
     {
       "theme": "Prideful",
       "color": "white",
-      "description": "A aggressive cat-focused deck with efficient small creatures and combat tricks, featuring lions and leonins with spells that protect and pump your creatures.",
+      "description": "This is a white Cats-and-counters aggro deck that wants to flood the board with small creatures and pump them into lethal attackers. Brimaz, King of Oreskos churns out a 1/1 Cat Soldier token every time it attacks or blocks, immediately giving King of the Pride's 'other Cats get +2/+1' a wide army to boost, and Ingenious Leonin can throw extra +1/+1 counters (plus first strike) onto attacking Cats to push through damage. Basri's Acolyte adds counters to two other creatures on entry, Leonin Vanguard rewards you for having three or more creatures with a combat-trick-sized buff and life gain, and cheap interaction like Pacifism and Impeccable Timing clears blockers or removes attackers so your board can keep swinging. Take Up the Shield and Leonin Scimitar give you ways to protect your key threats mid-combat, making this a low-curve, creature-count-matters aggro deck rather than a spell-heavy control shell.",
+      "playstyle": [
+        "Go-wide aggro",
+        "Counter buffs",
+        "Cats tribal"
+      ],
+      "tips": [
+        "Attack with Brimaz for free tokens",
+        "King of the Pride buffs all Cats",
+        "Use Ingenious Leonin on attackers",
+        "Pacifism problem blockers",
+        "Keep board wide for Leonin Vanguard"
+      ],
       "cards": [
         {
           "title": "Brimaz, King of Oreskos",
@@ -82,7 +94,19 @@
     {
       "theme": "Giddyap",
       "color": "white",
-      "description": "A creature-heavy deck focused on Unicorns and Pegasus, featuring evasive flyers and small efficient creatures that deal combat damage while protecting against removal.",
+      "description": "Giddyap is a lifegain-tribal deck built around Pegasi, Unicorns, and Horses that converts life totals directly into stat growth. Thurid, Mare of Destiny copies every Pegasus/Unicorn/Horse creature spell you cast (getting a free token copy) while pumping all your other Horse-types by +1/+1, and Celestial Unicorn turns any lifegain trigger into a permanent +1/+1 counter, so cards like Shield Mare (gain 3 life on entry or when targeted), Sungrace Pegasus and Sunmane Pegasus (lifelink), and Brightmare (gain life equal to a tapped creature's power) all double as growth engines. Tenacity and Moment of Triumph are lifegain combat tricks that both pump the team and feed Celestial Unicorn, while Outflank scales damage off your creature count and Banishing Light handles problem permanents. The game plan is to stabilize on life early, let Celestial Unicorn and Thurid snowball your board, then swing with a wide, oversized herd.",
+      "playstyle": [
+        "Lifegain synergy",
+        "Tribal Horses",
+        "Counter buffs"
+      ],
+      "tips": [
+        "Cast Horse-types with Thurid out for free copies",
+        "Every lifegain trick grows Celestial Unicorn",
+        "Use Tenacity to pump and untap",
+        "Shield Mare punishes opponent removal",
+        "Outflank scales with wide boards"
+      ],
       "cards": [
         {
           "title": "Thurid, Mare of Destiny",
@@ -159,7 +183,19 @@
     {
       "theme": "Angels 1",
       "color": "white",
-      "description": "A flying-focused deck with angels and support spells that provide removal and protection, centered around Giada as a key lord.",
+      "description": "This deck is a classic flying Angels tribal shell where Giada, Font of Hope makes every subsequent Angel enter bigger and bigger, since each other Angel gets an additional +1/+1 counter for each Angel you already control - so Serra Angel, Inspiring Overseer, and Youthful Valkyrie all snowball in size the more Angels resolve, and Youthful Valkyrie further grows every time another Angel enters. Faithful Pikemaster smooths draws with scry 2 and gives first-strike protection on your turn, Inspiring Overseer replaces itself with a card and life, and Herald of the Sun and Starnheim Memento can pump flying creatures further. Removal like Destroy Evil, Light of Hope, and Pacifism keeps the skies clear so your evasive Angels can close the game through the air.",
+      "playstyle": [
+        "Flying tribal",
+        "Counter buffs",
+        "Value curve"
+      ],
+      "tips": [
+        "Play Angels in sequence for max Giada counters",
+        "Youthful Valkyrie grows with each Angel",
+        "Scry with Pikemaster to find Angels",
+        "Keep skies clear with removal",
+        "Race in the air"
+      ],
       "cards": [
         {
           "title": "Giada, Font of Hope",
@@ -236,7 +272,19 @@
     {
       "theme": "Angels 2",
       "color": "white",
-      "description": "An angel-focused deck with evasive flyers and anthem effects that buff the team while providing removal through Angelic Edict.",
+      "description": "Similar to the other Angels build, this deck leans on Giada, Font of Hope to make each new Angel enter with more +1/+1 counters as your Angel count grows, and pairs that with Herald of War, whose attack trigger adds a +1/+1 counter that also discounts future Angel and Human spells by {1} for each counter on it. Youthful Valkyrie keeps growing off every Angel that enters, Stalwart Valkyrie offers a graveyard-fueled alternate cost to cheat it into play, and Rally of Wings untaps your team while giving flyers a huge +2/+2 swing for a devastating alpha strike. Angelic Edict and Pacifism handle problematic permanents while Faithful Pikemaster smooths draws, making this a tribal flyers deck that gets progressively cheaper and bigger the longer the game goes.",
+      "playstyle": [
+        "Flying tribal",
+        "Counter buffs",
+        "Cost reduction"
+      ],
+      "tips": [
+        "Sequence Angels to maximize Giada counters",
+        "Attack with Herald of War for discounts",
+        "Cast Stalwart Valkyrie from graveyard fuel",
+        "Save Rally of Wings for alpha strike",
+        "Use Pacifism on biggest threat"
+      ],
       "cards": [
         {
           "title": "Giada, Font of Hope",
@@ -313,7 +361,19 @@
     {
       "theme": "Heroes 1",
       "color": "white",
-      "description": "Small efficient creatures with pump spells that enhance combat and create tactical advantages through tricks and tricks.",
+      "description": "This is a Heroic-centric aggro-tempo deck that wants to target its own creatures with cheap pump and card-draw spells to trigger repeated bonuses. Defiant Strike and Moment of Heroism are cantrip/lifegain tricks whose real value is triggering Heroic on creatures like Favored Hoplite (counter plus damage prevention), Akroan Skyguard and Wingsteed Rider (counter and evasion), and Tethmos High Priest, whose Heroic trigger reanimates a cheap creature from your graveyard every time you target it. Brigone, Soldier of Meletis stacks up counters from Heroic triggers that can later be cashed in to draw cards, while Chains of Custody doubles as removal (exiling an opponent's permanent) and protection (giving your creature ward 2). The deck plays out by targeting one or two key Heroic creatures every turn to snowball stats and value rather than spreading buffs across the whole board.",
+      "playstyle": [
+        "Heroic synergy",
+        "Single-target buffs",
+        "Tempo aggro"
+      ],
+      "tips": [
+        "Target the same creature repeatedly",
+        "Tethmos High Priest reanimates on Heroic",
+        "Bank counters on Brigone to draw",
+        "Chains of Custody is removal and protection",
+        "Prioritize Favored Hoplite for damage prevention"
+      ],
       "cards": [
         {
           "title": "Brigone, Soldier of Meletis",
@@ -390,7 +450,19 @@
     {
       "theme": "Heroes 2",
       "color": "white",
-      "description": "Aggressive small creatures with instant-speed combat tricks and support spells that create tempo advantages and evasion.",
+      "description": "Like the other Heroes build, this deck is built around casting targeted spells on your own creatures to trigger Heroic abilities repeatedly. Ojutai Exemplars offers a menu of Heroic-adjacent value (tap a creature, gain first strike/lifelink, or blink itself) every time you cast a noncreature spell, while Favored Hoplite and Wingsteed Rider get counters and protection from Heroic triggers, and Elite Skirmisher can tap down blockers whenever it's targeted. Repel the Darkness and Defiant Strike are cheap, cantripping tricks that double as removal-adjacent tempo plays and Heroic enablers, Gird for Battle spreads counters across two creatures, and Brigone again banks counters from Heroic triggers to convert into card draw later. Chains of Custody again provides both removal and ward protection, letting you protect your snowballing Heroic threats from opposing interaction.",
+      "playstyle": [
+        "Heroic synergy",
+        "Single-target buffs",
+        "Tempo aggro"
+      ],
+      "tips": [
+        "Target key creatures with cheap tricks",
+        "Ojutai Exemplars rewards noncreature spells",
+        "Tap blockers with Elite Skirmisher triggers",
+        "Brigone counters convert to draws",
+        "Protect threats with Chains of Custody"
+      ],
       "cards": [
         {
           "title": "Brigone, Soldier of Meletis",
@@ -467,7 +539,19 @@
     {
       "theme": "Legion 1",
       "color": "white",
-      "description": "Token generation and small creature synergy with anthem effects. The deck creates multiple tokens and leverages cards that reward playing creatures.",
+      "description": "This deck is a go-wide token aggro deck where Adeline, Resplendent Cathar's power scales with your total creature count and she creates an attacking token every time you attack, immediately adding to that same count. Raise the Alarm and Ancestral Blade both add extra bodies, Hinterland Sanctifier gains life whenever any of those creatures enters, and Mentor of the Meek lets you draw cards off small creatures entering, turning a wide board into card advantage. Argivian Phalanx and Search Party Captain both get cheaper the more creatures you control or attacked with, rewarding the wide strategy directly, while Dauntless Unity and Make a Stand are team-wide finishers that pump the whole board and can even grant indestructible to survive a wrath. The plan is simply to flood the board, let Adeline and the token generators keep growing your army, and swing for a big alpha strike backed by a combat trick.",
+      "playstyle": [
+        "Go-wide tokens",
+        "Aggro swarm",
+        "Cost reduction"
+      ],
+      "tips": [
+        "Attack with Adeline to spawn extra tokens",
+        "Flood board to shrink Phalanx/Captain costs",
+        "Mentor of the Meek turns tokens into cards",
+        "Make a Stand dodges board wipes",
+        "Adeline's power scales with creature count"
+      ],
       "cards": [
         {
           "title": "Adeline, Resplendent Cathar",
@@ -544,7 +628,19 @@
     {
       "theme": "Legion 2",
       "color": "white",
-      "description": "Token generation and anthem effects with mass token creation from spells. The deck focuses on creating multiple tokens and buffing them with convoke and populate mechanics.",
+      "description": "This deck doubles down on the go-wide plan with convoke as a major theme: Venerated Loxodon, Triplicate Spirits, and Conclave Tribunal all get cheaper (or in Loxodon's case, reward) tapping your existing token army, and Venerated Loxodon's entry puts a +1/+1 counter on every creature that helped convoke it, instantly pumping your whole board. Adeline, Resplendent Cathar again scales her power with creature count and mints an attacking token whenever you attack, feeding both convoke costs and Mentor of the Meek's card-draw trigger off small creatures entering. Raise the Alarm, Triplicate Spirits, and Ancestral Blade all add cheap bodies, Hinterland Sanctifier gains life off every creature entering, and Memorial to Glory can sacrifice itself late-game for two more Soldier tokens, keeping the board wide through the whole game to power out big convoke spells and alpha strikes.",
+      "playstyle": [
+        "Go-wide tokens",
+        "Convoke synergy",
+        "Aggro swarm"
+      ],
+      "tips": [
+        "Tap tokens to convoke big spells cheaply",
+        "Venerated Loxodon pumps convoking creatures",
+        "Adeline tokens fuel convoke and Mentor",
+        "Memorial to Glory refills late tokens",
+        "Swing wide, then finish with tricks"
+      ],
       "cards": [
         {
           "title": "Adeline, Resplendent Cathar",
@@ -626,7 +722,19 @@
     {
       "theme": "Healers 1",
       "color": "white",
-      "description": "Life gain focused deck with creatures that benefit from gaining life and spells to restore health. Features multiple Ajani's Pridemates and healing instants to grow threats while staying healthy.",
+      "description": "This is a lifegain-matters deck where every incidental life gain trigger snowballs into bigger threats and card advantage. Ajani's Pridemate and Qala, Ajani's Pridemate both put a +1/+1 counter on themselves whenever you gain life, and Qala's attack trigger then pumps all your other attackers by that same counter count, so cards like Angel of Mercy (gain 3 on entry), Hinterland Sanctifier (gain 1 whenever a creature enters), Brightmare (gain life equal to a tapped creature's power), Kabira Crossroads, and Faith's Fetters (gain 4 on entry) all directly fuel Qala's growing team-wide buff. Angel of Vitality adds even more value by turning every life gain trigger into life gain plus 1, and buffs itself once you cross 25 life, while Speaker of the Heavens rewards reaching 7+ life above your starting total by minting free 4/4 flying Angel tokens. Revitalize and Desperate Lunge combine card/tempo advantage with more lifegain fuel, making this a value-grindy deck that turns healing into an army of scaling threats.",
+      "playstyle": [
+        "Lifegain synergy",
+        "Counter buffs",
+        "Value grind"
+      ],
+      "tips": [
+        "Every lifegain trigger grows Qala and Pridemate",
+        "Attack with Qala to pump the team",
+        "Angel of Vitality boosts all lifegain",
+        "Chase 25 life for Vitality's buff",
+        "Speaker of Heavens mints Angels at high life"
+      ],
       "cards": [
         {
           "title": "Speaker of the Heavens",
@@ -708,7 +816,19 @@
     {
       "theme": "Healers 2",
       "color": "white",
-      "description": "A life gain deck with creatures that synergize with gaining life and protection spells. Uses Valkyrie Harbinger and Pridemates alongside removal and defensive instants.",
+      "description": "This deck is another lifegain snowball build, again pairing Ajani's Pridemate and Qala, Ajani's Pridemate to convert every life-gain trigger into growing counters that fuel Qala's team-wide attack buff. Speakeasy Server turns your board width into a burst of life on entry (gaining 1 life per other creature), while Hinterland Sanctifier, Bishop's Soldier, and Brightmare add repeatable or one-shot lifegain to keep feeding those counters, and Angel of Vitality boosts every life gain event by 1 extra and grows itself past 25 life. Valkyrie Harbinger rewards a big lifegain turn directly by creating a free 4/4 flying vigilance Angel token if you gained 4 or more life that turn, giving the deck a clear payoff for stacking multiple lifegain triggers in a single turn (e.g., Bishop's Soldier combat damage plus Brightmare's ETB). Take Up the Shield and Recumbent Bliss round out the deck with protection and removal, while Revitalize provides card advantage alongside more life.",
+      "playstyle": [
+        "Lifegain synergy",
+        "Counter buffs",
+        "Value grind"
+      ],
+      "tips": [
+        "Stack lifegain triggers same turn for Valkyrie Harbinger",
+        "Qala and Pridemate grow off any lifegain",
+        "Speakeasy Server rewards wide boards",
+        "Chase 25 life for Vitality bonus",
+        "Recumbent Bliss locks down threats"
+      ],
       "cards": [
         {
           "title": "Valkyrie Harbinger",
@@ -785,7 +905,19 @@
     {
       "theme": "Healers 3",
       "color": "white",
-      "description": "A life gain strategy with Righteous Valkyrie as a payoff for gaining life, combined with creatures and instant-speed tricks to protect and heal.",
+      "description": "This mono-white lifegain pile is built around turning incidental life gain into permanent stat boosts and game-ending payoffs. Righteous Valkyrie gives you life whenever an Angel or Cleric enters and buffs your whole board +2/+2 once you're 7+ life over your starting total, while Hinterland Sanctifier converts any creature entering into a trickle of life. That life total feeds Ajani's Pridemate and Qala, Ajani's Pridemate, both of which grow with +1/+1 counters every time you gain life, and Qala can then pump your whole attacking team based on her counter count. Angel of Vitality adds one extra life to every gain trigger and grows itself once you cross 25 life, snowballing the whole plan even further. Removal like Banisher Priest and Recumbent Bliss buys time while lifelink creatures and life-gain spells like Moment of Heroism and Deadly Riposte keep pushing your total up, so the deck wins by grinding out incremental life advantages until its creatures are simply bigger than anything the opponent can field.",
+      "playstyle": [
+        "Lifegain matters",
+        "Counter buffs",
+        "Grindy value"
+      ],
+      "tips": [
+        "Gain life to grow Pridemates",
+        "Angel of Vitality adds extra life per trigger",
+        "Watch for Righteous Valkyrie's +2/+2 threshold",
+        "Use Banisher Priest to buy time",
+        "Qala pumps attackers off her counters"
+      ],
       "cards": [
         {
           "title": "Righteous Valkyrie",
@@ -867,7 +999,19 @@
     {
       "theme": "Healers 4",
       "color": "white",
-      "description": "Life gain deck featuring Felidar Sovereign and Rhox Faithmender as payoffs for accumulating life total. Combines efficient life-gain creatures with healing instants.",
+      "description": "This deck leans hardest into the 'win by gaining absurd amounts of life' angle of the Healers theme, headlined by Felidar Sovereign, which simply wins the game at your upkeep once you hit 40 life, and Rhox Faithmender, which doubles every life gain trigger you generate. With Faithmender in play, cards like Hinterland Sanctifier's 1-life trigger, Revitalize's 3 life, or Faith's Fetters' 4 life all get doubled, letting you race to Felidar Sovereign's 40-life threshold shockingly fast. Ajani's Pridemate and Qala, Ajani's Pridemate again turn each of those doubled life gains into permanent +1/+1 counters, and Angel of Vitality adds another layer, adding +1 to every gain and growing itself past 25 life. The overall plan is to stall with removal and lifelink bodies like Mesa Unicorn while your life total balloons, closing the game either through a giant Qala-led alpha strike or simply by triggering Felidar Sovereign's win condition.",
+      "playstyle": [
+        "Lifegain payoff",
+        "Alternate win condition",
+        "Counter buffs"
+      ],
+      "tips": [
+        "Prioritize casting Rhox Faithmender early",
+        "Doubled life gain accelerates Felidar Sovereign win",
+        "Stack Faithmender before life-gain spells",
+        "Use removal to stall until 40 life",
+        "Pridemates snowball off doubled triggers"
+      ],
       "cards": [
         {
           "title": "Felidar Sovereign",
@@ -944,7 +1088,19 @@
     {
       "theme": "Stalwart 1",
       "color": "white",
-      "description": "Focused on small defensive creatures and planeswalker support with token generation and protection spells.",
+      "description": "A go-wide +1/+1 counter deck that wants to spread counters across the board and then have a handful of payoff creatures multiply them further. Gavony Silversmith and Sandsteppe Outcast seed early counters, and Patron of the Valiant then puts an additional counter on every creature that already has one, turning a modest spread into a much bigger board state in one swing. Generous Pup takes this further by triggering off any counters being placed to distribute a counter to every other creature once per turn, so playing Patron of the Valiant or Gavony Silversmith after Generous Pup is online spreads counters to your whole team at once. Urdnan, Dromoka Warrior rewards all this counter density by granting first strike (or double strike, with two or more counters) to an attacker carrying counters, while Ajani, Adversary of Tyrants both keeps adding counters and can reanimate small creatures from the graveyard. The deck plays a normal curve of white bodies backed by Banishing Light for removal and Swift Response to punish tapped blockers, aiming to overwhelm with a wide, counter-laden team that hits exceptionally hard once double strike kicks in.",
+      "playstyle": [
+        "+1/+1 counters",
+        "Go-wide",
+        "Counter synergy payoffs"
+      ],
+      "tips": [
+        "Land Generous Pup before counter spells",
+        "Patron of the Valiant doubles existing counters",
+        "Urdnan turns counters into double strike",
+        "Sequence Ajani's -2 to reanimate cheap bodies",
+        "Use Banishing Light on biggest threat"
+      ],
       "cards": [
         {
           "title": "Ajani, Adversary of Tyrants",
@@ -1021,7 +1177,19 @@
     {
       "theme": "Stalwart 2",
       "color": "white",
-      "description": "Features creature enhancement and token generation with Basri synergies, creating growing threats.",
+      "description": "This counters deck focuses on spreading +1/+1 counters efficiently and turning creature deaths into more value rather than just going wide immediately. Basri's Acolyte and Sandsteppe Outcast distribute early counters, and Patron of the Valiant then adds another counter to every creature that already carries one, rewarding you for spreading counters thin first. Basri's Lieutenant and Steadfast Sentry both convert deaths into more counters or tokens — Basri's Lieutenant creates a 2/2 vigilant Knight token whenever a counter-bearing creature you control dies, while Steadfast Sentry puts a counter on another creature when it dies, meaning combat trades or removal aimed at your board often nets you extra value instead of just losses. Urdnan, Dromoka Warrior again rewards counter density with first or double strike on attack, and Basri's Solidarity acts as a mass pump that also sets up Basri's Lieutenant tokens if your creatures start dying afterward. Cave of Temptation gives a late-game mana sink to push extra counters onto a key threat, rounding out a resilient, attrition-friendly counters strategy.",
+      "playstyle": [
+        "+1/+1 counters",
+        "Death value",
+        "Grindy"
+      ],
+      "tips": [
+        "Spread counters before Patron of the Valiant",
+        "Basri's Lieutenant turns deaths into tokens",
+        "Attack with counter creatures for Urdnan bonus",
+        "Sac Cave of Temptation late for counters",
+        "Trade creatures fearlessly with death triggers up"
+      ],
       "cards": [
         {
           "title": "Basri's Lieutenant",
@@ -1103,7 +1271,19 @@
     {
       "theme": "Stalwart 3",
       "color": "white",
-      "description": "Emphasizes small creatures with enter-the-battlefield effects that generate tokens and support.",
+      "description": "This is a support-focused +1/+1 counters deck that spreads counters wide through repeatable triggers rather than relying on a single big payoff. Expedition Raptor, Relief Captain, and Jubilant Mascot all use support to place counters on multiple other creatures as they enter or each combat, while Shoulder to Shoulder replicates the effect as an instant-speed spell that also draws a card. Generous Pup ties this together by triggering off any counters being placed to spread an additional counter to every other creature once per turn, so casting a support creature after Generous Pup lands effectively counters your whole team at once. Urdnan, Dromoka Warrior rewards the resulting counter density by granting first strike or double strike to an attacking counter-carrier, and Steadfast Unicorn's activated pump plus Take Up the Shield's indestructible clause give you ways to protect your board or push through extra damage in the late game. Overall this deck wants to steadily build a wide, evenly-buffed team and then swing with Urdnan's combat bonus doing the heavy lifting.",
+      "playstyle": [
+        "+1/+1 counters",
+        "Support synergy",
+        "Go-wide"
+      ],
+      "tips": [
+        "Play Generous Pup before support triggers",
+        "Support spreads counters cheaply",
+        "Urdnan grants double strike with 2+ counters",
+        "Shoulder to Shoulder replaces itself",
+        "Use Take Up the Shield to save creatures"
+      ],
       "cards": [
         {
           "title": "Generous Pup",
@@ -1180,7 +1360,19 @@
     {
       "theme": "Stalwart 4",
       "color": "white",
-      "description": "Focuses on +1/+1 counter synergies with lords and anthem effects that boost the team.",
+      "description": "This deck is built around Mikaeus, the Lunarch as a repeatable counter engine: he enters with counters equal to X and can tap to remove one of his own counters and spread a counter to every other creature you control, letting you buff your whole team turn after turn without spending cards. That synergizes directly with the deck's mentor creatures — Light of the Legion, Parhelion Patrol, and Sunhome Stalwart all put counters on weaker attackers when they attack, and Urdnan, Dromoka Warrior grants first strike or double strike to any attacking creature that already carries counters, so a board pre-loaded by Mikaeus turns mentor triggers and Urdnan's bonus into a much bigger combat swing. Gavony Silversmith and Gird for Battle add more up-front counter distribution, while Light of the Legion's death trigger gives every white creature a counter as a parting gift. The deck plays a steady curve of efficient white bodies backed by Banishing Light and Swift Response for removal, aiming to grind out an ever-growing, first/double-striking army.",
+      "playstyle": [
+        "+1/+1 counters",
+        "Mentor synergy",
+        "Incremental value"
+      ],
+      "tips": [
+        "Activate Mikaeus every turn possible",
+        "Mentor targets weaker attackers first",
+        "Urdnan rewards counter-heavy attackers",
+        "Light of the Legion buffs team on death",
+        "Sequence Gavony Silversmith before attacking"
+      ],
       "cards": [
         {
           "title": "Light of the Legion",
@@ -1257,7 +1449,19 @@
     {
       "theme": "Armed 1",
       "color": "white",
-      "description": "Equipment-focused deck with artifact weapons to equip smaller creatures for combat advantage.",
+      "description": "A white equipment aggro deck that wants to get cheap bodies onto the board and immediately dress them up with gear for evasive, damage-doubling attacks. Danitha Capashen, Paragon comes down with first strike, vigilance, and lifelink already attached, and also discounts every Aura and Equipment spell you cast, making it easier to chain gear onto her or onto Ancestral Blade's and Valkyrie's Sword's and Mirran Bardiche's free token bodies. Valkyrie's Sword and Mirran Bardiche both create their own creature (a 4/4 flying vigilance Angel and a 2/2 Rebel respectively) and immediately attach for free, letting you deploy a threat and equipment in a single card. Sunspear Shikari only needs to be equipped with anything to gain first strike and lifelink, making even the cheapest Ancestral Blade attachment a big upgrade. Mace of the Valiant scales up over time as more creatures enter, growing into a huge vigilance boost. The deck closes games by stacking equipment onto a small number of resilient, evasive threats while using Divine Arrow and Pacifism to clear blockers out of the way.",
+      "playstyle": [
+        "Equipment aggro",
+        "Voltron",
+        "Cost reduction"
+      ],
+      "tips": [
+        "Play Danitha early to discount gear",
+        "Equip Sunspear Shikari for lifelink",
+        "Mirran Bardiche and Valkyrie's Sword self-attach",
+        "Mace of the Valiant grows over time",
+        "Clear blockers with Divine Arrow/Pacifism"
+      ],
       "cards": [
         {
           "title": "Faithful Pikemaster",
@@ -1334,7 +1538,19 @@
     {
       "theme": "Armed 2",
       "color": "white",
-      "description": "Equipment-heavy strategy featuring creatures that benefit from equipped artifacts and gain value from equipment triggers.",
+      "description": "This equipment deck cares about equipment quantity itself as a stat, not just individual bonuses. Militant Inquisitor gets bigger for every Equipment you control, and Stone Haven Outfitter gives all equipped creatures +1/+1 while also drawing you a card whenever an equipped creature dies, turning combat losses into card advantage. Plate Armor's equip cost drops by {1} for every other Equipment you control, so once you've assembled a few cheap equipments like Ancestral Blade or Hexgold Hoverwings, Plate Armor can come down for as little as one or two mana and slap ward and a huge +3/+3 onto a creature. Hexgold Hoverwings and Mirran Bardiche both create their own attached token bodies via 'For Mirrodin!', letting you build a board of equipped threats quickly, while Danitha Capashen, Paragon discounts all your Aura/Equipment spells to accelerate the whole plan. Light the Way offers flexible utility, either protecting a key equipped creature by bouncing it or growing an attacker with a counter and untap, making the deck resilient as well as aggressive.",
+      "playstyle": [
+        "Equipment aggro",
+        "Equipment-count payoffs",
+        "Voltron"
+      ],
+      "tips": [
+        "Stack Equipment count for Militant Inquisitor",
+        "Plate Armor gets cheaper per Equipment",
+        "Hexgold Hoverwings/Mirran Bardiche self-attach",
+        "Stone Haven Outfitter draws off deaths",
+        "Danitha discounts your Equipment spells"
+      ],
       "cards": [
         {
           "title": "Stone Haven Outfitter",
@@ -1411,7 +1627,19 @@
     {
       "theme": "Armed 3",
       "color": "white",
-      "description": "Equipment deck with creatures that synergize with equipped artifacts to create board pressure and card value.",
+      "description": "This equipment deck blends aggressive equip-and-swing plays with artifact/enchantment recursion. Militant Inquisitor scales with your Equipment count while Flutterfox gains flying automatically as soon as you control any artifact or enchantment, meaning equipping it or even just playing Pacifism turns it into an evasive threat. Trusty Retriever gives flexible value, either entering with a counter or returning an artifact/enchantment like a fallen Equipment from the graveyard back to hand, so losing a key equipment to removal isn't as painful. Maul of the Skyclaves auto-attaches on entry, immediately granting +2/+2, flying, and first strike, making it one of the most efficient threats in the deck, while Mirran Bardiche and Valkyrie's Sword generate their own attached bodies for free. Danitha Capashen, Paragon again discounts the Aura and Equipment spells that make up the bulk of the deck, and Resistance Reunited protects your equipped creatures with indestructible during combat, letting you attack profitably into removal or blocks.",
+      "playstyle": [
+        "Equipment aggro",
+        "Voltron",
+        "Recursion value"
+      ],
+      "tips": [
+        "Maul of the Skyclaves auto-attaches for tempo",
+        "Flutterfox flies off any artifact/enchantment",
+        "Trusty Retriever rebuys lost Equipment",
+        "Danitha discounts your gear",
+        "Use Resistance Reunited to push through blocks"
+      ],
       "cards": [
         {
           "title": "Faithful Pikemaster",
@@ -1488,7 +1716,19 @@
     {
       "theme": "Armed 4",
       "color": "white",
-      "description": "Equipment-focused aggro deck with creatures designed to be equipped and create combat advantage through artifacts.",
+      "description": "This equipment deck leans on cheap, efficient gear and a couple of standout combos to close games. Thopter Architect grants flying to any target creature whenever an artifact you control enters, so playing Ancestral Blade (which creates its own 1/1 Soldier token) or any other equipment triggers a temporary evasion buff, letting even ground-bound bodies punch through in the air. Sunspear Shikari and Militant Inquisitor both reward simply having equipment attached or in play, gaining first strike/lifelink or scaling power respectively, while Danitha Capashen, Paragon discounts your Aura and Equipment spells to help you deploy gear faster than usual. Godsend stands out as a powerful removal-attached-to-a-threat piece: it pumps its bearer +3/+3 and lets you exile a blocking or blocked creature, permanently shutting off future copies of that card by name. The deck rounds out with Pacifism and Deadly Riposte for interaction, aiming to build one or two heavily-equipped, evasive threats that are hard for the opponent to profitably block or answer.",
+      "playstyle": [
+        "Equipment aggro",
+        "Voltron",
+        "Tempo"
+      ],
+      "tips": [
+        "Trigger Thopter Architect with any artifact",
+        "Godsend removes blockers permanently",
+        "Equip Sunspear Shikari for lifelink",
+        "Danitha discounts equipment spells",
+        "Stack equipment on one evasive threat"
+      ],
       "cards": [
         {
           "title": "Faithful Pikemaster",
@@ -1565,7 +1805,19 @@
     {
       "theme": "Enchanted 1",
       "color": "white",
-      "description": "This deck focuses on enchantment synergies with creatures that benefit from enchantments being cast and in play. The deck plays creatures that draw value from enchantments while running multiple aura effects.",
+      "description": "This mono-white deck wants to flood the board with enchantments and Auras to trigger Constellation abilities over and over. Eidolon of Astral Winds and Captivating Unicorn and Favored of Iroas all read 'whenever an enchantment you control enters', so every Aura you cast (Chosen by Heliod, Dreadful Apathy, Indomitable Will) or enchantment permanent (Banishing Light) restarts the chain: pumping a creature to 4/4 flying, tapping down a blocker, and granting double strike all at once. Psemilla, Meletian Poet also churns out a 2/2 Nymph token the first time you cast an enchantment spell each turn and turns into a huge lifelinker once you have five-plus enchantments out, so the deck naturally builds toward a wide, evasive board that closes games fast once Constellation triggers stack up. Archon of Falling Stars adds resilience by rebuying an enchantment from the graveyard when it dies, letting you re-trigger Constellation a second time.",
+      "playstyle": [
+        "Enchantment synergy",
+        "Constellation triggers",
+        "Aggro-tempo"
+      ],
+      "tips": [
+        "Sequence Auras to chain Constellation triggers",
+        "Cast an enchantment before combat for Eidolon pump",
+        "Use Captivating Unicorn to tap down blockers",
+        "Rebuy Auras with Archon of Falling Stars",
+        "Race with Psemilla's Nymph tokens"
+      ],
       "cards": [
         {
           "title": "Eidolon of Astral Winds",
@@ -1642,7 +1894,19 @@
     {
       "theme": "Enchanted 2",
       "color": "white",
-      "description": "This deck combines enchantment-focused creatures with removal and utility enchantments. It features creatures that synergize with enchantments while maintaining a good mix of defensive and offensive auras.",
+      "description": "A slightly more lifegain-leaning version of the mono-white enchantments plan, still anchored by Psemilla, Meletian Poet making a 2/2 Nymph token off your first enchantment spell each turn and swinging as a lifelinking 6/6 once you hit five enchantments. Eidolon of Astral Winds keeps the Constellation pump train running on any enchantment entering, while Cartouche of Solidarity doubles as a combat trick and a token generator, making a 1/1 Warrior and buffing a creature with first strike the moment it resolves. The life-gain package (Golden-Tail Disciple, Nyx-Fleece Ram, Sunblade Samurai's Channel) grinds out incidental life to stay ahead of races, and cheap removal Auras like Cage of Hands and Banishing Light lock down or exile problem permanents while still counting as enchantments for your other triggers.",
+      "playstyle": [
+        "Enchantment synergy",
+        "Lifegain value",
+        "Go-wide"
+      ],
+      "tips": [
+        "Cast enchantments early for Constellation value",
+        "Bounce Cage of Hands to reuse removal",
+        "Cartouche of Solidarity for tokens plus first strike",
+        "Grind life totals with incidental gain",
+        "Swing wide once Psemilla flips on"
+      ],
       "cards": [
         {
           "title": "Eidolon of Astral Winds",
@@ -1719,7 +1983,19 @@
     {
       "theme": "Enchanted 3",
       "color": "white",
-      "description": "This enchantment-heavy deck leverages creatures that generate value from enchantments entering the battlefield. It includes Starfield Mystic for enchantment cost reduction and focuses on building board presence through aura effects.",
+      "description": "This build turns lifegain into raw stats via Nykthos Paragon, which puts a +1/+1 counter on every creature you control equal to however much life you gained that turn, once per turn. Divine Favor's 'gain 3 life' trigger and Nyx-Fleece Ram's upkeep life gain feed that engine directly, and once Psemilla, Meletian Poet flips on with five-plus enchantments and gains lifelink, her combat damage itself can trigger Nykthos Paragon for another wave of counters. Starfield Mystic discounts your enchantment spells and grows every time one of your enchantments dies, giving you a second payoff for the same Aura-heavy shell. The overall plan is to cast enchantments cheaply, gain incidental life, and watch your whole board grow permanently rather than just for a turn, closing games with a team of counter-laden creatures.",
+      "playstyle": [
+        "Lifegain payoff",
+        "Enchantment synergy",
+        "Counters"
+      ],
+      "tips": [
+        "Gain life before Nykthos Paragon trigger",
+        "Chain enchantments to discount with Starfield Mystic",
+        "Let Psemilla's lifelink feed counters",
+        "Protect Nykthos Paragon at all costs",
+        "Stack Auras for permanent stat growth"
+      ],
       "cards": [
         {
           "title": "Nykthos Paragon",
@@ -1796,7 +2072,19 @@
     {
       "theme": "Enchanted 4",
       "color": "white",
-      "description": "This deck centers on enchantment synergies with Archon of Sun's Grace generating tokens and aura effects. It combines creatures that benefit from enchantments with removal and buff auras.",
+      "description": "This version leans into flying tokens and evasive damage. Archon of Sun's Grace creates a 2/2 flying Pegasus every time an enchantment enters and gives all your Pegasi lifelink, so casting Banishing Light, Angelic Gift, or Dreadful Apathy each spins up another evasive lifelinking attacker. Favored of Iroas piggybacks on the same Constellation triggers to grant itself double strike, and Psemilla, Meletian Poet keeps adding Nymph tokens and eventually swings as a lifelinking beater once you hit five enchantments. Angelic Gift and Spirited Companion replace themselves with card draw, keeping your hand full of enchantments to keep the Constellation engine fed, while Archon of Falling Stars lets you rebuy a key enchantment from the graveyard for another round of triggers.",
+      "playstyle": [
+        "Flying tokens",
+        "Enchantment synergy",
+        "Lifegain"
+      ],
+      "tips": [
+        "Cast enchantments for Pegasus tokens",
+        "Stack triggers with Favored of Iroas",
+        "Refill hand with cantrip Auras",
+        "Swarm skies with lifelinking Pegasi",
+        "Rebuy key enchantments after they die"
+      ],
       "cards": [
         {
           "title": "Archon of Sun's Grace",
@@ -1873,7 +2161,19 @@
     {
       "theme": "Illusions",
       "color": "blue",
-      "description": "A spell-heavy illusion deck focused on evasive creatures and instant-speed tricks to control the board with protective effects and select removal.",
+      "description": "This mono-blue deck is built around cheap evasive creatures and instant/sorcery payoffs. Murmuring Mystic converts every instant or sorcery you cast into a 1/1 flying Bird Illusion token, while Haunting Figment becomes unblockable the turn you've cast a spell, rewarding you for jamming cheap cantrips like Opt and Phantasmal Form. Oneirophage grows a +1/+1 counter every time you draw a card, so Opt, Phantasmal Form, and Supreme Will's card-selection mode all directly feed it bigger and bigger. Krovikan Mist scales off your total Illusion count, and Lord of the Unreal blankets your Illusions with hexproof, protecting your token army and key threats from removal. Pol Jamaar, Illusionist can refill your hand by naming a creature type your board is full of, capping off a deck that wants to bounce, counter, and draw its way to overwhelming card advantage.",
+      "playstyle": [
+        "Tempo control",
+        "Card draw value",
+        "Evasive creatures"
+      ],
+      "tips": [
+        "Grow Oneirophage with card draw",
+        "Cast spells to fuel Murmuring Mystic tokens",
+        "Attack unblocked with Haunting Figment",
+        "Protect the board with Lord of the Unreal",
+        "Name a creature type for Pol Jamaar draw"
+      ],
       "cards": [
         {
           "title": "Pol Jamaar, Illusionist",
@@ -1950,7 +2250,19 @@
     {
       "theme": "Ninjas",
       "color": "blue",
-      "description": "An evasive creature-focused deck with Ninjas and sneaky creatures that rewards attacking and ninjutsu strategies, complemented by protective instants and enchantments.",
+      "description": "This Ninjutsu deck wants to attack with a cheap unblocked creature, then swap it for a Ninja to sneak in extra value. Ninja of the Deep Hours, Moon-Circuit Hacker, and Prosperous Thief all have Ninjutsu, letting you return an unblocked attacker to hand and put them into play tapped and attacking instead, triggering their combat-damage abilities (draw a card, make a Treasure) without ever being blocked. Taeko, the Patient Avalanche grows whenever a creature leaves the battlefield without dying (exactly what Ninjutsu does) and can make an attacker unblockable outright, smoothing your Ninjutsu switches even further. Prosperous Thief turns any Ninja or Rogue combat damage into a Treasure token, fueling your curve, while Phantom Ninja is simply always unblockable to guarantee a Ninjutsu target every turn.",
+      "playstyle": [
+        "Ninjutsu tempo",
+        "Unblockable value",
+        "Card advantage"
+      ],
+      "tips": [
+        "Attack with cheap creature, swap in via Ninjutsu",
+        "Use Phantom Ninja as reliable Ninjutsu enabler",
+        "Grow Taeko off Ninjutsu returns",
+        "Chain Treasure from Prosperous Thief",
+        "Bounce blockers with Fading Hope or Moonsnare Specialist"
+      ],
       "cards": [
         {
           "title": "Taeko, the Patient Avalanche",
@@ -2027,7 +2339,19 @@
     {
       "theme": "Of the Coast 1",
       "color": "blue",
-      "description": "A creature-heavy deck focused on small coastal creatures with card advantage and tempo plays through instants and enchantments.",
+      "description": "A defensive-toughness value deck built around Plagon, Lord of the Beach, whose ability lets any creature you control deal damage equal to toughness instead of power, turning your wall of high-toughness blockers (Shorecomber Crab, Purple-Crystal Crab, Tidepool Turtle) into real attackers when needed. Plagon's enters-the-battlefield trigger draws a card for every creature with toughness greater than power, so the deck's crab-heavy, defensive-statted creatures directly translate into card advantage the moment Plagon lands. Kapsho Kitefins taps down opposing creatures every time it or another creature enters, combining with bounce-and-replay effects like Yarok's Wavecrasher (bounce your own creature to reuse its enter trigger) to repeatedly lock down the opponent's board. Scry and card selection (Sigiled Starfish, Tidepool Turtle, Omen of the Sea, Delightful Discovery) smooth draws while you wait to grind out an advantage with tempo plays like Run Ashore and Starlight Snare.",
+      "playstyle": [
+        "Defensive value",
+        "Tempo control",
+        "Toughness matters"
+      ],
+      "tips": [
+        "Land Plagon for a card draw burst",
+        "Use Plagon's ability to attack with toughness",
+        "Bounce Kapsho Kitefins for repeat taps",
+        "Lean on scry to smooth draws",
+        "Lock down threats with Starlight Snare"
+      ],
       "cards": [
         {
           "title": "Plagon, Lord of the Beach",
@@ -2109,7 +2433,19 @@
     {
       "theme": "Of the Coast 2",
       "color": "blue",
-      "description": "A coastal creature deck with blue flyers and utility creatures, featuring efficient creature base with draw spells for card advantage.",
+      "description": "Similar to its counterpart, this deck centers on Plagon, Lord of the Beach converting a bench of high-toughness creatures (Shorecomber Crab, Tidepool Turtle, Sigiled Starfish) into a burst of card draw on entry and letting them deal damage based on toughness instead of power when attacking. Gilded Scuttler is unblockable and stuns down a blocker as it enters, giving you a reliable evasive clock while your value creatures dig for answers. Shipwreck Dowser rebuys spent instants and sorceries like Delightful Discovery or Opt, and its Prowess means it grows whenever you cast those noncreature spells, giving the deck a second angle of pressure. The overall gameplan is patient: scry and cantrip with Opt, Delightful Discovery, and the scry-lands/creatures to find Plagon or removal, then close out with evasive or stunned-down attackers.",
+      "playstyle": [
+        "Defensive value",
+        "Tempo control",
+        "Card selection"
+      ],
+      "tips": [
+        "Deploy toughness creatures before Plagon",
+        "Rebuy spells with Shipwreck Dowser",
+        "Push through with unblockable Gilded Scuttler",
+        "Scry aggressively to hit land drops",
+        "Use Plagon's ability to swing with toughness"
+      ],
       "cards": [
         {
           "title": "Plagon, Lord of the Beach",
@@ -2191,7 +2527,19 @@
     {
       "theme": "Drowned 1",
       "color": "blue",
-      "description": "A graveyard-focused spell-heavy deck that fills your graveyard for value with discard outlets and self-mill effects.",
+      "description": "This mill/self-mill deck powers a graveyard engine anchored by Neerdiv, Devious Diver, who mills opponents whenever it taps and draws you a card plus a +1/+1 counter whenever you cast a spell from your graveyard or activate a graveyard ability. Flashback spells like Deep Analysis and Silent Departure, along with graveyard-activated abilities on Expendable Lackey and Merfolk Pupil, are exactly the triggers that grow Neerdiv and refill your hand simultaneously. Organ Hoarder and Wall of Lost Thoughts self-mill to stock the graveyard with fuel, while Stitched Drake gets cast for cheap by exiling a creature card from that same graveyard as an evasive flier. Sudden Insight scales with the variety of mana values already binned in your yard, rewarding the self-mill plan with a potentially huge card-draw spell late game.",
+      "playstyle": [
+        "Self-mill value",
+        "Graveyard recursion",
+        "Grindy control"
+      ],
+      "tips": [
+        "Mill yourself to fuel graveyard plays",
+        "Flashback spells to grow Neerdiv",
+        "Cheat out Stitched Drake via exile cost",
+        "Time Sudden Insight for max value",
+        "Use Neerdiv taps to mill opponent"
+      ],
       "cards": [
         {
           "title": "Neerdiv, Devious Diver",
@@ -2273,7 +2621,19 @@
     {
       "theme": "Drowned 2",
       "color": "blue",
-      "description": "A graveyard-synergy deck with token generation and self-mill, leveraging cards that benefit from a full graveyard.",
+      "description": "This build doubles down on milling the opponent as a real win condition while still supporting the Neerdiv, Devious Diver graveyard-value engine. Screaming Swarm and Towering-Wave Mystic mill the opponent whenever you attack or deal damage, and Neerdiv itself mills equal to its power whenever it becomes tapped, so simply attacking with your team chips away at their library. Waker of Waves shrinks opposing attackers and can discard itself to dig two cards deep, feeding the graveyard for later value. Cackling Counterpart's Flashback lets you copy a creature twice from the same card, and Deep Analysis's Flashback plus graveyard-fueled Sudden Insight give you sustained card advantage once your yard is stocked from Wall of Lost Thoughts and Draugr Thought-Thief's mill effects. The deck plays a patient, grindy game, milling the opponent while drawing extra cards off its own graveyard density.",
+      "playstyle": [
+        "Mill win condition",
+        "Graveyard value",
+        "Grindy control"
+      ],
+      "tips": [
+        "Attack to mill via Screaming Swarm",
+        "Grow Neerdiv with graveyard casts",
+        "Flashback Cackling Counterpart for a second copy",
+        "Stock graveyard early with mill creatures",
+        "Save Deep Analysis flashback for late game"
+      ],
       "cards": [
         {
           "title": "Neerdiv, Devious Diver",
@@ -2350,7 +2710,19 @@
     {
       "theme": "Wizards 1",
       "color": "blue",
-      "description": "Spell-heavy deck focused on wizard creatures that synergize with instants and sorceries, providing card draw and control.",
+      "description": "This deck is a mono-blue Wizards value pile built around ETB (enters-the-battlefield) triggers that bounce creatures, draw cards, or dig through the library, all amplified by Naban, Dean of Iteration. Naban doubles up ETB triggers from Wizards, so creatures like Academy Journeymage (bounce a creature) and Exclusion Mage (bounce a creature) become two-for-one tempo swings when Naban is out, and Archaeomancer's return-an-instant-or-sorcery trigger can rebuy Remand or Concentrate twice over. Cheap card selection from Faerie Seer's scry 2, Augur of Bolas' instant/sorcery dig, and Cloudkin Seer's cantrip keeps the hand full while Academy Journeymage gets a discount off other Wizards on the battlefield. The overall plan is to grind opponents out with repeated bounce effects and card advantage rather than racing on the ground, using Choking Tethers and Starlight Snare to buy time against aggressive boards.",
+      "playstyle": [
+        "Value ETB bounce",
+        "Tempo control",
+        "Card advantage grind"
+      ],
+      "tips": [
+        "Play Naban before other Wizards ETBs",
+        "Chain bounce creatures for tempo",
+        "Archaeomancer rebuys Remand/Concentrate",
+        "Use cycling spells to smooth draws",
+        "Hold up Starlight Snare on threats"
+      ],
       "cards": [
         {
           "title": "Naban, Dean of Iteration",
@@ -2427,7 +2799,19 @@
     {
       "theme": "Wizards 2",
       "color": "blue",
-      "description": "Spell-heavy wizard deck with additional card draw and instant speed disruption, creating a versatile control strategy.",
+      "description": "A tighter mono-blue Wizards tempo-control shell that leans even harder on repeatable bounce and tap effects to lock opponents out of attacking or blocking effectively. Naban, Dean of Iteration again doubles ETB triggers from Wizards, turning Frost Trickster's tap-and-don't-untap effect or Academy Journeymage's bounce into devastating two-for-one plays, and it can double Aether Channeler's modal choice for two bounces, two cards, or two tokens in one entry. Expedition Diviner turns into a card-draw engine whenever it dies as long as another Wizard is present, rewarding a board full of Wizards. Shipwreck Dowser rebuys instants like Remand, and cheap cantrips (Augur of Bolas, Faerie Seer) keep the deck flowing toward its bounce/tempo plan while Starlight Snare and Chilling Trap lock down bigger threats.",
+      "playstyle": [
+        "Tempo control",
+        "ETB doubling",
+        "Wizard synergy"
+      ],
+      "tips": [
+        "Sequence Naban before ETB Wizards",
+        "Double Aether Channeler with Naban",
+        "Keep board full of Wizards for Expedition Diviner",
+        "Shipwreck Dowser rebuys Remand",
+        "Tap down attackers with Frost Trickster"
+      ],
       "cards": [
         {
           "title": "Naban, Dean of Iteration",
@@ -2504,7 +2888,19 @@
     {
       "theme": "Soaring 1",
       "color": "blue",
-      "description": "Flying-focused deck with evasive creatures and utility spells that leverage air superiority.",
+      "description": "A mono-blue flyers tribal deck that wants to fill the skies and turn every attack into a card-draw event. Cynette, Jelly Drover pumps all flyers +1/+1 and makes a flying Jellyfish token whenever it enters or dies, while Windreader Sphinx lets you draw a card any time a flyer attacks (yours or an opponent's), and Tide Skimmer specifically draws when you attack with two or more flyers. Waterkin Shaman gets bigger every time a flyer enters, and Warden of Evos Isle discounts your flying creature spells to help you flood the board faster. Aerial Guide grants flying to a non-flying attacker, letting Serpentine Ambush turn a ground creature into a 5/5 attacker that then also benefits from Aerial Guide's flying grant. The deck's card draw suite (Winged Words, Gust of Wind) gets cheaper the more flyers you control, so the game plan is simply to curve out flyers, keep attacking in the air, and let the card draw triggers snowball.",
+      "playstyle": [
+        "Flying tribal",
+        "Go-wide aerial aggro",
+        "Card draw on attack"
+      ],
+      "tips": [
+        "Curve flyers to trigger Waterkin Shaman",
+        "Attack with 2+ flyers for Tide Skimmer",
+        "Aerial Guide + Serpentine Ambush combo",
+        "Cynette pumps team on ETB and death",
+        "Use Warden of Evos Isle to flood board"
+      ],
       "cards": [
         {
           "title": "Windreader Sphinx",
@@ -2581,7 +2977,19 @@
     {
       "theme": "Soaring 2",
       "color": "blue",
-      "description": "Flying creatures with card draw and buff effects that dominate the air while building card advantage.",
+      "description": "This flyers deck blends the classic aerial tribal shell with extra card selection and a reanimation-style loop on its flagship threat. Cavalier of Gales draws three and rebuys two cards to the top of the library on entry, and when it dies it shuffles back into the library and scries 2, meaning you can find and recast it again later for repeated value. Cynette, Jelly Drover buffs flyers and spawns a Jellyfish token on entry or death, stacking with Warden of Evos Isle's cost reduction on flying creature spells to help you rebuild a board of evasive threats quickly. Cartouche of Knowledge draws a card and gives a creature flying, and pairs with Trial of Knowledge, which bounces itself back to hand whenever a Cartouche you control enters, letting you replay Trial of Knowledge's draw-three-discard-one effect over and over for card advantage. Majestic Metamorphosis can turn any creature (or Cynette's Jellyfish token) into a 4/4 flying Angel with a cantrip attached, giving the deck a way to punch through stalled boards.",
+      "playstyle": [
+        "Flying tribal",
+        "Card advantage engine",
+        "Value creatures"
+      ],
+      "tips": [
+        "Cartouche of Knowledge loops Trial of Knowledge",
+        "Cavalier of Gales recurs itself via death trigger",
+        "Buff a token with Majestic Metamorphosis",
+        "Use Warden of Evos Isle for tempo",
+        "Cynette's tokens fuel go-wide attacks"
+      ],
       "cards": [
         {
           "title": "Cavalier of Gales",
@@ -2658,7 +3066,19 @@
     {
       "theme": "Soaring 3",
       "color": "blue",
-      "description": "Planeswalker-supported flying aggression with efficient creatures and card draw that controls the skies.",
+      "description": "A flyers tribal deck anchored by the planeswalker Mu Yanling, Sky Dancer, whose -3 ability creates a 4/4 flying Elemental Bird token and whose +2 shuts down an opposing attacker by stripping flying and reducing power. Cynette, Jelly Drover and Windstorm Drake both pump the team's flyers, while Tide Skimmer rewards attacking with two or more flyers with a card draw, and Thopter Mechanic grows with a +1/+1 counter whenever you draw your second card in a turn (easily enabled by Tide Skimmer, Winged Words, or Cloudkin Seer) and leaves behind a flying Thopter token when it dies. Aerial Guide can hand flying to a ground creature, which combines with Serpentine Ambush to turn any creature into a temporary 5/5 flying attacker. The deck aims to protect Mu Yanling early with Starlight Snare or tempo plays, then grind toward -8 for the card-drawing Island emblem while its flying squad closes the game.",
+      "playstyle": [
+        "Flying tribal",
+        "Planeswalker value",
+        "Card draw synergy"
+      ],
+      "tips": [
+        "Protect Mu Yanling with removal",
+        "Tide Skimmer/Winged Words trigger Thopter Mechanic",
+        "Aerial Guide + Serpentine Ambush for a surprise 5/5 flyer",
+        "Ult Mu Yanling for card advantage",
+        "Use -3 for a 4/4 flying blocker/attacker"
+      ],
       "cards": [
         {
           "title": "Mu Yanling, Sky Dancer",
@@ -2735,7 +3155,19 @@
     {
       "theme": "Soaring 4",
       "color": "blue",
-      "description": "Evasive flying creatures with theft effects and flexible instant-speed tricks for aggressive aerial advantage.",
+      "description": "This flyers deck focuses on pumping a wide evasive board and converting extra flying creatures into direct damage and card draw. Sprite Noble buffs other flyers' toughness passively and can tap to give them all +1/+0 for a big alpha strike, while Cynette, Jelly Drover adds a flat +1/+1 to flyers and creates a Jellyfish token on entry or death. Tide Skimmer draws a card whenever you attack with two or more flyers, rewarding the deck's go-wide air plan, and Aerial Guide can grant flying to a ground creature to help hit that two-flyer threshold. Stolen by the Fae is the standout tempo/value combo piece: it bounces an opposing creature and creates that many 1/1 flying Faerie tokens equal to its mana value, instantly refilling your board with more flying attackers after removing a blocker. Majestic Metamorphosis can also turn any permanent, including a Faerie token, into a 4/4 flying Angel for a surprise finisher.",
+      "playstyle": [
+        "Flying tribal",
+        "Go-wide aerial aggro",
+        "Tempo bounce"
+      ],
+      "tips": [
+        "Stolen by the Fae bounces and makes flyers",
+        "Tap Sprite Noble before attacking",
+        "Aerial Guide enables Tide Skimmer's two-flyer draw",
+        "Turn a token into 4/4 Angel with Metamorphosis",
+        "Cynette buffs whole flying squad"
+      ],
       "cards": [
         {
           "title": "Sprite Noble",
@@ -2812,7 +3244,19 @@
     {
       "theme": "Surprise! 1",
       "color": "blue",
-      "description": "Fast creatures with tempo-like instant tricks and enchantments to control the board.",
+      "description": "A mono-blue flash tempo deck designed to hold up mana and play its whole hand on the opponent's turn, ambushing them with creatures and removal at instant speed. Thryx, the Sudden Storm has flash itself and discounts and protects your biggest spells (mana value 5+) from countermagic, while Brineborn Cutthroat grows a +1/+1 counter every time you cast a spell on an opponent's turn, rewarding the deck's entire flash-heavy gameplan. Stinging Lionfish lets you tap or untap a permanent the first time you flash something in on an opponent's turn, which can tap down a blocker before an attack or untap a land for extra mana. Chrome Prowler taps down a blocker on entry, and Capture Sphere/Slimebind lock down or cripple threats, all castable at instant speed to keep mana open. Delightful Discovery gets progressively cheaper the more spells opponents cast, turning their own tempo plays into a cheap card-draw spell for you.",
+      "playstyle": [
+        "Flash tempo",
+        "Instant-speed value",
+        "Counter growth"
+      ],
+      "tips": [
+        "Hold mana, play everything at flash speed",
+        "Brineborn Cutthroat grows off-turn spells",
+        "Stinging Lionfish taps blockers pre-combat",
+        "Delightful Discovery cheaper vs spell-heavy foes",
+        "Chrome Prowler taps down attackers"
+      ],
       "cards": [
         {
           "title": "Thryx, the Sudden Storm",
@@ -2889,7 +3333,19 @@
     {
       "theme": "Surprise! 2",
       "color": "blue",
-      "description": "Creature-heavy deck with instant-speed responses and board control through enchantments.",
+      "description": "This flash-tempo deck doubles down on ambush interaction, using cheap instant-speed threats to counter, tap, and disrupt opponents right when they least expect it. Voracious Greatshark flashes in to counter an artifact or creature spell outright, functioning as both a body and a Counterspell in one card, while Pestermite and Stinging Lionfish both offer tap/untap effects on entry or spell-cast that can stop a blocker or attacker cold. Naiad of Hidden Coves discounts all your spells on opponents' turns, synergizing with Brineborn Cutthroat, which grows a +1/+1 counter every time you cast something during an opponent's turn — the cheaper spells from Naiad let you trigger Cutthroat's growth more often within a turn. Delightful Discovery becomes nearly free the more the opponent casts spells, rewarding a reactive, patient playstyle where you hold up mana and let your opponent walk into countermagic and cheap removal like Capture Sphere and Starlit Mantle.",
+      "playstyle": [
+        "Flash tempo",
+        "Instant-speed disruption",
+        "Counter growth"
+      ],
+      "tips": [
+        "Naiad discounts spells for more Cutthroat triggers",
+        "Voracious Greatshark counters key threats",
+        "Tap blockers with Pestermite/Stinging Lionfish",
+        "Hold mana for opponent's turn",
+        "Starlit Mantle protects your key creature"
+      ],
       "cards": [
         {
           "title": "Thryx, the Sudden Storm",
@@ -2966,7 +3422,19 @@
     {
       "theme": "Surprise! 3",
       "color": "blue",
-      "description": "Interactive deck with instant-speed tricks and creatures that can handle surprise combat situations.",
+      "description": "A flash-heavy tempo-control deck built to disrupt the opponent's plans at instant speed while quietly building a board. Venser, Shaper Savant can bounce any spell or permanent on entry, giving you a pseudo-counterspell or removal that also leaves behind a 3/3 flash body, and Naiad of Hidden Coves reduces the cost of everything you cast on opponents' turns, which directly fuels Brineborn Cutthroat's ability to grow a +1/+1 counter for every spell cast during an opponent's turn. Pestermite and Breaching Hippocamp both offer flexible tap/untap effects on entry — Breaching Hippocamp can untap another creature you control, refunding mana or resetting a tapped attacker/blocker. Stinging Lionfish adds another layer of tap/untap disruption the first time you cast a spell each opponent's turn. Supreme Will offers modal flexibility between a soft counter and card selection, while Starlight Snare and Starlit Mantle round out the deck's mix of lockdown and protection, all playable at instant speed to keep opponents guessing.",
+      "playstyle": [
+        "Flash tempo",
+        "Instant-speed control",
+        "Counter growth"
+      ],
+      "tips": [
+        "Venser bounces problem spells/permanents",
+        "Naiad discounts spells for extra Cutthroat counters",
+        "Breaching Hippocamp resets tapped creatures",
+        "Hold up Supreme Will for flexibility",
+        "Play reactively on opponent's turn"
+      ],
       "cards": [
         {
           "title": "Venser, Shaper Savant",
@@ -3043,7 +3511,19 @@
     {
       "theme": "Surprise! 4",
       "color": "blue",
-      "description": "Instant-heavy deck focused on reactive spells and creatures that enable tempo plays.",
+      "description": "This flash tempo deck is built to punish opponents for tapping out, using a suite of instant-speed creatures and cheap interaction to swing tempo on their turn. Venser, Shaper Savant bounces a spell or permanent for a strong tempo swing attached to a body, while Wavebreak Hippocamp and Stinging Lionfish both reward casting your first spell on an opponent's turn — Wavebreak Hippocamp draws you a card and Stinging Lionfish lets you tap or untap a permanent, meaning a single flash spell on their turn can both net you a card and disrupt their board. Brineborn Cutthroat continues to grow with every spell cast on an opponent's turn, making it a natural payoff for this deck's reactive plan. Fading Hope bounces a creature and scries if it's cheap, Soul Read offers a soft counter or card draw, and Uncomfortable Chill can both weaken blockers and cantrip, all fitting the deck's instant-speed, hold-up-mana identity.",
+      "playstyle": [
+        "Flash tempo",
+        "Instant-speed value",
+        "Counter growth"
+      ],
+      "tips": [
+        "Cast first spell early on opponent's turn",
+        "Wavebreak Hippocamp + Stinging Lionfish combo value",
+        "Brineborn Cutthroat rewards off-turn spells",
+        "Venser bounces problem permanents",
+        "Hold mana, ambush at instant speed"
+      ],
       "cards": [
         {
           "title": "Venser, Shaper Savant",
@@ -3120,7 +3600,19 @@
     {
       "theme": "Bookworms 1",
       "color": "blue",
-      "description": "Spell-heavy deck that draws cards and triggers card draw synergies with creatures that reward drawing cards.",
+      "description": "This mono-blue deck is built around drawing multiple cards per turn to trigger a suite of 'second card' payoffs while Syr Elenora, the Discerning grows into a genuine threat off a stuffed hand. Reckless Scholar, Sky-Eel School, and Cartouche of Knowledge's card draw combine with cheap cantrips like Blink of an Eye to consistently hit a second draw each turn, which pumps Faerie Vandal and Lat-Nam Adept with +1/+1 counters and grants Mystic Skyfish evasive flying. Overflowing Insight is the payoff blowout, handing you seven cards in one shot to refuel Syr Elenora's power and keep the second-draw engine running for several turns straight, while Starlight Snare locks down a blocker or attacker so your card-advantage engine can close out the game unmolested.",
+      "playstyle": [
+        "Card draw payoffs",
+        "Value control",
+        "Tempo tapper"
+      ],
+      "tips": [
+        "Chain two draws each turn",
+        "Cast Overflowing Insight to refill",
+        "Grow Syr Elenora with a full hand",
+        "Lock threats with Starlight Snare",
+        "Use cheap cantrips to trigger counters"
+      ],
       "cards": [
         {
           "title": "Syr Elenora, the Discerning",
@@ -3197,7 +3689,19 @@
     {
       "theme": "Bookworms 2",
       "color": "blue",
-      "description": "Card draw-focused deck that benefits from drawing cards with enchantments and creatures that trigger on card draw.",
+      "description": "A mono-blue draw-two engine deck that leans even harder into the 'second card drawn' mechanic with Teferi's Ageless Insight doubling every draw past your first each turn, making it trivial to trigger Faerie Vandal and Mystic Skyfish's abilities multiple times. Cheap cantrips like Drag Under and Uncomfortable Chill smooth the curve while bouncing or shrinking opposing attackers, and sacrifice-for-cards outlets like Witching Well and Memorial to Genius keep the hand full to feed Syr Elenora, the Discerning's power. Phantasmal Shieldback punishes removal or targeted disruption by drawing a card the moment it's targeted, turning opposing interaction into more fuel for the deck's grindy card-advantage plan.",
+      "playstyle": [
+        "Card draw payoffs",
+        "Value control",
+        "Tempo bounce"
+      ],
+      "tips": [
+        "Play Teferi's Ageless Insight early",
+        "Double up draws for value",
+        "Bait removal with Phantasmal Shieldback",
+        "Bounce blockers with Drag Under",
+        "Keep hand full for Syr Elenora"
+      ],
       "cards": [
         {
           "title": "Phantasmal Shieldback",
@@ -3279,7 +3783,19 @@
     {
       "theme": "Bookworms 3",
       "color": "blue",
-      "description": "Enchantment-heavy card draw deck that uses knowledge triggers and a Sphinx to draw extra cards each turn.",
+      "description": "This mono-blue deck centers on the same second-card-draw synergy package as its siblings, powered by Sphinx of Enlightenment's huge card-advantage swing that hands you three cards off a single flying body. Reckless Scholar and Sky-Eel School provide repeatable or one-shot loot effects to hit that second draw, feeding +1/+1 counters onto Lat-Nam Adept and Thopter Mechanic (which also leaves behind a flying Thopter when it dies), while Mystic Skyfish borrows evasion for a turn. Cartouche of Knowledge and Trial of Knowledge form a small loop where each Cartouche cast returns Trial of Knowledge to hand, letting you recast it for another three-card draw-and-discard, refilling the hand to inflate Syr Elenora, the Discerning's power.",
+      "playstyle": [
+        "Card draw payoffs",
+        "Value control",
+        "Grindy tempo"
+      ],
+      "tips": [
+        "Recur Trial of Knowledge with Cartouches",
+        "Draw two to trigger counters",
+        "Land Sphinx of Enlightenment for value",
+        "Snare problem creatures with Starlight Snare",
+        "Keep casting cantrips to grow Elenora"
+      ],
       "cards": [
         {
           "title": "Sphinx of Enlightenment",
@@ -3356,7 +3872,19 @@
     {
       "theme": "Bookworms 4",
       "color": "blue",
-      "description": "Kraken-focused card draw deck that builds up Nadir and Tolarian Kraken with blue spells while generating card advantage.",
+      "description": "A more controlling mono-blue build that pairs the second-draw counter package with two Kraken payoffs that trigger off any card draw at all, not just the second one. Nadir Kraken grows a +1/+1 counter and spawns a 1/1 Tentacle token each time you pay {1} after drawing, while Tolarian Kraken lets you tap down blockers or untap your own creatures every time you draw and pay {1}, giving this deck a tempo/board-control angle its siblings lack. Cheap card selection like Opt and Soul Read (which can counter a spell or just cantrip) smooths draws, Drag Under bounces threats while replacing itself, and Phantasmal Shieldback again punishes removal by drawing a card on death, all while Syr Elenora, the Discerning scales with the resulting full hand.",
+      "playstyle": [
+        "Card draw payoffs",
+        "Tempo control",
+        "Token value"
+      ],
+      "tips": [
+        "Pay {1} off every draw for Krakens",
+        "Tap opposing blockers with Tolarian Kraken",
+        "Bait removal with Phantasmal Shieldback",
+        "Hold Soul Read as flexible counter",
+        "Grow hand size for Elenora's power"
+      ],
       "cards": [
         {
           "title": "Nadir Kraken",
@@ -3438,7 +3966,19 @@
     {
       "theme": "Inventive 1",
       "color": "blue",
-      "description": "Artifact-focused deck with thopter generation and artifact synergies, using small efficient artifacts and creatures that benefit from artifacts.",
+      "description": "A mono-blue artifacts deck that goes wide with cheap Thopter tokens and scales them up with anthem effects. Sai, Master Thopterist spits out a 1/1 flying Thopter every time you cast an artifact spell, and with Experimental Aviator and Whirlermaker also generating Thopters, Chief of the Foundry's +1/+1 boost to artifact creatures quickly turns a swarm of 1/1 fliers into a real clock. Filigree Attendant's power scales directly with your artifact count, so it grows automatically as the Thopter army builds, while Gearseeker Serpent gets cheaper the more artifacts you control thanks to affinity, letting it come down early as an unblockable finisher later in the game.",
+      "playstyle": [
+        "Go-wide artifacts",
+        "Thopter tokens",
+        "Affinity value"
+      ],
+      "tips": [
+        "Cast artifacts to trigger Sai",
+        "Buff the swarm with Chief of the Foundry",
+        "Watch Filigree Attendant scale with artifacts",
+        "Use affinity to cheat out Gearseeker Serpent",
+        "Stun key blockers with Gilded Scuttler"
+      ],
       "cards": [
         {
           "title": "Sai, Master Thopterist",
@@ -3520,7 +4060,19 @@
     {
       "theme": "Inventive 2",
       "color": "blue",
-      "description": "Artifact-heavy deck with blue creature synergies, leveraging artifacts and creatures that create value from artifacts in play.",
+      "description": "This mono-blue artifacts deck builds the same Thopter-token core as its counterpart but shifts toward a more resilient, grindy shell. Sai, Master Thopterist and Experimental Aviator flood the board with flying tokens while Chief of the Foundry pumps them all, and Shimmer Dragon becomes effectively unkillable once you hit four artifacts, since it gains hexproof and can also tap two artifacts to draw a card, turning your token army into a card-advantage engine. Malfunction locks down a problematic permanent, Treasure Keeper offers a free spell off the top of your library when it dies, and Fireshrieker turns any evasive creature into a double-striking finisher, closing games quickly once the board stabilizes.",
+      "playstyle": [
+        "Go-wide artifacts",
+        "Thopter tokens",
+        "Resilient value"
+      ],
+      "tips": [
+        "Hit four artifacts for hexproof Dragon",
+        "Tap artifacts for cards with Shimmer Dragon",
+        "Equip Fireshrieker for double strike kills",
+        "Lock permanents with Malfunction",
+        "Value trade with Treasure Keeper on death"
+      ],
       "cards": [
         {
           "title": "Sai, Master Thopterist",
@@ -3602,7 +4154,19 @@
     {
       "theme": "Inventive 3",
       "color": "blue",
-      "description": "Affinity-based artifact deck with card draw synergies, featuring creatures that benefit from artifacts and efficient spellcasting.",
+      "description": "An affinity-driven mono-blue artifacts deck that wants to flood the battlefield with cheap artifacts to discount its payoffs and draw extra cards. Thought Monitor, Myr Enforcer, and Thoughtcast all get cheaper for every artifact you control, letting you deploy big bodies or draw two cards for very little mana once the board fills up, and Padeem, Consul of Innovation both protects your artifacts with hexproof and refills your hand every upkeep as long as you control the biggest artifact on the board. Patchwork Automaton grows a permanent +1/+1 counter every time you cast an artifact spell, rewarding the deck's natural affinity-fueled deployment, while Prophetic Prism smooths your mana and cantrips on entry to keep the engine rolling.",
+      "playstyle": [
+        "Affinity value",
+        "Artifact card draw",
+        "Go-wide artifacts"
+      ],
+      "tips": [
+        "Flood artifacts to discount spells",
+        "Protect biggest artifact for Padeem draws",
+        "Grow Patchwork Automaton with artifact casts",
+        "Chain Thoughtcast for cheap draws",
+        "Stun blockers with Gilded Scuttler"
+      ],
       "cards": [
         {
           "title": "Padeem, Consul of Innovation",
@@ -3684,7 +4248,19 @@
     {
       "theme": "Inventive 4",
       "color": "blue",
-      "description": "Artifact synergy deck with flexible interactive instants, combining artifact creatures with control elements for adaptive gameplay.",
+      "description": "A mono-blue artifacts deck built around steady value rather than an explosive combo, using Padeem, Consul of Innovation to both protect its artifacts with hexproof and draw a card each upkeep as long as it controls the biggest artifact, alongside Experimental Aviator's twin Thopter tokens and Chief of the Foundry's team-wide pump. Treasure Keeper offers a free spell when it dies, Guardian Idol doubles as a mana rock or a 2/2 body in a pinch, and bounce spells like Blink of an Eye and Bury in Books buy time or reset problematic threats while Gilded Scuttler taps down and stuns an opposing blocker on entry, letting this fairly straightforward artifact value pile grind out card advantage and incremental board pressure.",
+      "playstyle": [
+        "Artifact value",
+        "Go-wide tokens",
+        "Control tempo"
+      ],
+      "tips": [
+        "Keep biggest artifact for Padeem draws",
+        "Use Guardian Idol as flex mana/body",
+        "Stun key threats with Gilded Scuttler",
+        "Bounce blockers to reset combat",
+        "Cash in Treasure Keeper on death"
+      ],
       "cards": [
         {
           "title": "Padeem, Consul of Innovation",
@@ -3766,7 +4342,19 @@
     {
       "theme": "Snakes",
       "color": "black",
-      "description": "A poison and creature-focused deck that uses venomous creatures and removal spells to control the board while dealing damage through snake creatures.",
+      "description": "A black-green (with black-heavy mana) deathtouch tribal deck where every creature threatens to trade up in combat, and Hooded Blightfang converts that deathtouch synergy into direct damage: whenever any deathtouch creature you control attacks, each opponent loses 1 life and you gain 1, turning simple attacks into a life-total race. Aphelia, Viper Whisperer generates 1/1 deathtouch Snake tokens on attack for {1}{B/G}, and her activated ability lets any combat damage from your Gorgons and Snakes cut a defending player's life in half, a devastating finisher once the board is stocked with deathtouch bodies. Removal like Serpent Assassin, Vraska's Finisher, and Killing Glare clears the way for your deathtouch creatures to keep connecting, while Gorgon Flail and Coat with Venom retrofit any creature with deathtouch to enable Hooded Blightfang's drain trigger.",
+      "playstyle": [
+        "Deathtouch aggro",
+        "Life drain",
+        "Removal-heavy midrange"
+      ],
+      "tips": [
+        "Attack wide with deathtouch bodies",
+        "Trigger Blightfang drain every combat",
+        "Pump Aphelia's Snake tokens on attack",
+        "Halve life totals with Aphelia's ability",
+        "Equip Gorgon Flail for extra deathtouch"
+      ],
       "cards": [
         {
           "title": "Aphelia, Viper Whisperer",
@@ -3843,7 +4431,19 @@
     {
       "theme": "Nefarious",
       "color": "black",
-      "description": "A deck focused on powerful, evasive creatures and efficient removal. Features card draw and disruption through Dark Confidant and targeted instant-speed answers.",
+      "description": "This mono-black life-loss synergy deck turns its own self-damage into card advantage, headlined by Vilis, Broker of Blood, which draws a card for every point of life you lose from any source, and Dark Confidant, Read the Bones, and Metalspinner's Puzzleknot all pay life for cards that Vilis then converts into even more cards. Vampire Scrivener quietly grows a permanent +1/+1 counter whenever you gain or lose life on your turn, so the deck's own painful card draw and lifelink triggers from Scourge of the Undercity and Alchemist's Gift double as a way to build a real threat. Howling Banshee and Arrogant Outlaw punish the opponent directly with life loss, and once Vilis is on board even Infernal Grasp, Ulcerate, and Read the Bones' life payments cash in as extra cards, making every painful spell a two-for-one.",
+      "playstyle": [
+        "Life-loss synergy",
+        "Card draw engine",
+        "Drain aggro"
+      ],
+      "tips": [
+        "Land Vilis to convert pain into cards",
+        "Pay life freely once Vilis resolves",
+        "Grow Vampire Scrivener via life swings",
+        "Lifelink triggers feed Scrivener too",
+        "Race with Howling Banshee/Arrogant Outlaw drains"
+      ],
       "cards": [
         {
           "title": "Vilis, Broker of Blood",
@@ -3920,7 +4520,19 @@
     {
       "theme": "Treasures 1",
       "color": "black",
-      "description": "A treasure-generating deck that creates tokens by sacrificing creatures and then cashing them in for value. The deck synergizes death triggers with treasure production to generate card advantage and mana.",
+      "description": "This deck is a black sacrifice/Treasure engine that wants to turn creatures and artifacts into mana rocks and card advantage while chipping away at the opponent's life total. Pitiless Plunderer and Dire Fleet Hoarder passively spit out Treasures whenever your creatures die, feeding Ruthless Knave and Evereth, Viceroy of Plunder, who both want sacrifice fodder to keep working (Evereth grows with +1/+1 counters and gains lifelink specifically off sacrificed Treasures). Deadly Dispute and Ruthless Knave's Treasure-sac ability turn all those spare artifacts into cards, while Reassembling Skeleton and Fake Your Own Death give you renewable bodies to feed the machine over and over. Ruthless Technomancer doubles as both a sac outlet that makes a pile of Treasures off a big creature and a reanimator that buys back that same creature later. Bastion of Remembrance punishes opponents every time a creature of yours dies, converting your death triggers into direct damage and life gain, and Shambling Ghast's death trigger can either shrink a blocker or add to the Treasure pile. The overall plan is a grindy, incremental value engine: sacrifice for value, refill your board and hand, and let small drains and Evereth's death trigger close out the game.",
+      "playstyle": [
+        "Sacrifice value",
+        "Treasure ramp",
+        "Grindy attrition"
+      ],
+      "tips": [
+        "Chain sacrifices for Treasures",
+        "Sac Treasures to Evereth for lifelink",
+        "Use Deadly Dispute to refill hand",
+        "Reanimate big bodies with Ruthless Technomancer",
+        "Let Bastion drain opponents on every death"
+      ],
       "cards": [
         {
           "title": "Evereth, Viceroy of Plunder",
@@ -3997,7 +4609,19 @@
     {
       "theme": "Treasures 2",
       "color": "black",
-      "description": "A treasure-focused deck that generates valuable tokens through creature death triggers and sacrifice outlets. The deck uses treasures to fuel spell casting and create multiple death triggers for card advantage.",
+      "description": "Like its sibling build, this deck leans on a core sacrifice-to-Treasure engine anchored by Pitiless Plunderer and Dire Fleet Hoarder, which convert creature deaths into free mana rocks, and Ruthless Knave and Deadly Dispute, which convert those Treasures into cards. Evereth, Viceroy of Plunder again serves as the payoff, growing with +1/+1 counters from any sacrifice and gaining lifelink specifically when a Treasure is the sacrificed permanent, then threatening a burst of damage when it dies. This version swaps in more direct removal-for-value: Contract Killing and Powerstone Fracture both destroy a creature while either making Treasures or requiring you feed the sacrifice engine, and Dusk Mangler lets you sacrifice a creature as an additional cost to blow out an opponent's hand, board, and life total simultaneously. Undercity Scrounger further rewards a death-heavy turn by tapping for a free Treasure once something has already died. The overall game plan is the same grindy attrition loop as Treasures 1 — sacrifice creatures, generate Treasures, refill cards, and win through incremental drain and a growing Evereth — just with slightly heavier removal to keep the opponent's board clear while you build your engine.",
+      "playstyle": [
+        "Sacrifice value",
+        "Treasure ramp",
+        "Grindy attrition"
+      ],
+      "tips": [
+        "Feed the sac engine constantly",
+        "Sac Treasures to Evereth for lifelink",
+        "Use Contract Killing for tempo and mana",
+        "Time Dusk Mangler for max blowout",
+        "Draw cards off spare Treasures"
+      ],
       "cards": [
         {
           "title": "Evereth, Viceroy of Plunder",
@@ -4079,7 +4703,19 @@
     {
       "theme": "Icky 1",
       "color": "black",
-      "description": "Creature-focused deck with an insect/pest theme that uses sacrificial mechanics. The deck leverages small creatures like swarms and grubs with sacrifice outlets like Nantuko Husk and removal spells.",
+      "description": "This is a mono-black sacrifice-and-swarm deck built around turning creature deaths into insect tokens and incidental drain. Fumulus, the Infestation is the centerpiece: every time any player sacrifices a nontoken creature it spits out a flying 1/1 Insect, and whenever an Insect, Leech, Slug, or Worm you control attacks you drain the defending player for 1 life. Nantuko Husk and Devouring Swarm are built-in sac outlets that pump themselves by eating your other creatures, while Wriggling Grub actually gets better when it dies, replacing itself with two Worm tokens that also trigger Fumulus's drain ability when they attack. Village Rites turns any sacrifice into two cards, and Swarm of Bloodflies passively grows every time any creature (yours or an opponent's) dies, making it a steadily escalating threat in a deck full of death triggers. Removal like Go for the Throat, Eaten Alive, and kicked Heartstabber Mosquito clears blockers so your growing horde of small drain-triggering bodies can keep connecting.",
+      "playstyle": [
+        "Sacrifice synergy",
+        "Token swarm",
+        "Life drain"
+      ],
+      "tips": [
+        "Sac fodder into Nantuko Husk/Devouring Swarm",
+        "Attack with Insects/Worms to drain",
+        "Village Rites for card draw",
+        "Let Wriggling Grub die on purpose",
+        "Kick Heartstabber Mosquito for removal"
+      ],
       "cards": [
         {
           "title": "Fumulus, the Infestation",
@@ -4156,7 +4792,19 @@
     {
       "theme": "Icky 2",
       "color": "black",
-      "description": "Another insect/pest-themed deck with sacrifice synergies and some graveyard interaction. This version includes an enchantment for added value and a slightly different creature mix to create pest tokens and payoffs.",
+      "description": "This build again centers on Fumulus, the Infestation, converting any nontoken creature sacrifice into a flying Insect token and draining life whenever your Insects, Leeches, Slugs, or Worms attack. It leans harder into a repeatable sacrifice loop: Endless Cockroaches simply returns to your hand every time it dies, giving Nantuko Husk and Morkrut Necropod a nearly infinite sac outlet to pump the Husk or push through Morkrut Necropod's forced-sacrifice-on-attack cost. Wriggling Grub again turns one death into two Worm bodies that feed Fumulus's drain trigger, and Devouring Swarm gives you another flying sac outlet. This version adds more disruption than the first, with Virus Beetle and Torment of Scarabs stripping the opponent's hand and forcing repeated sacrifices or discards, alongside Go for the Throat and Eaten Alive as hard removal. The plan is a grindy, repeatable value loop: sacrifice Endless Cockroaches for value, keep growing your board of small drain-triggering insects, and squeeze the opponent's resources with discard while chipping away at their life total.",
+      "playstyle": [
+        "Sacrifice synergy",
+        "Recursive value",
+        "Life drain"
+      ],
+      "tips": [
+        "Loop Endless Cockroaches into Husk",
+        "Attack with Insects/Worms to drain",
+        "Use Torment to force sacrifices",
+        "Strip hands with Virus Beetle",
+        "Sac fodder before combat for Fumulus tokens"
+      ],
       "cards": [
         {
           "title": "Fumulus, the Infestation",
@@ -4233,7 +4881,19 @@
     {
       "theme": "Clerics 1",
       "color": "black",
-      "description": "A cleric-focused deck with life drain effects and removal, using creatures that trigger death mechanics and spells to control the board.",
+      "description": "This deck is a black lifegain/reanimator pile that turns creature deaths and life gain into snowballing value. Taborax, Hope's Demise grows a +1/+1 counter every time another nontoken creature you control dies, draws a card off Cleric deaths specifically, and eventually flips on lifelink once it has five or more counters. Scion of the Swarm and Skemfar Shadowsage both reward the lifegain theme, with Scion putting a counter on itself whenever you gain any life, feeding off cards like Agonizing Syphon, Koma's Faithful, and the kicked Nullpriest of Oblivion's lifelink swings. The deck's reanimation package — Nullpriest of Oblivion's kicker, Bonecaller Cleric's sacrifice ability, Eerie Soultender's mill-then-return ability, and Revoke Demise — lets you mill or discard fatties like Archfiend's Vessel into the graveyard and bring them back, and Archfiend's Vessel specifically rewards being cast or returned from the graveyard by exiling itself to leave behind a 5/5 flying Demon token. Removal like Disfigure keeps the board clear while these recursive threats grind out an advantage through repeated life swings and value creatures returning again and again.",
+      "playstyle": [
+        "Lifegain matters",
+        "Reanimator",
+        "Grindy value"
+      ],
+      "tips": [
+        "Mill Archfiend's Vessel then reanimate it",
+        "Trigger Scion of the Swarm with lifegain",
+        "Sac Clerics to grow Taborax and draw",
+        "Use Eerie Soultender to refill graveyard value",
+        "Kick Nullpriest for a free reanimation"
+      ],
       "cards": [
         {
           "title": "Taborax, Hope's Demise",
@@ -4310,7 +4970,19 @@
     {
       "theme": "Clerics 2",
       "color": "black",
-      "description": "A cleric-themed deck built around creature removal and sacrifice synergies, with efficient clerics and black removal spells.",
+      "description": "This build again uses Taborax, Hope's Demise as its centerpiece, gaining +1/+1 counters whenever a nontoken creature you control dies and drawing extra cards specifically off Cleric deaths, eventually turning on lifelink once it's stacked five or more counters. Scion of the Swarm continues the lifegain-into-counters theme, growing off every life-gain trigger from cards like Koma's Faithful and Archfiend's Vessel's lifelink damage. The recursion package is built around Bonecaller Cleric's sacrifice-to-reanimate ability, Entomber Exarch's graveyard return or hand disruption, and Revoke Demise's discounted reanimation, letting you loop value creatures back from the graveyard repeatedly — and Archfiend's Vessel again rewards being cast or returned from the graveyard by exiling itself into a 5/5 flying Demon token. Elderfang Disciple and Entomber Exarch add a light discard/disruption angle to strip problem cards from the opponent's hand while your engine grinds forward. Priest of Gix ramps you into your bigger reanimation spells a turn early, and Severed Strands offers a two-for-one sacrifice-based removal spell that also gains life to keep Scion of the Swarm and Vito-style lifegain payoffs (via Taborax's lifelink) ticking upward.",
+      "playstyle": [
+        "Lifegain matters",
+        "Reanimator",
+        "Grindy value"
+      ],
+      "tips": [
+        "Reanimate Archfiend's Vessel for a 5/5 Demon",
+        "Grow Taborax off Cleric deaths",
+        "Ramp with Priest of Gix",
+        "Disrupt hands with Entomber/Elderfang",
+        "Severed Strands for removal plus lifegain"
+      ],
       "cards": [
         {
           "title": "Taborax, Hope's Demise",
@@ -4387,7 +5059,19 @@
     {
       "theme": "Clerics 3",
       "color": "black",
-      "description": "A clerics deck with life loss effects and creature removal, featuring black creatures that punish opponents and control threats.",
+      "description": "This deck is built around a specific tribal payoff: Dark Supplicant can sacrifice three Clerics to tutor Scion of Darkness straight out of your deck, hand, or graveyard onto the battlefield for free, turning a critical mass of small Cleric creatures into a trampling threat that steals creatures from an opponent's graveyard whenever it connects. Around that payoff, Vito, Thorn of the Dusk Rose converts every point of life you gain into direct opponent life loss, making cards like Koma's Faithful's lifelink, Agonizing Syphon's lifegain-burn, and Moment of Craving's lifegain removal into de facto extra reach. Bonecaller Cleric and Revoke Demise provide additional reanimation to rebuy Clerics or bigger threats from the graveyard, while Eerie Soultender mills and later retrieves creatures to fuel the graveyard-based plans. Skemfar Shadowsage's mode that drains life off your greatest shared creature type synergizes naturally with a Cleric-heavy board. The overall plan is to assemble Clerics, either grinding with lifegain-drain synergies via Vito or going over the top by cheating Scion of Darkness into play with Dark Supplicant.",
+      "playstyle": [
+        "Tribal Clerics",
+        "Lifegain drain",
+        "Reanimator toolbox"
+      ],
+      "tips": [
+        "Sac 3 Clerics for Scion of Darkness",
+        "Stack lifegain with Vito in play",
+        "Attack with Scion to steal graveyard creatures",
+        "Reanimate with Bonecaller/Revoke Demise",
+        "Count Clerics for Shadowsage's drain"
+      ],
       "cards": [
         {
           "title": "Vito, Thorn of the Dusk Rose",
@@ -4464,7 +5148,19 @@
     {
       "theme": "Clerics 4",
       "color": "black",
-      "description": "A clerics deck that generates tokens and uses sacrifice outlets, with powerful clerics and instant-speed removal for board control.",
+      "description": "This version again features Vito, Thorn of the Dusk Rose turning any life gained into life lost for an opponent, making every lifelink hit from Archfiend's Vessel or lifegain spell from Alchemist's Gift and Extinguish the Light double as extra reach. Priest of Forgotten Gods is a powerful engine piece here, sacrificing two other creatures to simultaneously drain opponents, force them to sacrifice a creature of their own, ramp black mana, and draw a card — an efficient value/removal/ramp combo all in one activation. Bonecaller Cleric provides graveyard recursion to rebuy whatever you fed to Priest of Forgotten Gods or lost to combat, and Priest of Gix helps ramp you into these black-heavy costs a turn ahead of schedule. Scion of the Swarm again converts any lifegain trigger into a growing flying threat, while Stronghold Confessor rewards a slower kicker line with a beefy menace body. Extinguish the Light and Revoke Demise round out the removal and recursion suite. The overall game plan is to use Priest of Forgotten Gods as a repeatable sacrifice-drain-ramp engine while Vito converts all your incidental lifegain into a parallel life-loss clock on the opponent.",
+      "playstyle": [
+        "Lifegain drain",
+        "Sacrifice value",
+        "Grindy midrange"
+      ],
+      "tips": [
+        "Sac fodder to Priest of Forgotten Gods",
+        "Stack lifegain triggers with Vito out",
+        "Recur creatures with Bonecaller Cleric",
+        "Ramp early with Priest of Gix",
+        "Kick Stronghold Confessor when able"
+      ],
       "cards": [
         {
           "title": "Vito, Thorn of the Dusk Rose",
@@ -4541,7 +5237,19 @@
     {
       "theme": "Vampires 1",
       "color": "black",
-      "description": "Vampire-focused deck with life gain synergies and efficient removal through creatures like Sangromancer that reward dealing damage.",
+      "description": "This mono-black Vampire deck is built around lifegain triggers translating into card advantage and growing threats. Nazar, the Velvet Fang accumulates a feeding counter every time you gain life from any source, then lets you cash in three counters to draw three cards when it attacks, so cards like Skymarch Bloodletter's ETB drain, Blood Burglar and Scourge of the Undercity's lifelink, and Vampire of the Dire Moon's lifelink all directly fuel Nazar's card-draw engine. Sangromancer passively gains you life whenever an opponent's creature dies or they discard a card, which combos naturally with Bloodtithe Collector's discard-on-loss-of-life trigger and Gluttonous Guest's Blood tokens, which also gain you 1 life when sacrificed to loot away excess cards. Urge to Feed doubles as removal and a way to pump your whole Vampire board with +1/+1 counters, while Bleed Dry and Gift of Fangs handle bigger threats or punish non-Vampires on the battlefield. The deck's plan is to stack small, repeatable lifegain triggers to fuel Nazar's draw engine and grind out card advantage while Vampires with lifelink keep the life totals in your favor.",
+      "playstyle": [
+        "Lifegain synergy",
+        "Vampire tribal",
+        "Card advantage engine"
+      ],
+      "tips": [
+        "Stack lifegain to fuel Nazar's draw",
+        "Loot with Blood tokens for value",
+        "Combine Sangromancer with discard effects",
+        "Urge to Feed doubles as pump and removal",
+        "Keep lifelink bodies attacking"
+      ],
       "cards": [
         {
           "title": "Sangromancer",
@@ -4618,7 +5326,19 @@
     {
       "theme": "Vampires 2",
       "color": "black",
-      "description": "Aggressive vampire deck with flying creatures and direct damage effects that pressure opponents while gaining life through vampire abilities.",
+      "description": "This build again leans on Nazar, the Velvet Fang's feeding-counter engine, turning any lifegain into a delayed card-draw payoff, fed here by Sanctum Seeker's attack-trigger drain, Scourge of the Undercity and Vampire of the Dire Moon's lifelink, and Creeping Bloodsucker's repeatable upkeep drain. Crossway Troublemakers is the key combat payoff, giving all attacking Vampires deathtouch and lifelink simultaneously, which both clears blockers efficiently and floods the board with lifegain triggers to power Nazar and Bloodthirsty Aerialist, the latter growing a +1/+1 counter every time you gain life. Crossway Troublemakers also lets you pay 2 life to draw a card whenever a Vampire dies, adding another layer of card advantage to the sacrifice fallout from combat. Gluttonous Guest's Blood token similarly nets a small life gain when sacrificed for a loot effect, and Urge to Feed again works as both removal and a team-wide Vampire pump. The overall game plan is an aggressive Vampire tribal swarm that turns combat damage into lifegain, lifegain into counters and card draw, and keeps refueling itself as Vampires trade in combat.",
+      "playstyle": [
+        "Vampire tribal",
+        "Aggro lifegain",
+        "Card advantage engine"
+      ],
+      "tips": [
+        "Attack wide with Crossway online",
+        "Feed lifegain into Nazar's draw",
+        "Pay life off Vampire deaths to draw",
+        "Grow Bloodthirsty Aerialist via lifegain",
+        "Use Urge to Feed as pump/removal"
+      ],
       "cards": [
         {
           "title": "Crossway Troublemakers",
@@ -4695,7 +5415,19 @@
     {
       "theme": "Vampires 3",
       "color": "black",
-      "description": "Vampire lord deck featuring powerful creatures like Necropolis Regent that grow in power while draining opponents through evasive attackers.",
+      "description": "This deck is a mono-black lifegain-aggro pile built around vampires that punish opponents every time you gain life. Skymarch Bloodletter, Creeping Bloodsucker, and Vicious Conquistador all chip away at the opponent's life total on ETB or attack, while Scourge of the Undercity spreads lifelink around the team so multiple attackers trigger these effects each combat. The standout synergy is Nazar, the Velvet Fang: every point of lifegain from Creeping Bloodsucker, Scourge of the Undercity, or Gluttonous Guest's Blood token sacrifice piles feeding counters onto Nazar, letting you eventually strip three counters to draw three cards when it attacks. Necropolis Regent turns all that combat damage into permanent +1/+1 counters, snowballing your board while Thirsting Bloodlord pumps the whole vampire tribe. Removal like Bleed Dry and Go for the Throat clears blockers so your evasive threats keep connecting and keep the lifegain engine running.",
+      "playstyle": [
+        "Lifegain aggro",
+        "Tribal vampires",
+        "Drain damage"
+      ],
+      "tips": [
+        "Feed Nazar with lifegain triggers",
+        "Spread lifelink via Scourge of the Undercity",
+        "Attack wide to grow Necropolis Regent",
+        "Use removal to protect attackers",
+        "Sacrifice Blood tokens for extra life triggers"
+      ],
       "cards": [
         {
           "title": "Necropolis Regent",
@@ -4772,7 +5504,19 @@
     {
       "theme": "Vampires 4",
       "color": "black",
-      "description": "Life drain focused vampire deck with creatures that provide evasion and efficiency, supported by life gain and targeted removal spells.",
+      "description": "A lifegain-matters vampire deck where nearly every creature either gains life or benefits from it. Blood Burglar and the deathtouch-lifelink pair Vampire Nighthawk and Vampire of the Dire Moon trade profitably in combat while padding your life total, and Epicure of Blood converts every point of lifegain into direct life loss for the opponent, turning even small triggers like Moment of Craving's +2 life into extra damage. Nazar, the Velvet Fang again accumulates feeding counters from all this lifegain to eventually draw three cards, and Rodolf Duskbringer both protects itself with lifegain-triggered indestructible and can reanimate creatures at end of turn based on how much life you gained that turn. Exsanguinate acts as a scalable finisher, draining and gaining simultaneously to close out games once the board stalls.",
+      "playstyle": [
+        "Lifegain aggro",
+        "Tribal vampires",
+        "Drain damage"
+      ],
+      "tips": [
+        "Chain lifegain into Epicure of Blood drains",
+        "Build Nazar's feeding counters early",
+        "Use Rodolf's end step reanimation off big lifegain turns",
+        "Trade profitably with deathtouch lifelinkers",
+        "Save Exsanguinate as a finisher"
+      ],
       "cards": [
         {
           "title": "Rodolf Duskbringer",
@@ -4849,7 +5593,19 @@
     {
       "theme": "Grave Robbers 1",
       "color": "black",
-      "description": "This deck focuses on reanimation and graveyard synergies, using creatures that benefit from creatures in the graveyard and spells that pull creatures back from the yard to deal damage and control the board.",
+      "description": "This mono-black self-mill deck fills its own graveyard with cards like Gorging Vulture, Wailing Ghoul, and Grave Strength's mill-three effect, then leverages that graveyard for both value and payoff. Graveblade Marauder turns your graveyard's creature count into direct damage on combat hits, and Grave Strength converts that same pile into a pile of +1/+1 counters on a single creature. Gorex, the Tombshell is the deck's centerpiece combo: you can exile creatures from your graveyard to discount its cost dramatically, and later Gorex returns one of those exiled cards to hand at random whenever it attacks or dies, effectively refunding your investment. Gravedigger, Eternal Taskmaster, and Revoke Demise all recur creatures from the graveyard back to hand or battlefield, letting you rebuy your best threats repeatedly while removal like Murder and Deal Gone Bad keeps the board clear.",
+      "playstyle": [
+        "Self-mill",
+        "Graveyard recursion",
+        "Value grind"
+      ],
+      "tips": [
+        "Mill early to fuel Graveblade Marauder and Grave Strength",
+        "Exile creatures to discount Gorex",
+        "Recur threats with Gravedigger and Eternal Taskmaster",
+        "Attack with Gorex to get cards back",
+        "Time Revoke Demise for cheap early reanimation"
+      ],
       "cards": [
         {
           "title": "Gorex, the Tombshell",
@@ -4926,7 +5682,19 @@
     {
       "theme": "Grave Robbers 2",
       "color": "black",
-      "description": "This deck leverages graveyard recursion and reanimation effects, using creatures that interact with the graveyard to generate value and protect the board through sacrificial mechanics.",
+      "description": "A self-mill sacrifice/reanimator deck that fills the graveyard quickly via Gorging Vulture and Undead Butler, then turns those cards into recurring value. Doomed Necromancer sacrifices itself to bring back any creature from the graveyard, and Undead Butler can be exiled on death to fetch a creature card from the graveyard back to hand, creating a steady stream of card advantage. Gorex, the Tombshell again lets you exile graveyard creatures to reduce its cost, then randomly returns one to hand when it attacks or dies. Moodmark Painter and Necrotic Wound both scale off your graveyard's creature count (Undergrowth), so the more you mill, the bigger the pump or removal effect becomes. Dusk Mangler and Fake Your Own Death add disruption and protection, letting your creatures dodge removal or force awkward sacrifices from the opponent.",
+      "playstyle": [
+        "Self-mill",
+        "Sacrifice value",
+        "Graveyard recursion"
+      ],
+      "tips": [
+        "Mill aggressively to power Undergrowth cards",
+        "Sac Doomed Necromancer to reanimate a big threat",
+        "Exile graveyard creatures to cheat out Gorex",
+        "Use Fake Your Own Death to blank removal",
+        "Undead Butler dies into card advantage"
+      ],
       "cards": [
         {
           "title": "Gorex, the Tombshell",
@@ -5003,7 +5771,19 @@
     {
       "theme": "Grave Robbers 3",
       "color": "black",
-      "description": "This deck uses reanimation and graveyard recursion to repeatedly bring creatures back from the dead, creating a resilient engine that generates value from creature deaths.",
+      "description": "This deck mills itself with Gorging Vulture, Dreadhound, and Wailing Ghoul to build a graveyard, then repeatedly reanimates or rebuys creatures from it. Isareth the Awakener is the centerpiece: by paying X on attack you can return a creature card with mana value X directly to the battlefield with a corpse counter, essentially cheating threats into play for free combat value, though those creatures get exiled instead of dying again. Persistent Specimen offers a cheap, repeatable recursive body, while Dreadhound punishes both creature deaths and self-mill by draining the opponent whenever cards hit any graveyard. Gravedigger and Revoke Demise provide more traditional recursion, and Grave Strength again scales a creature's size directly off the number of creature cards you've milled into your yard.",
+      "playstyle": [
+        "Self-mill",
+        "Reanimator",
+        "Graveyard recursion"
+      ],
+      "tips": [
+        "Mill early to enable Isareth's attack trigger",
+        "Time Isareth attacks to reanimate the right creature",
+        "Recur Persistent Specimen for a cheap blocker",
+        "Let Dreadhound drain off mill and deaths",
+        "Save Revoke Demise for cheap creatures"
+      ],
       "cards": [
         {
           "title": "Isareth the Awakener",
@@ -5085,7 +5865,19 @@
     {
       "theme": "Grave Robbers 4",
       "color": "black",
-      "description": "This deck features powerful reanimation with a planeswalker that can bring creatures back, combined with creatures that create value and can be recast from the graveyard multiple times.",
+      "description": "A graveyard-recursion deck anchored by Liliana, Death's Majesty and Isareth the Awakener, both of which turn a stocked graveyard into repeated reanimation value. Liliana's +1 mills two cards while making a Zombie token, directly feeding the graveyard that her -3 then exploits to reanimate a creature as a Zombie; Isareth does similar work on attack by paying X to bring back a creature of that mana value. Goremand forces a sacrifice from the opponent when it enters, at the cost of you sacrificing a creature yourself, which pairs well with recursive bodies like Persistent Specimen or Undead Butler that don't mind dying since they can come back. Gorging Vulture and Undead Butler feed the graveyard early, while Gravedigger and Revoke Demise provide additional ways to rebuy threats, letting the deck grind out opponents through repeated resource attrition.",
+      "playstyle": [
+        "Graveyard recursion",
+        "Reanimator",
+        "Value grind"
+      ],
+      "tips": [
+        "Mill with Liliana and Vulture to enable reanimation",
+        "Sac expendable creatures to Goremand",
+        "Use Isareth attacks to cheat threats into play",
+        "Rebuy value creatures with Gravedigger",
+        "Protect Liliana to ultimate for a board wipe"
+      ],
       "cards": [
         {
           "title": "Liliana, Death's Majesty",
@@ -5162,7 +5954,19 @@
     {
       "theme": "Ghastly 1",
       "color": "black",
-      "description": "A deck focused on creatures that trigger on death effects, generating value through sacrifice and triggers from Morbid Opportunist and Falkenrath Noble.",
+      "description": "This is a mono-black sacrifice/aristocrats deck where creature deaths generate repeated value and life drain. Falkenrath Noble drains a point of life every time any creature dies, and Morbid Opportunist draws a card the first time creatures die each turn, so cheap death triggers from Doomed Dissenter (leaves a 2/2 Zombie) and Ozox, the Clattering King (leaves a Jumblebones token that can even return Ozox to hand) feed both engines simultaneously. Village Rites turns a sacrifice into two cards, and Tragic Slip becomes a devastating -13/-13 removal spell once a creature has already died that turn (Morbid), which is easy to trigger given how many creatures want to die anyway. Harvester of Souls further rewards this death-heavy plan by drawing a card whenever another nontoken creature dies, and Moan of the Unhallowed with flashback keeps refilling the board with Zombie tokens to sacrifice again.",
+      "playstyle": [
+        "Aristocrats",
+        "Sacrifice value",
+        "Death triggers"
+      ],
+      "tips": [
+        "Chain deaths into Falkenrath Noble drains",
+        "Trigger Morbid before casting Tragic Slip",
+        "Sac tokens to Village Rites for cards",
+        "Let Ozox die to recur itself via Jumblebones",
+        "Use Doomed Dissenter as free sac fodder"
+      ],
       "cards": [
         {
           "title": "Harvester of Souls",
@@ -5239,7 +6043,19 @@
     {
       "theme": "Ghastly 2",
       "color": "black",
-      "description": "A creature-heavy deck leveraging death triggers and sacrifice outlets with removal spells to control the board while generating value.",
+      "description": "A mono-black aristocrats deck that squeezes value out of every creature death. Gnawing Zombie is a repeatable sacrifice outlet that drains a point of life on demand, feeding both Falkenrath Noble's death trigger and setting up Morbid conditions for Tragic Slip, which becomes -13/-13 removal once a creature has died that turn. Doomed Dissenter and Ozox, the Clattering King both leave bodies behind when they die, giving you cheap, repeatable fodder to sacrifice into Village Rites for two cards or Gnawing Zombie's drain. Bloodgift Demon adds a card-draw engine (at a life cost) on top of the sacrifice shell, while Morbid Opportunist turns the first death of a turn into a card every turn. Moan of the Unhallowed's flashback and Blood Beckoning's kicker help refill both the graveyard-recursion and token plans late game.",
+      "playstyle": [
+        "Aristocrats",
+        "Sacrifice value",
+        "Death triggers"
+      ],
+      "tips": [
+        "Use Gnawing Zombie to trigger Morbid on demand",
+        "Sac fodder into Village Rites for cards",
+        "Let Ozox and Doomed Dissenter die profitably",
+        "Time Tragic Slip after a death for -13/-13",
+        "Bloodgift Demon trades life for cards"
+      ],
       "cards": [
         {
           "title": "Bloodgift Demon",
@@ -5316,7 +6132,19 @@
     {
       "theme": "Ghastly 3",
       "color": "black",
-      "description": "A deck built around creatures with death-trigger effects and flexible removal, creating value while controlling the board with instant-speed interaction.",
+      "description": "This mono-black sacrifice deck rewards creature deaths with card draw, life drain, and removal. Falkenrath Noble and Morbid Opportunist both trigger off any creature dying, and Deadly Dispute turns a sacrificed creature or artifact into two cards plus a Treasure token, smoothing mana while feeding the graveyard. Reaper from the Abyss is the deck's payoff bomb: once a creature has died in a turn (Morbid), it destroys a non-Demon creature at each end step, effectively acting as a recurring removal spell as long as something keeps dying. Tragic Slip again scales into -13/-13 removal off the same Morbid condition, and Wriggling Grub replaces itself with two 1/1 tokens on death, giving you more fodder to keep the sacrifice engine and Morbid triggers running turn after turn. Ozox, the Clattering King and its Jumblebones token add another self-sustaining death loop to the mix.",
+      "playstyle": [
+        "Aristocrats",
+        "Sacrifice value",
+        "Death triggers"
+      ],
+      "tips": [
+        "Sac creatures to trigger Morbid before end step",
+        "Let Reaper from the Abyss snipe threats each turn",
+        "Chain Wriggling Grub deaths for more fodder",
+        "Use Deadly Dispute to convert sac fodder to cards",
+        "Save Tragic Slip until after a death"
+      ],
       "cards": [
         {
           "title": "Ozox, the Clattering King",
@@ -5393,7 +6221,19 @@
     {
       "theme": "Ghastly 4",
       "color": "black",
-      "description": "A graveyard-focused deck that uses sacrifice outlets and death triggers to generate tokens and value while rebuilding creatures from the yard.",
+      "description": "A mono-black aristocrats deck built to grind value from repeated deaths and then close games with a massive Zombie swarm. Falkenrath Noble and Morbid Opportunist punish and reward every creature death, while Shambling Ghast and Doomed Dissenter leave behind removal effects or Zombie tokens when they die, keeping the sacrifice engine fed. Deadly Dispute converts any of that fodder into two cards and a Treasure, smoothing the mana for the deck's expensive top end. That top end is Army of the Damned, which creates thirteen 2/2 Zombie tokens outright and can be recast from the graveyard via flashback for an enormous second wave; Crawl from the Cellar's flashback then lets you recur a creature and buff one of those Zombies with a +1/+1 counter, tying the recursion package directly into the Zombie go-wide plan. Ozox, the Clattering King and its Jumblebones token add yet another recurring death trigger to keep Falkenrath Noble and Morbid Opportunist firing.",
+      "playstyle": [
+        "Aristocrats",
+        "Zombie go-wide",
+        "Death triggers"
+      ],
+      "tips": [
+        "Sac fodder to fuel Falkenrath Noble drains",
+        "Save mana for Army of the Damned flashback",
+        "Buff Zombies with Crawl from the Cellar",
+        "Trigger Morbid before casting Tragic Slip",
+        "Let Ozox die to recur itself"
+      ],
       "cards": [
         {
           "title": "Ozox, the Clattering King",
@@ -5470,7 +6310,19 @@
     {
       "theme": "Too Many",
       "color": "red",
-      "description": "A goblin-focused deck that leverages token generation and multiplier effects to create a wide board presence. The deck uses goblin tokens and creatures with duplicate effects to overwhelm opponents with numbers.",
+      "description": "This deck is built around the two-Brothers-Yamazaki gimmick and other creatures that punish opponents for not having enough blockers or that hit hard once buffed. Because there are exactly two permanents named Brothers Yamazaki in the deck, having both on the battlefield turns off the legend rule for them and each grants the other +2/+2 and haste, turning two mediocre 1/1 bushido bodies into a pair of 3/3 hasty attackers the turn they land together. Mogg Flunkies wants company to attack or block, which the deck naturally provides with token makers like Krenko's Command and Goblin Surprise, while Battle-Rattle Shaman and Weaselback Redcap push through extra damage on key swings. Fiendish Duo's damage-doubling ability turns any burn spell like Furious Reprisal or Pigment Storm, or even combat damage, into a blowout finisher. The overall plan is a low-curve mono-red beatdown deck that goes wide with cheap creatures and tokens, then closes games with pump spells and direct damage once Fiendish Duo is in play to double up the final points of damage.",
+      "playstyle": [
+        "Go-wide aggro",
+        "Damage doubling",
+        "Token swarm"
+      ],
+      "tips": [
+        "Land both Brothers Yamazaki together",
+        "Pair Mogg Flunkies with tokens",
+        "Fiendish Duo doubles burn spells",
+        "Use Goblin Surprise for width or pump",
+        "Curve out fast, swing early"
+      ],
       "cards": [
         {
           "title": "Fiendish Duo",
@@ -5542,7 +6394,17 @@
     {
       "theme": "Burning",
       "color": "red",
-      "description": "An aggressive burn-focused deck with small creatures that benefit from instant and sorcery spells, emphasizing direct damage to the opponent.",
+      "description": "This is a mono-red 'pinger' deck that wants to chip away at the opponent's life total with small triggered damage effects and then amplify that damage into a finishing blow. Firebrand Archer and Firespitter Whelp both ping opponents for 1 whenever you cast a noncreature (or Dragon) spell, while Goblin Fireslinger provides a repeatable tap-for-damage effect. The key payoff is Wildfire Elemental and Chandra's Spitfire, which both trigger off noncombat damage dealt to an opponent: Wildfire Elemental pumps your whole team +1/+0 and Chandra's Spitfire itself grows +3/+0, so a single ping from Firebrand Archer or a burn spell like Play with Fire can suddenly make your whole board hit much harder that turn. Rionya, Fire Dancer adds a late-game combo angle, copying another creature you control at combat equal to 1 plus instants/sorceries cast that turn, letting you flood the board with hasty temporary copies right as your spells trigger all your damage-based payoffs.",
+      "playstyle": [
+        "Burn/pinger aggro",
+        "Damage-trigger payoffs"
+      ],
+      "tips": [
+        "Cast noncreature spells to ping",
+        "Chain pings into Wildfire Elemental/Spitfire",
+        "Copy creatures with Rionya after spells",
+        "Use burn to close, not just clear"
+      ],
       "cards": [
         {
           "title": "Rionya, Fire Dancer",
@@ -5619,7 +6481,17 @@
     {
       "theme": "Dragons 1",
       "color": "red",
-      "description": "A creature-focused deck built around powerful dragons and dragon synergies, with direct damage spells for finishing opponents.",
+      "description": "This deck is a mono-red Dragon tribal build anchored by Lathliss, Dragon Queen, whose ability to spawn a 5/5 flying Dragon token every time another nontoken Dragon enters can snowball a small number of Dragons into a huge army very quickly. Dragonlord's Servant discounts your Dragon spells to help you deploy them faster, while Carnelian Orb of Dragonkind ramps mana and grants haste to Dragons cast off it. Rapacious Dragon and Seize the Spoils generate Treasure tokens for extra acceleration and card advantage, and burn spells like Dragon's Fire and Bathe in Dragonfire clear blockers or finish off opponents, with Dragon's Fire scaling its damage to a Dragon's power when you reveal or choose one. The overall plan is to ramp into and chain Dragon after Dragon, using Lathliss's token generation to turn each additional Dragon into two threats instead of one, then close out with flying damage and direct burn.",
+      "playstyle": [
+        "Dragon tribal",
+        "Ramp into big flyers"
+      ],
+      "tips": [
+        "Play Lathliss before more Dragons",
+        "Use Treasures to accelerate",
+        "Dragon's Fire scales off Dragon power",
+        "Chain Dragons for token snowball"
+      ],
       "cards": [
         {
           "title": "Lathliss, Dragon Queen",
@@ -5696,7 +6568,17 @@
     {
       "theme": "Dragons 2",
       "color": "red",
-      "description": "A dragon-centered deck with a planeswalker for additional value, focusing on flying threats and direct dragon damage.",
+      "description": "Like its companion deck, this is a mono-red Dragon tribal deck centered on Lathliss, Dragon Queen turning every subsequent nontoken Dragon into a bonus 5/5 flier, but here it's paired with Sarkhan, Fireblood as a second card-advantage and ramp engine that can also ultimate into four more 5/5 flying Dragon tokens if the game goes long. Sarkhan's +1 to add mana restricted to Dragon spells combos directly with Dragonlord's Servant's cost reduction to help cast Dragons ahead of curve, and Hellkite Whelp adds reach by pinging a blocker whenever it attacks. Sarkhan's Rage is a big finisher that deals 5 damage to any target, with a small downside if you control no Dragons, tying its best use to the deck's Dragon-heavy game plan. The deck wants to plant Lathliss or use Sarkhan's mana to deploy Dragons quickly, converting each subsequent Dragon into extra board presence, then finish with direct damage from Sarkhan's Rage or Dragon's Fire.",
+      "playstyle": [
+        "Dragon tribal",
+        "Planeswalker value engine"
+      ],
+      "tips": [
+        "Sarkhan ramps into Dragons",
+        "Lathliss snowballs extra Dragons",
+        "Save Sarkhan's Rage for reach",
+        "Hellkite Whelp clears small blockers"
+      ],
       "cards": [
         {
           "title": "Sarkhan, Fireblood",
@@ -5773,7 +6655,18 @@
     {
       "theme": "Copied 1",
       "color": "red",
-      "description": "A spell-heavy deck that triggers payoff creatures whenever instant and sorcery spells are cast, generating value through card abilities like Young Pyromancer and Guttersnipe.",
+      "description": "This is a spells-matter deck built around Zada, Hedron Grinder: any instant or sorcery that targets only Zada gets copied for every other creature you control, so pump spells like Invigorated Rampage or Crimson Wisps become team-wide buffs off a single card. The deck backs this up with a suite of spell-triggered creatures — Guttersnipe pings opponents for 2 per spell, Kiln Fiend and Spellgorger Weird both grow off spells cast, and Young Pyromancer makes a 1/1 Elemental token with every instant or sorcery — turning a small burst of cheap spells into a wide board and a big damage swing. Scholar of Combustion and Cyclops Electromancer reward filling the graveyard with spells, letting you rebuy key instants/sorceries or blow up a blocker based on graveyard count. The overall plan is to jam cheap cantrip-style pump spells (Fists of Flame, Renegade Tactics, Fire Prophecy) into Zada for exponential value, while Young Pyromancer and Guttersnipe passively add bodies and damage along the way.",
+      "playstyle": [
+        "Spellslinger",
+        "Single-target-spell copying"
+      ],
+      "tips": [
+        "Target only Zada with pump spells",
+        "Copies hit every other creature",
+        "Guttersnipe pings per spell cast",
+        "Fill graveyard for Electromancer/Scholar",
+        "Young Pyromancer tokens add width"
+      ],
       "cards": [
         {
           "title": "Zada, Hedron Grinder",
@@ -5850,7 +6743,18 @@
     {
       "theme": "Copied 2",
       "color": "red",
-      "description": "A spell-focused deck that benefits from instant and sorcery spells cast, with creatures that generate tokens and deal damage when spells are played.",
+      "description": "Another Zada, Hedron Grinder spells deck, this build leans even harder into recurring instants and sorceries to keep the Zada engine running longer. Charmbreaker Devils returns a random instant or sorcery from your graveyard each upkeep and grows +4/+0 whenever you cast one, while Scholar of Combustion lets you flash back a specific spell from the yard, and two copies of Ancestral Anger reward filling the graveyard by getting bigger (+1/+0 more) for each copy already there. As with the companion build, any spell that targets only Zada copies onto every other creature you control, so cheap all-upside cantrips like Hearts on Fire or Uncaged Fury become team-wide double strike or pump effects, while Young Pyromancer and Firespitter Whelp add incidental tokens and damage. The deck's game plan is to grind through its spell-based value engines (Charmbreaker Devils, Scholar of Combustion, Ancestral Anger) to keep refueling Zada triggers turn after turn.",
+      "playstyle": [
+        "Spellslinger",
+        "Graveyard recursion",
+        "Single-target-spell copying"
+      ],
+      "tips": [
+        "Target only Zada for mass pump",
+        "Recur spells with Charmbreaker Devils",
+        "Stack Ancestral Anger copies in yard",
+        "Uncaged Fury for double strike copies"
+      ],
       "cards": [
         {
           "title": "Zada, Hedron Grinder",
@@ -5922,7 +6826,17 @@
     {
       "theme": "Warriors 1",
       "color": "red",
-      "description": "Aggressive creature-focused deck with combat-oriented warriors and a mix of direct damage and combat pump spells to overwhelm opponents.",
+      "description": "This is a mono-red Warriors tribal aggro deck built around the Coward mechanic: Gornog, the Red Reaper, Boldwyr Intimidator, and Pyrophobia all turn opposing creatures into Cowards, which then simply can't block your Warriors. Gornog additionally pumps all your attacking Warriors by +X/+0 equal to the number of Cowards your opponents control, so the more blockers you strip away, the bigger your attack gets — a direct synergy between the Coward-making effects and Gornog's attack trigger. Kruin Striker grows and gains trample whenever another creature enters, rewarding a wide curve of cheap Warriors, while Expedition Champion gets bigger simply by having another Warrior around. Relic Axe further rewards Warrior tribal synergy by giving +2/+1 instead of +1/+1 when equipped to a Warrior. The plan is to flood the board with Warriors, strip away blockers via the Coward mechanic, and swing with an ever-growing, mostly unblockable attack force.",
+      "playstyle": [
+        "Warrior tribal aggro",
+        "Blocker removal via 'Coward'"
+      ],
+      "tips": [
+        "Turn blockers into Cowards",
+        "Gornog scales with Cowards made",
+        "Kruin Striker rewards wide boards",
+        "Relic Axe favors Warriors"
+      ],
       "cards": [
         {
           "title": "Gornog, the Red Reaper",
@@ -6004,7 +6918,17 @@
     {
       "theme": "Warriors 2",
       "color": "red",
-      "description": "A warrior-based aggressive deck featuring intimidating creatures and removal spells to dominate combat and control the board through creature power.",
+      "description": "Like its companion deck, this mono-red Warriors build revolves around making opposing creatures into Cowards so they physically cannot block your Warriors, using Gornog, the Red Reaper, Kargan Intimidator, Boldwyr Intimidator, and Pyrophobia to strip blockers away. Gornog then rewards this plan directly, pumping all attacking Warriors by +X/+0 where X equals the number of Cowards your opponents control, so every Coward you create is both a removed blocker and added power. Kargan Intimidator is a flexible one-card toolbox that can pump itself, make Cowards, or grant trample, while Unstoppable Ogre and Daybreak Combatants add tempo by pushing damage through or buffing a creature the turn they enter. The overall game plan is aggressive: deploy Warriors, strip blockers with Coward effects, and close games quickly with buffed, largely unblockable attackers backed by burn like Soul Sear.",
+      "playstyle": [
+        "Warrior tribal aggro",
+        "Blocker removal via 'Coward'"
+      ],
+      "tips": [
+        "Coward effects clear blockers",
+        "Gornog grows with Cowards made",
+        "Kargan Intimidator is flexible utility",
+        "Push through with Unstoppable Ogre"
+      ],
       "cards": [
         {
           "title": "Gornog, the Red Reaper",
@@ -6086,7 +7010,17 @@
     {
       "theme": "Stoked 1",
       "color": "red",
-      "description": "Spell-heavy deck with prowess creatures that reward casting instants and sorceries for combat damage.",
+      "description": "This is a red heroic/spellslinger hybrid deck that wants to target its own creatures with cheap combat tricks to trigger repeated value. Satyr Hoplite and Cleon, Merry Champion both have Heroic, gaining a +1/+1 counter or card advantage respectively whenever a spell targets them, while Arena Athlete's Heroic trigger shuts down a blocker, so a single pump spell aimed at these creatures does double duty as both a buff and a value engine. Frontline Heroism supercharges this plan directly: it creates a 1/1 haste Soldier token and then, whenever you cast a spell targeting only a single creature you control, it creates another token and copies that spell onto the new token, effectively doubling every single-target trick you cast. Twinferno gives you a built-in copy effect or double strike option, and Kiln Fiend/Scholar of Combustion add more spell-triggered payoffs and graveyard recursion. The deck's plan is to jam single-target pump spells onto its Heroic creatures and let Frontline Heroism multiply the value into an army of extra Soldier tokens and copied effects.",
+      "playstyle": [
+        "Heroic spellslinger",
+        "Single-target spell copying"
+      ],
+      "tips": [
+        "Target Heroic creatures with tricks",
+        "Frontline Heroism doubles single-target spells",
+        "Arena Athlete removes blockers via targeting",
+        "Recur spells with Scholar of Combustion"
+      ],
       "cards": [
         {
           "title": "Scholar of Combustion",
@@ -6163,7 +7097,17 @@
     {
       "theme": "Stoked 2",
       "color": "red",
-      "description": "Spell-focused aggro deck with creatures that trigger off spells and low-cost pump effects for quick damage.",
+      "description": "This heroic-themed red deck leans on repeatedly targeting a small core of creatures with cheap pump spells to trigger value, and adds Dreadhorde Arcanist as a graveyard engine that lets you recast a cheap instant or sorcery for free whenever it attacks (as long as its mana value is at or below the Arcanist's power). Satyr Hoplite grows with a +1/+1 counter each time it's targeted, Cleon, Merry Champion exiles and lets you play the top card of your library on being targeted, and Arena Athlete and Hero of the Games both turn single-target spells into tempo or team-wide pump when they're the target, meaning a single trick like Titan's Strength or Coordinated Assault can snowball multiple bonuses across your board. Unleash Fury doubling a creature's power is a strong finisher, especially on an already-pumped Heroic creature or Kiln Fiend after several spells. The overall plan is to build a small, resilient board of Heroic threats, keep re-targeting them with cheap tricks to trigger their abilities, and use Dreadhorde Arcanist to keep recurring your best cheap spells for extra value each combat.",
+      "playstyle": [
+        "Heroic spellslinger",
+        "Graveyard recursion"
+      ],
+      "tips": [
+        "Target the same Heroic creatures repeatedly",
+        "Dreadhorde Arcanist recasts cheap spells",
+        "Unleash Fury as a finisher",
+        "Hero of the Games pumps the team"
+      ],
       "cards": [
         {
           "title": "Dreadhorde Arcanist",
@@ -6240,7 +7184,19 @@
     {
       "theme": "Stoked 3",
       "color": "red",
-      "description": "Prowess-heavy aggro with copy effects creating token copies that grow from spellcasting.",
+      "description": "This deck is a heroic/spells-matter aggro pile built around cheap creatures that reward you for targeting them with your own spells. Cleon, Merry Champion, Akroan Crusader, and Arena Athlete all have Heroic triggers, so even a single combat trick like Titan's Strength or Hearts on Fire generates extra value — Cleon impulse-draws a card, Akroan Crusader spawns a hasty Soldier token, and Arena Athlete locks down a blocker. Young Pyromancer converts any instant/sorcery cast into a 1/1 Elemental, stacking bodies as you fire off pump spells, and Frontline Heroism doubles down by creating a token and then copying any single-creature-targeting spell onto it, effectively giving you two pump spells for one. Mirrorwing Dragon is the payoff bomb: if you target only it with an instant/sorcery, you copy that spell onto every other creature you control, turning something like Unleash Fury or Twinferno into a team-wide blowout. Scholar of Combustion adds recursion, letting you recast a spent trick like Roil Eruption. The overall plan is to flood the board cheaply, then unload combat tricks that both pump the team and trigger a wall of heroic/token abilities to close out the game quickly.",
+      "playstyle": [
+        "Heroic aggro",
+        "Spells-matter",
+        "Go-wide tokens"
+      ],
+      "tips": [
+        "Target Cleon/Akroan Crusader with cheap tricks",
+        "Mirrorwing Dragon + single-target trick = team pump",
+        "Frontline Heroism doubles your pump spells",
+        "Scholar of Combustion recurs used tricks",
+        "Curve out fast, then trick for value"
+      ],
       "cards": [
         {
           "title": "Mirrorwing Dragon",
@@ -6317,7 +7273,19 @@
     {
       "theme": "Stoked 4",
       "color": "red",
-      "description": "Spell-casting aggro with creatures that trigger on spells and flashback effects for card advantage.",
+      "description": "Similar to its sibling Stoked deck, this is a heroic-and-spells aggro deck that wants to cast a steady stream of cheap instants/sorceries into a board of creatures that reward being targeted. Cleon, Merry Champion and Akroan Crusader turn any targeted trick into card advantage or an extra hasty body, while Hero of the Games pumps the whole team whenever it's targeted, and Weaver of Lightning pings an opposing creature on every instant/sorcery cast, doubling as reach and removal. Young Pyromancer again converts spellcasting into a stream of 1/1 Elemental tokens to go wide. Goblin Dark-Dwellers is the recursive payoff, letting you re-cast a cheap spell like Infuriate or Roil Eruption for free straight from the graveyard, effectively getting two uses out of your best trick. The gameplan is to keep casting cheap pump/burn spells that target your creatures to chain heroic triggers, grow an army of tokens, and finish with direct damage from Roil Eruption or a lethal alpha strike buffed by Uncaged Fury's double strike.",
+      "playstyle": [
+        "Heroic aggro",
+        "Spells-matter",
+        "Go-wide tokens"
+      ],
+      "tips": [
+        "Target heroic creatures every turn",
+        "Weaver of Lightning pings on each spell",
+        "Goblin Dark-Dwellers rebuys cheap tricks",
+        "Young Pyromancer builds a token army",
+        "Save Uncaged Fury to close the game"
+      ],
       "cards": [
         {
           "title": "Goblin Dark-Dwellers",
@@ -6394,7 +7362,18 @@
     {
       "theme": "Goblins 1",
       "color": "red",
-      "description": "Small aggressive goblins with direct damage spells that create early pressure and burn the opponent down quickly.",
+      "description": "A classic go-wide Goblin tribal aggro deck that floods the board with tokens and then buffs them all at once. Krenko's Command and Goblin Surprise each add bodies, while General Kreat, the Boltbringer punishes wide boards by dealing direct damage to opponents every time another creature enters, meaning every token you make is also a small burn spell. Dropkick Bomber is the anthem, giving all other Goblins +1/+1, and its activated ability can turn a token into a one-shot flying kamikaze attacker. Battle Cry Goblin grants haste and +1/+0 to the team and can trigger its own Pack Tactics for another attacking token if your total attacking power is high enough. Volley Veteran scales its removal with your Goblin count, so it's best played after you've already built a board. The plan is simple: flood the board with cheap tokens and Goblins, pump wide with Goblin Surprise or Weaselback Redcap, and swing for lethal while Kreat chips in extra damage from every new arrival.",
+      "playstyle": [
+        "Go-wide tokens",
+        "Goblin tribal aggro"
+      ],
+      "tips": [
+        "Deploy token generators early",
+        "General Kreat pings on every ETB",
+        "Hold Volley Veteran until board is wide",
+        "Battle Cry Goblin triggers Pack Tactics at 6+ power",
+        "Pump the team before alpha strike"
+      ],
       "cards": [
         {
           "title": "Dropkick Bomber",
@@ -6471,7 +7450,18 @@
     {
       "theme": "Goblins 2",
       "color": "red",
-      "description": "An aggressive goblin swarm strategy with small creatures and burn spells to deal rapid damage to opponents.",
+      "description": "This Goblin tribal deck again centers on flooding the board with 1/1 tokens and turning that width into damage. Krenko's Command, Goblin Surprise, and Goblin Goliath (which makes tokens equal to your opponent count) all add cheap bodies, and General Kreat, the Boltbringer converts each of those entering creatures into a point of direct damage to the opponent. Dropkick Bomber anthems the tribe and can convert a token into a one-time evasive attacker via its sacrifice-on-damage flying ability. Goblin Goliath doubles as a finisher, letting you pay to double damage from a source once it's online, which combos well with a big Volley Veteran ping or a buffed attacker. Mogg Flunkies wants company to attack or block, which the wide token board naturally provides. Battle Cry Goblin gives the team haste and +1/+0, letting freshly made tokens swing immediately, while Goblin Arsonist offers a small parting shot when it dies. The deck wants to curve out with cheap Goblins and tokens, then overwhelm with combat tricks and Kreat's incidental burn.",
+      "playstyle": [
+        "Go-wide tokens",
+        "Goblin tribal aggro"
+      ],
+      "tips": [
+        "Flood board with token makers",
+        "General Kreat pings on every new Goblin",
+        "Goblin Goliath doubles damage late game",
+        "Attack wide so Mogg Flunkies can swing",
+        "Battle Cry Goblin gives haste to new tokens"
+      ],
       "cards": [
         {
           "title": "Dropkick Bomber",
@@ -6548,7 +7538,19 @@
     {
       "theme": "Goblins 3",
       "color": "red",
-      "description": "Token-generating goblins led by Krenko that create multiple creatures while applying early pressure with burn spells.",
+      "description": "This Goblin deck is built to snowball quickly around Krenko, Tin Street Kingpin: every attack grows Krenko with a +1/+1 counter and then creates that many 1/1 Goblin tokens, so an unanswered Krenko can flood the board in just a couple of turns. General Kreat, the Boltbringer converts every one of those newly created tokens into a point of direct damage to the opponent, meaning a big Krenko swing doubles as a burn spell. Goblin Smuggler makes a Goblin unblockable to push through damage (ideal for protecting or enabling Krenko's attack), while Beetleback Chief and Krenko's Command add more instant bodies. Volley Veteran's damage scales with your Goblin count, so it hits hardest after Krenko has gone off. Scavenged Blade adds a cheap equip buff to keep pressure going. The overall plan is to protect and attack with Krenko every turn to generate an exponentially growing army, using Kreat's damage trigger and evasion effects to close out the game fast.",
+      "playstyle": [
+        "Go-wide tokens",
+        "Goblin tribal aggro",
+        "Snowball combo"
+      ],
+      "tips": [
+        "Protect Krenko at all costs",
+        "Attack with Krenko every turn to snowball",
+        "General Kreat burns on every token made",
+        "Use Goblin Smuggler to push Krenko through",
+        "Save Volley Veteran for a wide board"
+      ],
       "cards": [
         {
           "title": "Krenko, Tin Street Kingpin",
@@ -6625,7 +7627,19 @@
     {
       "theme": "Goblins 4",
       "color": "red",
-      "description": "A goblin-focused deck with aggressive creatures and targeted burn spells designed to overwhelm opponents early.",
+      "description": "This Goblin tribal deck leans on Goblin Rabblemaster as its engine: it forces other Goblins to attack each turn, spawns a hasty 1/1 Goblin token at the start of every combat, and grows its own power based on how many other Goblins attack alongside it, quickly generating an unstoppable wide board. General Kreat, the Boltbringer again turns every entering creature — including Rabblemaster's tokens — into a direct damage trigger against the opponent. Fanatical Firebrand and Destructive Digger provide small utility, letting you convert a spent creature or extra land/artifact into either a burn ping or a card. Battle Cry Goblin buffs and hastes the team, letting Rabblemaster's freshly made tokens swing the turn they arrive. Fissure Wizard and Fire Prophecy smooth draws and answer opposing blockers. The deck's plan is to jam Rabblemaster early, let its forced attacks and token generation snowball the board width, and ride Kreat's incidental burn plus removal spells to close the game out.",
+      "playstyle": [
+        "Go-wide tokens",
+        "Goblin tribal aggro",
+        "Snowball combo"
+      ],
+      "tips": [
+        "Land Goblin Rabblemaster early",
+        "Let Rabblemaster force through attacks",
+        "General Kreat burns on every new token",
+        "Battle Cry Goblin gives new tokens haste",
+        "Use Fissure Wizard/Fire Prophecy to smooth draws"
+      ],
       "cards": [
         {
           "title": "Goblin Rabblemaster",
@@ -6702,7 +7716,19 @@
     {
       "theme": "Bloody 1",
       "color": "red",
-      "description": "An aggressive vampire deck that deals damage through creature attacks and removal spells, with life gain synergies.",
+      "description": "This is a discard/Blood token aggro deck that turns hand disruption into card advantage and growing threats. Anje's Ravager forces you to discard your hand and draw three cards every time it attacks, feeding Ivora, Insatiable Heir, which gets a +1/+1 counter every time you discard a card — so Anje's Ravager attacking can single-handedly grow Ivora by three counters in one swing. Blood tokens generated by Belligerent Guest, Falkenrath Celebrants, Voldaren Epicure, and Blood Petal Celebrant all let you loot away excess or dead cards (discard a card, draw a card), which both fuels Ivora's counters and enables the Madness cards like Incorrigible Youths and Abandon Reason to be cast cheaply straight from discard. Voldaren Duelist and Incorrigible Youths add evasive haste damage, while Flame-Blessed Bolt and Soul Sear provide efficient removal. The deck wants to attack aggressively, discard aggressively to trigger Madness and grow Ivora, and use the constant stream of Blood tokens to keep refilling the hand with only the cards it wants.",
+      "playstyle": [
+        "Discard synergy",
+        "Aggro",
+        "Counter growth"
+      ],
+      "tips": [
+        "Attack with Anje's Ravager to loot big",
+        "Discard cards into Ivora for counters",
+        "Crack Blood tokens to trigger Madness",
+        "Use Voldaren Duelist to push damage through",
+        "Save removal for key blockers"
+      ],
       "cards": [
         {
           "title": "Anje's Ravager",
@@ -6779,7 +7805,19 @@
     {
       "theme": "Bloody 2",
       "color": "red",
-      "description": "A vampire-focused aggro deck with efficient creatures and direct damage spells for quick wins.",
+      "description": "This Vampire-tribal deck blends aggressive combat damage triggers with a Blood token subtheme for card selection and removal. Markov Enforcer fights an opposing creature every time it or another Vampire enters, and if that fight kills something, it creates a Blood token — pairing well with Ivora, Insatiable Heir and Markov Blademaster, both of which grow via combat damage or discarding. Blood Hypnotist rewards you for cracking Blood tokens by making a creature unable to block, directly enabling your attackers (like double-striking Markov Blademaster) to connect. Insolent Neonate and the various Blood tokens (from Blood Petal Celebrant, Falkenrath Celebrants) give you discard-and-draw fuel to dig for removal or grow Ivora off discards. Markov Retribution doubles as a team pump and a Vampire-powered removal spell, letting your biggest Vampire fight down a blocker. The plan is to curve Vampires that trigger Markov Enforcer's fight ability, keep cracking Blood tokens to shut off blockers via Blood Hypnotist, and ride Markov Blademaster's snowballing counters to close out games.",
+      "playstyle": [
+        "Vampire tribal",
+        "Combat damage triggers",
+        "Aggro"
+      ],
+      "tips": [
+        "Chain Vampire ETBs into Markov Enforcer fights",
+        "Crack Blood to disable a blocker with Hypnotist",
+        "Protect Markov Blademaster once it connects",
+        "Discard extra cards to grow Ivora",
+        "Use Markov Retribution as removal or pump"
+      ],
       "cards": [
         {
           "title": "Markov Blademaster",
@@ -6856,7 +7894,19 @@
     {
       "theme": "Bloody 3",
       "color": "red",
-      "description": "A vampire aggro strategy featuring aggressive creatures with combat tricks and removal for controlling the board.",
+      "description": "This Vampire deck focuses on unblockable-style aggression backed by a Treasure/Blood value engine. Markov Warlord and Voldaren Duelist both make blockers step aside when they enter, clearing the way for your team — including Ivora, Insatiable Heir and Belligerent Guest, both of which create Blood tokens whenever they connect with a player, which in turn feed Ivora's discard-triggered counters. Scion of Opulence converts dying nontoken Vampires into Treasure tokens, and it can sacrifice two artifacts (Treasures or Blood tokens) to impulse-draw a free card, tying together the deck's sacrifice fodder into card advantage. Insolent Neonate offers a cheap discard-and-sacrifice outlet for extra digging. Blood Feud and Vampiric Fury double as removal or a combat trick, letting your Vampires fight or swing through with first strike and +2/+0. The overall gameplan is to push through unblockable damage with the Duelist/Warlord effects, grow Ivora off discards, and use Scion of Opulence's artifact sacrifice to keep drawing extra cards.",
+      "playstyle": [
+        "Vampire tribal",
+        "Unblockable aggro",
+        "Artifact sac value"
+      ],
+      "tips": [
+        "Use Warlord/Duelist to clear blockers",
+        "Sac two artifacts with Scion for a free card",
+        "Discard into Ivora for counters",
+        "Vampiric Fury pushes a lethal swing",
+        "Blood Feud as pseudo-removal"
+      ],
       "cards": [
         {
           "title": "Scion of Opulence",
@@ -6933,7 +7983,19 @@
     {
       "theme": "Bloody 4",
       "color": "red",
-      "description": "A fast vampire deck with evasive creatures and instant-speed removal for early pressure and combat tricks.",
+      "description": "This Vampire aggro deck is built around explosive combat damage triggers that snowball quickly. Falkenrath Marauders is the standout payoff: it has flying and haste, and puts two +1/+1 counters on itself every time it connects with a player, so it can grow from a 3/3 into a huge threat within a couple of unblocked attacks. Ivora, Insatiable Heir and Belligerent Guest both generate Blood tokens on connecting damage, which you crack via discard to grow Ivora further and to smooth draws. Voldaren Ambusher scales its damage with your Vampire count, making it a strong removal piece once your board is established, while Voldaren Duelist clears the way for an attacker (ideal for protecting Falkenrath Marauders' swing). Neonate's Rush is a cheap, card-advantage-positive burn spell that gets cheaper with any Vampire in play. Soul Sear and Blood Feud round out the removal suite for anything that would otherwise block your fliers or ground threats. The plan is to get Falkenrath Marauders connecting as early and often as possible while using Blood tokens and cheap removal to keep the damage train rolling.",
+      "playstyle": [
+        "Vampire tribal",
+        "Combat damage snowball",
+        "Aggro"
+      ],
+      "tips": [
+        "Protect Falkenrath Marauders once it connects",
+        "Use Voldaren Duelist to clear its path",
+        "Crack Blood tokens for Ivora counters",
+        "Scale Voldaren Ambusher with more Vampires",
+        "Neonate's Rush is nearly free value"
+      ],
       "cards": [
         {
           "title": "Falkenrath Marauders",
@@ -7010,7 +8072,19 @@
     {
       "theme": "Zealots 1",
       "color": "red",
-      "description": "Aggressive red deck focused on haste creatures and combat tricks to overwhelm opponents quickly.",
+      "description": "This mono-red deck is built entirely around the exert mechanic, turning what looks like a drawback into a snowballing value engine. Nearly every creature can exert as it attacks to generate an extra effect — Ahn-Crop Crasher stops a blocker, Emberhorn Minotaur pumps itself and gains menace, Nef-Crop Entangler grows bigger, and Anep, Vizier of Hazoret exiles and lets you play the top two cards of your library. Battlefield Scavenger ties the whole theme together: whenever ANY creature you control exerts, you get to loot a card, smoothing draws every time you commit to the aggressive attack. Bloodlust Inciter offsets the exert downside by handing haste to a creature that got tapped down, effectively letting you double-dip on attackers turn after turn. Cartouche of Zeal and Trial of Zeal add reach and removal, with the neat trick that any Cartouche returns Trial of Zeal to hand for a repeatable 3-damage burn spell. Fling gives a finishing burst by sacrificing a big exerted attacker straight at the opponent's face.",
+      "playstyle": [
+        "Exert aggro",
+        "Mono-red beatdown",
+        "Card advantage engine"
+      ],
+      "tips": [
+        "Exert every attacker for value",
+        "Battlefield Scavenger loots off any exert",
+        "Bloodlust Inciter refreshes tapped attackers",
+        "Cartouche recurs Trial of Zeal",
+        "Fling a pumped exerted creature to close games"
+      ],
       "cards": [
         {
           "title": "Zealous Conscripts",
@@ -7092,7 +8166,19 @@
     {
       "theme": "Zealots 2",
       "color": "red",
-      "description": "Red aggressive deck with haste and aggressive creatures backed by combat tricks and enchantments.",
+      "description": "A leaner version of the exert-aggro shell, this deck again centers on Battlefield Scavenger's loot trigger off any exerted creature, paired with Ahn-Crop Crasher and Sandstorm Crasher for tempo-positive exert triggers. Sandstorm Crasher is a standout here: exerting it creates a tapped, attacking copy of another creature you control, effectively doubling up an attacker's damage for the turn without needing a full extra combat. Anep, Vizier of Hazoret continues to exile-and-play cards off its exert trigger, while Bloodlust Inciter grants haste to refresh a creature that exerted last turn. Pathmaker Initiate and Cartouche of Zeal keep small creatures unblockable, and Zealot of the God-Pharaoh provides a late-game mana sink that pings the opponent directly. Trial of Zeal is again recurred by Cartouche of Zeal for repeatable direct damage, and Fling turns any big attacker into a reach spell.",
+      "playstyle": [
+        "Exert aggro",
+        "Mono-red beatdown",
+        "Tempo burn"
+      ],
+      "tips": [
+        "Copy your best attacker with Sandstorm Crasher",
+        "Loot off every exert via Battlefield Scavenger",
+        "Bloodlust Inciter untaps key exerted creatures",
+        "Recur Trial of Zeal with Cartouche of Zeal",
+        "Zealot of the God-Pharaoh closes long games"
+      ],
       "cards": [
         {
           "title": "Sandstorm Crasher",
@@ -7169,7 +8255,19 @@
     {
       "theme": "Zealots 3",
       "color": "red",
-      "description": "Combat-focused red deck using haste creatures and triggered abilities to deal damage through combat.",
+      "description": "This build leans hardest into extra-combat shenanigans thanks to Combat Celebrant, which when exerted untaps all your other creatures and grants an additional combat phase — a genuine payoff for a deck full of creatures that want to attack twice. Trueheart Twins amplifies this further: whenever ANY creature you control exerts (including Combat Celebrant itself), all your creatures get +1/+0, meaning a double-combat turn triggered by Combat Celebrant also pumps the whole team via Trueheart Twins. Battlefield Scavenger still offers the loot-on-exert value seen in the other Zealots decks, while Anep, Vizier of Hazoret and Nef-Crop Entangler add their own exert upside. Hearts on Fire and Fling provide combat tricks and reach, and Trial of Zeal recurs off Cartouche of Zeal for repeatable burn. The overall plan is to build a board, then use Combat Celebrant to effectively double your attack step while Trueheart Twins keeps buffing every exert along the way.",
+      "playstyle": [
+        "Exert aggro",
+        "Extra combats",
+        "Mono-red beatdown"
+      ],
+      "tips": [
+        "Combat Celebrant doubles your combat step",
+        "Trueheart Twins pumps team on every exert",
+        "Loot with Battlefield Scavenger",
+        "Recur Trial of Zeal via Cartouche",
+        "Fling a big attacker for reach"
+      ],
       "cards": [
         {
           "title": "Combat Celebrant",
@@ -7251,7 +8349,19 @@
     {
       "theme": "Zealots 4",
       "color": "red",
-      "description": "Red aggro deck with haste creatures and combat tricks that synergize with triggered abilities for extra damage.",
+      "description": "This variant blends the exert theme with a hard tempo push using Zealous Conscripts, which steals an opponent's permanent with haste for a turn — great for stealing a blocker to swing with or borrowing a creature to Fling. Sandstorm Crasher's exert creates a tapped, attacking copy of another creature, and Battlefield Scavenger again loots off any exert trigger in the deck. Trueheart Twins buffs the whole team every time a creature exerts, stacking with Nef-Crop Entangler and Anep, Vizier of Hazoret's own exert bonuses. Bloodlust Inciter grants haste to refresh an exerted attacker, and Minotaur Sureshot's mana sink helps push through extra damage late. Cartouche of Zeal and Trial of Zeal again form the deck's removal-and-recursion package, while Fling turns a stolen or pumped creature into direct damage to close out the game.",
+      "playstyle": [
+        "Exert aggro",
+        "Tempo steal",
+        "Mono-red beatdown"
+      ],
+      "tips": [
+        "Steal blockers with Zealous Conscripts, then Fling them",
+        "Copy attackers with Sandstorm Crasher",
+        "Trueheart Twins pumps team on exert",
+        "Loot via Battlefield Scavenger",
+        "Recur Trial of Zeal with Cartouche"
+      ],
       "cards": [
         {
           "title": "Sandstorm Crasher",
@@ -7328,7 +8438,19 @@
     {
       "theme": "Dinner",
       "color": "green",
-      "description": "Food-focused deck with creatures that generate and consume food tokens for value and advantage.",
+      "description": "This green Food-tribal deck generates a steady stream of Food tokens from ETB effects — Fierce Witchstalker, Orchard Strider, Tough Cookie, and Trail of Crumbs all create Food the moment they hit the battlefield — and then converts that Food into card advantage, life gain, and combat power. Trail of Crumbs is the key engine piece: whenever you sacrifice a Food, you can pay {1} to dig two cards deep for a permanent, meaning every Food you crack (for life, for Maraleaf Rider's forced-block ability, or for Giant Opportunity/Insatiable Appetite) also refills your hand. Hurska Sweet-Tooth turns any life gain, including from cracking Food, into a temporary +X/+X pump equal to the life gained, so sacrificing Foods for 3 life each can suddenly swing combat math. Giant Opportunity offers a build-around choice — sac two Foods for a 7/7 Giant or just make three more Foods to keep the engine running — while Tireless Provisioner ensures you never run dry on Food or Treasure off your land drops.",
+      "playstyle": [
+        "Food sacrifice value",
+        "Grindy midrange",
+        "Lifegain synergy"
+      ],
+      "tips": [
+        "Crack Food through Trail of Crumbs for card advantage",
+        "Hurska Sweet-Tooth turns lifegain into pump",
+        "Giant Opportunity for a 7/7 or more Food",
+        "Tireless Provisioner turns land drops into Food/Treasure",
+        "Sacrifice Food to power Maraleaf Rider blocks"
+      ],
       "cards": [
         {
           "title": "Hurska Sweet-Tooth",
@@ -7387,7 +8509,7 @@
         },
         {
           "title": "Trail of Crumbs",
-          "type": "Enchantments",
+          "type": "Enchantment",
           "qty": 1
         },
         {
@@ -7405,7 +8527,19 @@
     {
       "theme": "Modified",
       "color": "green",
-      "description": "A creature-focused deck that uses keywords and permanent effects with cards like Kodama of the West Tree and Audacity to strengthen creatures over time, employing protection spells to keep threats alive.",
+      "description": "This green deck builds around the 'modified' keyword — any creature with a +1/+1 counter, Aura, or Equipment counts — to unlock trample and mana bonuses across the board. Kodama of the West Tree gives every modified creature trample and fetches a basic land tapped whenever one connects with a player, turning combat damage into ramp. Gnarlid Colony independently grants trample to any creature with a +1/+1 counter, stacking redundantly with Kodama's effect. Orochi Merge-Keeper is a clean payoff: once it becomes modified (even by a single +1/+1 counter from Snakeskin Veil or Defend the Celestus), it taps for double green mana, accelerating the rest of the deck. Heir of the Ancient Fang enters bigger if you already control a modified creature, rewarding you for committing counters or auras early. Wolfrider's Saddle creates its own 2/2 Wolf and immediately attaches, giving you a modified creature straight out of the gate, while Audacity and Warbriar Blessing add combat tricks that replace themselves (Audacity draws a card when it leaves play) or remove a blocker via fight.",
+      "playstyle": [
+        "Counters matter",
+        "Modified synergy",
+        "Trample value"
+      ],
+      "tips": [
+        "Get any counter/aura on a creature to trigger modified",
+        "Orochi Merge-Keeper doubles mana once modified",
+        "Kodama turns combat damage into land ramp",
+        "Wolfrider's Saddle instantly modifies its Wolf",
+        "Audacity replaces itself when it falls off"
+      ],
       "cards": [
         {
           "title": "Kodama of the West Tree",
@@ -7487,7 +8621,19 @@
     {
       "theme": "Fun Guys 1",
       "color": "green",
-      "description": "Token and creature swarm strategy with saprolings and powerful team buff instants like Might of the Masses.",
+      "description": "A go-wide Saproling tribal deck where token generation and anthem effects compound quickly. Spore Swarm and Saproling Migration flood the board with 1/1 tokens, Tukatongue Thallid and Spore Crawler leave value behind when they die, and Sporecrown Thallid pumps every other Fungus or Saproling by +1/+1, making even a modest token swarm hit much harder. Shroofus Sproutsire is the deck's key payoff: whenever a Saproling deals combat damage to a player, it creates that many additional Saproling tokens, so an unblocked wide attack snowballs into an even bigger board for the next turn. Might of the Masses and Overwhelm scale directly with your creature count, turning a wide board into a one-shot kill via a single pumped attacker or a team-wide alpha strike. Fungal Plots offers a late-game sacrifice outlet, turning excess Saprolings into life and cards.",
+      "playstyle": [
+        "Go-wide tokens",
+        "Saproling tribal",
+        "Anthem swarm"
+      ],
+      "tips": [
+        "Flood board with Saproling tokens early",
+        "Shroofus Sproutsire snowballs unblocked damage into tokens",
+        "Sporecrown Thallid anthems the swarm",
+        "Overwhelm/Might of the Masses scale off creature count",
+        "Sac extra tokens via Fungal Plots for value"
+      ],
       "cards": [
         {
           "title": "Shroofus Sproutsire",
@@ -7564,7 +8710,19 @@
     {
       "theme": "Fun Guys 2",
       "color": "green",
-      "description": "Fungal token generation deck featuring Verdeloth the Ancient and saproling-producing spells for a growing creature army.",
+      "description": "Similar to its Saproling-tribal counterpart but with a bigger top end, this deck still wants to flood the board via Spore Swarm, Saproling Migration, and Undercellar Myconid (which makes a token both on entry and on death), then reward that width with anthems and finishers. Sporecrown Thallid buffs Fungi and Saprolings, and Shroofus Sproutsire again converts unblocked Saproling damage directly into more Saproling tokens, creating a compounding snowball. Verdeloth the Ancient is the standout scaling payoff here: kicked for X, it creates X Saproling tokens on entry and then permanently pumps all your Saprolings and Treefolk by +1/+1, effectively turning a wide token board into a much bigger one instantly. For the Family and Overcome both scale their payoff based on board width (four-plus creatures triggers a bigger buff, or a team-wide +2/+2 trample swing), giving this deck strong alpha-strike finishers once the token count is high enough.",
+      "playstyle": [
+        "Go-wide tokens",
+        "Saproling tribal",
+        "Anthem swarm"
+      ],
+      "tips": [
+        "Build wide with Saproling tokens first",
+        "Kick Verdeloth for tokens plus a permanent anthem",
+        "Shroofus Sproutsire snowballs unblocked damage into tokens",
+        "Overcome/For the Family reward wide boards",
+        "Undercellar Myconid gives tokens coming and going"
+      ],
       "cards": [
         {
           "title": "Shroofus Sproutsire",
@@ -7641,7 +8799,19 @@
     {
       "theme": "Beasts 1",
       "color": "green",
-      "description": "A deck focused on large creatures with beast synergies, using targeted removal and mana acceleration spells to fuel a creature-heavy strategy.",
+      "description": "A green ramp-into-Beasts deck that uses +1/+1 counters as its core payoff. Slinza, the Spiked Stampede discounts Beast spells and gives every other Beast an extra +1/+1 counter on entry, while also offering a repeatable removal option: whenever Slinza or another creature with power 4+ enters, paying {1}{R/G} lets Slinza fight an opposing creature, effectively turning big creature drops into removal spells. Advocate of the Beast and Hungry Megasloth continue growing creatures with counters turn after turn, and Gnarlid Colony grants trample to anything with a +1/+1 counter, meaning the deck's counter-laden Beasts naturally punch through blockers. Woodland Liege converts each Beast entering the battlefield into a card, keeping the deck's gas flowing, while Explore and Gift of the Gargantuan smooth out land drops and refill the hand with more threats. Predator's Strike and Time to Feed round out the removal and finishing package, letting a big counter-laden creature fight or push through for lethal.",
+      "playstyle": [
+        "Counters midrange",
+        "Beast tribal",
+        "Ramp value"
+      ],
+      "tips": [
+        "Slinza fights off big creature ETBs",
+        "Stack counters, then trample via Gnarlid Colony",
+        "Woodland Liege draws cards off Beasts",
+        "Explore/Gift of the Gargantuan fix draws",
+        "Use Time to Feed to clear blockers"
+      ],
       "cards": [
         {
           "title": "Slinza, the Spiked Stampede",
@@ -7718,7 +8888,19 @@
     {
       "theme": "Beasts 2",
       "color": "green",
-      "description": "A planeswalker-backed beast deck that combines Garruk's creature-generating abilities with a strong core of beasts and token synergies for aggressive growth.",
+      "description": "This Beast-counters deck is anchored by Garruk, Caller of Beasts, whose +1 refills your hand with every creature revealed off the top five cards, and whose -3 can cheat a green creature straight onto the battlefield, bypassing mana costs entirely on a big Beast. Slinza, the Spiked Stampede again discounts Beasts and hands out bonus +1/+1 counters, while its fight ability (triggered whenever a power-4+ creature enters, including a cheated-in threat from Garruk) doubles as removal. Garruk's Packleader draws a card whenever another power-3+ creature enters, so ramping into big Beasts via Garruk's -3 or Baloth Gorger's kicker also refills the hand. Gnarlid Colony's trample-for-counters ability lets these counter-laden threats punch through, and Bushwhack/Time to Feed provide flexible fights or land fixing. The overall plan is to accelerate into oversized Beasts, using Garruk and Garruk's Packleader to keep the cards flowing while Slinza's fight trigger clears the way.",
+      "playstyle": [
+        "Counters midrange",
+        "Beast tribal",
+        "Planeswalker value"
+      ],
+      "tips": [
+        "Garruk's -3 cheats a big Beast into play",
+        "Slinza fights when power-4+ creatures land",
+        "Garruk's Packleader draws off power-3+ ETBs",
+        "Kicker Baloth Gorger for extra counters",
+        "Gnarlid Colony grants trample to countered creatures"
+      ],
       "cards": [
         {
           "title": "Garruk, Caller of Beasts",
@@ -7795,7 +8977,19 @@
     {
       "theme": "Dinosaurs 1",
       "color": "green",
-      "description": "A creature-focused deck with large dinosaurs and mana acceleration, powered by efficient removal and ramp spells to play powerful creatures early.",
+      "description": "This is a mono-green ramp-into-huge-creatures deck built around cheating out or discounting massive Dinosaurs. Ghalta, Primal Hunger costs {X} less based on total power of creatures you control, so ramp spells like Rampant Growth and mana dorks such as Drover of the Mighty (which itself becomes a 4/4 threat as long as you control a Dinosaur) help both cast Ghalta cheaply and pump its cost reduction. Thundering Spineback anchors the tribal synergy by giving all other Dinosaurs +1/+1 and can also manufacture extra 3/3 trampling Dinosaur tokens in the late game, while Savage Stomp becomes a cheap two-for-one removal/pump spell whenever it targets one of your Dinosaurs. Commune with Dinosaurs smooths draws by filtering for Dinosaurs or lands, keeping the curve moving toward the game's giant top end.",
+      "playstyle": [
+        "Ramp",
+        "Tribal Dinosaurs",
+        "Big creatures"
+      ],
+      "tips": [
+        "Ramp hard into Ghalta",
+        "Pump power to cheapen Ghalta",
+        "Use Savage Stomp on Dinosaurs",
+        "Let Thundering Spineback buff the team",
+        "Dig with Commune with Dinosaurs"
+      ],
       "cards": [
         {
           "title": "Ghalta, Primal Hunger",
@@ -7872,7 +9066,18 @@
     {
       "theme": "Dinosaurs 2",
       "color": "green",
-      "description": "A dinosaur-heavy deck with large creatures and instant-speed combat tricks to dominate the board with oversized threats.",
+      "description": "A slightly more combat-tricks-focused version of the Dinosaur ramp shell, still centered on discounting Ghalta, Primal Hunger via total creature power while using Topiary Stomper and Rampant Growth to hit land drops. Cherished Hatchling is the standout synergy piece here: when it dies, all Dinosaur spells you cast that turn gain flash and an enters-the-battlefield fight trigger, letting you ambush an opponent's creature by flashing in something like Colossal Dreadmaw or Thundering Spineback and immediately fighting down a blocker or attacker. Predator's Strike and Tail Swipe give this build reach in combat, turning a Dinosaur into a temporary trampling bruiser or forcing an unfavorable fight, while Thundering Spineback again lords over the tribe with a global +1/+1 and a late-game token mill.",
+      "playstyle": [
+        "Ramp",
+        "Tribal Dinosaurs",
+        "Fight synergy"
+      ],
+      "tips": [
+        "Sac Cherished Hatchling for flash fights",
+        "Ramp into Ghalta early",
+        "Trample through with Predator's Strike",
+        "Force bad fights with Tail Swipe"
+      ],
       "cards": [
         {
           "title": "Ghalta, Primal Hunger",
@@ -7949,7 +9154,19 @@
     {
       "theme": "Encounter 1",
       "color": "green",
-      "description": "A counters-focused deck with a Planeswalker that upgrades creatures with +1/+1 counters while providing versatile creature and combat support.",
+      "description": "This deck is a dedicated +1/+1 counters snowball deck in mono green, using Jiang Yanggu, Wildcrafter to turn any countered creature into a mana source while steadily adding counters with its -1 ability. Forgotten Ancient hoovers up a counter every time any player casts a spell and can redistribute them at upkeep, making it a counter bank that can dump a huge pile onto Mowu, Loyal Companion, which turns any counter placement into that-plus-one, snowballing quickly into a massive trampling vigilant threat. Biogenic Upgrade compounds this further by both placing counters across up to three creatures and then doubling them, and Duskshell Crawler grants trample to every countered creature so all that accumulated power actually gets through combat damage.",
+      "playstyle": [
+        "+1/+1 counters",
+        "Value snowball",
+        "Midrange"
+      ],
+      "tips": [
+        "Feed counters into Mowu",
+        "Hoard with Forgotten Ancient, dump later",
+        "Double up with Biogenic Upgrade",
+        "Duskshell Crawler grants trample to closers",
+        "Protect key threats with Snakeskin Veil"
+      ],
       "cards": [
         {
           "title": "Jiang Yanggu, Wildcrafter",
@@ -8026,7 +9243,18 @@
     {
       "theme": "Encounter 2",
       "color": "green",
-      "description": "A versatile green deck with ooze and creature synergies, using instant-speed buffs and combat tricks to enhance creatures.",
+      "description": "Another +1/+1 counters deck, this one leaning harder into attack triggers and doubling effects to close games fast. Oran-Rief Ooze puts a counter on all attacking creatures that already have a counter whenever it attacks, so once a few creatures have counters, every attack step compounds their size, and Mowu, Loyal Companion again converts any single counter addition into +1 extra, becoming the biggest beneficiary of Invigorating Surge (which places a counter then doubles the total) or Jiang Yanggu's -1 ability. Deepwood Denizen turns the counters you've spread around into card advantage, since its activation cost shrinks by 1 for every counter on your board, letting a wide counters board draw extra cards late.",
+      "playstyle": [
+        "+1/+1 counters",
+        "Go wide-ish attackers",
+        "Value snowball"
+      ],
+      "tips": [
+        "Attack to trigger Oran-Rief Ooze",
+        "Dump doubles onto Mowu",
+        "Untap threats with Stony Strength",
+        "Cash in counters for cards via Deepwood Denizen"
+      ],
       "cards": [
         {
           "title": "Jiang Yanggu, Wildcrafter",
@@ -8103,7 +9331,18 @@
     {
       "theme": "Encounter 3",
       "color": "green",
-      "description": "A Planeswalker-supported creatures deck with counters and growth payoffs, featuring both defensive and aggressive options.",
+      "description": "This +1/+1 counters build doubles as a mana ramp engine thanks to Rishkar, Peema Renegade and Jiang Yanggu, Wildcrafter, both of which grant creatures with counters the ability to tap for mana, letting you flood the board with counters and then use those same creatures to power out bigger spells. Mowu, Loyal Companion again scales absurdly fast whenever it receives counters (getting one extra each time), and Biogenic Upgrade's double-then-distribute effect combined with Servant of the Scale's death trigger (which dumps its counters onto another creature) lets you relocate a big pile of counters onto your best remaining threat if it dies. Reckless Amplimancer offers a late-game finisher, letting a fattened creature simply double its power and toughness for a lethal swing.",
+      "playstyle": [
+        "+1/+1 counters",
+        "Counter-mana ramp",
+        "Midrange"
+      ],
+      "tips": [
+        "Counter creatures for extra mana",
+        "Load counters onto Mowu",
+        "Relocate counters via Servant of the Scale",
+        "Finish with Reckless Amplimancer"
+      ],
       "cards": [
         {
           "title": "Jiang Yanggu, Wildcrafter",
@@ -8180,7 +9419,19 @@
     {
       "theme": "Encounter 4",
       "color": "green",
-      "description": "A creature-heavy deck with counters payoffs and anthem effects, using Primeval Bounty to generate value from creature enters and growth.",
+      "description": "This build pairs the usual +1/+1 counters shell with a spells-matter and token subtheme, driven by Primeval Bounty, which creates a 3/3 Beast whenever you cast a creature spell and drops three counters on a creature whenever you cast a noncreature spell, giving you value no matter what you're casting. Armorcraft Judge turns a wide, countered board into a burst of card draw by drawing one card per creature with a counter, and Quirion Beastcaller grows every time you cast a creature spell while its death trigger spreads its accumulated counters across your board, meshing well with sacrifice-adjacent value. Moldgraf Millipede mills three cards to fuel your graveyard and then enters with a counter for every creature card found, and Mowu, Loyal Companion is again the ideal target for extra counters since it converts every counter placement into one more.",
+      "playstyle": [
+        "+1/+1 counters",
+        "Value engine",
+        "Go wide"
+      ],
+      "tips": [
+        "Cast spells to trigger Primeval Bounty",
+        "Draw big with Armorcraft Judge",
+        "Load counters onto Mowu",
+        "Mill for value with Moldgraf Millipede",
+        "Spread Quirion Beastcaller's counters on death"
+      ],
       "cards": [
         {
           "title": "Jiang Yanggu, Wildcrafter",
@@ -8257,7 +9508,19 @@
     {
       "theme": "Explorers 1",
       "color": "green",
-      "description": "Creature-focused deck with explore mechanics and utility creatures that ramp and generate value through land discovery.",
+      "description": "This deck is built around aggressive land ramp that converts extra lands directly into card advantage and bigger threats. Braulios of Pheres Band has power and toughness equal to your land count and draws a card plus lets you play an extra land whenever it attacks, meaning every attack both grows your board and refuels your hand, especially when paired with lots of fetch effects like Ainok Guide, Shardless Outlander's landcycling, and Go Forth's land tutoring. Realm Seekers is a huge late-game payoff, entering with a +1/+1 counter for every card in all hands, then letting you strip its own counters to tutor for more lands, while Tireless Provisioner turns every land drop into a Treasure or Food token, smoothing mana or lifegain along the way. The overall plan is to flood the battlefield with lands and creatures that scale off that land count, closing games with Clear Shot as a pseudo-removal finisher.",
+      "playstyle": [
+        "Land ramp",
+        "Landfall value",
+        "Midrange"
+      ],
+      "tips": [
+        "Attack with Braulios to draw and ramp",
+        "Fetch lands relentlessly",
+        "Cash Realm Seekers counters for lands",
+        "Use Tireless Provisioner tokens for value",
+        "Clear Shot to snipe blockers"
+      ],
       "cards": [
         {
           "title": "Realm Seekers",
@@ -8334,7 +9597,19 @@
     {
       "theme": "Explorers 2",
       "color": "green",
-      "description": "Land-focused explorer deck that leverages exploration mechanics and landfall triggers with creatures that reward land discovery.",
+      "description": "This is a landfall and Clue-synergy deck that turns extra land drops and creature deaths into a steady stream of card advantage. Tireless Tracker investigates on every landfall and grows a +1/+1 counter every time you crack a Clue, so it snowballs the more you fetch and ramp with cards like Ainok Guide, Go Forth, and Shardless Outlander's landcycling. Ulvenwald Mysteries loops with the deck's death and Clue themes, investigating whenever a nontoken creature dies and then turning sacrificed Clues into 1/1 Human Soldier tokens, while Byway Courier also leaves a Clue behind when it dies, feeding both Tireless Tracker's counters and Ulvenwald Mysteries' token generation. Braulios of Pheres Band and Primeval Herald further reward heavy land drops by scaling up or fetching extra lands on attack, keeping the whole engine running.",
+      "playstyle": [
+        "Landfall",
+        "Clue/card advantage",
+        "Value engine"
+      ],
+      "tips": [
+        "Ramp lands to trigger landfall",
+        "Crack Clues to grow Tireless Tracker",
+        "Let creatures die into Ulvenwald Mysteries",
+        "Byway Courier feeds Clue synergies",
+        "Attack with Braulios for card and land advantage"
+      ],
       "cards": [
         {
           "title": "Tireless Tracker",
@@ -8411,7 +9686,19 @@
     {
       "theme": "Explorers 3",
       "color": "green",
-      "description": "Beast-focused explorer deck that combines creature synergies with exploration and land discovery effects.",
+      "description": "This deck is a go-wide token strategy that turns a swarm of small creatures into a scaling threat and a deathtouch wall. Somberwald Beastmaster dumps three tokens onto the battlefield at once and gives all your creature tokens deathtouch, making even the smallest Wolf or Elf token a dangerous attacker or blocker, while Woodland Champion turns every token entering (including Ambassador Oak's Elf Warrior and all three Beastmaster tokens) into a +1/+1 counter on itself, quickly ballooning into a real threat. Briarbridge Tracker gets +2/+0 as long as you control any token, meaning the same wide board that fuels Woodland Champion also directly pumps this attacker, and Ulvenwald Mysteries adds extra tokens and Clues whenever your nontoken creatures die, keeping the token engine replenished.",
+      "playstyle": [
+        "Go wide tokens",
+        "Deathtouch swarm",
+        "Counter payoff"
+      ],
+      "tips": [
+        "Deploy Somberwald Beastmaster for instant board",
+        "Deathtouch tokens trade up",
+        "Grow Woodland Champion off tokens",
+        "Briarbridge Tracker rewards any token",
+        "Replenish tokens via Ulvenwald Mysteries"
+      ],
       "cards": [
         {
           "title": "Briarbridge Tracker",
@@ -8488,7 +9775,19 @@
     {
       "theme": "Explorers 4",
       "color": "green",
-      "description": "Scout and discover deck with explore mechanics that tutor creatures and generate value from land-based synergies.",
+      "description": "This deck leans fully into the Explore mechanic, using repeated explore triggers to smooth draws while quietly growing its creatures. Jadelight Ranger explores twice on entry, giving it the best chance to hit lands for your hand while stacking +1/+1 counters when it whiffs, and it's joined by Ixalli's Diviner, Merfolk Branchwalker, and the plain Explore spell itself, all doing the same land-or-counter selection to keep the deck consistently hitting land drops without diluting quality. Braulios of Pheres Band again scales with total lands and refuels your hand every attack, while Primeval Herald search for a basic land on both entry and attack, meaning the deck's land count climbs quickly to power up Braulios and keep the explore triggers finding action rather than lands late.",
+      "playstyle": [
+        "Explore value",
+        "Land ramp",
+        "Midrange"
+      ],
+      "tips": [
+        "Chain explore triggers for smoothing",
+        "Grow creatures off whiffed explores",
+        "Ramp lands to buff Braulios",
+        "Attack with Braulios for extra land drops",
+        "Primeval Herald fetches on attack too"
+      ],
       "cards": [
         {
           "title": "Jadelight Ranger",
@@ -8565,7 +9864,19 @@
     {
       "theme": "Elves 1",
       "color": "green",
-      "description": "Small efficient elves with card draw and combat tricks to establish board presence and apply pressure.",
+      "description": "This deck is a straightforward mono-green Elf tribal pile that leans on lord effects and combat tricks to push through damage. Leaf-Crowned Visionary and Dionus, Elvish Archdruid both pump and empower your Elf army, while Llanowar Elves ramps you into your bigger threats like Razorgrass Invoker's late-game +3/+3 pump ability. The deck's core synergy is Dionus, Elvish Archdruid making all your Elves untap and grow a +1/+1 counter whenever they become tapped on your turn — meaning any effect that taps your Elves outside of attacking (like Leaf-Crowned Visionary's card draw or general utility) keeps them combat-ready. Overcome and Band Together serve as finishers, either pumping the whole team with trample or having creatures fight down blockers, and Bounty of Skemfar smooths draws by finding both lands and Elves. Overall this is a curve-out tribal aggro deck that wants to flood the board early and close with an alpha strike buffed by Overcome or Arbor Armament's counter.",
+      "playstyle": [
+        "Elf tribal aggro",
+        "Go-wide with lords",
+        "Combat trick finisher"
+      ],
+      "tips": [
+        "Curve out Elves early",
+        "Use Dionus to untap attackers",
+        "Save Overcome for lethal swing",
+        "Band Together removes blockers",
+        "Ramp into Razorgrass late game"
+      ],
       "cards": [
         {
           "title": "Leaf-Crowned Visionary",
@@ -8642,7 +9953,19 @@
     {
       "theme": "Elves 2",
       "color": "green",
-      "description": "Elf lords and token generators creating a growing army of elves with combat synergies.",
+      "description": "This build doubles down on mana generation and counters, anchored by Elvish Archdruid's ability to tap for {G} equal to your Elf count — a classic Elf-ramp payoff that scales explosively as your board fills up. Dionus, Elvish Archdruid again gives all Elves the 'untap and grow when tapped' ability, synergizing directly with Elvish Archdruid's tap-for-mana ability: tapping Archdruid for a burst of mana untaps it via Dionus and adds a permanent +1/+1 counter, letting you generate mana and grow your best mana dork every turn. Dwynen's Elite and Kujar Seedsculptor add extra bodies and counters, while Might of the Masses and Overcome scale directly with your wide board to close games in a single combat step. Hunter's Edge doubles as both a pump spell and cheap removal by having a buffed creature fight an opponent's blocker. This is a ramp-into-overrun Elf deck that wants to flood the board, then end the game with a single alpha strike backed by team-wide pump spells.",
+      "playstyle": [
+        "Elf ramp",
+        "Go-wide counters",
+        "Overrun finisher"
+      ],
+      "tips": [
+        "Tap Archdruid, untap via Dionus",
+        "Stack Elves before pump spells",
+        "Might of Masses scales with board",
+        "Hunter's Edge as removal",
+        "Alpha strike with Overcome"
+      ],
       "cards": [
         {
           "title": "Elvish Archdruid",
@@ -8719,7 +10042,19 @@
     {
       "theme": "Elves 3",
       "color": "green",
-      "description": "Mana-generating elves led by Marwyn to quickly power up bigger threats and overwhelming opponent resources.",
+      "description": "This deck centers on Marwyn, the Nurturer, whose power grows every time another Elf enters and who taps for green mana equal to that power — making her a snowballing mana engine that gets better the wider your board becomes. Dionus, Elvish Archdruid again lets tapped Elves (including Marwyn after she's tapped for mana) untap and gain a permanent +1/+1 counter, directly reinforcing Marwyn's own counter-based growth and letting her generate even more mana next time. Dwynen's Elite creates extra token bodies to feed Marwyn's trigger, while Llanowar Visionary and Llanowar Elves provide early ramp to get Marwyn and other Elves online faster. Band Together and Overcome give the deck reach, turning a wide, buffed board into lethal damage in a single turn. The overall plan is to flood the board with cheap Elves to grow Marwyn into a massive mana source, then dump that mana into big spells or simply overrun with pumped creatures.",
+      "playstyle": [
+        "Elf ramp",
+        "Counter synergy",
+        "Go-wide aggro"
+      ],
+      "tips": [
+        "Play Elves to grow Marwyn",
+        "Untap Marwyn via Dionus",
+        "Ramp hard, then overrun",
+        "Dwynen's Elite feeds counters",
+        "Finish with Overcome or Band Together"
+      ],
       "cards": [
         {
           "title": "Marwyn, the Nurturer",
@@ -8796,7 +10131,19 @@
     {
       "theme": "Elves 4",
       "color": "green",
-      "description": "Planeswalker-supported elf synergies with token generation and power-ups for a versatile aggressive strategy.",
+      "description": "This is a black-green Elf deck built around Tyvar Kell, whose static ability lets all your Elves tap for black mana, opening up splashes and enabling his loyalty abilities that pump, untap, and eventually create an Elf-tribal card advantage emblem. Voice of the Woods rewards you for building a wide Elf board by letting you tap five Elves to create a massive 7/7 trample Elemental, which combines naturally with Dionus, Elvish Archdruid's ability to untap tapped Elves and grow them with a counter — you can tap Elves into Voice of the Woods' cost, then have Dionus untap some of them for blocking or further activations the same turn. Ivy Lane Denizen adds extra counters whenever any green creature enters, working well alongside token generators like Tyvar's 0 ability. Reckless Amplimancer and Hunter's Edge give the deck reach and interaction, doubling a creature's stats or turning a pumped creature into removal. Overall this deck wants to go wide with cheap Elves, use Tyvar Kell to fix mana and grow the team, and eventually convert its board into a giant trampling threat via Voice of the Woods.",
+      "playstyle": [
+        "Elf tribal",
+        "Planeswalker value",
+        "Go-wide into big finisher"
+      ],
+      "tips": [
+        "Tyvar fixes Elf mana to black",
+        "Tap 5 Elves for 7/7 trampler",
+        "Dionus untaps key Elves",
+        "Ivy Lane Denizen stacks counters",
+        "0-ability builds board fast"
+      ],
       "cards": [
         {
           "title": "Tyvar Kell",
@@ -8873,7 +10220,19 @@
     {
       "theme": "Landfall 1",
       "color": "green",
-      "description": "Landfall-focused deck that gains value whenever lands enter the battlefield, triggering creatures like Lotus Cobra and Undergrowth Champion to grow stronger.",
+      "description": "This mono-green landfall deck wants to hit extra land drops per turn to trigger a suite of creatures and equipment that scale off it. Lotus Cobra generates a burst of mana on every land drop, which directly fuels Harrow (sacrifice a land, search two basics onto the battlefield) into double landfall triggers in a single spell, and feeds bigger plays like Undergrowth Champion's damage-preventing counters or Baloth Woodcrasher's massive +4/+4 trample pump. Kazandu Stomper actively bounces up to two of your own lands back to hand specifically so you can replay them later for extra landfall triggers, working alongside Sutina, Speaker of the Tajuru's attack trigger that also bounces a land to grow a creature with a counter. Skyclave Pick-Axe turns any landfall trigger into an equipped creature buff, and Bite Down provides clean removal off your biggest threat's power. The overall plan is to jam extra lands each turn — through bounce and search effects — to repeatedly trigger landfall payoffs and grow an overwhelming board.",
+      "playstyle": [
+        "Landfall value",
+        "Ramp aggro",
+        "Counter/pump synergy"
+      ],
+      "tips": [
+        "Replay bounced lands for value",
+        "Harrow doubles landfall in one turn",
+        "Kazandu Stomper resets land drops",
+        "Lotus Cobra ramps off land drops",
+        "Bite Down as removal finisher"
+      ],
       "cards": [
         {
           "title": "Lotus Cobra",
@@ -8950,7 +10309,19 @@
     {
       "theme": "Landfall 2",
       "color": "green",
-      "description": "Green creatures that benefit from landfall triggers, with Ancient Greenwarden enabling repeated land interactions and growth.",
+      "description": "This green landfall deck is built to double and recur its land-drop triggers rather than just play more lands. Ancient Greenwarden is the centerpiece: it lets you replay lands from your graveyard and causes any landfall trigger on your permanents to happen twice, turning every one of your other landfall creatures — Canopy Baloth, Snapping Gnarlid, Territorial Scythecat, Kazandu Nectarpot, and Retreat to Kazandu — into double-value engines the moment it's on the battlefield. Kazandu Stomper's enters-the-battlefield ability to bounce up to two of your lands feeds right back into Ancient Greenwarden's graveyard-replay and doubling, letting you generate several landfall triggers from a single creature. Sutina, Speaker of the Tajuru adds another land-bounce-and-counter engine on attack, while Krosan Tusker and Bond of Flourishing smooth your draws by cycling into lands or finding permanents. Bite Down again offers efficient removal scaled to your biggest creature. This deck's identity is grinding out incremental value from repeated, doubled landfall triggers rather than a single explosive turn.",
+      "playstyle": [
+        "Landfall value",
+        "Doubling triggers",
+        "Grindy ramp"
+      ],
+      "tips": [
+        "Ancient Greenwarden doubles landfall",
+        "Replay lands from graveyard",
+        "Kazandu Stomper bounces for more triggers",
+        "Territorial Scythecat snowballs counters",
+        "Cycle Krosan Tusker for land"
+      ],
       "cards": [
         {
           "title": "Ancient Greenwarden",
@@ -9027,7 +10398,19 @@
     {
       "theme": "Landfall 3",
       "color": "green",
-      "description": "Landfall creatures that grow incrementally whenever lands enter play, supported by land ramp spells to trigger multiple landfall effects.",
+      "description": "This landfall deck focuses on stacking multiple land drops in a single turn to maximize counter-based payoffs. Scythecat Cub is the standout card here: its landfall ability puts a +1/+1 counter on a creature, but if it's the second landfall trigger that turn, it doubles the number of counters on that creature instead — meaning cards like Harrow (which sacrifices a land but searches two more basics into play) or Kazandu Stomper's land bounce set up a second land drop the same turn to explode Scythecat Cub's counter output. Murasa Ranger offers an optional payment to double up counters as well, while Territorial Scythecat and Snapping Gnarlid provide steady incremental growth from every land drop. Sutina, Speaker of the Tajuru's attack-triggered land bounce combines with these landfall payoffs to generate extra triggers even after your main phase plays are done. Cliffhaven Kitesail gives evasion to push through a big attacker once it's sufficiently pumped. The overall plan is to chain multiple land drops each turn to snowball counters onto a couple of key threats.",
+      "playstyle": [
+        "Landfall value",
+        "Counter doubling",
+        "Multi-land-drop combo"
+      ],
+      "tips": [
+        "Chain two land drops for double counters",
+        "Harrow sets up second landfall",
+        "Kazandu Stomper bounces then replays",
+        "Sutina bounces lands on attack",
+        "Equip Kitesail for evasive threat"
+      ],
       "cards": [
         {
           "title": "Scythecat Cub",
@@ -9104,7 +10487,19 @@
     {
       "theme": "Landfall 4",
       "color": "green",
-      "description": "Aggressive landfall deck with evasion and power-boosting creatures that generate multiple landfall triggers for exponential damage output.",
+      "description": "This landfall deck is built to maximize the value of every land drop through both extra land-fetching spells and a wide array of landfall payoffs. Harrow sacrifices a land to search two basics directly onto the battlefield, generating two landfall triggers from a single card that immediately power up Baloth Woodcrasher's huge +4/+4 trample buff, Groundswell's doubled +4/+4 pump (since a land entered that turn), and token generation from Sporemound. Sutina, Speaker of the Tajuru's attack trigger bounces a land to grant a +1/+1 counter, letting you replay that land later for another landfall trigger, while Scythecat Cub doubles its own counter output if it's the second landfall trigger to resolve in a turn — something Harrow's double land drop enables directly. Skyclave Pick-Axe and Grazing Gladehart round out the payoffs with combat buffs and incidental lifegain. This deck wants to jam extra land drops via Harrow and Sutina to trigger as many landfall abilities as possible in a single turn, then swing with hugely pumped trampling creatures.",
+      "playstyle": [
+        "Landfall value",
+        "Burst land drops",
+        "Trample finisher"
+      ],
+      "tips": [
+        "Harrow doubles land drops",
+        "Groundswell hits harder same turn",
+        "Scythecat Cub rewards second trigger",
+        "Sutina bounces then replays land",
+        "Swing wide with Woodcrasher"
+      ],
       "cards": [
         {
           "title": "Scythecat Cub",
@@ -9181,7 +10576,19 @@
     {
       "theme": "Chaos",
       "color": "multi",
-      "description": "A cascade-focused deck that fills the board with creatures and uses instants to trigger cascading effects for additional value.",
+      "description": "This five-color Jund-leaning deck is built entirely around the Cascade mechanic, casting spells that dig into the library for free extra value. Bloodbraid Elf, Enlisted Wurm, Maelstrom Colossus, Bituminous Blast, and Violent Outburst all cascade into a free spell on resolution, and Averna, the Chaos Bloom sweetens every one of those cascades by letting you also drop a land from among the exiled cards straight onto the battlefield tapped, effectively ramping and fixing mana every time you cascade. The deck supports its greedy mana base with Chromatic Lantern (making all your lands tap for any color) and a suite of basic-landcycling spells (Shardless Outlander, Fiery Fall, Ash Barrens) to smooth out color screw before you start chaining cascades. Bituminous Blast and Fiery Fall double as removal alongside their cascade or landcycling utility, giving the deck some interaction while it digs for free spells. The overall plan is simply to jam as many cascade spells as possible, using Averna and Chromatic Lantern to keep mana consistent, and let the random extra value from cascading snowball into a winning board.",
+      "playstyle": [
+        "Cascade value",
+        "Five-color goodstuff",
+        "Card advantage engine"
+      ],
+      "tips": [
+        "Chain cascades for free spells",
+        "Averna nets a free land too",
+        "Chromatic Lantern fixes colors",
+        "Landcycle early to hit drops",
+        "Use Bituminous Blast as removal"
+      ],
       "cards": [
         {
           "title": "Averna, the Chaos Bloom",
