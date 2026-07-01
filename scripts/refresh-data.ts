@@ -26,12 +26,10 @@ import {
   isSamePageGrouped,
   extractDecklist,
   extractThemeFromPage,
-  analyzeSynergies,
-  mergeSynergies,
 } from '../src/agents.js';
 import { bakeSeries } from '../src/baking.js';
 import { SERIES_NAMES, resolveSeriesSlug } from '../src/series.js';
-import type { Decklist, AgentSynergy } from '../src/types.js';
+import type { Decklist } from '../src/types.js';
 import { normalizeColor } from '../src/types.js';
 
 async function main(): Promise<void> {
@@ -130,21 +128,8 @@ async function main(): Promise<void> {
     return { ...d, color: normalizeColor(match?.color ?? '') };
   });
 
-  // ── Phase 3: Cross-theme synergy recommendations ───────────────────────────
-  console.error('\nAnalyzing cross-theme synergies...');
-  const synergyInput = coloredDecklists.map(d => ({
-    name: d.theme,
-    color: d.color ?? '',
-    description: d.description,
-  }));
-  const synergiesMap = await analyzeSynergies(client, semaphore, synergyInput).catch(err => {
-    console.error(`  ✗ synergy analysis: ${err}`);
-    return new Map<string, AgentSynergy[]>();
-  });
-  const decklistsWithSynergies = mergeSynergies(coloredDecklists, synergiesMap);
-
   // ── Bake: flatten + write static data, no prices ────────────────────────────
-  const baked = bakeSeries(keyword, decklistsWithSynergies);
+  const baked = bakeSeries(keyword, coloredDecklists);
   mkdirSync('data', { recursive: true });
   const outPath = `data/${slug}.json`;
   writeFileSync(outPath, JSON.stringify(baked, null, 2), 'utf8');

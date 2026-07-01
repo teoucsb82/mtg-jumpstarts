@@ -4,10 +4,9 @@
 //          on a shared color-group page (handles numbered variants like Angels 1/Angels 2).
 
 import Anthropic from '@anthropic-ai/sdk';
-import type { Theme, Decklist, AgentSynergy, Synergy } from './types.js';
-import { normalizeColor } from './types.js';
+import type { Theme, Decklist } from './types.js';
 import { stripHtml } from './fetch.js';
-import { THEMES_TOOL, DECKLIST_TOOL, DECKLISTS_TOOL, PAIRINGS_TOOL } from './tools.js';
+import { THEMES_TOOL, DECKLIST_TOOL, DECKLISTS_TOOL } from './tools.js';
 import { Semaphore, withRetry, callAgent } from './claude.js';
 
 // ─── Phase 1: Theme discovery ─────────────────────────────────────────────────
@@ -168,60 +167,4 @@ PAGE CONTENT:`;
     () => callAgent<Decklist>(client, semaphore, DECKLIST_TOOL, instructions, content, 4096),
     theme.name,
   );
-}
-
-// ─── Synergy / pairing recommendations ────────────────────────────────────────
-// One consolidated call per series: sees every theme's description + color at once,
-// so it can reason about the whole series (e.g. avoid same-color pairings) instead
-// of judging each theme in isolation. Uses Sonnet — synergy judgment needs real
-// Magic deckbuilding reasoning, not just structured extraction.
-
-export async function analyzeSynergies(
-  client: Anthropic,
-  semaphore: Semaphore,
-  themes: { name: string; color: string; description: string }[],
-): Promise<Map<string, AgentSynergy[]>> {
-  const content = themes.map(t => `${t.name} (${t.color}): ${t.description}`).join('\n');
-
-  const instructions = `You are a Magic: The Gathering deckbuilding expert analyzing a Jumpstart series.
-Jumpstart packs are 20-card half-decks designed to be combined two at a time into one 40-card deck.
-
-For each theme below, recommend 2-3 OTHER themes from this same list that would combine well into a
-40-card deck, using Magic deckbuilding fundamentals (curve, removal/threat balance, complementary
-archetypes, color identity). Generally avoid pairing two decks of the same color — Jumpstart by design
-discourages mono-color pairs — unless there's a genuinely compelling synergistic reason, in which case
-explain why in the reason.
-
-For each recommendation, give a 1-2 sentence reason specific to why it pairs well with THIS theme, not
-a generic blurb. Only recommend themes that appear in the list below. If the series has very few
-themes, it's fine to return fewer than 3 — never fabricate a pairing.
-
-Use the report_pairings tool to return recommendations for every theme listed.
-
-THEMES:`;
-
-  const result = await withRetry(
-    () => callAgent<{ pairings: { theme: string; recommendations: AgentSynergy[] }[] }>(
-      client, semaphore, PAIRINGS_TOOL, instructions, content, 32000, 'claude-sonnet-5',
-    ),
-    'pairing analysis',
-  );
-
-  return new Map(result.pairings.map(p => [p.theme, p.recommendations ?? []]));
-}
-
-// Defensive merge: drop any recommended theme name that doesn't actually exist in this
-// series (handles model hallucination without a retry). Looks up each recommended
-// theme's own color so the final Synergy carries {title, color, reasoning}.
-export function mergeSynergies(
-  decklists: Decklist[],
-  synergiesMap: Map<string, AgentSynergy[]>,
-): Decklist[] {
-  const colorByTheme = new Map(decklists.map(d => [d.theme, normalizeColor(d.color ?? '')]));
-  return decklists.map(d => ({
-    ...d,
-    synergies: (synergiesMap.get(d.theme) ?? [])
-      .filter(s => colorByTheme.has(s.theme))
-      .map((s): Synergy => ({ title: s.theme, color: colorByTheme.get(s.theme)!, reasoning: s.reasoning })),
-  }));
 }

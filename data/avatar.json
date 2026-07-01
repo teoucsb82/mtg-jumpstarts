@@ -1,0 +1,5118 @@
+{
+  "series": "Avatar: The Last Airbender",
+  "themeCount": 66,
+  "decks": [
+    {
+      "theme": "Aang",
+      "color": "white",
+      "description": "A balanced creature-focused deck with light removal and bounce effects. Relies on small to medium creatures with one powerful legend and utility spells for value.",
+      "cards": [
+        {
+          "title": "Aang, Airbending Master",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Appa, Loyal Sky Bison",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Invasion Reinforcements",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kindly Customer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Koala-Sheep",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Warriors",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Momo, Rambunctious Rascal",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Water Tribe Captain",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Airbending Lesson",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Cloudshift",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Enter the Avatar State",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Path to Redemption",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Swordmaster",
+      "color": "white",
+      "description": "This deck focuses on equipping creatures with weapons and utilizing combat-focused instants to win through efficient sword mastery and dueling abilities.",
+      "cards": [
+        {
+          "title": "Aardvark Sloth",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Earth Kingdom Protectors",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Glider Kids",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Inspired Insurgent",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Master Piandao",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sokka, Swordmaster",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Battle Fan",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Meteor Sword",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Trusty Boomerang",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Razor Rings",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Sokka's Sword Training",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Duelist's Heritage",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Airbending",
+      "color": "white",
+      "description": "A creature-focused deck with multiple flyers and evasive creatures, supported by enchantments that boost your board presence.",
+      "cards": [
+        {
+          "title": "Aang, the Last Airbender",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Appa, Loyal Sky Bison",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Glider Kids",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Invasion Reinforcements",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Jeong Jeong's Deserters",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Koala-Sheep",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Monk Gyatso",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rabaroo Troop",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Airbender's Reversal",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Airbending Lesson",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Airbender Ascension",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Path to Redemption",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Freedom Fighters",
+      "color": "white",
+      "description": "Rebel-focused creatures with versatile instant responses and artifact support for mid-game combat flexibility.",
+      "cards": [
+        {
+          "title": "The Duke, Rebel Sentry",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Inspired Insurgent",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Jeong Jeong's Deserters",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Jet, Rebel Leader",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pipsqueak, Rebel Strongarm",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rabaroo Troop",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Toucan-Puffin",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wandering Musicians",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Acrobatic Leap",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Valorous Stance",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Path to Redemption",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Hook Swords",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Warriors",
+      "color": "white",
+      "description": "A creature-focused deck centered around warrior creatures with combat bonuses from enchantments and artifacts. Emphasizes tactical, aggressive gameplay with strong warrior synergies.",
+      "cards": [
+        {
+          "title": "Invasion Reinforcements",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Warrior Guard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Warriors",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rabaroo Troop",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sokka, Lateral Strategist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Suki, Kyoshi Captain",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Toucan-Puffin",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sokka's Sword Training",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Valorous Stance",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Path to Redemption",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Team Avatar",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Battle Fan",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Hei Bai (1)",
+      "color": "white",
+      "description": "A balanced deck with creature-focused gameplay, featuring Hei Bai as a key spirit card with versatile instants for flexibility and disruption.",
+      "cards": [
+        {
+          "title": "Aang, A Lot to Learn",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hei Bai, Spirit of Balance",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Invasion Reinforcements",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Koala-Sheep",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pretending Poxbearers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rabaroo Troop",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Suki, Courageous Rescuer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Vengeful Villagers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Acrobatic Leap",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Sandbenders' Storm",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "That's Rough Buddy",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Path to Redemption",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Hei Bai (2)",
+      "color": "white",
+      "description": "A creature-heavy deck centered on Hei Bai with a mix of utility creatures and a sorcery for removal, offering flexibility in play patterns.",
+      "cards": [
+        {
+          "title": "Aardvark Sloth",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Aang, A Lot to Learn",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Curious Farm Animals",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hei Bai, Spirit of Balance",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Jeong Jeong's Deserters",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pretending Poxbearers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rabaroo Troop",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Suki, Courageous Rescuer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sokka's Sword Training",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "That's Rough Buddy",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Destined Confrontation",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Path to Redemption",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Gliding (1)",
+      "color": "white",
+      "description": "An evasive flying-focused deck with small creatures and flying support. Features creatures with flying abilities paired with instants and artifacts that enable aerial superiority.",
+      "cards": [
+        {
+          "title": "Aang, the Last Airbender",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Air Nomad Student",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Appa, Loyal Sky Bison",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kindly Customer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Koala-Sheep",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Momo, Friendly Flier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rabaroo Troop",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Toucan-Puffin",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Airbending Lesson",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Yip Yip!",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Path to Redemption",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Glider Staff",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Gliding (2)",
+      "color": "white",
+      "description": "A flying-themed deck with airborne creatures and spell support. Combines flying creatures with instants and sorceries to control the skies.",
+      "cards": [
+        {
+          "title": "Aang, the Last Airbender",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Air Nomad Student",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Appa, Loyal Sky Bison",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Glider Kids",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Inspired Insurgent",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Jeong Jeong's Deserters",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Momo, Friendly Flier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Water Tribe Captain",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Yip Yip!",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Tale of Momo",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Path to Redemption",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Glider Staff",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Insurgent 1",
+      "color": "white",
+      "description": "An aggressive creature-focused deck with fliers and combat tricks that punish opponents and leverage small efficient creatures.",
+      "cards": [
+        {
+          "title": "Aang, the Last Airbender",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Appa, Loyal Sky Bison",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Glider Kids",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Inspired Insurgent",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Invasion Reinforcements",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Jeong Jeong's Deserters",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Warriors",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Momo, Rambunctious Rascal",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Airbender's Reversal",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Razor Rings",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Stand United",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Tale of Momo",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Insurgent 2",
+      "color": "white",
+      "description": "A creature-heavy strategy deck with warrior synergies and combat-oriented enchantments that leverages efficient creatures and tactical combat tricks.",
+      "cards": [
+        {
+          "title": "Appa, Loyal Sky Bison",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hakoda, Selfless Commander",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Glider Kids",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Inspired Insurgent",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Warrior Guard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Warriors",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Momo, Rambunctious Rascal",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sokka, Lateral Strategist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Duelist's Heritage",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Path to Redemption",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Stand United",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "That's Rough Buddy",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Alliance (1)",
+      "color": "white",
+      "description": "Creature-focused deck with a mix of rebels and warriors, featuring evasion and combat tricks to win through creatures.",
+      "cards": [
+        {
+          "title": "The Duke, Rebel Sentry",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Glider Kids",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Jet, Freedom Fighter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Warrior Guard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Warriors",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sokka, Lateral Strategist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "South Pole Voyager",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Suki, Kyoshi Warrior",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fancy Footwork",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Sokka's Sword Training",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Path to Redemption",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Mechanical Glider",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Alliance (2)",
+      "color": "white",
+      "description": "Creature-heavy deck with combat-focused instants and artifacts, designed to win through efficient creatures and tactical tricks.",
+      "cards": [
+        {
+          "title": "The Duke, Rebel Sentry",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Glider Kids",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Inspired Insurgent",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Jet, Rebel Leader",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Warriors",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sokka, Lateral Strategist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "South Pole Voyager",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Suki, Kyoshi Warrior",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Acrobatic Leap",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Fancy Footwork",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Razor Rings",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Mechanical Glider",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Katara",
+      "color": "blue",
+      "description": "Control-focused deck with removal and bounce spells, featuring a mix of creatures and instant-speed answers to manage the board while building with waterbending themes.",
+      "cards": [
+        {
+          "title": "Geyser Leaper",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gran-Gran",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Katara, Waterbending Master",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Master Pakku",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rowdy Snowballers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sokka, Lateral Strategist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Turtle-Seals",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Consider",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "It'll Quench Ya!",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Octopus Form",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Sokka's Haiku",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Watery Grasp",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Librarian",
+      "color": "blue",
+      "description": "A control-focused deck that draws cards and gains knowledge through card advantage mechanics, featuring creatures that reward library interactions and instant-speed tricks.",
+      "cards": [
+        {
+          "title": "Dutiful Knowledge Seeker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Giant Koi",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Knowledge Seeker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Professor Zei, Anthropologist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Suspicious Bookcase",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wan Shi Tong, All-Knowing",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Accumulate Wisdom",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Brainstorm",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Octopus Form",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Zuko's Exile",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Lost in the Spirit World",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Waterbending Lesson",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Adaptive",
+      "color": "blue",
+      "description": "A versatile blue deck with diverse creatures and spellcasting, featuring utility spells like Frantic Search and card advantage tools. It adapts to various situations with a mix of combat and removal options.",
+      "cards": [
+        {
+          "title": "The Blue Spirit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Giant Koi",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Glider Kids",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Katara, Bending Prodigy",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Princess Yue",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rowdy Snowballers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Teo, Spirited Glider",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Frantic Search",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Boomerang Basics",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Lost in the Spirit World",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Waterbending Lesson",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Battle Fan",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Spirit",
+      "color": "blue",
+      "description": "Spirit-focused deck with creature-heavy strategy featuring multiple spirit cards and utility instants for control and card advantage.",
+      "cards": [
+        {
+          "title": "Baboon Spirit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Benevolent River Spirit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Dutiful Knowledge Seeker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Flexible Waterbender",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Flying Dolphin-Fish",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Giant Koi",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Knowledge Seeker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Dramatic Reversal",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "It'll Quench Ya!",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Octopus Form",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Lost in the Spirit World",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "The Spirit Oasis",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Underwater",
+      "color": "blue",
+      "description": "A creature-focused deck with aquatic and sea creatures that provides evasion and utility through instants and enchantments.",
+      "cards": [
+        {
+          "title": "Flying Dolphin-Fish",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Giant Koi",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rowdy Snowballers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Serpent of the Pass",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tui and La, Moon and Ocean",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Turtle-Seals",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Octopus Form",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Unagi's Spray",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Honest Work",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Invasion Submersible",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "White Lotus Hideout",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Wise 1",
+      "color": "blue",
+      "description": "A creature-focused deck with flying creatures and card draw effects that generate value through combat and spellcasting.",
+      "cards": [
+        {
+          "title": "Forecasting Fortune Teller",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gran-Gran",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Katara, Bending Prodigy",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Messenger Hawk",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Otter-Penguin",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rowdy Snowballers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Turtle-Seals",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Consider",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Waterbender's Restoration",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Whirlwind Technique",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Waterbending Lesson",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Coastal Piracy",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Wise 2",
+      "color": "blue",
+      "description": "An instant-heavy tempo deck with flying creatures and efficient blue spells to control the game while dealing damage through aerial threats.",
+      "cards": [
+        {
+          "title": "The Blue Spirit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Knowledge Seeker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Messenger Hawk",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Otter-Penguin",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rowdy Snowballers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sokka, Lateral Strategist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tiger-Seal",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Turtle-Seals",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Consider",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "It'll Quench Ya!",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Sokka's Haiku",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Whirlwind Technique",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Soaring (1)",
+      "color": "blue",
+      "description": "A flying-focused deck with evasive creatures like Flying Dolphin-Fish and Teo, Spirited Glider that dominate the air while utilizing blue spells for utility.",
+      "cards": [
+        {
+          "title": "Cat-Owl",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Flying Dolphin-Fish",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Forecasting Fortune Teller",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Giant Koi",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Messenger Hawk",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "The Mechanist, Aerial Artisan",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sokka, Lateral Strategist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Teo, Spirited Glider",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sokka's Haiku",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Boomerang Basics",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Watery Grasp",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Mechanical Glider",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Soaring (2)",
+      "color": "blue",
+      "description": "A flying-heavy tempo deck with evasive creatures and blue spell tricks to protect and bounce creatures while attacking from the air.",
+      "cards": [
+        {
+          "title": "Benevolent River Spirit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Cat-Owl",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Flying Dolphin-Fish",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Giant Koi",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Messenger Hawk",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sokka, Lateral Strategist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Teo, Spirited Glider",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Yue, the Moon Spirit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Frantic Search",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Octopus Form",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Boomerang Basics",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Watery Grasp",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Adept 1",
+      "color": "blue",
+      "description": "A creature-focused waterbending deck with instant removal and control spells to disrupt opponents while building board presence.",
+      "cards": [
+        {
+          "title": "Forecasting Fortune Teller",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Giant Koi",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Iguana Parrot",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Katara, Bending Prodigy",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Professor Zei, Anthropologist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Serpent of the Pass",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Turtle-Seals",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Dramatic Reversal",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Unagi's Spray",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Crashing Wave",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Waterbending Lesson",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Nightmares and Daydreams",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Adept 2",
+      "color": "blue",
+      "description": "A creature-heavy blue deck that uses instants and control spells to protect creatures and manage the board while developing a steady offense.",
+      "cards": [
+        {
+          "title": "Geyser Leaper",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Iguana Parrot",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Master Pakku",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Katara, Bending Prodigy",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Professor Zei, Anthropologist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Serpent of the Pass",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Teo, Spirited Glider",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Consider",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Lost Days",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Octopus Form",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Waterbending Lesson",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Nightmares and Daydreams",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Lessons (1)",
+      "color": "blue",
+      "description": "A spell-heavy blue deck focused on card draw and board control with interactive instants and enchantments.",
+      "cards": [
+        {
+          "title": "Giant Koi",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Glider Kids",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gran-Gran",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Iguana Parrot",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Katara, Seeking Revenge",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Platypus-Bear",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Accumulate Wisdom",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "It'll Quench Ya!",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Octopus Form",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Whirlwind Technique",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Boomerang Basics",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Chakra Meditation",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Lessons (2)",
+      "color": "blue",
+      "description": "A blue deck with modest creature presence that uses instants and enchantments for control and utility effects.",
+      "cards": [
+        {
+          "title": "Geyser Leaper",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gran-Gran",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Iguana Parrot",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Katara, Seeking Revenge",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Master Pakku",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Platypus-Bear",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Accumulate Wisdom",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Octopus Form",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Lost Days",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Whirlwind Technique",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Waterbending Lesson",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Chakra Meditation",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Azula",
+      "color": "black",
+      "description": "A control-focused deck with disruptive creatures and removal spells that punishes opponents for their choices while establishing board presence through efficient creatures.",
+      "cards": [
+        {
+          "title": "Azula, Ruthless Firebender",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Canyon Crawler",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Corrupt Court Official",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Dai Li Censor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Ambushers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Navy Trebuchet",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Lo and Li, Twin Tutors",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Azula Always Lies",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Sold Out",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Dai Li Indoctrination",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Dark Deal",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Epic Downfall",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Ozai",
+      "color": "black",
+      "description": "Creature-focused removal deck with efficient blockers and targeted removal spells to dismantle opponents.",
+      "cards": [
+        {
+          "title": "Beetle-Headed Merchants",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Callous Inspector",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Canyon Crawler",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Corrupt Court Official",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Lord Ozai",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Ambushers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Navy Trebuchet",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Zhao, Ruthless Admiral",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Heartless Act",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Deadly Precision",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Ozai's Cruelty",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Scarring Memories",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Bad Advice",
+      "color": "black",
+      "description": "A creature-focused deck built around political manipulation and control effects. Features advisors and scheming creatures that work to disrupt opponents' plans through removal and cutthroat tactics.",
+      "cards": [
+        {
+          "title": "Corrupt Court Official",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Dai Li Censor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Ambushers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gilacorn",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hama, the Bloodbender",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Joo Dee, One of Many",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Lo and Li, Royal Advisors",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Long Feng, Grand Secretariat",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sold Out",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Dai Li Indoctrination",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Deadly Precision",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Ozai's Cruelty",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Nightmares",
+      "color": "black",
+      "description": "A creature-focused black deck with a mix of spirits and evasive creatures. Uses targeted removal and sorceries to control the board while developing threats.",
+      "cards": [
+        {
+          "title": "Azula, On the Hunt",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Canyon Crawler",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hei Bai, Spirit of Balance",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Joo Dee, One of Many",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Koh, the Face Stealer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pirate Peddlers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pretending Poxbearers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Purple Pentapus",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Zuko's Conviction",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Deadly Precision",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Desperate Plea",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Ruinous Waterbending",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Siege Engines",
+      "color": "black",
+      "description": "An artifact-focused deck that leverages artifacts and artifact synergies alongside creatures and removal spells to control the game.",
+      "cards": [
+        {
+          "title": "Beetle-Headed Merchants",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Callous Inspector",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Canyon Crawler",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Engineer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Navy Trebuchet",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Merchant of Many Hats",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pretending Poxbearers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Heartless Act",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Deadly Precision",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "The Fire Nation Drill",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Warship",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Tundra Tank",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Bounty Hunter (1)",
+      "color": "black",
+      "description": "Bounty Hunter focuses on cheap creatures with some discard and removal, featuring a strong creature-based gameplan with some enchantment support for added value.",
+      "cards": [
+        {
+          "title": "Azula, On the Hunt",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Beetle-Headed Merchants",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Giant Fly",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "June, Bounty Hunter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Nyla, Shirshu Sleuth",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pirate Peddlers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pretending Poxbearers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Purple Pentapus",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sold Out",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Zuko's Conviction",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Deadly Precision",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Bastion of Remembrance",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Bounty Hunter (2)",
+      "color": "black",
+      "description": "Bounty Hunter focuses on small efficient creatures with direct removal and enchantments that generate value from creature interactions and sacrifices.",
+      "cards": [
+        {
+          "title": "Azula, On the Hunt",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Callous Inspector",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Navy Trebuchet",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "June, Bounty Hunter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Nyla, Shirshu Sleuth",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pirate Peddlers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pretending Poxbearers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Zhao, Ruthless Admiral",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sold Out",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Deadly Precision",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Bastion of Remembrance",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Obsessive Pursuit",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Hunting (1)",
+      "color": "black",
+      "description": "Creature-focused deck with hunters and flying creatures, supplemented by removal sorceries for dealing with threats.",
+      "cards": [
+        {
+          "title": "Beetle-Headed Merchants",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Elephant-Rat",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Foggy Swamp Hunters",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "June, Bounty Hunter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Katara, Seeking Revenge",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Messenger Hawk",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Purple Pentapus",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Raven Eagle",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Deadly Precision",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Desperate Plea",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Diresight",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Epic Downfall",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Hunting (2)",
+      "color": "black",
+      "description": "Creature-based hunting deck with hunters and removal spells, featuring some enchantment-based creature control.",
+      "cards": [
+        {
+          "title": "Beetle-Headed Merchants",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Foggy Swamp Hunters",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gilacorn",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "June, Bounty Hunter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Katara, Seeking Revenge",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Messenger Hawk",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Raven Eagle",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ruthless Waterbender",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Azula Always Lies",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Deadly Precision",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Diresight",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Swampsnare Trap",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Reinforced (1)",
+      "color": "black",
+      "description": "A creature-heavy deck with removal spells and board pressure, using mid-sized creatures to establish dominance.",
+      "cards": [
+        {
+          "title": "Beetle-Headed Merchants",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Buzzard-Wasp Colony",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Callous Inspector",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Elephant-Rat",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Salvagers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hog-Monkey",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Long Feng, Grand Secretariat",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Zuko, Seeking Honor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Azula Always Lies",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Dai Li Indoctrination",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Epic Downfall",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Feed the Swarm",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Reinforced (2)",
+      "color": "black",
+      "description": "A creature-focused deck with instant-speed answers and targeted removal to control the board while developing threats.",
+      "cards": [
+        {
+          "title": "Buzzard-Wasp Colony",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Earth Village Ruffians",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Elephant-Rat",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Salvagers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gilacorn",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hog-Monkey",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Long Feng, Grand Secretariat",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Zuko, Seeking Honor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fatal Fissure",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Heartless Act",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Dai Li Indoctrination",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Deadly Precision",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Relentless 1",
+      "color": "black",
+      "description": "Fast aggro deck with cheap threats and instant-speed removal, applying constant pressure with creatures and disruption.",
+      "cards": [
+        {
+          "title": "Azula, On the Hunt",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Buzzard-Wasp Colony",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Canyon Crawler",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Ambushers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Merchant of Many Hats",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pirate Peddlers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Purple Pentapus",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ruthless Waterbender",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Azula Always Lies",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Heartless Act",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Sold Out",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Occupation",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Relentless 2",
+      "color": "black",
+      "description": "Efficient creature-based tempo deck that dominates the early game with evasive threats and flexible interaction spells.",
+      "cards": [
+        {
+          "title": "Azula, On the Hunt",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Beetle-Headed Merchants",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Callous Inspector",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Canyon Crawler",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Ambushers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Joo Dee, One of Many",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Merchant of Many Hats",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Zhao, Ruthless Admiral",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Azula Always Lies",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Heartless Act",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Deadly Precision",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Occupation",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Roku",
+      "color": "red",
+      "description": "Avatar Roku leads a high-impact creature deck with powerful firebending magic, focused on strong individual threats and direct damage spells.",
+      "cards": [
+        {
+          "title": "Avatar Roku, Firebender",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Boar-q-pine",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fang, Roku's Companion",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Sages",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Jeong Jeong, the Deserter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Loyal Fire Sage",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Yuyan Archers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Firebending Lesson",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Frantic Confrontation",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Roku's Mastery",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Crescent Island Temple",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "White Lotus Hideout",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Zuko",
+      "color": "red",
+      "description": "A creature-light, spell-heavy deck focused on efficient burn spells and removal to deal direct damage while controlling the board with a small suite of utility creatures.",
+      "cards": [
+        {
+          "title": "Dragon Moose",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mai, Jaded Edge",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mongoose Lizard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Yuyan Archers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Zuko, Firebending Master",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Firebending Lesson",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Attacks",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Fists of Flame",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Frantic Confrontation",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Lightning Strike",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Lost in Memories",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "War Balloon",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Fire Nation",
+      "color": "red",
+      "description": "An aggressive red deck with creatures that deal direct damage and combat tricks to burn down opponents quickly.",
+      "cards": [
+        {
+          "title": "Firebending Student",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Longshot, Rebel Bowman",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mai, Jaded Edge",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ty Lee, Artful Acrobat",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Zuko, Seeking Honor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Cunning Maneuver",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Attacks",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Firebending Lesson",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Fists of Flame",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "How to Start a Riot",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Lightning Strike",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Storm of Memories",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Iroh",
+      "color": "red",
+      "description": "A creature-heavy deck with a mix of sorceries that focuses on powerful firebending effects and card advantage through hand disruption and reunion effects.",
+      "cards": [
+        {
+          "title": "Boar-q-pine",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Deserter's Disciple",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Jeong Jeong, the Deserter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Iroh, Dragon of the West",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mongoose Lizard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tiger-Dillo",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Zuko, Seeking Honor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bolt Bend",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Firebending Lesson",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Cathartic Reunion",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Fiery Confluence",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Iroh's Demonstration",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Musicians",
+      "color": "red",
+      "description": "A creature-focused deck with enchantments and artifacts that builds around nomadic musicians and dancers, featuring both direct damage and evasive creatures.",
+      "cards": [
+        {
+          "title": "Chong and Lily, Nomads",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Freedom Fighter Recruit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Moku, Meandering Drummer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mongoose Lizard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rough Rhino Cavalry",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ty Lee, Artful Acrobat",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wandering Musicians",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Cunning Maneuver",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Bumi Bash",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Explosive Shot",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "The Cave of Two Lovers",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Founding of Omashu",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "War Balloon",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Secret Tunnel",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "theme": "Firebending (1)",
+      "color": "red",
+      "description": "A creature-focused aggressive deck with removal spells and burn, featuring various Fire Nation characters and direct damage to finish opponents.",
+      "cards": [
+        {
+          "title": "Dragon Moose",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Cadets",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Sages",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Jeong Jeong, the Deserter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Loyal Fire Sage",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Zuko, Exiled Prince",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Cunning Maneuver",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Firebending Lesson",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Lightning Strike",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Roku's Mastery",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Reckless Blaze",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Firebender Ascension",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Firebending (2)",
+      "color": "red",
+      "description": "A creature-heavy deck with combat-focused instants and versatile warriors, emphasizing board presence with direct damage support.",
+      "cards": [
+        {
+          "title": "Fire Nation Cadets",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Jeong Jeong, the Deserter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Loyal Fire Sage",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Moku, Meandering Drummer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rough Rhino Cavalry",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Yuyan Archers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Zuko, Exiled Prince",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Combustion Technique",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Cunning Maneuver",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Firebending Lesson",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Attacks",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Reckless Blaze",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Powerful (1)",
+      "color": "red",
+      "description": "Creature-focused deck with large aggressive creatures and some spells to support them in combat.",
+      "cards": [
+        {
+          "title": "Deserter's Disciple",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Earth Rumble Wrestlers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fang, Roku's Companion",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Raider",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mongoose Lizard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rough Rhino Cavalry",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tiger-Dillo",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Uncle Iroh",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Firebending Lesson",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Cathartic Reunion",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Iroh's Demonstration",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Twin Blades",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Powerful (2)",
+      "color": "red",
+      "description": "Creature-heavy aggressive deck with powerful creatures backed up by combat tricks and card advantage spells.",
+      "cards": [
+        {
+          "title": "Combustion Man",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fang, Roku's Companion",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Raider",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Freedom Fighter Recruit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Komodo Rhino",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mongoose Lizard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tiger-Dillo",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Uncle Iroh",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Firebending Lesson",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Hog-Monkey Rampage",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "How to Start a Riot",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Cathartic Reunion",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Rebelling 1",
+      "color": "red",
+      "description": "A scrappy rebel deck focused on small efficient creatures and combat tricks to overwhelm opponents with freedom fighters and rebel characters.",
+      "cards": [
+        {
+          "title": "Freedom Fighter Recruit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Jet, Freedom Fighter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Longshot, Rebel Bowman",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Smellerbee, Rebel Fighter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Treetop Freedom Fighters",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Yuyan Archers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Zuko, Seeking Honor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Cunning Maneuver",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Attacks",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "How to Start a Riot",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Bumi Bash",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Explosive Shot",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Rebelling 2",
+      "color": "red",
+      "description": "An aggressive rebel deck with strong creature synergies and combat-focused instants that leverages defectors and freedom fighters to attack consistently.",
+      "cards": [
+        {
+          "title": "Deserter's Disciple",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Freedom Fighter Recruit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Jet, Freedom Fighter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Longshot, Rebel Bowman",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Smellerbee, Rebel Fighter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Treetop Freedom Fighters",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Zuko, Seeking Honor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "How to Start a Riot",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Overwhelming Victory",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Run Amok",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Explosive Shot",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Hook Swords",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Sparky Sparky 1",
+      "color": "red",
+      "description": "Aggressive creature-heavy deck with direct damage instants and sorceries, focusing on red's fast burn strategy.",
+      "cards": [
+        {
+          "title": "Combustion Man",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Deer-Dog",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Earth Rumble Wrestlers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Cadets",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Sages",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ran and Shaw",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Zuko, Exiled Prince",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Combustion Technique",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "How to Start a Riot",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Bumi Bash",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Iroh's Demonstration",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "War Balloon",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Sparky Sparky 2",
+      "color": "red",
+      "description": "Fast red aggro deck with strong creatures and instant-speed trick support, designed for quick damage output.",
+      "cards": [
+        {
+          "title": "Combustion Man",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Deer-Dog",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Dragon Moose",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fire Nation Cadets",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ran and Shaw",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Yuyan Archers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Zuko, Exiled Prince",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Combustion Technique",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Firebending Lesson",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Overwhelming Victory",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Price of Freedom",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "War Balloon",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Kyoshi",
+      "color": "green",
+      "description": "A hybrid-based deck with balanced creature threats and utility spells, featuring Avatar Kyoshi and her warrior allies backed by defensive enchantments and land destruction.",
+      "cards": [
+        {
+          "title": "Avatar Kyoshi, Earthbender",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Earth Kingdom Soldier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Elephant-Mandrill",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Warrior Exemplars",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Raucous Audience",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Suki, Kyoshi Warrior",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Allies at Last",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Cycle of Renewal",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Rocky Rebuke",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Cracked Earth Technique",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Tectonic Split",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Battle Fan",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Toph",
+      "color": "green",
+      "description": "A creature-focused deck with emphasis on earthbending warriors and elemental creatures, combining efficient small creatures with enchantment support for board presence.",
+      "cards": [
+        {
+          "title": "Badgermole",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Earth Kingdom General",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Earth Kingdom Soldier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Frog-Squirrels",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Warrior Exemplars",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rebellious Captives",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Saber-Tooth Moose-Lion",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Toph, Earthbending Master",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Origin of Metalbending",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Rocky Rebuke",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Solid Ground",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Tale of Katara and Toph",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "At the Zoo",
+      "color": "green",
+      "description": "Animal-focused aggro deck with diverse creatures from the Avatar universe's zoo, supplemented by creature-enhancing instants and artifacts for aggressive board presence.",
+      "cards": [
+        {
+          "title": "Animal Attendant",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Diligent Zookeeper",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Eel-Hounds",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Elephant-Mandrill",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Frog-Squirrels",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ostrich-Horse",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Saber-Tooth Moose-Lion",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Turtle-Duck",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hog-Monkey Rampage",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Origin of Metalbending",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Pillar Launch",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Bison Whistle",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Bumi",
+      "color": "green",
+      "description": "A creature-focused deck with utility spells and enchantments that provides defensive and resilience effects.",
+      "cards": [
+        {
+          "title": "Aang, A Lot to Learn",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Badgermole",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bumi, King of Three Trials",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Flopsie, Bumi's Buddy",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Raucous Audience",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Walltop Sentries",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Origin of Metalbending",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Rocky Rebuke",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Bumi's Feast Lecture",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Earthbending Lesson",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Creeping Crystal Coating",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Crystalline Armor",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Cabbages",
+      "color": "green",
+      "description": "A creature-focused deck with animal companions and support spells, featuring the unfortunate Cabbage Merchant whose cabbages meet their doom.",
+      "cards": [
+        {
+          "title": "Bosco, Just a Bear",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "The Cabbage Merchant",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Elephant-Mandrill",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Foggy Swamp Vinebender",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hippo-Cows",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Saber-Tooth Moose-Lion",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Unlucky Cabbage Merchant",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "The Art of Tea",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Rocky Rebuke",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Bumi's Feast Lecture",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Many Partings",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Leaves from the Vine",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Earthbending (1)",
+      "color": "green",
+      "description": "A creature-focused deck with Toph and Earth Kingdom warriors that aims to control the ground with enchantments and utility spells.",
+      "cards": [
+        {
+          "title": "Earth Kingdom General",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Earth Kingdom Soldier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hippo-Cows",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rebellious Captives",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Toph, the Blind Bandit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Turtle-Duck",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Inspiring Call",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Rocky Rebuke",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Earthbending Lesson",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Explore",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Earthbender Ascension",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Rumble Arena",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Earthbending (2)",
+      "color": "green",
+      "description": "A mid-range creature deck featuring Toph and earthbenders that combines solid ground effects with ramp spells for consistent board presence.",
+      "cards": [
+        {
+          "title": "Badgermole",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Earth Kingdom General",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Earth Kingdom Soldier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Frog-Squirrels",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rebellious Captives",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Toph, the Blind Bandit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rocky Rebuke",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Earthbending Lesson",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Explore",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Solid Ground",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Tale of Katara and Toph",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Rumble Arena",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Earth Rumble (1)",
+      "color": "green",
+      "description": "This deck focuses on creature combat with a fighting theme, featuring wrestlers and combat-heavy creatures that use instants like Hog-Monkey Rampage to dominate the battlefield.",
+      "cards": [
+        {
+          "title": "The Boulder, Ready to Rumble",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Earth Rumble Wrestlers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hippo-Cows",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Raucous Audience",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rebellious Captives",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Toph, the Blind Bandit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Uncle Iroh",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hog-Monkey Rampage",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Pillar Launch",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Earth Rumble",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Master's Guidance",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Battle Fan",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Earth Rumble (2)",
+      "color": "green",
+      "description": "A creature-focused deck featuring wrestlers and powerful creatures with instant-speed combat tricks to enable aggressive plays and control the board through fighting mechanics.",
+      "cards": [
+        {
+          "title": "Bosco, Just a Bear",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "The Boulder, Ready to Rumble",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "The Earth King",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Earth Rumble Wrestlers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Frog-Squirrels",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Raucous Audience",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Uncle Iroh",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Allies at Last",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Hog-Monkey Rampage",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Origin of Metalbending",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Master's Guidance",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Battle Fan",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Earth Kingdom",
+      "color": "green",
+      "description": "A creature-focused deck with hybrid cards emphasizing small efficient creatures and utility artifacts, playing out creatures and support spells.",
+      "cards": [
+        {
+          "title": "Earth Kingdom Soldier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Foggy Swamp Vinebender",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hippo-Cows",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Haru, Hidden Talent",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Suki, Kyoshi Warrior",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Toph, the Blind Bandit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Allies at Last",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Stand United",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Match the Odds",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Descendants' Path",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Mechanical Glider",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Battle Fan",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Earth Kingdom",
+      "color": "green",
+      "description": "A creature-heavy green deck with multiple strong creatures and hybrid cards, focused on building a board presence with synergistic creatures.",
+      "cards": [
+        {
+          "title": "Earth Kingdom General",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Earth Kingdom Soldier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Great Divide Guide",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Haru, Hidden Talent",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hippo-Cows",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Suki, Kyoshi Warrior",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Toph, the Blind Bandit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Walltop Sentries",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Allies at Last",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Origin of Metalbending",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Descendants' Path",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Mechanical Glider",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Learning (1)",
+      "color": "green",
+      "description": "A spell-heavy deck focused on learning and growth with combat training creatures and removal spells.",
+      "cards": [
+        {
+          "title": "Aang, A Lot to Learn",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Guru Pathik",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rebellious Captives",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Saber-Tooth Moose-Lion",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sparring Dummy",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Walltop Sentries",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Origin of Metalbending",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Rocky Rebuke",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Zuko's Exile",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Cracked Earth Technique",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Shared Roots",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Crystalline Armor",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Learning (2)",
+      "color": "green",
+      "description": "A creature-focused deck with combat training elements and enchantment support, featuring a mix of instants and sorceries.",
+      "cards": [
+        {
+          "title": "Aang, A Lot to Learn",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Platypus-Bear",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Saber-Tooth Moose-Lion",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sparring Dummy",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Uncle Iroh",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Walltop Sentries",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "The Art of Tea",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Rocky Rebuke",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Zuko's Exile",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Cracked Earth Technique",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "True Ancestry",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Master's Guidance",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Shrines",
+      "color": "multi",
+      "description": "A multicolor temple-focused deck that combines creature synergies with enchantment-based shrines to build board presence and utility.",
+      "cards": [
+        {
+          "title": "Guru Pathik",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hei Bai, Forest Guardian",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Raucous Audience",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Saber-Tooth Moose-Lion",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Walltop Sentries",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Aang's Journey",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Crescent Island Temple",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Kyoshi Island Plaza",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Northern Air Temple",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Southern Air Temple",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "The Spirit Oasis",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Barrels of Blasting Jelly",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "White Lotus Hideout",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 2
+        }
+      ]
+    }
+  ]
+}

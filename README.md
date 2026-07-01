@@ -58,10 +58,7 @@ The `get_jumpstart_decklists` tool returns structured JSON:
       ],
       "cardCount": 20,
       "deckTotal": 11.56,
-      "powerLevel": 3,
-      "synergies": [
-        { "title": "Zuko", "color": "red", "reasoning": "Firebending aggro pairs well with Aang's evasive tempo, balancing curve and removal." }
-      ]
+      "powerLevel": 3
     }
   ]
 }

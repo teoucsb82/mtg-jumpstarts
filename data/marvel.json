@@ -1,0 +1,3983 @@
+{
+  "series": "Marvel Super Heroes",
+  "themeCount": 51,
+  "decks": [
+    {
+      "theme": "Agents of S.H.I.E.L.D.",
+      "color": "white",
+      "description": "An agent-focused deck with espionage and support cards that leverages S.H.I.E.L.D. themed creatures and equipment to control the board.",
+      "cards": [
+        {
+          "title": "Agent Phil Coulson",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Peggy Carter, Secret Agent",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Agent 13, Sharon Carter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Agents of S.H.I.E.L.D.",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Quake, Agent of S.H.I.E.L.D.",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Borough Backup",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Nick Fury, Spymaster",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Helicarrier Strike",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Strategic Intervention",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Web Up",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "S.H.I.E.L.D. Helicarrier",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "S.H.I.E.L.D. Spy Kit",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Caretakers",
+      "color": "white",
+      "description": "A healing-focused deck with support creatures that emphasize protection and recovery through spells and enchantments.",
+      "cards": [
+        {
+          "title": "Crowd of True Believers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Night Nurse, Healer of Heroes",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Donald Blake, Guise of Thor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "MJ, Rising Star",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Virtuous Variant",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Doctor Jane Foster",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Valkyrior Skyrider",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Doctor Strange, Surgeon",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Take Up the Shield",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Fall to Earth",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Super Villain Lockup",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Infinity Formula",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Counterargument",
+      "color": "white",
+      "description": "A diverse defensive deck with creatures that provide versatility and enchantments that control the board. Features legal-themed characters and tactical support for a balanced gameplay.",
+      "cards": [
+        {
+          "title": "City Pigeon",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Selfless Police Captain",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Matt Murdock, Justice Seeker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "She-Hulk, Attorney-at-Law",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Foggy Nelson, On Retainer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Daily Bugle Reporters",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Starling, Aerial Ally",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Vault Guardsman",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Murdock's Crusade",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Political Triumph",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Web Up",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Costume Closet",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Wakanda",
+      "color": "white",
+      "description": "A creature-focused deck with Wakandan heroes and protective instants that enhances creatures while controlling the board with removal and detention effects.",
+      "cards": [
+        {
+          "title": "Wakandan Shield Guard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wakandan Tusker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Black Panther, Most Dangerous",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Shuri, Vibranium Technologist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Okoye, Dora Milaje Leader",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wakandan Drone Flock",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Borough Backup",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ultimate Alliance",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Panther Pounce",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Heroic Teamwork",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Secure Detention",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Vibranium Energy Daggers",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Battalion",
+      "color": "white",
+      "description": "Aggressive military-themed deck featuring soldiers and combat-focused creatures with support spells for teamwork and strikes.",
+      "cards": [
+        {
+          "title": "General Thunderbolt Ross",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "The Howling Commandos",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wakandan Shield Guard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wild Pack Squad",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Falcon, Joaquin Torres",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "War Machine, James Rhodes",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "U.S.Agent, John Walker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Captain America, Skybound",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ultimate Alliance",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Helicarrier Strike",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Heroic Teamwork",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Fall to Earth",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Equipped",
+      "color": "white",
+      "description": "Creature-focused deck with equipment and auras that empower heroes like Captain America, featuring protective spells and artifacts to enhance combat prowess.",
+      "cards": [
+        {
+          "title": "Bucky Barnes, Eager Ally",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Peggy Carter, Secret Agent",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "The Howling Commandos",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Agent 13, Sharon Carter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Patriot, Young Avenger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "U.S.Agent, John Walker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Captain America, Liberator",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Take Up the Shield",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Origin of Captain America",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Secure Detention",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Captain America's Shield",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Infinity Formula",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Precise",
+      "color": "white",
+      "description": "A focused deck with creatures that can target and eliminate enemies, supported by instants like Stunning Shot and Sudden Strike for precise removal and direct damage.",
+      "cards": [
+        {
+          "title": "Colleen Wing, Street Samurai",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Agent of Atlas",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Raft Security Officer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kree Commandos",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hawkeye, Bowslinger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mockingbird, Ace Agent",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Valkyrior Skyrider",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Panther Pounce",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Stunning Shot",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Sudden Strike",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Heroic Teamwork",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Fall to Earth",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Web-Slinging",
+      "color": "white",
+      "description": "Spider-themed creatures with tactical instants and web-based control, featuring small utility creatures and spells like Thwip! and Spectacular Tactics.",
+      "cards": [
+        {
+          "title": "Aunt May",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Flash Thompson, Spider-Fan",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gallant Citizen",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Spider-Man, Web-Slinger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Virtuous Variant",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Spider-UK",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Amazing Spider-Girl",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Vault Guardsman",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Thwip!",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Spectacular Tactics",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Web Up",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Spider-Mobile",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Marvelous",
+      "color": "white",
+      "description": "A diverse creature-focused deck featuring Marvel heroes with supporting enchantments and one instant, providing versatile gameplay with various heroic characters.",
+      "cards": [
+        {
+          "title": "Wakandan Shield Guard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Raft Security Officer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Marvel Boy, Noh-Varr",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hero in Training",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ms. Marvel, Elastic Ally",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Photon, Lady of Light",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Captain Mar-Vell, Space-Born",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Captain Marvel, Shooting Star",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Helicarrier Strike",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Quantum Entanglement",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Super Villain Lockup",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Fall to Earth",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Squadron",
+      "color": "white",
+      "description": "A creature-heavy deck focused on powerful heroic characters with tactical instants and enchantments that boost the team's effectiveness in combat.",
+      "cards": [
+        {
+          "title": "Agent of Atlas",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Brave Brawler",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Doctor Spectrum",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hero in Training",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hyperion, Supreme Hero",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Nighthawk, Dark Defender",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Zarda, the Power Princess",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Heroic Teamwork",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Hyperion's Atomic Vision",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Borough Backup",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Blur of Heroism",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Web Up",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Heath",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Analyzed",
+      "color": "blue",
+      "description": "A synthezoid and android-focused deck with control elements, using creatures that interact with spells and enchantments for disruption.",
+      "cards": [
+        {
+          "title": "Virtual Assistant",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "TVA Bureaucrat",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Viv Vision, Teen Synthezoid",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Echo, Perceptive Prodigy",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Machine Man, Model X-51",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Victor Mancha, Runaway",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Vision, Spectral Synthezoid",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "We Say Thee Nay!",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Timeline Inquiry",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Atlantis Attacks",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Quantum Reduction",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Frozen in Ice",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Conniving",
+      "color": "blue",
+      "description": "A cunning blue-based deck filled with tricksters and villains, focused on control and deceptive plays through spells and abilities.",
+      "cards": [
+        {
+          "title": "Kid Loki",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mob Lookout",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Flying Octobot",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Graviton, Fundamental Force",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Doc Ock's Henchmen",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tiger Shark, Abyssal Hunter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Leader, Super-Genius",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Doc Ock, Sinister Scientist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Unstable Experiment",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Dismissive Denial",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Trickster's Stratagem",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Mysterio's Mirage",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Villainous Hideout",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "theme": "Geniuses",
+      "color": "blue",
+      "description": "Spell-heavy deck focused on intelligent creatures with card advantage and utility spells that bounce and enhance the board.",
+      "cards": [
+        {
+          "title": "Kid Loki",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bold Biochemist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Brawn, Amadeus Cho",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Shuri, Vibranium Technologist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ant-Man, Reformed Rogue",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Beast, Erudite Aerialist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Blue Marvel, Adam Brashear",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Reed Richards, Smartest Man",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fantastic Bounce",
+          "type": "Sorcery",
+          "qty": 1
+        },
+        {
+          "title": "Super Intelligence",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Frozen in Ice",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Futurist Forge",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Iron Man",
+      "color": "blue",
+      "description": "Artifact-heavy deck focused on Iron Man and his allies, with support artifacts and enchantments to enhance the strategy.",
+      "cards": [
+        {
+          "title": "Hydraulic Helper",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rescue, Pepper Potts",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "S.H.I.E.L.D. Deployment Drone",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Iron Lad, Young Avenger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "War Machine, James Rhodes",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Iron Man, Bleeding Edge",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Happy Hogan, Bodyguard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "I Am Iron Man",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Origin of Iron Man",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Iron Suitcase",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Collector's Case",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Futurist Forge",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Atlantis",
+      "color": "blue",
+      "description": "A creature-focused deck featuring underwater and sea-themed characters with evasive flying creatures and limited disruption effects for a streamlined aggressive strategy.",
+      "cards": [
+        {
+          "title": "Mist-Cloaked Herald",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Daughter of the Deep",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Atlantean Skirmisher",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Atlantean Cavalry",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Namora, the Sea Queen",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Attuma, Atlantean Warlord",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Shipwreck Patrol",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Namor, Scourge of the Seas",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Unstable Experiment",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Atlantis Attacks",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Quantum Reduction",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Frozen in Ice",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Blink",
+      "color": "blue",
+      "description": "Creature-focused deck with instant-speed tricks and blink effects to temporarily remove creatures from the battlefield, utilizing flash and teleportation mechanics.",
+      "cards": [
+        {
+          "title": "Shi'ar Soldier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mob Lookout",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Imperial Cosmographer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "S.H.I.E.L.D. Deployment Drone",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Justice, Vance Astrovik",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Victor Timely, Wily Tycoon",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Shipwreck Patrol",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Silver Surfer, Cosmic Voyager",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Spaceshift",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "We Say Thee Nay!",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Dismissive Denial",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Collector's Case",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Pym Particles",
+      "color": "blue",
+      "description": "This deck focuses on size-changing mechanics with small creatures that can be grown and shrunk, featuring Ant-Man and Wasp characters that leverage the Pym Particles theme.",
+      "cards": [
+        {
+          "title": "Aerial Doombot",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bold Biochemist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ant-Man's Airforce",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ant-Man, Reformed Rogue",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wasp, Shrinking Savior",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "A.I.M. Scientists",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Giant-Sized Flying Ant",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Depower",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Pym Particles",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Quantum Reduction",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Robotics Mastery",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Super Suit",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Soaring",
+      "color": "blue",
+      "description": "Flying-focused deck with evasive creatures and tempo spells to control the air and dominate from above.",
+      "cards": [
+        {
+          "title": "Aerial Doombot",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rescue, Pepper Potts",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Flying Drone",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Namora, the Sea Queen",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "S.H.I.E.L.D. Deployment Drone",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Justice, Vance Astrovik",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Vulture, Feathered Fiend",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Falcon, Winged Wonder",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Whoosh!",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "I Am Iron Man",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Dismissive Denial",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Falcon's Wing Harness",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Kang Dynasty",
+      "color": "blue",
+      "description": "A time-manipulation focused deck with cards centered around temporal effects and key Marvel time-traveling characters. The deck plays with various time lords and effects to control the game.",
+      "cards": [
+        {
+          "title": "Bold Biochemist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "TVA Bureaucrat",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "S.H.I.E.L.D. Deployment Drone",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Iron Lad, Young Avenger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Immortus, Master of Eternity",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Victor Timely, Wily Tycoon",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pharaoh Rama-Tut",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Think Twice",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Depower",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Timeline Inquiry",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Multiversal Recruitment",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Time Warp",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Tricksters",
+      "color": "blue",
+      "description": "A deception and control-focused deck featuring sneaky creatures and tricks that disrupt opponents' strategies.",
+      "cards": [
+        {
+          "title": "Kid Loki",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Living Lies of Loki",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ant-Man's Airforce",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Impossible Man",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ghost, Spectral Saboteur",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Loki, Lord of Misrule",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "A.I.M. Scientists",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "We Say Thee Nay!",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Trickster's Stratagem",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Multiversal Recruitment",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Quantum Reduction",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "The Clone Saga",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Isle",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "HYDRA",
+      "color": "black",
+      "description": "A HYDRA-focused deck with powerful agents and conspirators that uses removal and infiltration effects to control the game.",
+      "cards": [
+        {
+          "title": "Bob, Reluctant HYDRA Agent",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Viper, Cruel Conspirator",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Agents of HYDRA",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "HYDRA Troopers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Baron Strucker, HYDRA Overlord",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Arnim Zola, Bio-Fanatic",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Crossbones, Malicious Mercenary",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Dark Deed",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Infernal Rebirth",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Cruel Alliance",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "HYDRA Infiltration",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "HYDRA Disintegrator",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Masters of Evil",
+      "color": "black",
+      "description": "A powerful creature-focused deck featuring a diverse array of villainous characters with removal and control elements to eliminate threats and seize control of the game.",
+      "cards": [
+        {
+          "title": "Boomerang, Blade Flinger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Yellowjacket, Heartless Marauder",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Titania, Rugged Rumbler",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Klaw, Sonic Subjugator",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Crimson Cowl, Master of Evil",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tiger Shark, Abyssal Hunter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Radioactive Man",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "The Masters of Evil",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hour of Defeat",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Visions of Villainy",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Cruel Alliance",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Villainous Syndication",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Returned",
+      "color": "black",
+      "description": "A graveyard-focused deck with undead and reanimation effects that brings creatures back from the dead for repeated value.",
+      "cards": [
+        {
+          "title": "Project Deathlok Soldier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Doom's Servo-Guards",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Undead Hand Ninja",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Songbird, Sonic Screamer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Arnim Zola, Bio-Fanatic",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Grim Reaper, Lethal Legionnaire",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Unliving Legionnaire",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ultimo, Civilization's End",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Infernal Rebirth",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Minion Missile",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Too Evil to Stay Dead",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Grim Reaper's Scythe",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Street Level Villains",
+      "color": "black",
+      "description": "Crime-focused deck with powerful crime lords and criminal enterprise synergies. Uses spot removal and portal effects to control the game.",
+      "cards": [
+        {
+          "title": "Agents of HYDRA",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Common Crook",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hammerhead, Maggia Boss",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kingpin's Enforcers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tombstone, Career Criminal",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kingpin, Wilson Fisk",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Madame Masque",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Count Nefaria",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Deadly Dispute",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "The Spot's Portal",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Minion Missile",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Criminal Enterprise",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Armed",
+      "color": "black",
+      "description": "A weapon-focused aggressive deck with artifact equipment synergies. Features armed warriors equipped with various artifacts to deal increased damage.",
+      "cards": [
+        {
+          "title": "Whiplash, Vengeful Engineer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Swordsman, Sharp Scoundrel",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Red Room Recruit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ronin, Shadow Stalker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kingpin's Enforcers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Armed Assailant",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "U.S.Agent, John Walker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hour of Defeat",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "HYDRA Disintegrator",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Stolen Stark Tech",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Voltaic Whip",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Swordsman's Steel",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Lethal",
+      "color": "black",
+      "description": "A small efficient creature-focused deck with targeted removal spells, featuring assassins and combat-oriented creatures that deliver lethal damage quickly.",
+      "cards": [
+        {
+          "title": "Red Room Recruit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "White Widow, Yelena Belova",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ninja of the Hand",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Venomized Cat",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Black Widow, Deadly Hunter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Titanium Man",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Venom, Evil Unleashed",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Widow's Bite",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Hour of Defeat",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Infernal Rebirth",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Origin of Black Widow",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Stolen Stark Tech",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Mayhem",
+      "color": "black",
+      "description": "A creature-heavy aggressive deck featuring diverse villain characters with targeted removal and artifact support for relentless damage.",
+      "cards": [
+        {
+          "title": "Project Deathlok Soldier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Red Room Recruit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Yellowjacket, Heartless Marauder",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Swarm, Being of Bees",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Inner Demons Gangsters",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Roxxon Brutes",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Green Goblin, Back for More",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sadistic Slash",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Pumpkin Bombardment",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Daily Bugle Newspaper",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Rocket-Powered Goblin Glider",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Alien Symbiosis",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Thunderbolts",
+      "color": "black",
+      "description": "A creature-focused deck with powerful individuals and some utility spells, designed to leverage a mix of small team members and removal/control effects.",
+      "cards": [
+        {
+          "title": "MACH-1, Swooping Scoundrel",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Songbird, Sonic Screamer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Fixer, Techno Terror",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Valentina Allegra de Fontaine",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Citizen V, Helmut Zemo",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Atlas, Sizable Stooge",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Moonstone, Harsh Mistress",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Roxxon Brutes",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Void Helix",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Cruel Alliance",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Stolen Stark Tech",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Eerie Gravestone",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "DOOM",
+      "color": "black",
+      "description": "Control-focused deck with targeted removal and tutoring. Features sacrifice outlets and efficient threats including Doctor Doom.",
+      "cards": [
+        {
+          "title": "Project Deathlok Soldier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Common Crook",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Doom's Servo-Guards",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Doombot Harbinger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ninja of the Hand",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Doctor Doom, Unrivaled",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Roxxon Brutes",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Dark Ritual",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Doom Blade",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Deadly Dispute",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Doomfall",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Doomsday",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Ultron",
+      "color": "black",
+      "description": "A creature-heavy artifact deck focused on Ultron robots and drones with support from enchantments and instants for removal and board control.",
+      "cards": [
+        {
+          "title": "Project Deathlok Soldier",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Doom's Servo-Guards",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ultron's Auxiliary",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Doombot Harbinger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ultron Drone",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ultron the Annihilator",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Victor Mancha, Runaway",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Dark Deed",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Minion Missile",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Robot Domination",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Stolen Stark Tech",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Eerie Gravestone",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Moor",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Swamp",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Boosted",
+      "color": "red",
+      "description": "Big creatures with direct damage spells and powerful threats, focusing on aggressive red creatures and burn for tempo-based gameplay.",
+      "cards": [
+        {
+          "title": "Quinjet Technician",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Extremis Elite",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Marvel Boy, Noh-Varr",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Jack of Hearts, Volatile Hero",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Molly Hayes, Runaway",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Human Torch, Johnny Storm",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Abomination, Terrifying Titan",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wonder Man, Hollywood Hero",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "HULK SMASH!",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Inspired Fire",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Vision of Love",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Heroes' Hangout",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Speedy",
+      "color": "red",
+      "description": "Fast creatures with haste and speed effects to win quickly. Features multiple speedster characters with enchantments like Super Speed and Pick Up the Pace to accelerate the game.",
+      "cards": [
+        {
+          "title": "Masked Meower",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Quicksilver, Brash Blur",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Taxi Driver",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Speed, Young Avenger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Whirlwind, Killer Cyclone",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Volcanic Villain",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "The Whizzer, Classic Speedster",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Living Lightning, Charged Up",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Lightning Strike",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Marvelous Melee",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Pick Up the Pace",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Super Speed",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Thor",
+      "color": "red",
+      "description": "A lightning-focused deck with powerful creatures like Thor and Loki that deals damage through instant spells and enchantment synergies.",
+      "cards": [
+        {
+          "title": "K'un-Lun Warrior",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Loki Laufeyson",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sif's Spearmaster",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Molten Lavamancer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Crimson Operative",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Thor, Asgard's Avenger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kree Sentinel",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Lightning Bolt",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Lightning Strike",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Asgardian Inspiration",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Mjölnir's Might",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Origin of Thor",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Young Avengers",
+      "color": "red",
+      "description": "A young team focused on diverse abilities and synergies with multiple young heroes and tactical support spells.",
+      "cards": [
+        {
+          "title": "Stature, Young Avenger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Speed, Young Avenger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Patriot, Young Avenger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Iron Lad, Young Avenger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wiccan, Young Avenger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hawkeye, Young Avenger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hulkling, Young Avenger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Crossover Collaboration",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Lightning Strike",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Marvelous Melee",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Team Tactics",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Hawkeye's Bow",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Fearless",
+      "color": "red",
+      "description": "A mid-range deck focused on combat-oriented creatures with some burn and utility spells, featuring thematic Daredevil characters and a dinosaur man for additional power.",
+      "cards": [
+        {
+          "title": "Unlucky Witness",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Taxi Driver",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Stick, Fearless Mentor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Daredevil, Fearless Fighter",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Jessica Jones, Private Eye",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Elektra, Femme Fatale",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Stegron the Dinosaur Man",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Blazing Crescendo",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Hire a Crew",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "HULK SMASH!",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Daredevil's Billy Club",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Fogwell's Gym",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Heroes for Hire",
+      "color": "red",
+      "description": "A creature-focused deck with hired heroes that leverages combat triggers and removal to control the battlefield.",
+      "cards": [
+        {
+          "title": "Stark Industries Executive",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "K'un-Lun Warrior",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Misty Knight, Hero for Hire",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Iron Fist, Hero for Hire",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Contract Hero",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Jessica Jones, Private Eye",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Luke Cage, Hero for Hire",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Red Hulk",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Big Score",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Marvelous Melee",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Bionic Blow",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Heroes for Hire",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Spider-Verse",
+      "color": "red",
+      "description": "A creature-focused deck featuring Spider-themed characters with some direct damage and support spells to enable a diverse cast of heroes.",
+      "cards": [
+        {
+          "title": "Masked Meower",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hobgoblin, Mantled Marauder",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Lady Spider, Maybelle Reilly",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Spider-Gwen, Free Spirit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Spider-Man, New Champion",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Iceman and Firestar",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Astonishing Spider-Man",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Stegron the Dinosaur Man",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Marvelous Melee",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Wisecrack",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Romantic Rendezvous",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Daily Bugle Newspaper",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Fogwell's Gym",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "theme": "Vehicles",
+      "color": "red",
+      "description": "Fast and aggressive deck that attacks with artifact creatures and vehicles, featuring evasion and direct damage.",
+      "cards": [
+        {
+          "title": "Intrepid Ace",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "HYDRA Assault Robot",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Extremis Elite",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Taxi Driver",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Machinesmith Automaton",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bullseye, Death Dealer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Truck Toss",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Big Wheel",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Captain America's Motorcycle",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Sky Cycle",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "S.H.I.E.L.D. Helicarrier",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "The Thanos-Copter",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Runaways",
+      "color": "red",
+      "description": "A creature-focused deck featuring the Runaway characters with instants and sorceries for tempo and removal, featuring diverse red spells and a single mana-fixing land.",
+      "cards": [
+        {
+          "title": "Chase Stein, Runaway",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Alex Wilder, Runaway",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Molly Hayes, Runaway",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gert and Old Lace, Runaways",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Karolina Dean, Runaway",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Nico Minoru, Runaway",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Victor Mancha, Runaway",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Blazing Crescendo",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Crossover Collaboration",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Marvelous Melee",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Shock",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Hex Magic",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Scarlet",
+      "color": "red",
+      "description": "A spell-focused deck with Young Avengers creatures and direct damage instants. The deck uses burn spells and enchantments to control the board and finish opponents.",
+      "cards": [
+        {
+          "title": "Stark Industries Executive",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Loki Laufeyson",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Speed, Young Avenger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Molten Lavamancer",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wiccan, Young Avenger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "The Vision and Scarlet Witch",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Kree Sentinel",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Lightning Bolt",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Vision of Love",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Grapeshot",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Hex Magic",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Wanda's Vision",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Bluff",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Animal",
+      "color": "green",
+      "description": "This deck features animal creatures with some token generation and combat support, playing creatures with synergistic effects.",
+      "cards": [
+        {
+          "title": "Lucky the Pizza Dog",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Guerrilla Gorilla",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tigra, Feline Fury",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wakandan Tusker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ant-Man's Army",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tippy-Toe, Terrific Partner",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pet Avengers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Savage Land Dinosaur",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Beast Mode",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Go Nuts!",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Scout the City",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Heroic Feast",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Rampaging",
+      "color": "green",
+      "description": "A deck focused on big aggressive creatures and combat effects, using powerful stomp-style cards to overwhelm opponents with large threats.",
+      "cards": [
+        {
+          "title": "Serpent Specialist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Knight of Wundagore",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Bushmaster, Coiled Henchman",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Titania, Rugged Rumbler",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Powerful Broker",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mister Hyde, Monster Within",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Atlas, Sizable Stooge",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rhino, Terrible Trampler",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Beast Mode",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Colossal Collision",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Rhino's Rampage",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Claim the Kingdom",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Towering",
+      "color": "green",
+      "description": "Giant-themed deck focused on big creatures with size-manipulation effects and combat tricks to make your creatures even larger.",
+      "cards": [
+        {
+          "title": "Reptil, Dinomorpher",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Stature, Young Avenger",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Goliath, Mass Manipulator",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ms. Marvel, Elastic Ally",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ant-Man, Reformed Rogue",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Atlas, Sizable Stooge",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Giant-Man, Gargantuan Genius",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Spider-Rex, Daring Dino",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Giant Growth",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Rapid Rescue",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Terrific Team-Up",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Colossal Collision",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Wild",
+      "color": "green",
+      "description": "A versatile green deck with a mix of creatures and enchantments that enhance them, featuring mana fixing and removal spells for adaptability.",
+      "cards": [
+        {
+          "title": "Hellcat, Undying Vigilante",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "White Tiger, Amulet Keeper",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "The Fabulous Frog-Man",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gert and Old Lace, Runaways",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mole Man, Moloid Master",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hit-Monkey",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ka-Zar of the Savage Land",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Colossal Collision",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Restorative Technique",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Accelerated Evolution",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Claim the Kingdom",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Terramorphic Expanse",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Great Lakes Avengers",
+      "color": "green",
+      "description": "A creature-focused deck with utility instants and enchantments that benefits from a diverse team of quirky heroes with various abilities.",
+      "cards": [
+        {
+          "title": "Guerrilla Gorilla",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Doorman",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mister Immortal",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Tippy-Toe, Terrific Partner",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Flatman",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "The Unbeatable Squirrel Girl",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Big Bertha",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Savage Land Dinosaur",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Beast Mode",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Rapid Rescue",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Go Nuts!",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Training Regimen",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Incredible",
+      "color": "green",
+      "description": "Big green creatures focused on Hulk characters that grow through size-boosting effects and enchantments.",
+      "cards": [
+        {
+          "title": "Brawn, Amadeus Cho",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Guerrilla Gorilla",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "She-Hulk, Attorney-at-Law",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hulk, Strongest There Is",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Abomination, Terrifying Titan",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Doc Samson, Super Psychiatrist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Savage Land Dinosaur",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Giant Growth",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Go Nuts!",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Hulk's Thunderclap",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Origin of the Hulk",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Super Strength",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Trained",
+      "color": "green",
+      "description": "A focused combat deck with martial artists and trained warriors, backed by punishing effects and restoration. Features creature-heavy offense with targeted removal and resilience.",
+      "cards": [
+        {
+          "title": "Serpent Specialist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "White Tiger, Ava Ayala",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Undercover Skrull",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hercules, Prince of Power",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "She-Hulk, Attorney-at-Law",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pet Avengers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Shang-Chi, Martial Mentor",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wakandan Royal Guard",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Punishing Punch",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Colossal Collision",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Restorative Technique",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Advancing the Spirit",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Uncanny",
+      "color": "green",
+      "description": "A mutant-focused deck with strong creatures and enhancement spells. Features powerful X-Men characters with support enchantments for scaling and combat bonuses.",
+      "cards": [
+        {
+          "title": "Black Tom Cassidy",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Darwin, Adaptive Mutant",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wolfsbane, Highland Hero",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "X-23, Deadly Weapon",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wolverine, Claws Out",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Beast, Erudite Aerialist",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Colossus, Steel Stalwart",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Storm, Shaker of Skies",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Colossal Collision",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Go Nuts!",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Accelerated Evolution",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Training Regimen",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "theme": "Savage Lands",
+      "color": "green",
+      "description": "A dinosaur-focused deck with big creatures and mana acceleration, featuring powerful dinosaurs and a modest amount of spell support.",
+      "cards": [
+        {
+          "title": "Reptil, Dinomorpher",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Lurking Lizards",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Moon-Boy, Dino Rider",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gert and Old Lace, Runaways",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Devil Dinosaur",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Ka-Zar of the Savage Land",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Sauron, Dino Devotee",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Savage Land Dinosaur",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Terrific Team-Up",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Commune with Dinosaurs",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Go Nuts!",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Accelerated Evolution",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Savage Lands",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "theme": "Tenacious",
+      "color": "green",
+      "description": "A resilient creature-focused deck with modest board presence and utility enchantments for sustained pressure and versatility.",
+      "cards": [
+        {
+          "title": "Undercover Skrull",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "White Tiger, Amulet Keeper",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Hellcat, Undying Vigilante",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Gert and Old Lace, Runaways",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Voracious Brood",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Pet Avengers",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Savage Land Dinosaur",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Punishing Punch",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Call Damage Control",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Scout the City",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Accelerated Evolution",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Return of the Mole Man",
+          "type": "Enchantments",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Terramorphic Expanse",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "theme": "Fantastic",
+      "color": "multi",
+      "description": "A multicolor deck themed around the Fantastic Four with a four-card game-winning combo, featuring the iconic heroes and their signature spells.",
+      "cards": [
+        {
+          "title": "Human Torch, Johnny Storm",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "H.E.R.B.I.E. Scout Unit",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Mister Fantastic, Reed Richards",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Invisible Woman, Sue Storm",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "The Thing, Ben Grimm",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "The Fantastic Four",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Wall Off",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Fantastic Bounce",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Inspired Fire",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Thing Swing",
+          "type": "Instants",
+          "qty": 1
+        },
+        {
+          "title": "Farseek",
+          "type": "Sorceries",
+          "qty": 1
+        },
+        {
+          "title": "Daily Bugle Newspaper",
+          "type": "Artifacts",
+          "qty": 1
+        },
+        {
+          "title": "Baxter Building",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Thriving Grove",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Pym Technologies",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Forest",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Plains",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Island",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Mountain",
+          "type": "Lands",
+          "qty": 1
+        },
+        {
+          "title": "Terramorphic Expanse",
+          "type": "Lands",
+          "qty": 1
+        }
+      ]
+    }
+  ]
+}

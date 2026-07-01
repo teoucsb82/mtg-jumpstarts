@@ -36,7 +36,6 @@ export async function priceDecklists(decklists: BakedDecklist[]): Promise<Priced
       cards,
       cardCount,
       deckTotal,
-      synergies: decklist.synergies,
     };
   });
 

@@ -89,22 +89,9 @@ export function exportXlsx(keyword: string, decklists: PricedDecklist[], filepat
   const cardsSheet = XLSX.utils.aoa_to_sheet([cardsHeader, ...cardsRows]);
   cardsSheet['!autofilter'] = { ref: `A1:${XLSX.utils.encode_cell({ r: 0, c: cardsHeader.length - 1 })}` };
 
-  // ── Sheet 3: Synergies (one row per recommended synergy) ─────────────────────
-  const synergiesHeader = ['Deck', 'Synergy', 'Color', 'Reasoning'];
-  const synergiesRows: string[][] = [];
-  for (const deck of decklists) {
-    for (const synergy of deck.synergies) {
-      synergiesRows.push([deck.theme, synergy.title, synergy.color, synergy.reasoning]);
-    }
-  }
-
-  const synergiesSheet = XLSX.utils.aoa_to_sheet([synergiesHeader, ...synergiesRows]);
-  synergiesSheet['!autofilter'] = { ref: `A1:${XLSX.utils.encode_cell({ r: 0, c: synergiesHeader.length - 1 })}` };
-
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, summarySheet, 'Summary');
   XLSX.utils.book_append_sheet(wb, cardsSheet, 'Cards');
-  XLSX.utils.book_append_sheet(wb, synergiesSheet, 'Synergies');
   XLSX.writeFile(wb, filepath);
   console.error(`Exported ${decklists.length} decks to ${filepath}`);
 }

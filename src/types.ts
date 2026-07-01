@@ -15,15 +15,12 @@ export function normalizeColor(raw: string): Color {
 export type Theme = { name: string; url: string; color: string };
 export type Card = { qty: number; name: string };
 export type Category = { name: string; cards: Card[] };
-export type AgentSynergy = { theme: string; reasoning: string };
-export type Synergy = { title: string; color: Color; reasoning: string };
 
 export type Decklist = {
   theme: string;
   color?: string;
   categories: Category[];
   description: string;
-  synergies?: Synergy[];
 };
 
 export type PricedCard = {
@@ -42,7 +39,6 @@ export type PricedDecklist = {
   cardCount: number;
   deckTotal: number;
   powerLevel: number; // 1–5, z-score relative to series
-  synergies: Synergy[];
 };
 
 export type BakedCard = { title: string; type: string; qty: number };
@@ -52,7 +48,6 @@ export type BakedDecklist = {
   color: Color;
   description: string;
   cards: BakedCard[];
-  synergies: Synergy[];
 };
 
 export type BakedSeries = {

@@ -21,7 +21,6 @@ export function bakeSeries(series: string, decklists: Decklist[]): BakedSeries {
       color: normalizeColor(d.color ?? ''),
       description: d.description,
       cards,
-      synergies: d.synergies ?? [],
     };
   });
   return { series, themeCount: decks.length, decks };
