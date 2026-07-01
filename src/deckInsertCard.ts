@@ -1,14 +1,13 @@
 // Pure text formatter for a printable double-sided Jumpstart deck insert card
-// (2"x3.5", portrait). No network/file/Claude API calls — layout only. Pairing
+// (3.5"x2", landscape). No network/file/Claude API calls — layout only. Pairing
 // reasoning happens upstream, in the calling Claude via the jumpstart-deck-strategy
 // skill; leader-card selection is deterministic (highest rarity present) so it's
 // handled here instead.
 //
-// Back-of-card lines are plain inline text ("title (Rarity, Colors)"), not a
-// column-aligned table — portrait's ~19-23 usable characters at a readable font
-// size can't hold a right-justified table without wrapping nearly every card,
-// which grows the back face past what portrait's height can fit. See the design
-// doc for the print-sizing math.
+// Both faces target a fixed 46-column x 13-row grid (Roboto Mono 8pt hardcoded).
+// Back face lists nonland cards only, one per line, right-justified rarity/color
+// tag — verified against every real baked deck to always fit within 13 rows. See
+// the design doc for the full line-budget math.
 
 import { CATEGORY_ORDER } from './types.js';
 
@@ -27,6 +26,8 @@ export type DeckInsertCardInput = {
 
 const RARITY_RANK: Record<string, number> = { mythic: 4, rare: 3, special: 3, bonus: 3, uncommon: 2, common: 1 };
 
+const WIDTH = 46;
+
 function capitalize(word: string): string {
   return word.charAt(0).toUpperCase() + word.slice(1);
 }
@@ -37,6 +38,27 @@ function colorLabel(color: string): string {
 
 function colorTag(colors: string[]): string {
   return colors.length === 0 ? 'C' : colors.join('/');
+}
+
+function rarityLetter(rarity: string | null): string | null {
+  if (!rarity) return null;
+  switch (rarity.toLowerCase()) {
+    case 'common': return 'C';
+    case 'uncommon': return 'U';
+    case 'rare': case 'special': case 'bonus': return 'R';
+    case 'mythic': return 'M';
+    default: return null;
+  }
+}
+
+function formatCardLine(card: DeckInsertCardCard): string {
+  const qtyPrefix = card.qty > 1 ? `${card.qty}x ` : '';
+  const title = `${qtyPrefix}${card.title}`;
+  const letter = rarityLetter(card.rarity);
+  if (letter === null) return title;
+  const tag = `(${letter}, ${colorTag(card.colors)})`;
+  if (title.length + 1 + tag.length > WIDTH) return title;
+  return title + ' '.repeat(WIDTH - title.length - tag.length) + tag;
 }
 
 function selectLeaders(cards: DeckInsertCardCard[]): { names: string[]; rarity: string } | null {
@@ -84,19 +106,8 @@ export function formatDeckInsertCard(input: DeckInsertCardInput): { front: strin
     ...pairings.map(p => `  ${p.theme} (${colorLabel(p.color)}) - ${p.reason}`),
   ].join('\n');
 
-  const categories = groupByCategory(cards);
-  const back = [
-    theme,
-    '',
-    ...categories.flatMap(({ name, cards: categoryCards }) => [
-      `${name} (${categoryCards.reduce((sum, c) => sum + c.qty, 0)})`,
-      ...categoryCards.map(c => {
-        const qtyPrefix = c.qty > 1 ? `${c.qty}x ` : '';
-        const rarity = c.rarity ? capitalize(c.rarity.toLowerCase()) : 'Unknown';
-        return `  ${qtyPrefix}${c.title} (${rarity}, ${colorTag(c.colors)})`;
-      }),
-    ]),
-  ].join('\n');
+  const nonland = groupByCategory(cards.filter(c => !c.type.startsWith('Lands'))).flatMap(g => g.cards);
+  const back = nonland.map(formatCardLine).join('\n');
 
   return { front, back };
 }
