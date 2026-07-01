@@ -27,6 +27,10 @@ Just ask Claude, e.g.:
 - Lord of the Rings: Tales of Middle-earth Jumpstart
 - Avatar: The Last Airbender
 - Marvel Super Heroes
+- Dominaria United Jumpstart
+- The Brothers' War Jumpstart
+- Phyrexia: All Will Be One Jumpstart
+- March of the Machine Jumpstart
 
 ## Sample output
 
