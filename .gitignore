@@ -3,3 +3,5 @@ generated/
 .DS_Store
 *.js
 *.d.ts
+.env
+.env.*

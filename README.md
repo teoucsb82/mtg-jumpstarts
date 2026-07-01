@@ -87,3 +87,7 @@ npx tsx scripts/refresh-data.ts "<series name>"
 `<series name>` must be one of the 6 supported series listed above. This scrapes mtg.wiki and writes `data/<slug>.json` — no prices, no console output beyond progress logged to stderr. Run it whenever a new series releases or mtg.wiki content changes; the published MCP server never runs this itself.
 
 Most series use Claude to extract each theme's decklist from the wiki page. LOTR Jumpstart is the exception: its decklists are rendered by mtg.wiki in a fully deterministic markup format, so they're parsed directly (`src/wikiDeckBlocks.ts`) with no extraction call at all — only a single lightweight call to generate descriptions.
+
+## License
+
+[GPL-3.0-or-later](LICENSE) — free to install, use, and modify. Redistributed copies or forks must stay open-source under the same license.
