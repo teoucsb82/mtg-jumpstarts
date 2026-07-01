@@ -66,7 +66,7 @@ server.registerTool(
       series: z.string().optional().describe('Series name shown on the card, e.g. "Marvel Super Heroes"'),
       theme: z.string().describe('Exact theme name'),
       color: z.enum(['white', 'blue', 'black', 'red', 'green', 'multi']),
-      description: z.string().describe('How this deck plays, 1-2 sentences'),
+      description: z.string().describe('Full paragraph: playstyle, strategy, and any concrete combos grounded in the cards'),
       powerLevel: z.number().int().min(1).max(5),
       cards: z.array(z.object({
         title: z.string(),
@@ -78,7 +78,7 @@ server.registerTool(
       pairings: z.array(z.object({
         theme: z.string(),
         color: z.string(),
-        reason: z.string().describe('1-2 sentences on why this pairs well with the main theme'),
+        reason: z.string().describe('5-6 keywords or a short phrase capturing the playstyle synergy (e.g. "ally colors, mana fixing, protects combo") — not a full sentence'),
       })).min(1).max(5).describe('Up to 5 suggested pairing themes from the same series'),
     },
   },
