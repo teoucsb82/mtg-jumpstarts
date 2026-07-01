@@ -40,6 +40,12 @@ export function resolveSeriesSlug(name: string): string {
 // those (checked directly against mtg.wiki, not guessed):
 //  - "Jumpstart" alone guesses /page/Jumpstart, which is a short overview
 //    stub with no theme/decklist links — the real page is Jumpstart_(2020).
+//  - LOTR Jumpstart doesn't follow the "<Name>_Jumpstart" pattern at all —
+//    it's a subpage, "The_Lord_of_the_Rings:_Tales_of_Middle-earth/Jumpstart".
+//    The MediaWiki search fallback also picks the wrong top result for it
+//    ("Holiday_Release" outranks "Jumpstart"), so this bypasses both guesses.
 export const SERIES_WIKI_URL_OVERRIDES: Partial<Record<SeriesName, string>> = {
   'Jumpstart': 'https://mtg.wiki/page/Jumpstart_(2020)',
+  'Lord of the Rings: Tales of Middle-earth Jumpstart':
+    'https://mtg.wiki/page/The_Lord_of_the_Rings:_Tales_of_Middle-earth/Jumpstart',
 };
