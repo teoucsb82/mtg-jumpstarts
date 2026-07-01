@@ -80,3 +80,31 @@ export const DECKLISTS_TOOL: Anthropic.Tool = {
     required: ['decklists'],
   },
 };
+
+// Used by describeDecks: cards are already known (parsed deterministically from
+// mtg.wiki's semantic deck-block markup), so this only asks for descriptions —
+// a flat, small array, one row per deck.
+export const DESCRIPTIONS_TOOL: Anthropic.Tool = {
+  name: 'report_descriptions',
+  description: 'Report a short play-pattern description for each decklist',
+  input_schema: {
+    type: 'object',
+    properties: {
+      descriptions: {
+        type: 'array',
+        items: {
+          type: 'object',
+          properties: {
+            theme: { type: 'string', description: 'Exact theme name, copied verbatim from the provided list' },
+            description: {
+              type: 'string',
+              description: 'How this deck plays in 1-2 sentences, e.g. "big creatures", "spell heavy", "lots of tokens"',
+            },
+          },
+          required: ['theme', 'description'],
+        },
+      },
+    },
+    required: ['descriptions'],
+  },
+};

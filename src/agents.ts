@@ -4,9 +4,9 @@
 //          on a shared color-group page (handles numbered variants like Angels 1/Angels 2).
 
 import Anthropic from '@anthropic-ai/sdk';
-import type { Theme, Decklist } from './types.js';
+import type { Theme, Decklist, Category } from './types.js';
 import { stripHtml } from './fetch.js';
-import { THEMES_TOOL, DECKLIST_TOOL, DECKLISTS_TOOL } from './tools.js';
+import { THEMES_TOOL, DECKLIST_TOOL, DECKLISTS_TOOL, DESCRIPTIONS_TOOL } from './tools.js';
 import { Semaphore, withRetry, callAgent } from './claude.js';
 
 // ─── Phase 1: Theme discovery ─────────────────────────────────────────────────
@@ -167,4 +167,42 @@ PAGE CONTENT:`;
     () => callAgent<Decklist>(client, semaphore, DECKLIST_TOOL, instructions, content, 4096),
     theme.name,
   );
+}
+
+// ─── Description generation (deterministically-parsed decks) ─────────────────
+// Used for pages parsed via wikiDeckBlocks.ts, where card data is already
+// known exactly (no extraction needed) — only the "how does this play"
+// summary requires judgment. One consolidated call per series; series using
+// this path (single-page inline decklists) are small enough that a flat,
+// single-batch call is low-risk.
+
+export async function describeDecks(
+  client: Anthropic,
+  semaphore: Semaphore,
+  decks: { theme: string; categories: Category[] }[],
+): Promise<Map<string, string>> {
+  const content = decks.map(d => {
+    const cardList = d.categories
+      .map(c => `${c.name}: ${c.cards.map(card => `${card.qty}x ${card.name}`).join(', ')}`)
+      .join(' | ');
+    return `${d.theme}: ${cardList}`;
+  }).join('\n');
+
+  const instructions = `You are summarizing Magic: The Gathering Jumpstart decklists.
+For each decklist below, write a 1-2 sentence description of how the deck plays (e.g. "big creatures",
+"spell heavy", "lots of tokens") based on its cards.
+
+Use the report_descriptions tool to return one row per deck, using the exact theme name given (copy it
+verbatim, including any numbered suffix like "1" or "2").
+
+DECKLISTS:`;
+
+  const result = await withRetry(
+    () => callAgent<{ descriptions: { theme: string; description: string }[] }>(
+      client, semaphore, DESCRIPTIONS_TOOL, instructions, content, 8192,
+    ),
+    'deck descriptions',
+  );
+
+  return new Map((result.descriptions ?? []).map(d => [d.theme, d.description]));
 }

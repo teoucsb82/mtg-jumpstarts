@@ -5,7 +5,7 @@
 //
 // Run: npx tsx scripts/refresh-data.ts "<series name>"
 //
-// Two wiki structures are handled transparently:
+// Three wiki structures are handled transparently:
 //
 //  A. Individual pages (each theme has its own URL)
 //     → extractDecklist per theme
@@ -14,6 +14,13 @@
 //     Multiple themes share one URL, accessed via #anchor on the series page.
 //     Themes may have numbered variants (Angels 1, Angels 2).
 //     → extractThemeFromPage per theme (targeted, one call per theme name)
+//
+//  C. Single-page inline decklists (LOTR Jumpstart) — every theme's decklist
+//     lives directly on the series page itself, rendered via mtg.wiki's
+//     semantic Scryfall-deck widget, with no Decklists_-_Color subpages to
+//     discover or fetch. Parsed deterministically (src/wikiDeckBlocks.ts) —
+//     no theme-discovery or card-extraction Claude calls at all, only a
+//     single lightweight call for descriptions.
 
 import Anthropic from '@anthropic-ai/sdk';
 import { fileURLToPath } from 'node:url';
@@ -26,7 +33,9 @@ import {
   isSamePageGrouped,
   extractDecklist,
   extractThemeFromPage,
+  describeDecks,
 } from '../src/agents.js';
+import { parseScryfallDeckBlocks, parseThemeColors, matchBaseThemeColor } from '../src/wikiDeckBlocks.js';
 import { bakeSeries } from '../src/baking.js';
 import { SERIES_NAMES, resolveSeriesSlug, SERIES_WIKI_URL_OVERRIDES } from '../src/series.js';
 import type { SeriesName } from '../src/series.js';
@@ -70,6 +79,42 @@ async function main(): Promise<void> {
     console.error(`Loaded: ${seriesUrl}`);
   }
 
+  // ── Type C: single-page inline decklists (e.g. LOTR Jumpstart) ──────────────
+  const inlineDecks = parseScryfallDeckBlocks(seriesHtml);
+  let coloredDecklists: Decklist[];
+
+  if (inlineDecks.length > 0) {
+    console.error(`Found ${inlineDecks.length} decklists embedded directly on the series page.`);
+    const themeColors = parseThemeColors(seriesHtml);
+
+    console.error('Generating deck descriptions (one consolidated call)...');
+    const descriptions = await describeDecks(client, semaphore, inlineDecks);
+
+    coloredDecklists = inlineDecks.map(d => ({
+      theme: d.theme,
+      categories: d.categories,
+      description: descriptions.get(d.theme) ?? '',
+      color: normalizeColor(matchBaseThemeColor(d.theme, themeColors)),
+    }));
+  } else {
+    coloredDecklists = await extractViaThemeDiscovery(client, semaphore, seriesHtml, seriesUrl);
+  }
+
+  // ── Bake: flatten + write static data, no prices ────────────────────────────
+  const baked = bakeSeries(keyword, coloredDecklists);
+  mkdirSync('data', { recursive: true });
+  const outPath = `data/${slug}.json`;
+  writeFileSync(outPath, JSON.stringify(baked, null, 2), 'utf8');
+  console.error(`\nBaked ${baked.themeCount} themes to ${outPath}`);
+}
+
+// ── Type A/B: theme discovery (per-page or shared color-group pages) ─────────
+async function extractViaThemeDiscovery(
+  client: Anthropic,
+  semaphore: Semaphore,
+  seriesHtml: string,
+  seriesUrl: string,
+): Promise<Decklist[]> {
   const themes = await discoverThemes(client, semaphore, seriesHtml, seriesUrl);
   console.error(`Found ${themes.length} themes: ${themes.map(t => t.name).join(', ')}`);
 
@@ -125,17 +170,10 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
-  const coloredDecklists: Decklist[] = decklists.map(d => {
+  return decklists.map(d => {
     const match = themes.find(t => d.theme === t.name || d.theme.startsWith(t.name + ' '));
     return { ...d, color: normalizeColor(match?.color ?? '') };
   });
-
-  // ── Bake: flatten + write static data, no prices ────────────────────────────
-  const baked = bakeSeries(keyword, coloredDecklists);
-  mkdirSync('data', { recursive: true });
-  const outPath = `data/${slug}.json`;
-  writeFileSync(outPath, JSON.stringify(baked, null, 2), 'utf8');
-  console.error(`\nBaked ${baked.themeCount} themes to ${outPath}`);
 }
 
 const __filename = fileURLToPath(import.meta.url);
