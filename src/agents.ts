@@ -9,6 +9,14 @@ import { stripHtml } from './fetch.js';
 import { THEMES_TOOL, DECKLIST_TOOL, DECKLISTS_TOOL, DESCRIPTIONS_TOOL } from './tools.js';
 import { Semaphore, withRetry, callAgent } from './claude.js';
 
+// ─── Chunking helper ────────────────────────────────────────────────────────
+
+export function chunk<T>(items: T[], size: number): T[][] {
+  const batches: T[][] = [];
+  for (let i = 0; i < items.length; i += size) batches.push(items.slice(i, i + size));
+  return batches;
+}
+
 // ─── Phase 1: Theme discovery ─────────────────────────────────────────────────
 
 export async function discoverThemes(
@@ -126,9 +134,6 @@ IMPORTANT — numbered variants: some themes have multiple versions (e.g. "${the
 
 Ignore every other theme on this page. Return only decklists for "${theme.name}".
 
-For each decklist, also write a 1-2 sentence description of how the deck plays (e.g. "big creatures",
-"spell heavy", "lots of tokens") based on the cards in it.
-
 Use the report_decklists tool to return the decklist(s) you find.
 
 PAGE CONTENT:`;
@@ -138,7 +143,7 @@ PAGE CONTENT:`;
     theme.name,
   );
 
-  return result.decklists ?? [];
+  return (result.decklists ?? []).map(d => ({ ...d, description: '' }));
 }
 
 // ─── Single decklist extraction (individual-page series) ─────────────────────
@@ -156,52 +161,81 @@ Extract the theme name and all cards grouped by category (Creatures, Instants, S
 Enchantments, Artifacts, Planeswalkers, Lands, etc.). Preserve category order as shown.
 Use qty=1 for any card with no explicit quantity listed.
 
-Also write a 1-2 sentence description of how the deck plays (e.g. "big creatures", "spell heavy",
-"lots of tokens") based on the cards you extracted.
-
 Use the report_decklist tool to return the structured decklist.
 
 PAGE CONTENT:`;
 
-  return withRetry(
+  const result = await withRetry(
     () => callAgent<Decklist>(client, semaphore, DECKLIST_TOOL, instructions, content, 4096),
     theme.name,
   );
+  return { ...result, description: '' };
 }
 
-// ─── Description generation (deterministically-parsed decks) ─────────────────
-// Used for pages parsed via wikiDeckBlocks.ts, where card data is already
-// known exactly (no extraction needed) — only the "how does this play"
-// summary requires judgment. One consolidated call per series; series using
-// this path (single-page inline decklists) are small enough that a flat,
-// single-batch call is low-risk.
+// ─── Description generation (oracle-text-grounded) ────────────────────────────
+// Runs for every series, after cards are known (either extracted via Claude or
+// parsed deterministically from mtg.wiki markup) — only the "how does this
+// play" judgment requires the model. Batches themes (~10 per call) so a single
+// call's output never risks truncation on a large series (Avatar/Marvel run
+// ~50 themes). Uses Sonnet, not Haiku — spotting a real combo in rules text is
+// a reasoning task, unlike the mechanical card extraction the other agents do.
+
+const DESCRIPTION_BATCH_SIZE = 10;
 
 export async function describeDecks(
   client: Anthropic,
   semaphore: Semaphore,
   decks: { theme: string; categories: Category[] }[],
+  cardText: Map<string, string | null>,
+): Promise<Map<string, string>> {
+  const batches = chunk(decks, DESCRIPTION_BATCH_SIZE);
+  const results = await Promise.all(
+    batches.map((batch, i) => describeBatch(client, semaphore, batch, cardText, i)),
+  );
+  return new Map(results.flatMap(m => [...m]));
+}
+
+async function describeBatch(
+  client: Anthropic,
+  semaphore: Semaphore,
+  decks: { theme: string; categories: Category[] }[],
+  cardText: Map<string, string | null>,
+  batchIndex: number,
 ): Promise<Map<string, string>> {
   const content = decks.map(d => {
-    const cardList = d.categories
-      .map(c => `${c.name}: ${c.cards.map(card => `${card.qty}x ${card.name}`).join(', ')}`)
-      .join(' | ');
-    return `${d.theme}: ${cardList}`;
-  }).join('\n');
+    const cardLines = d.categories.flatMap(cat =>
+      cat.cards.map(card => {
+        const text = cardText.get(card.name);
+        return `${card.qty}x ${card.name}${text ? ` — ${text}` : ''}`;
+      }),
+    );
+    return `=== ${d.theme} ===\n${cardLines.join('\n')}`;
+  }).join('\n\n');
 
-  const instructions = `You are summarizing Magic: The Gathering Jumpstart decklists.
-For each decklist below, write a 1-2 sentence description of how the deck plays (e.g. "big creatures",
-"spell heavy", "lots of tokens") based on its cards.
+  const instructions = `You are summarizing Magic: The Gathering Jumpstart decklists for players who want a
+real sense of how each deck plays before drafting or building around it.
 
-Use the report_descriptions tool to return one row per deck, using the exact theme name given (copy it
-verbatim, including any numbered suffix like "1" or "2").
+For each decklist below, write a full paragraph (not 1-2 sentences) describing:
+1. Its overall strategy and playstyle.
+2. Only if the actual card text below genuinely supports it — 1-2 concrete combos or
+   synergies, naming the specific cards and what they do together (e.g. "Card A's trigger
+   feeds Card B's ability"). Do not invent a combo that isn't really there: if the deck is a
+   straightforward value/curve pile with no standout interaction, say so plainly and describe
+   its game plan instead.
 
-DECKLISTS:`;
+Avoid generic filler ("big creatures", "spell heavy", "lots of tokens") unless immediately
+backed by the specific cards that make it true.
+
+Use the report_descriptions tool to return one row per deck, using the exact theme name given
+(copy it verbatim, including any numbered suffix like "1" or "2").
+
+DECKLISTS (card lines show "qty x name — oracle text"):`;
 
   const result = await withRetry(
     () => callAgent<{ descriptions: { theme: string; description: string }[] }>(
-      client, semaphore, DESCRIPTIONS_TOOL, instructions, content, 8192,
+      client, semaphore, DESCRIPTIONS_TOOL, instructions, content, 8192, 'claude-sonnet-5',
     ),
-    'deck descriptions',
+    `deck descriptions batch ${batchIndex}`,
   );
 
   return new Map((result.descriptions ?? []).map(d => [d.theme, d.description]));
