@@ -5,7 +5,19 @@
     {
       "theme": "Agents of S.H.I.E.L.D.",
       "color": "white",
-      "description": "This deck is a mono-white 'attack alone' aggro deck that wants to send a single creature into combat each turn and shower it with bonuses rather than swinging wide. Peggy Carter, Secret Agent, Agents of S.H.I.E.L.D., Strategic Intervention, and Nick Fury, Spymaster all key off a creature attacking alone, granting indestructibility, +1/+1, tapping down blockers, and even letting you cheat an extra creature onto the battlefield tapped and attacking. Agent 13, Sharon Carter turns that same lone attacker into card advantage via Clue tokens, while Agent Phil Coulson stacks permanent +1/+1 counters onto your other Heroes to make that solo attacker (or its backups) hit progressively harder. The synergy is explicit: Nick Fury's trigger draws a card and can put a cheap creature onto the battlefield tapped and attacking, which itself can then trigger the other attack-alone payoffs like Agent 13's investigate or Strategic Intervention's tap effect, chaining value off a single combat step. S.H.I.E.L.D. Helicarrier and Borough Backup provide bodies and crew fodder, while Helicarrier Strike and Web Up offer removal/exile to clear the way for your solo attacker to connect unimpeded.",
+      "description": "This deck is built entirely around the 'attacks alone' mechanic, rewarding you for sending a single creature into combat rather than swinging wide. Peggy Carter, Secret Agent grants indestructible to a lone attacker, Agent 13 Sharon Carter turns that same attack into a Clue for card draw, Agents of S.H.I.E.L.D. and Strategic Intervention both pump the attacker and can tap down blockers, and Nick Fury, Spymaster turns every solo swing into a card plus a free tapped-and-attacking creature cheat from hand. Quake, Agent of S.H.I.E.L.D. adds a secondary layer of tempo disruption, tapping down a creature or land whenever you cast a noncreature spell, which combines nicely with the deck's density of removal/utility instants like Helicarrier Strike and Web Up. The overall plan is to establish one resilient, growing threat, protect it with indestructible effects, and let the alone-attack triggers snowball into card advantage and near-unblockable damage, while S.H.I.E.L.D. Helicarrier and Borough Backup provide token backup for board stalls or crewing.",
+      "playstyle": [
+        "Attack-alone value",
+        "Voltron-lite",
+        "Tempo disruption"
+      ],
+      "tips": [
+        "Attack with exactly one creature",
+        "Use Peggy Carter for indestructible",
+        "Chain Nick Fury for extra bodies",
+        "Quake taps blockers off noncreature spells",
+        "Protect your lone attacker first"
+      ],
       "cards": [
         {
           "title": "Agent Phil Coulson",
@@ -82,7 +94,19 @@
     {
       "theme": "Caretakers",
       "color": "white",
-      "description": "This is a mono-white lifegain deck that converts incidental life totals into growing threats and battlefield-wide buffs. MJ, Rising Star gets a +1/+1 counter every time you gain life, while Doctor Strange, Surgeon doubles all life gained and triggers a team-wide +2/+2 and vigilance buff once you're 10 life above your starting total, making every lifegain source (Valkyrior Skyrider's 4 life, Night Nurse's lifelink, Infinity Formula's combat lifegain, Fall to Earth's 3 life) compound into a late-game overrun. Doctor Jane Foster synergizes directly with the lifegain theme by returning a cheap creature from the graveyard to your hand, or straight to the battlefield if you gained life that turn, letting you recur fallen threats like Night Nurse or MJ for free. Take Up the Shield and Crowd of True Believers reinforce solo-attacker survivability and incremental lifegain, while Super Villain Lockup and Web Up-style exile effects (here Fall to Earth) handle problem threats, all building toward a slow grind where life totals become a resource that snowballs into bigger creatures and a devastating alpha strike.",
+      "description": "Caretakers is a lifegain payoff deck where every point of life you gain snowballs into bigger creatures and card advantage. MJ, Rising Star puts a +1/+1 counter on herself whenever you gain life, while Doctor Strange, Surgeon doubles all life gained, turning even small triggers like Valkyrior Skyrider's 4 life or Crowd of True Believers' lifelink pump into huge swings, and once you're 10 life above your starting total his ability gives your whole team +2/+2 and vigilance every combat. Night Nurse and Doctor Jane Foster both recur permanents from the graveyard, with Jane Foster specifically upgrading to a full battlefield return if you've gained life that turn, rewarding sequencing your lifegain spells before her ETB. The deck's core loop is simple: gain life to fuel Doctor Strange's doubling and MJ's growth, use Take Up the Shield and Infinity Formula to protect and further buff your threats, and grind out value through recursion.",
+      "playstyle": [
+        "Lifegain payoffs",
+        "Grindy value",
+        "Counter buffs"
+      ],
+      "tips": [
+        "Sequence lifegain before Doctor Strange",
+        "Gain life before casting Jane Foster",
+        "Let MJ snowball off small lifegain",
+        "Protect threats with Take Up the Shield",
+        "Play Doctor Strange first for max doubling"
+      ],
       "cards": [
         {
           "title": "Crowd of True Believers",
@@ -159,7 +183,19 @@
     {
       "theme": "Counterargument",
       "color": "white",
-      "description": "This white counters-and-value deck centers on protecting and growing a board of +1/+1 counter creatures while grinding card advantage through ETB triggers. Matt Murdock, Justice Seeker gives every countered creature ward 1, making your board resilient to removal, and Costume Closet stores counters that redistribute onto creatures as they die or enter, feeding Political Triumph's scry-and-plan-counter engine which eventually draws a card and buffs the whole team. The clearest combo is She-Hulk, Attorney-at-Law's power-up ability doubling every +1/+1 counter on your board, which turns modest investments from Foggy Nelson, Daily Bugle Reporters, or Selfless Police Captain's leave-the-battlefield trigger into an explosive late-game swing. Removal comes from exile effects like Web Up, Vault Guardsman's ETB exile, and Murdock's Crusade's teamwork-scaling exile of big or expensive permanents, letting the deck stall behind incremental value until it can double its counters and close the game.",
+      "description": "Counterargument is a +1/+1 counter synergy deck that spreads small buffs across the board and then leverages ward and doubling effects to protect and explode its board state. Matt Murdock, Justice Seeker gives every counter-bearing creature ward {1}, making your team hard to remove once buffed, while She-Hulk, Attorney-at-Law's power-up ability doubles every counter on your board for a massive one-time swing. Political Triumph quietly accrues plan counters off every creature ETB, then cashes in for a card and a counter on your whole team, and Costume Closet stores extra counters to redistribute later, especially useful with Selfless Police Captain's counters transferring elsewhere when it dies. The deck plays a steady value game, using ETB creatures like Daily Bugle Reporters and Foggy Nelson to place counters and protect key threats with hexproof, before going over the top with She-Hulk's doubling to close out the game.",
+      "playstyle": [
+        "+1/+1 counters",
+        "Ward protection",
+        "Go-tall value"
+      ],
+      "tips": [
+        "Spread counters early",
+        "Save counters for She-Hulk doubling",
+        "Ward protects countered creatures",
+        "Use Political Triumph for card draw",
+        "Recycle counters with Costume Closet"
+      ],
       "cards": [
         {
           "title": "City Pigeon",
@@ -236,7 +272,19 @@
     {
       "theme": "Wakanda",
       "color": "white",
-      "description": "This is a mono-white token-and-counters deck built around generating a wide board of Soldiers and Heroes that scale together. Okoye, Dora Milaje Leader and Wakandan Shield Guard flood the board with 1/1 Soldier tokens, and Okoye's static ability gives all attacking creature tokens first strike, meaning even small tokens can profitably trade up in combat. Black Panther, Most Dangerous reflects damage back at any target when he's hit, punishing opponents who try to block or burn him, and his power-up ability pumps every other creature by +2/+2 for a game-ending alpha strike once you have the mana. Ultimate Alliance scales its damage with your total creature count, making it a natural finisher after Okoye and Shield Guard have gone wide, while Shuri, Vibranium Technologist and Secure Detention's token side-benefit keep adding bodies, and Vibranium Energy Daggers plus Panther Pounce give the deck ways to push extra damage or draw cards off Clue tokens.",
+      "description": "Wakanda is a go-wide token deck that fills the board with 1/1 Soldiers and Hero tokens, then leverages payoffs that scale with creature count and token synergies. Wakandan Shield Guard, Okoye, and Borough Backup all pump out extra bodies, while Okoye's static ability gives all attacking creature tokens first strike, making combat very favorable once the board is wide. Ultimate Alliance deals damage equal to your total creature count, turning a wide board into direct removal, and Black Panther, Most Dangerous's power-up buffs the whole team by +2/+2 for a big alpha strike. Shuri and Secure Detention add flexible value and removal, while Vibranium Energy Daggers and Panther Pounce push through extra damage on key attackers; the overall plan is simply to flood the board cheaply and use the count-based payoffs to finish the game.",
+      "playstyle": [
+        "Go-wide tokens",
+        "Aggro",
+        "Token payoffs"
+      ],
+      "tips": [
+        "Flood board with token generators",
+        "Okoye gives tokens first strike",
+        "Ultimate Alliance scales with board size",
+        "Pop Black Panther power-up for alpha strike",
+        "Use Secure Detention on biggest blocker"
+      ],
       "cards": [
         {
           "title": "Wakandan Shield Guard",
@@ -313,7 +361,19 @@
     {
       "theme": "Battalion",
       "color": "white",
-      "description": "This mono-white deck is built explicitly around the Battalion mechanic, wanting to attack with three or more creatures simultaneously to trigger powerful team-wide bonuses from General Thunderbolt Ross, Falcon, Joaquin Torres, and Captain America, Skybound all at once. Captain America, Skybound's Battalion trigger puts a +1/+1 counter on every attacking creature and grants them indestructible, while General Thunderbolt Ross's Battalion gives all attackers +1/+0, so a single wide swing with these three online turns a modest board into a nearly unkillable alpha strike. Falcon adds card selection to the mix via scry 1 on his own Battalion trigger. Supporting pieces like Wakandan Shield Guard, U.S.Agent (who arrives with a free Equipment already attached), and War Machine's attack-tapper help ensure enough bodies survive to attack together, while Helicarrier Strike, Heroic Teamwork, and Ultimate Alliance provide combat tricks and removal that key off having multiple creatures already committed to the board.",
+      "description": "Battalion is built around attacking with three or more creatures at once to trigger its namesake keyword on several key creatures. General Thunderbolt Ross, Falcon, and Captain America, Skybound all have Battalion abilities that trigger simultaneously when you swing wide with at least three attackers, granting team-wide +1/+0, a growing Falcon plus scry, and indestructible +1/+1 counters across the whole attacking team respectively. War Machine and Wild Pack Squad add tempo by tapping down blockers before combat, clearing the way for your battalion swing, while U.S.Agent's free Sturdy Shield equipment and The Howling Commandos' team pump provide extra buffs to push through lethal. The deck's plan is to hold back until you can assemble a three-plus creature attack, then unleash Captain America's indestructible counters combined with Thunderbolt Ross's damage boost to blow out combat math in your favor.",
+      "playstyle": [
+        "Go-wide aggro",
+        "Battalion synergy",
+        "Combat tricks"
+      ],
+      "tips": [
+        "Attack with three or more creatures",
+        "Stack Battalion triggers together",
+        "Tap blockers with War Machine first",
+        "Captain America gives indestructible counters",
+        "Use Howling Commandos to push lethal"
+      ],
       "cards": [
         {
           "title": "General Thunderbolt Ross",
@@ -390,7 +450,19 @@
     {
       "theme": "Equipped",
       "color": "white",
-      "description": "This deck's engine is entirely about Equipment support, using cheap gear to power up a small number of key creatures rather than going wide. Captain America, Liberator tutors an Equipment with mana value 3 or less straight onto the battlefield when he enters, and then creates a 1/1 Soldier token for every Equipment attached to him whenever he attacks, directly rewarding you for loading him up with Captain America's Shield, Infinity Formula, or a Sturdy Shield token. U.S.Agent, John Walker and Origin of Captain America both generate their own free Sturdy Shield tokens, giving you multiple equip targets without spending extra equip costs, while Patriot, Young Avenger gets a team-wide +1/+0 anthem simply for being equipped himself. Peggy Carter and Agent 13, Sharon Carter reward attacking alone with indestructibility and Clue-token card draw, giving the deck a secondary lone-attacker plan alongside its Equipment payoffs, and Bucky Barnes, Eager Ally's death trigger digs specifically for more Equipment, Heroes, or Soldiers to keep the engine running.",
+      "description": "Equipped is a classic Voltron-adjacent Equipment deck that stacks gear onto a handful of key creatures to build one or two overwhelming threats. Captain America, Liberator tutors an Equipment onto the battlefield for free and creates a Soldier token per Equipment attached whenever he attacks, synergizing directly with Origin of Captain America's Chapter II Sturdy Shield token and U.S.Agent's own free Sturdy Shield, letting you accumulate multiple Equipment cheaply. Captain America's Shield turns any creature into a huge 0/8+ wall-breaker with vigilance and a tap effect on attack, while Bucky Barnes digs for more Equipment, Hero, or Soldier cards when he dies. Peggy Carter and Agent 13 reward attacking alone with indestructible and card draw, so the deck can pivot between a wide Soldier-token plan off Equipment triggers and a single fortified attacker protected by indestructible effects like Take Up the Shield.",
+      "playstyle": [
+        "Equipment Voltron",
+        "Attack-alone value",
+        "Token generation"
+      ],
+      "tips": [
+        "Equip Captain America Liberator for tokens",
+        "Stack multiple Equipment on one attacker",
+        "Attack alone with Peggy Carter up",
+        "Use Bucky Barnes death trigger to dig",
+        "Protect key creature with Take Up the Shield"
+      ],
       "cards": [
         {
           "title": "Bucky Barnes, Eager Ally",
@@ -467,7 +539,19 @@
     {
       "theme": "Precise",
       "color": "white",
-      "description": "This white deck is a counters-matter tempo build where nearly every spell that targets your own creatures triggers permanent growth on key threats. Colleen Wing, Street Samurai, Hawkeye, Bowslinger, and Mockingbird, Ace Agent all put a +1/+1 counter on themselves whenever you cast a spell targeting a creature you control, so cheap combat tricks like Panther Pounce, Stunning Shot, and Heroic Teamwork do double duty as both tempo plays and permanent stat boosts, with Colleen Wing and Hawkeye additionally scrying to smooth draws. Stunning Shot exemplifies the deck's dual-purpose design by both adding two counters to your creature and stunning down an opposing blocker in one card. Prowess creatures like Agent of Atlas and Kree Commandos passively grow alongside this targeted-spell density, while Sudden Strike and Fall to Earth provide removal to clear the way for your steadily-counter-laden creatures to close out the game.",
+      "description": "Precise is a targeted-spell counters deck where creatures like Colleen Wing, Street Samurai, Hawkeye, Bowslinger, and Mockingbird, Ace Agent all grow permanently whenever you cast a spell that targets a creature you control, turning combat tricks and utility spells into long-term stat growth. Stunning Shot doubles as both a buff (two counters) and removal (stun a blocker), directly feeding these targeting triggers while also disabling an opponent's creature, and Panther Pounce similarly targets your own creature for value while also untapping and granting flying. Because so many of your creatures reward you for targeting your own side, even simple tricks like Heroic Teamwork or Sudden Strike generate lasting value by growing Colleen Wing, Hawkeye, or Mockingbird every time they're cast, letting an unassuming board slowly turn into several oversized evasive or double-striking threats.",
+      "playstyle": [
+        "Counter buffs",
+        "Spells-matter",
+        "Value creatures"
+      ],
+      "tips": [
+        "Target your own creatures often",
+        "Grow Colleen Wing and Hawkeye with tricks",
+        "Use Stunning Shot for buff and removal",
+        "Mockingbird gets huge with double strike",
+        "Sequence spells for max counter triggers"
+      ],
       "cards": [
         {
           "title": "Colleen Wing, Street Samurai",
@@ -544,7 +628,19 @@
     {
       "theme": "Web-Slinging",
       "color": "white",
-      "description": "This white deck leans on the Web-slinging mechanic, letting you cheat Spider-Man, Web-Slinger, Spider-UK, and Amazing Spider-Girl into play cheaply by bouncing a tapped creature back to hand instead of paying full cost, which combos naturally with ETB-heavy creatures you want to replay anyway. Aunt May turns every creature entering into incidental lifegain and pumps Spiders specifically with a +1/+1 counter, so bouncing and recasting a Spider via web-slinging both re-triggers its ETB and grows it further under Aunt May. Spider-UK's own ability rewards this bounce-and-replay plan directly, drawing a card and gaining 2 life at end step if two or more creatures entered that turn, which is easy to hit when web-slinging naturally doubles up ETB triggers. Spider-Mobile scales its combat stats with your Spider count, and Flash Thompson's flash-in tap/untap flexibility along with Thwip!'s Spider-specific lifegain and buff round out a deck that wants a steady stream of creatures entering the battlefield rather than a big single bomb.",
+      "description": "Web-Slinging leans into the Spider-tribal 'web-slinging' mechanic, where creatures like Spider-Man, Web-Slinger, Spider-UK, and Amazing Spider-Girl can be cast cheaply by bouncing a tapped creature back to hand, letting you replay ETB triggers repeatedly. Aunt May gains you life on every creature ETB and adds a +1/+1 counter specifically to Spiders, while Spider-UK's end step trigger draws a card and gains 2 life whenever two or more creatures entered that turn, which is easy to hit since web-slinging naturally causes you to re-enter a bounced creature alongside a new spell. Spider-Mobile scales its combat stats with your Spider count, rewarding the tribal build-up, and Thwip! gives an extra life-gain boost specifically when targeting a Spider. The overall gameplan is to chain cheap web-slinging casts each turn to re-trigger ETBs like Virtuous Variant's counter or Flash Thompson's tap/untap modes, flooding the board with value while accumulating life and cards along the way.",
+      "playstyle": [
+        "Tribal synergy",
+        "ETB value chains",
+        "Tempo bounce"
+      ],
+      "tips": [
+        "Bounce tapped creatures to recast cheaply",
+        "Chain ETBs for Spider-UK's card draw",
+        "Aunt May rewards flooding the board",
+        "Spider-Mobile scales with Spider count",
+        "Replay Virtuous Variant for repeat counters"
+      ],
       "cards": [
         {
           "title": "Aunt May",
@@ -621,7 +717,19 @@
     {
       "theme": "Marvelous",
       "color": "white",
-      "description": "This white deck is built around blink-and-exile effects that generate repeatable value and life swings, centered on Captain Marvel, Shooting Star and Photon, Lady of Light. Captain Marvel exiles a creature on ETB or attack (with the controller gaining life equal to its power, but you gaining that same life back from her second ability whenever any other creature is exiled), while Photon's attack trigger flickers another one of your own creatures, letting you re-trigger ETB abilities like Ms. Marvel's combat-damage buff, Captain Marvel's own exile trigger, or Marvel Boy's counter-growth. Quantum Entanglement doubles as a mini blink engine, letting you flicker a creature at end step for repeated ETB value, and combined with Captain Mar-Vell's flash-everything ability during opponents' turns, the deck can generate surprise value at instant speed. Ms. Marvel, Elastic Ally rewards any of these temporary power boosts by drawing a card when a pumped creature connects, tying the flicker and pump effects together into a card-advantage engine.",
+      "description": "Marvelous is built around blink and exile effects that reset creatures for repeatable ETB value, alongside a lifegain-to-damage payoff in Captain Marvel, Shooting Star. Photon, Lady of Light exiles and returns another creature you control whenever she attacks, letting you replay ETB effects like Ms. Marvel's pump-and-draw trigger or Wakandan Shield Guard's token creation every combat, while Quantum Entanglement offers a repeatable flash blink each end step for the same purpose. Captain Marvel herself exiles a creature on ETB or attack for a life-swing effect, gaining her controller life whenever any creature (other than herself) is exiled from the battlefield, which combos directly with Photon's and Quantum Entanglement's blink triggers to generate incidental lifegain on top of the ETB replay value. Marvel Boy, Noh-Varr grows off every creature entering or power-up activation, capping off a deck that wants to chain enter-the-battlefield triggers as often as possible while incidentally gaining life along the way.",
+      "playstyle": [
+        "Blink value",
+        "ETB synergy",
+        "Incidental lifegain"
+      ],
+      "tips": [
+        "Blink creatures with Photon or Quantum Entanglement",
+        "Captain Marvel gains life off any exile",
+        "Replay Ms. Marvel and Shield Guard ETBs",
+        "Grow Marvel Boy off every ETB",
+        "Time blinks around your attack step"
+      ],
       "cards": [
         {
           "title": "Wakandan Shield Guard",
@@ -698,7 +806,19 @@
     {
       "theme": "Squadron",
       "color": "white",
-      "description": "This deck is a Hero tribal build that leans on the exalted mechanic to punish opponents when a lone creature attacks, alongside broad Hero-count synergies. Zarda, the Power Princess grants every other Hero exalted, so with several Heroes on board (Doctor Spectrum, Hero in Training, Nighthawk, Dark Defender, Hyperion, Supreme Hero), attacking alone stacks up multiple +1/+1 bonuses at once, turning a single attacker into a serious threat, while Nighthawk's own ETB and attack trigger adds even more pump to whichever creature you're sending in. Doctor Spectrum's modal ETB can put a +1/+1 counter on every other Hero you control, directly feeding the same exalted-boosted attacker plan, and Hyperion's damage-prevention shield protects your Heroes from being raced. Blur of Heroism lets you flash in Hero spells as surprise blockers or combat tricks, while Hyperion's Atomic Vision and Web Up provide removal, rounding out a deck whose gameplan is assembling a wide Hero board but often winning through a single, heavily-buffed exalted attacker.",
+      "description": "Squadron is a Hero-tribal deck that showers its creatures with small combat buffs and scales up through the 'attacks alone' exalted mechanic. Zarda, the Power Princess grants every other Hero you control exalted, so any lone-attacking Hero gets a cumulative +1/+1 for each instance, and Nighthawk, Dark Defender adds another layer by pumping a creature whenever any Hero enters, meaning simply deploying more Heroes keeps buffing your attackers even outside combat. Doctor Spectrum offers modal flexibility to make a defensive wall, buff the team, or blow up an enchantment, while Hyperion, Supreme Hero's damage-prevention shield keeps your Heroes alive through combat and burn. Hyperion's Atomic Vision's behold mechanic turns any Hero into a scry-attached removal spell, and the deck closes games by isolating a single well-buffed Hero attacker empowered by Zarda's exalted stack and Nighthawk's incidental pumps.",
+      "playstyle": [
+        "Hero tribal",
+        "Attack-alone exalted",
+        "Counter buffs"
+      ],
+      "tips": [
+        "Stack exalted for lone attackers",
+        "Deploy Heroes to trigger Nighthawk pumps",
+        "Behold a Hero for Atomic Vision scry",
+        "Use Doctor Spectrum flexibly",
+        "Protect Heroes with Hyperion's damage shield"
+      ],
       "cards": [
         {
           "title": "Agent of Atlas",
@@ -775,7 +895,19 @@
     {
       "theme": "Analyzed",
       "color": "blue",
-      "description": "This is a teamwork-matters mono-blue control/tempo deck built around tapping creatures to pay teamwork costs for bigger payoffs. Cards like We Say Thee Nay!, Timeline Inquiry, Atlantis Attacks, and Quantum Reduction all have Teamwork X, meaning tapping enough creature power upgrades the counterspell to a harder-to-pay one, turns Timeline Inquiry into card draw without discard, gives Atlantis Attacks both modes at once (making a 6/5 hexproof Leviathan token AND bouncing permanents), and lets Quantum Reduction be cast at flash speed. The creature base itself rewards casting noncreature spells: TVA Bureaucrat and Machine Man, Model X-51 both grow and gain evasion whenever you cast a noncreature spell, while Vision, Spectral Synthezoid lets you cast one such spell free each turn, effectively fueling those triggers repeatedly. Echo, Perceptive Prodigy can copy a triggered/activated ability from another creature (like Viv Vision's power-up or Victor Mancha's exile trigger), adding some flexible value. Overall the deck plays a grindy tempo-control game, tapping down creatures for value spells while sneaking in evasive threats and locking down opposing creatures with Frozen in Ice.",
+      "description": "This deck is built around the Teamwork mechanic, where tapping down creatures pays additional costs for powerful spells like We Say Thee Nay!, Timeline Inquiry, Atlantis Attacks, and Quantum Reduction, all of which get stronger or gain flash when the teamwork cost is met. Alongside this, Viv Vision, Machine Man Model X-51, and TVA Bureaucrat all reward casting noncreature spells with pumps, unblockability, or card draw, meaning the deck's payoff creatures grow every time you fire off one of its many teamwork or countermagic spells. Vision, Spectral Synthezoid lets you cast a free noncreature or Robot spell every turn, which combines directly with Echo, Perceptive Prodigy's ability to copy an activated or triggered ability, letting you double up value from ETBs and power-ups. Virtual Assistant also converts every teamwork-cast spell into a flying Robot token, so the deck naturally builds a small air force while controlling the board with bounce and counters.",
+      "playstyle": [
+        "Teamwork synergy",
+        "Tempo control",
+        "Noncreature payoff"
+      ],
+      "tips": [
+        "Tap creatures for teamwork bonuses",
+        "Chain noncreature spells for value",
+        "Use Vision's free spell each turn",
+        "Copy triggers with Echo",
+        "Hold up countermagic like We Say Thee Nay!"
+      ],
       "cards": [
         {
           "title": "Virtual Assistant",
@@ -852,7 +984,19 @@
     {
       "theme": "Conniving",
       "color": "blue",
-      "description": "This mono-blue deck is built entirely around the connive mechanic (draw then discard, and if you toss a nonland card, put a +1/+1 counter on the creature), triggering it constantly through combat and ETB effects: Mob Lookout, Tiger Shark, Abyssal Hunter, Doc Ock's Henchmen, Unstable Experiment, Trickster's Stratagem, and Namor-style Leader, Super-Genius all cause connives on entry, attack, or at the beginning of combat. Leader, Super-Genius doubles the value by making any connive draw an extra card first, while Kid Loki and Graviton, Fundamental Force both key off drawing your second card each turn (which naturally happens from repeated connives), growing Kid Loki with counters and letting Graviton grant flying or tap down blockers. Doc Ock, Sinister Scientist becomes an 8/8 once your graveyard (filled by all that discarding) hits eight cards, and gains hexproof as long as you control another Villain, making him a resilient finisher fueled directly by the deck's own discard engine. The overall plan is a value-grindy tempo deck that filters draws into permanent stat growth while incidentally filling the graveyard to power up its biggest threat.",
+      "description": "This is a mono-blue/black-leaning connive deck (splash of black via Villainous Hideout) where nearly every creature and spell triggers connive to filter draws into +1/+1 counters, snowballing card advantage into bigger threats. Doc Ock's Henchmen, Tiger Shark Abyssal Hunter, and Leader Super-Genius all connive on ETB or attack, while Leader Super-Genius's static ability turns every connive trigger into a free extra card draw before the discard, effectively doubling the value of every connive across the whole deck. Doc Ock, Sinister Scientist scales into an 8/8 once the graveyard (fed by all that discarding) hits eight cards, and gains hexproof as long as you control another Villain, making him very hard to remove once the engine gets going. The deck's removal (Trickster's Stratagem, Frozen in Ice equivalents like Quantum Reduction elsewhere) is light here, so it wins mostly by out-carding opponents and building an unkillable threat.",
+      "playstyle": [
+        "Connive value engine",
+        "Card filtering",
+        "Grindy midrange"
+      ],
+      "tips": [
+        "Leader doubles connive draws",
+        "Feed graveyard for Doc Ock",
+        "Villain synergy grants hexproof",
+        "Discard lands, keep threats",
+        "Attack with Tiger Shark repeatedly"
+      ],
       "cards": [
         {
           "title": "Kid Loki",
@@ -934,7 +1078,19 @@
     {
       "theme": "Geniuses",
       "color": "blue",
-      "description": "This mono-blue deck leans heavily on drawing extra cards to fuel its 'second card each turn' and hand-size payoffs, playing a card-advantage-driven midrange game. Kid Loki and Blue Marvel, Adam Brashear both put +1/+1 counters on themselves whenever you draw your second card in a turn, which is easy to trigger given how many cantrips and draw effects are packed in (Fantastic Bounce, Futurist Forge, Super Intelligence, Bold Biochemist's power-up). Brawn, Amadeus Cho draws a card on entry and can later dump enormous counters onto himself equal to your hand size via his power-up, directly rewarded by Reed Richards, Smartest Man's ability that turns most of your draws into four-card draws, letting you stockpile a huge hand to then unload into Brawn's power-up for a massive one-shot growth spell. Ant-Man, Reformed Rogue and Beast, Erudite Aerialist both convert combat damage into more card draw, keeping the engine self-sustaining, while Frozen in Ice and Super Intelligence provide interaction/control pieces to buy time for the draw engine to take over.",
+      "description": "This is a pure card-draw value deck where nearly every creature either draws a card outright or grows off drawing extra cards, all supported by Reed Richards, Smartest Man's ability to turn your first non-draw-step draw each turn into four cards instead. That massive card advantage directly fuels Blue Marvel and Kid Loki, both of which put a +1/+1 counter on themselves whenever you draw your second card each turn, so Reed Richards' quadrupled draw effectively guarantees those counters trigger constantly. Beast, Erudite Aerialist and Ant-Man both convert combat damage into more cards, while Brawn, Amadeus Cho and Bold Biochemist let you dump your now-bloated hand into raw stats via their power-up abilities. The deck doesn't need much removal since it simply out-draws and out-values opponents until its power-up threats are too big to answer.",
+      "playstyle": [
+        "Card draw engine",
+        "Value snowball",
+        "Counter synergy"
+      ],
+      "tips": [
+        "Reed Richards multiplies draws",
+        "Trigger second-draw counters",
+        "Dump hand into Brawn",
+        "Attack to refuel via Beast/Ant-Man",
+        "Power-up late for huge stats"
+      ],
       "cards": [
         {
           "title": "Kid Loki",
@@ -1011,7 +1167,19 @@
     {
       "theme": "Iron Man",
       "color": "blue",
-      "description": "This mono-blue artifact-matters deck plays a value/tempo game centered on bounce effects, ETB triggers, and Iron Man, Bleeding Edge's ability to copy artifact spells you cast (except the copy isn't legendary), which pairs well with a deck full of impactful artifacts like Iron Suitcase, Collector's Case, and Futurist Forge, each doubling their ETB value (extra scry, extra tap-and-stun, extra card draw) when doubled. Rescue, Pepper Potts bounces your own artifact or creature on entry and gets a +1/+1 counter if it targeted an artifact, letting you replay ETB effects like S.H.I.E.L.D. Deployment Drone's Soldier token or the artifacts above for repeated value. Origin of Iron Man ties the whole plan together as a Saga that locks down a creature, draws two cards, and finally lets you cheat an artifact with mana value 5 or less straight onto the battlefield, essentially free-casting Iron Man himself or another key artifact. The deck otherwise plays a tempo-control shell with flyers like War Machine and Iron Lad providing evasive damage while bounce and taplock effects like Happy Hogan and Collector's Case slow the opponent down.",
+      "description": "This is an artifact-tempo deck that leans on bounce and tap effects to control the board while Iron Man, Bleeding Edge and Iron Lad, Young Avenger make every artifact and noncreature spell more efficient or explosive. Iron Man's ability to copy any artifact spell you cast pairs directly with Iron Suitcase, Collector's Case, and Futurist Forge, turning a single cast into two ETB triggers (double scry, double stun-tap, or double card draw), while Iron Lad's cost reduction on noncreature spells makes casting these artifacts and spells like I Am Iron Man cheaper and faster. Origin of Iron Man's saga chain digs for a big artifact drop for free by chapter III, and Happy Hogan, Bodyguard combined with Rescue, Pepper Potts gives repeatable bounce/tuck effects to buy tempo. Overall the deck grinds out card advantage and board control through cheap artifacts and repeatable bounce rather than pure aggression.",
+      "playstyle": [
+        "Artifact tempo",
+        "Bounce control",
+        "Value engine"
+      ],
+      "tips": [
+        "Copy artifacts with Iron Man",
+        "Chain Iron Lad's cost reduction",
+        "Stun lock with Collector's Case",
+        "Free artifact via Origin saga",
+        "Bounce blockers before attacking"
+      ],
       "cards": [
         {
           "title": "Hydraulic Helper",
@@ -1088,7 +1256,19 @@
     {
       "theme": "Atlantis",
       "color": "blue",
-      "description": "This is a Merfolk tribal deck in blue built around the connive mechanic and 'draw your second card' triggers to grow a wide team of fish creatures. Attuma, Atlantean Warlord pumps all other Merfolk and draws a card whenever one or more Merfolk attack, synergizing directly with token generators like Daughter of the Deep (which makes a 1/1 Merfolk whenever you draw your second card each turn) and Namora, the Sea Queen's power-up that makes two more Merfolk tokens, quickly filling the board with attackers that all trigger Attuma's card draw. Namor, Scourge of the Seas gives flying to any Merfolk with a +1/+1 counter, which combines naturally with the deck's many connive effects (Atlantean Skirmisher, Namor's own combat trigger, Unstable Experiment) that put counters on creatures, turning a swarm of ground Merfolk into an evasive flying army. Atlantis Attacks and Quantum Reduction round out the deck with Teamwork-cost spells that scale up when you tap enough Merfolk power, letting the tribal swarm double as a mana sink for bigger removal or a giant Leviathan token.",
+      "description": "This is a Merfolk tribal deck that builds around connive and the 'draw your second card each turn' trigger to grow a team of counters-matter creatures. Attuma, Atlantean Warlord anthems other Merfolk and draws a card whenever Merfolk attack, while Namor, Scourge of the Seas grants flying to any Merfolk with a +1/+1 counter, meaning creatures pumped by Atlantean Cavalry's or Daughter of the Deep's second-draw triggers become evasive threats. Namora, the Sea Queen's power-up creates more Merfolk tokens to fuel Attuma's attack trigger, and Atlantean Skirmisher and Namor's connive abilities keep converting extra cards into more counters. Atlantis Attacks and Quantum Reduction (both Teamwork spells) let you tap the wide Merfolk board to either build a huge Leviathan/bounce two permanents or shut down an opposing threat, rewarding the deck's go-wide, counter-laden game plan.",
+      "playstyle": [
+        "Merfolk tribal",
+        "Counters synergy",
+        "Go-wide aggro"
+      ],
+      "tips": [
+        "Pump counters via second draws",
+        "Namor grants counter-flyers",
+        "Attuma draws on Merfolk attacks",
+        "Tap team for teamwork spells",
+        "Namora tokens fuel the swarm"
+      ],
       "cards": [
         {
           "title": "Mist-Cloaked Herald",
@@ -1158,14 +1338,26 @@
         {
           "title": "Island",
           "type": "Lands",
-          "qty": 1
+          "qty": 7
         }
       ]
     },
     {
       "theme": "Blink",
       "color": "blue",
-      "description": "This mono-blue deck's core plan is repeatedly bouncing and blinking its own permanents to re-trigger enter-the-battlefield abilities, most explicitly through Silver Surfer, Cosmic Voyager, who exiles any number of your other permanents and returns them at end of turn, resetting ETBs like S.H.I.E.L.D. Deployment Drone's token creation or Shipwreck Patrol's tap-and-stun. Justice, Vance Astrovik both bounces a nonland permanent on entry and grows with a +1/+1 counter whenever another nonland permanent you control is returned to hand, meaning Shi'ar Soldier's repeatable self-bounce ability or Silver Surfer's mass exile-and-return effect directly feeds Justice's counters over and over. Victor Timely, Wily Tycoon lets you recast a cheap instant/sorcery from the graveyard for free, and Spaceshift exiles and returns a permanent with a +1/+1 counter attached, giving more blink-style value alongside a suite of counterspells (We Say Thee Nay!, Dismissive Denial) and tap effects (Collector's Case) that lock down the board while the blink engine snowballs.",
+      "description": "This deck's core plan is repeatedly bouncing or blinking your own permanents to reuse ETB triggers and grow value creatures. Silver Surfer, Cosmic Voyager exiles any number of your permanents and returns them at end of turn, re-triggering ETBs like S.H.I.E.L.D. Deployment Drone's token creation or Shipwreck Patrol's stun-tap, while Spaceshift does something similar to a single artifact or creature, adding a +1/+1 counter in the process. Justice, Vance Astrovik and Imperial Cosmographer both reward permanents leaving and returning to the battlefield with +1/+1 counters, so bouncing your own stuff with Shi'ar Soldier or Silver Surfer directly feeds their growth. Victor Timely, Wily Tycoon lets you recast a cheap instant/sorcery/artifact from the graveyard for free, effectively giving you a second use out of spells like Collector's Case or We Say Thee Nay!, rounding out a deck that thrives on reusing its own effects rather than committing new cards to the board.",
+      "playstyle": [
+        "Blink/bounce value",
+        "ETB recursion",
+        "Counter synergy"
+      ],
+      "tips": [
+        "Blink with Silver Surfer for value",
+        "Rebounce to trigger Justice",
+        "Reuse ETBs each turn",
+        "Recast spells with Victor Timely",
+        "Spaceshift resets and pumps"
+      ],
       "cards": [
         {
           "title": "Shi'ar Soldier",
@@ -1242,7 +1434,19 @@
     {
       "theme": "Pym Particles",
       "color": "blue",
-      "description": "This mono-blue deck focuses on shrinking and resizing creatures through Pym Particles-style effects to unlock evasive attacks and card draw. Wasp, Shrinking Savior shrinks a creature by -3/-0 when she attacks and then draws a card for every creature on the battlefield with negative power, which combos directly with Depower (which gives -4/-0 to an attacking creature, cheaper if it's attacking, and cantrips) — stacking these effects can push multiple creatures below zero power simultaneously, maximizing Wasp's card draw. Ant-Man, Reformed Rogue also profits from the deck's spread of blue and green-costed spells, shrinking in power but becoming unblockable on blue spells while drawing cards off combat damage. Robotics Mastery adds two 1/1 flying Robot tokens on top of a combat trick, while Giant-Sized Flying Ant and Pym Particles itself provide flash tempo plays (tapping down blockers or making an attacker unblockable) that keep the size-shifting theme consistent across removal, tempo, and value pieces.",
+      "description": "This deck centers on power-up abilities and size-shrinking effects to close games, using Wasp, Shrinking Savior's attack trigger to shrink an opposing blocker to -3/-0 and then draw a card for every creature on the battlefield with negative power, which combos directly with Depower's -4/-0 effect and Quantum Reduction's -5/-0 aura to push creatures below zero power and refill your hand. Ant-Man, Reformed Rogue grows and becomes unblockable off blue spells while gaining trample off green spells, matching this deck's mix of blue tempo and green pump effects like Robotics Mastery and Super Suit. Aerial Doombot and Bold Biochemist both have big late-game power-up modes that turn any flooded hand into a game-ending threat or fresh cards, while Giant-Sized Flying Ant's flexible tap/untap ETB provides combat trickery to either push through damage or blank a blocker.",
+      "playstyle": [
+        "Shrink/negative power",
+        "Power-up scaling",
+        "Tempo combat tricks"
+      ],
+      "tips": [
+        "Shrink creatures below zero power",
+        "Wasp draws off negative power",
+        "Stack Depower and Quantum Reduction",
+        "Ant-Man rewards blue/green spells",
+        "Power-up late for big payoff"
+      ],
       "cards": [
         {
           "title": "Aerial Doombot",
@@ -1319,7 +1523,19 @@
     {
       "theme": "Soaring",
       "color": "blue",
-      "description": "This is a mono-blue flyers-tribal deck whose engine centers on Vulture, Feathered Fiend, who puts a +1/+1 counter on every flying creature that connects with combat damage and draws you a card for the group, rewarding a wide board of evasive attackers like Aerial Doombot, S.H.I.E.L.D. Deployment Drone, and Falcon, Winged Wonder (whose Redwing token also flies and surveils on attack). Flying Drone's looter ability gets cheaper specifically when another flyer entered that turn, meaning the deck's steady stream of flying ETB creatures (S.H.I.E.L.D. Deployment Drone, Falcon's Redwing token, Justice) actively discounts its own card selection engine. Falcon's Wing Harness grants flying and ward to a nonflier, letting you funnel more attackers into the Vulture-fueled counter/draw loop, while Whoosh! and I Am Iron Man supply extra tempo and card advantage to smooth the curve as the flying team grows turn over turn.",
+      "description": "This is a flying-tribal tempo deck where Vulture, Feathered Fiend rewards any flier connecting with combat damage by putting a +1/+1 counter on every flier that hit and drawing a card for each, snowballing hard once multiple fliers like Aerial Doombot, Namora, S.H.I.E.L.D. Deployment Drone, and Falcon's token Redwing are attacking together. Falcon, Winged Wonder adds another evasive body in Redwing, whose surveil-on-attack trigger smooths draws, while Falcon's Wing Harness can retrofit a ground creature with flying and ward to join the air assault and feed Vulture's trigger even further. Flying Drone's loot ability gets cheaper whenever another flier enters that turn, meaning a turn where you deploy multiple fliers also lets you filter your hand efficiently, and bounce spells like Whoosh! and I Am Iron Man help clear blockers or set up alpha strikes.",
+      "playstyle": [
+        "Flying tribal aggro",
+        "Evasive tempo",
+        "Card draw payoff"
+      ],
+      "tips": [
+        "Swing wide with fliers",
+        "Vulture draws on flier damage",
+        "Equip Falcon's Wing Harness to grounders",
+        "Flying Drone loots cheap after fliers ETB",
+        "Bounce blockers before attacking"
+      ],
       "cards": [
         {
           "title": "Aerial Doombot",
@@ -1353,6 +1569,11 @@
         },
         {
           "title": "Falcon, Winged Wonder",
+          "type": "Creatures",
+          "qty": 1
+        },
+        {
+          "title": "Rescue, Pepper Potts",
           "type": "Creatures",
           "qty": 1
         },
@@ -1391,7 +1612,19 @@
     {
       "theme": "Kang Dynasty",
       "color": "blue",
-      "description": "This mono-blue deck is a spells-and-card-draw control shell that rewards drawing extra cards each turn and cheaply recasting past spells. Immortus, Master of Eternity taps for extra blue mana equal to cards drawn that turn (spendable only on noncreature spells) and his power-up wheels every player's hand and graveyard into a fresh seven-card draw, synergizing with a deck full of card-advantage engines like Bold Biochemist's power-up, Think Twice's flashback, and Timeline Inquiry's Teamwork-scaled card draw, all of which help fill Immortus's mana pool before he refills everyone's hands. TVA Bureaucrat and Pharaoh Rama-Tut both benefit directly from a noncreature-spell-heavy build: Bureaucrat pumps and becomes unblockable, while Rama-Tut connives, growing and filtering cards whenever a noncreature spell resolves. Victor Timely, Wily Tycoon and Multiversal Recruitment's flashback let you recur cheap spells or clone creatures for extra value, and Time Warp caps it all off by giving you an additional turn to capitalize on the card-advantage lead the deck has built.",
+      "description": "This deck is a time-manipulation control shell that leverages extra draws and extra turns to overwhelm opponents. Immortus, Master of Eternity taps for mana equal to cards drawn that turn just to cast noncreature spells, synergizing with a deck full of cheap draw spells like Think Twice, Timeline Inquiry, and Bold Biochemist's power-up, letting you chain several noncreature spells off one big draw turn; his own power-up ability then wheels everyone's hand and graveyard for a fresh seven, resetting the game state in your favor. Pharaoh Rama-Tut connives off every noncreature spell you cast, meaning the deck's dense noncreature spell count directly grows him into a real threat while digging further. Time Warp for an extra turn and Multiversal Recruitment's flashback to copy your best creature both let this value-heavy deck close out games once its card advantage has taken over, with Victor Timely, Wily Tycoon providing extra reach by recasting a cheap spell for free from the graveyard.",
+      "playstyle": [
+        "Extra-turns control",
+        "Noncreature payoff",
+        "Card advantage engine"
+      ],
+      "tips": [
+        "Immortus taps off draws",
+        "Chain cheap draw spells",
+        "Rama-Tut grows off spells",
+        "Time Warp to close games",
+        "Recur spells with Victor Timely"
+      ],
       "cards": [
         {
           "title": "Bold Biochemist",
@@ -1468,7 +1701,19 @@
     {
       "theme": "Tricksters",
       "color": "blue",
-      "description": "This mono-blue copy-and-clone deck plays around turning creatures into copies of other permanents to maximize value from strong ETB or ability-based effects. Loki, Lord of Misrule can turn every other creature you control into a copy of one chosen creature (losing legendary status), which combos powerfully with Impossible Man, letting you first turn Impossible Man into a copy of a strong permanent and then use Loki to convert your whole board into copies of that same creature. Multiversal Recruitment (with its flashback) and The Clone Saga's chapter II both let you copy a creature spell as it's cast, stacking additional clone value on top of Loki's board-wide copy effect. Kid Loki and connive-based value (A.I.M. Scientists, Trickster's Stratagem) round out the deck's card-filtering plan, while Ghost, Spectral Saboteur provides an unblockable evasive clock and We Say Thee Nay! and Quantum Reduction offer interaction to protect the combo pieces until they can take over the game.",
+      "description": "This deck's whole identity is copying creatures to generate value and confuse combat math. Loki, Lord of Misrule can turn your entire board into copies of your best creature each turn, The Clone Saga's second chapter copies the next creature you cast that turn, and Multiversal Recruitment makes a nonlegendary token copy of any creature you control, all feeding into a shell where Impossible Man can also become a copy of any permanent at instant speed for a surprise blocker or attacker. Living Lies of Loki scales with the number of Illusions you control and refunds a card when it dies, meshing with the deck's token-copy plan since token copies of Illusions boost its power further. Kid Loki rewards any turn you place +1/+1 counters with hexproof, protecting your best copied threat, while We Say Thee Nay!, Quantum Reduction, and Trickster's Stratagem provide interaction to protect your combo pieces or answer opposing threats while your copy engine takes over the game.",
+      "playstyle": [
+        "Clone/copy synergy",
+        "Value snowball",
+        "Combat trickery"
+      ],
+      "tips": [
+        "Copy your best creature",
+        "Loki turns board into clones",
+        "Clone Saga doubles a cast creature",
+        "Living Lies scales with Illusions",
+        "Protect key threats with hexproof"
+      ],
       "cards": [
         {
           "title": "Kid Loki",
@@ -1545,7 +1790,19 @@
     {
       "theme": "HYDRA",
       "color": "black",
-      "description": "This mono-black deck wants you to attack with a single creature each turn and reap disproportionate rewards for it. Bob, Reluctant HYDRA Agent bounces himself back to hand after attacking alone to drain 2 life, Viper, Cruel Conspirator can pump or grant deathtouch/lifelink specifically to a lone attacker, and HYDRA Infiltration drains 1 life whenever any creature you control attacks alone, so the deck is built around solo swings rather than wide boards. Alongside that theme is a steady stream of 2/1 menace Villain tokens: Agents of HYDRA leaves one behind when it dies, HYDRA Troopers and Arnim Zola, Bio-Fanatic make one once your graveyard has two-plus creatures, and HYDRA Disintegrator both makes and instantly equips one of these tokens. Baron Strucker, HYDRA Overlord ties it together by discounting Villain spells and letting any newly entered Villain connive, which digs for gas while growing your board, and Crossbones, Malicious Mercenary explicitly triggers off those same Villain entries to burn opponents for 2 and grow himself. Removal like Dark Deed and Cruel Alliance (with its Teamwork alternate mode for a straight exile plus life gain) rounds out an otherwise grindy black attrition shell.",
+      "description": "This deck is built around the 'attacks alone' payoff subtheme mixed with a Villain-tribal token engine. Bob, Reluctant HYDRA Agent bounces himself after attacking alone to drain 2 life, and Viper, Cruel Conspirator pumps or grants deathtouch/lifelink to any lone attacker, making solo swings surprisingly resilient and punishing. Alongside that, Baron Strucker, HYDRA Overlord discounts Villain spells and lets newly-entering Villains connive once per turn, feeding both card selection and +1/+1 counters, while HYDRA Troopers and Arnim Zola, Bio-Fanatic turn a stocked graveyard into a stream of 2/1 menace Villain tokens. Crossbones, Malicious Mercenary converts each new Villain entering into a permanent counter and 2 damage to the opponent, so the token generators (HYDRA Troopers, Arnim Zola, HYDRA Disintegrator) directly power him up. The deck grinds out value through removal (Dark Deed, Cruel Alliance) and recursion (Infernal Rebirth) while chipping away at life totals with solo attackers and a wide army of Villain tokens.",
+      "playstyle": [
+        "Attack-alone value",
+        "Villain tribal tokens",
+        "Grindy black midrange"
+      ],
+      "tips": [
+        "Attack alone with Bob for repeated drain",
+        "Pump lone attackers with Viper",
+        "Fill graveyard to fuel Arnim Zola tokens",
+        "Let Crossbones snowball off new Villains",
+        "Use Baron Strucker to discount and connive"
+      ],
       "cards": [
         {
           "title": "Bob, Reluctant HYDRA Agent",
@@ -1622,7 +1879,19 @@
     {
       "theme": "Masters of Evil",
       "color": "black",
-      "description": "This is a tribal Villain deck that leans into recursive value and slow inevitability. The Masters of Evil itself pumps every other Villain you control by +2/+1, turning even small tokens into real threats, while Baron-Strucker-style entering triggers cascade: Yellowjacket, Heartless Marauder gets bigger and gains lifelink whenever another Villain enters, and Crimson Cowl, Master of Evil spits out a 2/1 menace Villain token whenever your nontoken Villains attack, feeding both Yellowjacket's trigger and the tribal buff. Villainous Syndication slowly mills itself into a battlefield reanimation, tapping Villains to add plan counters until the fourth returns a creature from the graveyard, giving the deck a long-game recursive finisher. Titania, Rugged Rumbler and its ward tax, plus Radioactive Man's brutal half-life drain on combat damage, provide hard-to-remove attackers, while Klaw, Sonic Subjugator and Hour of Defeat handle disruption and removal. Overall this is a grindy value pile that wants to go wide with cheap Villains, buff them all at once, and out-resource the opponent rather than execute one specific combo kill.",
+      "description": "Masters of Evil is a Villain-tribal aggro-value deck that rewards flooding the board with Villains and attacking as a group, in contrast to the attack-alone subtheme seen elsewhere in the set. The Masters of Evil enchantment itself gives every other Villain +2/+1, turning modest bodies into serious threats, while Crimson Cowl, Master of Evil creates a 2/1 menace Villain token whenever nontoken Villains attack together, continually replenishing the board. Yellowjacket, Heartless Marauder gets bigger and gains lifelink every time another Villain enters, so token generators like Crimson Cowl and Tiger Shark's connive ability keep compounding its value. Villainous Syndication mills for value and can eventually reanimate a creature from the graveyard, tying into the deck's incidental self-mill from Tiger Shark and Klaw. The overall plan is to deploy Villains, pump the team with the anthem, swing wide, and use targeted removal like Hour of Defeat and Cruel Alliance to clear blockers.",
+      "playstyle": [
+        "Villain tribal go-wide",
+        "Anthem aggro",
+        "Black midrange"
+      ],
+      "tips": [
+        "Play Masters of Evil early for the anthem",
+        "Attack with multiple Villains to trigger Crimson Cowl",
+        "Chain Villain ETBs to pump Yellowjacket",
+        "Use Tiger Shark connive for card selection",
+        "Save Cruel Alliance for a key blocker"
+      ],
       "cards": [
         {
           "title": "Boomerang, Blade Flinger",
@@ -1699,7 +1968,19 @@
     {
       "theme": "Returned",
       "color": "black",
-      "description": "This deck is a straightforward black reanimator/graveyard-value pile that wants to fill its own graveyard early and then repeatedly cheat creatures back onto the battlefield. Doom's Servo-Guards and Venomized-style mill effects (via Arnim Zola and other self-mill) stock the graveyard, and then engines like Grim Reaper, Lethal Legionnaire (reanimate a creature tapped and attacking when he attacks), Too Evil to Stay Dead (a Teamwork spell that reanimates any creature card, or a 4-or-less creature without teamwork), and Grim Reaper's Scythe (which sacrifices two creatures to reanimate one with a finality counter, and also makes a 2/2 Zombie whenever creatures leave your graveyard) all turn your graveyard into a second hand. Undead Hand Ninja explicitly triggers whenever creature cards leave your graveyard, draining opponents and gaining you life every time you reanimate, so it directly synergizes with Grim Reaper's Scythe and Grim Reaper's attack trigger for repeated drain. Ultimo, Civilization's End adds a forced-sacrifice angle both on ETB and by discard, while Infernal Rebirth and Unliving Legionnaire's power-up give extra ways to rebuy creatures, making this a resilient attrition deck built to out-value opponents over time.",
+      "description": "Returned is a graveyard-recursion deck centered on repeatedly bringing creatures back from the dead and profiting each time one leaves the yard. Undead Hand Ninja and Grim Reaper's Scythe both trigger whenever creature cards leave your graveyard, draining the opponent or making a 2/2 Zombie token respectively, so effects like Infernal Rebirth, Too Evil to Stay Dead, and Unliving Legionnaire's power-up ability that return creatures from the graveyard to hand or battlefield double as engines for those triggers. Grim Reaper, Lethal Legionnaire lets you reanimate a creature straight into combat as an attacker for extra tempo, while Grim Reaper's Scythe can later sacrifice two creatures to bring back something with a finality counter. Ultimo, Civilization's End and Minion Missile provide sacrifice-based removal that also feeds your own graveyard fuel, and Arnim Zola turns a stocked graveyard into a steady stream of menace tokens, letting the deck grind through removal and reanimation loops while opponents struggle to keep up with recurring threats.",
+      "playstyle": [
+        "Graveyard recursion",
+        "Reanimator value",
+        "Black attrition"
+      ],
+      "tips": [
+        "Fill graveyard early with mill effects",
+        "Return creatures to trigger Undead Hand Ninja",
+        "Reanimate into combat with Grim Reaper",
+        "Sac fodder to Scythe for reanimation",
+        "Use Ultimo/Minion Missile as sac-removal"
+      ],
       "cards": [
         {
           "title": "Project Deathlok Soldier",
@@ -1776,7 +2057,19 @@
     {
       "theme": "Street Level Villains",
       "color": "black",
-      "description": "This deck is built around a sacrifice-and-Treasure engine that converts expendable bodies into card advantage and mana. Common Crook and Agents of HYDRA both leave value (a Treasure or a 2/1 menace token) when they die, feeding sacrifice outlets like Hammerhead, Maggia Boss (sac to grow), Kingpin's Enforcers (sac to draw), and especially Deadly Dispute, which sacrifices a creature or artifact to draw two cards and make a Treasure—refilling the resources it just spent. Kingpin, Wilson Fisk turns any sacrifice (including of himself) into two Treasures once per turn, which can immediately fuel Count Nefaria's cost reduction, since Nefaria costs {3} less if you've sacrificed a permanent that turn, letting you cheat out a flying 8/8-class threat early. Madame Masque's connive plus her second-draw-of-the-turn trigger (making a menace token) combines naturally with the deck's card-draw outlets like Deadly Dispute and Kingpin's Enforcers, since drawing extra cards from sacrifice effects can trigger a second token that turn. Overall it's an aggressive, grindy sacrifice deck with Villain-cost discounts from Tombstone and Criminal Enterprise's death-trigger drain rounding out the plan.",
+      "description": "Street Level Villains is a sacrifice-value deck that turns dying creatures and artifacts into card draw, Treasures, and extra bodies. Kingpin, Wilson Fisk creates two Treasure tokens whenever you sacrifice him or another creature, and those Treasures can immediately fuel Deadly Dispute, which itself demands a sacrifice to draw two cards and make another Treasure, creating a self-sustaining loop of sacrifice fodder and mana. Hammerhead, Maggia Boss and Kingpin's Enforcers both want fodder to sacrifice for counters or card draw, while Madame Masque's connive and 'second card drawn' trigger churns out 2/1 menace Villain tokens to keep feeding the sacrifice engine. Count Nefaria becomes drastically cheaper once you've sacrificed a permanent that turn, letting the deck cast a large flying threat for a steep discount off the back of all the sacrificing, and Criminal Enterprise turns dying Villains into direct damage and life gain.",
+      "playstyle": [
+        "Sacrifice value",
+        "Treasure/aristocrats",
+        "Villain tribal"
+      ],
+      "tips": [
+        "Chain sacrifices into Treasures",
+        "Feed Deadly Dispute with fodder",
+        "Sac a permanent before casting Nefaria",
+        "Let Madame Masque tokens refill board",
+        "Use Kingpin sac trigger for ramp"
+      ],
       "cards": [
         {
           "title": "Agents of HYDRA",
@@ -1853,7 +2146,19 @@
     {
       "theme": "Armed",
       "color": "black",
-      "description": "This is an Equipment-matters aggro deck where creatures want to carry hardware into combat for direct payoff. Whiplash, Vengeful Engineer literally drains life equal to the number of Equipment attached to him when he attacks, so stacking multiple Equipment (Stolen Stark Tech, Voltaic Whip, Swordsman's Steel, HYDRA Disintegrator) onto him turns into a snowballing life-swing threat. Swordsman, Sharp Scoundrel automatically attaches an Equipment to a creature whenever another Villain enters, essentially giving you free equip triggers, and any equipped creature he triggers also connives when it attacks, digging for more gear or growing itself. Ronin, Shadow Stalker taxes life for Equipment-only mana and can sacrifice an attached Equipment for a -4/-4 removal effect, giving the deck a built-in removal outlet that doubles as Equipment attrition. Swordsman's Steel rewards you directly for going wide on Equipment, drawing a card for each one you control and buffing by +2/+2 per Equipment, while Armed Assailant's menace-plus-deathtouch-when-equipped and U.S.Agent's free Sturdy Shield round out a curve built entirely around keeping creatures armed and attacking.",
+      "description": "Armed is an Equipment-matters deck that wants to stack multiple Equipment onto its threats for compounding bonuses and payoffs. Whiplash, Vengeful Engineer drains the opponent equal to the number of Equipment attached to him when he attacks, so Swordsman, Sharp Scoundrel's ability to auto-attach an Equipment whenever another Villain enters helps get gear onto Whiplash quickly and cheaply, while also triggering connive on equipped attackers for card selection and counters. Swordsman's Steel rewards having several Equipment already out by drawing a card for each one and scaling its own bonus the same way, making it a late-game payoff for a deck that runs HYDRA Disintegrator, Stolen Stark Tech, and Voltaic Whip. Ronin, Shadow Stalker doubles as a mana source for Equipment costs and can sacrifice an attached Equipment to shrink a blocker, giving the deck some removal even while it's committed to its equipment plan. Armed Assailant and U.S.Agent (who comes with his own built-in Equipment) round out the curve as strong equip targets that get menace or extra stats once geared up.",
+      "playstyle": [
+        "Equipment matters",
+        "Voltron",
+        "Black aggro-midrange"
+      ],
+      "tips": [
+        "Stack Equipment on Whiplash for drain",
+        "Let Swordsman auto-attach for tempo",
+        "Play Swordsman's Steel with Equipment out",
+        "Use Ronin mana for equip costs",
+        "Sac Equipment via Ronin as removal"
+      ],
       "cards": [
         {
           "title": "Whiplash, Vengeful Engineer",
@@ -1930,7 +2235,19 @@
     {
       "theme": "Lethal",
       "color": "black",
-      "description": "This deck is a mono-black deathtouch aggro/value shell where nearly every creature carries deathtouch and the payoffs specifically trigger off deathtouch damage connecting. White Widow, Yelena Belova grows with a +1/+1 counter whenever a deathtouch creature you control hits a player, and Black Widow, Deadly Hunter instead draws you a card (for 1 life) on that same trigger, so both passively snowball as your deathtouch creatures get through — and Origin of Black Widow's chapter II, which grants all your creatures deathtouch for a turn, can suddenly turn an entire alpha strike into a wave of triggers for both Widows at once. Venom, Evil Unleashed can be exiled from the graveyard to retroactively grant deathtouch and +1/+1 counters to any creature, extending the deathtouch theme even after Venom dies, while Ninja of the Hand's power-up ability adds discard disruption on top of its innate deathtouch. Removal like Widow's Bite (Teamwork granting both deathtouch and -2/-2), Hour of Defeat, and the Saga's opening forced sacrifice help clear blockers so your deathtouch threats keep connecting and racking up counters or cards.",
+      "description": "Lethal is a deathtouch-tribal deck where nearly every creature has deathtouch, turning combat damage into a snowballing win condition. White Widow, Yelena Belova and Black Widow, Deadly Hunter both trigger whenever a deathtouch creature connects with a player, growing White Widow with +1/+1 counters and letting Black Widow draw cards, so any deathtouch creature getting through combat damage fuels both engines simultaneously. Venom, Evil Unleashed can be exiled from the graveyard to grant deathtouch and counters to any creature, extending the theme even to non-deathtouch bodies, while Origin of Black Widow forces a sacrifice, grants blanket deathtouch, and finishes with a graveyard-based life-loss burst. Widow's Bite offers flexible removal or a deathtouch grant with Teamwork to enable trades, and the low-to-the-ground deathtouch creatures make combat math nightmarish for opponents who can't afford to block or take damage.",
+      "playstyle": [
+        "Deathtouch tribal",
+        "Combat-trigger value",
+        "Black aggro"
+      ],
+      "tips": [
+        "Attack with deathtouch creatures often",
+        "Feed Black Widow/White Widow triggers",
+        "Use Venom to spread deathtouch",
+        "Force bad blocks with deathtouch",
+        "Save Widow's Bite for key combat"
+      ],
       "cards": [
         {
           "title": "Red Room Recruit",
@@ -2007,7 +2324,19 @@
     {
       "theme": "Mayhem",
       "color": "black",
-      "description": "This deck's core mechanic is Mayhem — casting discarded cards from the graveyard — and its whole build is set up to discard proactively and then recast for extra value. Green Goblin, Back for More lets you discard a card at the start of combat to make an opponent discard too, and that discard can easily hit your own Mayhem cards like Swarm, Being of Bees (a flash flying blocker/attacker for {B} from the graveyard), Sadistic Slash ({1}{B} from the graveyard for a -5/-5), or Rocket-Powered Goblin Glider, which specifically triggers to auto-attach itself to a creature if cast from the graveyard. Daily Bugle Newspaper is a repeatable discard outlet and mana rock (loot for {2} plus a Treasure), directly setting up future Mayhem casts, while Roxxon Brutes and Yellowjacket both reward the deck's natural card-draw/second-draw patterns with counters or lifelink pump. Alien Symbiosis reinforces the discard theme by letting you cast it from the graveyard simply by discarding another card, meaning this deck consistently gets two-for-one value out of cards that would otherwise be dead discards.",
+      "description": "Mayhem is built around the Mayhem keyword, letting you cast key spells and creatures from the graveyard for a discount if you discarded them the same turn, so the deck actively wants to discard cards rather than treat discard as a downside. Green Goblin, Back for More lets you discard a card at the beginning of combat to make an opponent discard too, and that very act can set up Swarm, Being of Bees, Sadistic Slash, or Rocket-Powered Goblin Glider to later be cast for their cheap Mayhem costs from the graveyard. Rocket-Powered Goblin Glider even attaches itself automatically if cast via Mayhem from the graveyard, giving a free equip. Daily Bugle Newspaper loots every turn to find discard fodder and generates Treasure, while Roxxon Brutes and Alien Symbiosis (which can also be cast from the graveyard by discarding a card) both reward drawing multiple cards or discarding respectively, tying the whole deck's discard-and-recast loop together into a resilient, resource-efficient plan.",
+      "playstyle": [
+        "Discard/Mayhem synergy",
+        "Graveyard value",
+        "Black-red* style resource loop"
+      ],
+      "tips": [
+        "Discard cards to set up Mayhem",
+        "Loot with Daily Bugle Newspaper",
+        "Cast Glider from graveyard for free attach",
+        "Use Green Goblin to discard proactively",
+        "Recast Sadistic Slash cheaply as removal"
+      ],
       "cards": [
         {
           "title": "Project Deathlok Soldier",
@@ -2084,7 +2413,19 @@
     {
       "theme": "Thunderbolts",
       "color": "black",
-      "description": "This is a lifegain-matters black-based deck where nearly every card converts life gain into card advantage or board growth. Citizen V, Helmut Zemo puts a +1/+1 counter on every Villain you control whenever you gain life, MACH-1, Swooping Scoundrel surveils whenever you gain life, and Atlas, Sizable Stooge gains life for each power-4-or-greater creature you control when it attacks or blocks — all of which combine with lifelink sources like Songbird, Sonic Screamer and Void Helix (5 damage plus 5 life) to trigger repeatedly off a single attack. Valentina Allegra de Fontaine makes your other Villains also Heroes and lets a Hero connive on demand, which synergizes with Moonstone, Harsh Mistress's ability to exile and later replay discarded cards, effectively turning connive discards into delayed card advantage. Roxxon Brutes and its second-draw-of-the-turn counter trigger also benefits from the deck's card filtering (Eerie Gravestone's draw and mill-four), making this a value-dense lifegain snowball deck rather than a single combo piece.",
+      "description": "Thunderbolts is a lifegain-matters deck that converts incidental life gain into card advantage and permanent stat growth. Citizen V, Helmut Zemo puts a +1/+1 counter on every Villain you control whenever you gain life, so lifelink creatures like Songbird and Atlas, or a big burst like Void Helix's 5 life, all translate directly into a bigger board. MACH-1, Swooping Scoundrel surveils once per turn whenever you gain life, smoothing draws off the same lifegain triggers, while Valentina Allegra de Fontaine turns other Villains into Heroes and lets a Hero connive each turn for extra selection and counters. Moonstone, Harsh Mistress lets you recur discarded cards temporarily, pairing with Songbird's and Roxxon Brutes' discard/draw synergies, and Eerie Gravestone plus basic landcycling smooth out the mana while digging for threats, making this a value-oriented lifegain snowball deck rather than a pure aggro list.",
+      "playstyle": [
+        "Lifegain payoff",
+        "Counter snowball",
+        "Villain/Hero value"
+      ],
+      "tips": [
+        "Gain life to trigger Citizen V counters",
+        "Chain lifegain into MACH-1 surveil",
+        "Connive Heroes with Valentina",
+        "Recur discards via Moonstone",
+        "Use Void Helix as removal and lifegain"
+      ],
       "cards": [
         {
           "title": "MACH-1, Swooping Scoundrel",
@@ -2161,7 +2502,19 @@
     {
       "theme": "DOOM",
       "color": "black",
-      "description": "This mono-black deck is built around self-mill feeding both graveyard recursion and a long-game inevitability finisher in Doctor Doom, Unrivaled, whose repeatable tap ability draws a card (for 1 life) and wins the game outright if it empties your library — a plan directly supported by the deck's heavy self-mill from Doom's Servo-Guards, Doombot Harbinger (mill four), and Doomsday, which searches your library and graveyard for five cards and puts them on top while exiling the rest, letting you set up a nearly library-out finish or stack a perfect draw sequence. Doombot Harbinger doubles as recursion, exiling itself when it dies to return a creature card from graveyard to hand, while Project Deathlok Soldier can buy itself back from the graveyard for {2}{B}, giving the deck resilient threats that don't mind dying. Dark Ritual accelerates into Doomsday or early plays, and removal like Doom Blade and Doomfall (exile a creature or strip a card from hand) clears the way, making this deck a blend of aggressive black removal/value with a genuine late-game mill-out or Doomsday-stacked kill.",
+      "description": "DOOM is a self-mill and graveyard-value deck culminating in an alternate win condition. Doombot Harbinger and Doom's Servo-Guards both mill you as they enter, filling the graveyard for Doomsday, which searches library and graveyard for five cards to stack on top of your library while costing half your life, setting up a very fast draw-out finish once combined with Doctor Doom, Unrivaled's repeatable card draw that wins the game outright if it empties your library. Dark Ritual accelerates into Doomsday or an early Doctor Doom, while Deadly Dispute and Common Crook turn sacrificed fodder into Treasures and draw, and Doombot Harbinger's death trigger can return a creature card from the graveyard to hand to keep bodies coming. Removal like Doom Blade, Doomfall, and Roxxon Brutes' menace keep the board stable while the mill/draw engine assembles the Doomsday-into-Doctor Doom kill.",
+      "playstyle": [
+        "Self-mill combo",
+        "Alt-win Doomsday",
+        "Black control-combo"
+      ],
+      "tips": [
+        "Mill early to stock graveyard",
+        "Dark Ritual to power out Doomsday",
+        "Stack five cards via Doomsday",
+        "Draw through library with Doctor Doom",
+        "Use Doombot Harbinger to recur bodies"
+      ],
       "cards": [
         {
           "title": "Project Deathlok Soldier",
@@ -2238,7 +2591,19 @@
     {
       "theme": "Ultron",
       "color": "black",
-      "description": "This is an artifact-attrition deck whose payoffs specifically trigger off artifacts hitting the graveyard, not just artifacts existing on board. Ultron's Auxiliary gets a +1/+1 counter whenever another artifact goes to your graveyard from the battlefield or an artifact card arrives there from anywhere else, and Ultron the Annihilator drains each opponent 1 life on that exact same trigger, meaning sacrificing or losing artifacts (like the Treasure/Robot tokens this deck makes, or Eerie Gravestone sacrificing itself to mill four) actively grows Auxiliary while chipping away at life totals via Ultron. Ultron the Annihilator and Ultron Drone both also pump out 2/2 Robot Villain tokens on ETB/attack or via a power-up ability, feeding more artifact bodies that can later die to refuel the Auxiliary/Ultron triggers. Robot Domination adds a slower plan-counter engine that draws a card and loses life whenever creatures hit your graveyard, eventually sacrificing itself for three more 2/2 Robot tokens, while Victor Mancha, Runaway and Project Deathlok Soldier provide recursive value, and Minion Missile/Dark Deed give cheap removal to keep the artifact army attacking safely.",
+      "description": "Ultron is an artifact-graveyard synergy deck where artifacts dying or being milled directly power up its threats. Ultron's Auxiliary and Ultron the Annihilator both trigger whenever an artifact goes to your graveyard from the battlefield or arrives there from elsewhere, growing Auxiliary with counters and draining opponents via Ultron the Annihilator, so the deck wants a steady stream of expendable Robot Villain artifact tokens and Equipment to feed the graveyard. Ultron the Annihilator and Ultron Drone both create 2/2 Robot Villain artifact tokens on entry/attack or via its power-up ability, giving plenty of sacrificial or trigger fodder, while Robot Domination converts creatures dying into card draw and eventually explodes into three more Robot tokens once it hits three plan counters. Victor Mancha, Runaway and Doombot Harbinger both let you rebuy value from the graveyard (a card to play, or a creature card to hand), and Eerie Gravestone's mill-four sacrifice ability both draws a card and feeds the artifact graveyard trigger simultaneously.",
+      "playstyle": [
+        "Artifact synergy",
+        "Graveyard/mill value",
+        "Robot token swarm"
+      ],
+      "tips": [
+        "Feed artifacts to graveyard for triggers",
+        "Chain Robot tokens for fodder",
+        "Crack Eerie Gravestone to mill and draw",
+        "Use Victor Mancha to rebuy key cards",
+        "Build toward Robot Domination's token burst"
+      ],
       "cards": [
         {
           "title": "Project Deathlok Soldier",
@@ -2315,7 +2680,19 @@
     {
       "theme": "Boosted",
       "color": "red",
-      "description": "Boosted is a mono-red ramp-into-payoffs deck built entirely around the power-up mechanic, dumping mana into permanents that grow explosively once you can afford their activation costs. Quinjet Technician exists purely to fuel this plan, tapping for double red mana that can only be spent on power-up abilities, letting you fire off Extremis Elite, Jack of Hearts, Molly Hayes, Human Torch, Abomination, or Wonder Man's abilities well ahead of schedule. Marvel Boy, Noh-Varr snowballs every time you play a creature or activate any power-up, turning this into an army of triggers feeding a single growing threat, while Wonder Man, Hollywood Hero doubles up on that plan by letting every power-up on the battlefield fire twice, effectively giving Extremis Elite or Abomination two separate bursts of counters and damage/fight effects from a single investment. Jack of Hearts backs this up as a late-game finisher whose power-up refills your hand and whose death trigger can wipe the board via damage equal to his power, while burn spells like Inspired Fire and HULK SMASH! clean up whatever survives combat.",
+      "description": "Boosted is a mono-red ramp-into-power-up deck built around Quinjet Technician's ability to generate double red mana specifically for activating power-up abilities, letting you fire off the deck's many expensive power-up triggers ahead of schedule. Nearly every creature carries a power-up ability that scales it into a threat while triggering a payoff: Marvel Boy, Noh-Varr grows every time any power-up ability resolves or a creature enters, snowballing counters as you chain activations, while Wonder Man, Hollywood Hero lets every power-up ability on your board (including his own) fire an additional time, effectively doubling the value from Extremis Elite's damage ping, Jack of Hearts' card refill, and Abomination's fight ability. The deck's payoff cards like Vision of Love and Heroes' Hangout also reward the discard/sacrifice sub-theme, giving you card advantage to keep casting spells and enabling more power-ups. The plan is to ramp mana via Quinjet Technician, land a few power-up creatures, and then use Wonder Man plus extra mana to double- or even triple-dip on abilities in a single turn for a huge swing.",
+      "playstyle": [
+        "Power-up scaling",
+        "Mono-red ramp",
+        "Counter synergy"
+      ],
+      "tips": [
+        "Use Quinjet Technician's RR only for power-ups",
+        "Land Wonder Man to double power-up triggers",
+        "Chain power-ups to grow Marvel Boy",
+        "Sac artifacts/discard to fuel Vision of Love",
+        "Sequence power-ups after creatures enter for max Marvel Boy counters"
+      ],
       "cards": [
         {
           "title": "Quinjet Technician",
@@ -2392,7 +2769,19 @@
     {
       "theme": "Speedy",
       "color": "red",
-      "description": "Speedy is an aggressive mono-red haste deck designed to get creatures into combat the turn they hit the battlefield and push through as much unblocked damage as possible. Quicksilver, Brash Blur can even start in your opening hand on the battlefield, and Taxi Driver grants haste to anyone lacking it, while Speed, Young Avenger and Whirlwind, Killer Cyclone punish opponents for trying to block: Speed can make a hasty attacker unblockable except by other haste creatures whenever you cast a noncreature spell, and Whirlwind shuts down blocking entirely for creatures that attacked while freshly cast. Pick Up the Pace rewards this same pattern of creatures entering and attacking immediately by exiling extra cards off the top of your library to play, so the deck's hasty, sacrifice-the-blockers plan directly fuels its card advantage engine. Super Speed and Volcanic Villain's power-up further pump key attackers, while Lightning Strike and Marvelous Melee provide direct removal or reach to close out games once the board is empty of blockers.",
+      "description": "Speedy is a mono-red haste-aggro deck whose entire game plan is to deploy hasty threats and immediately push through unblockable damage before the opponent can stabilize. Quicksilver, Brash Blur can start in play from the opening hand, and once you have extra mana his power-up adds a double strike counter, turning him into a fast clock. The deck's key synergy is between creatures that entered this turn and Whirlwind, Killer Cyclone / Pick Up the Pace / Speed, Young Avenger: Whirlwind makes an opposing creature unable to block whenever a freshly-entered creature attacks, Pick Up the Pace lets you exile and play extra cards off those same attacks, and Speed can make a hasty attacker unblockable for a mana, all built to protect and enable the wave of hasty creatures like Volcanic Villain, The Whizzer, and Living Lightning. Taxi Driver and Super Speed retroactively grant haste to anything that stumbles into play without it, keeping the aggressive tempo consistent turn after turn.",
+      "playstyle": [
+        "Haste aggro",
+        "Go-tall tempo",
+        "Unblockable damage"
+      ],
+      "tips": [
+        "Start Quicksilver from opening hand",
+        "Attack every turn with fresh haste creatures",
+        "Whirlwind shuts down blockers on entering attackers",
+        "Use Taxi Driver/Super Speed to grant haste",
+        "Power up Quicksilver for double strike finisher"
+      ],
       "cards": [
         {
           "title": "Masked Meower",
@@ -2469,7 +2858,19 @@
     {
       "theme": "Thor",
       "color": "red",
-      "description": "Thor is a mono-red burn-and-prowess deck that leans on non-combat damage triggers to build value while closing games with direct damage spells like Lightning Bolt, Lightning Strike, and Mjölnir's Might. Thor, Asgard's Avenger is the centerpiece, adding +1 to any noncombat damage your permanents deal to opponents, which pumps up Sif's Spearmaster's tap ability, Mjölnir's Might, and even Molten Lavamancer's elemental-generating trigger, since Molten Lavamancer creates a 1/1 Elemental whenever a source deals noncombat damage to an opponent during your turn. Loki Laufeyson lets you copy an instant or sorcery once its power-up hits, doubling burn spells like Lightning Bolt for extra reach, and Asgardian Inspiration recurs itself from the graveyard whenever noncombat damage connects, feeding into Origin of Thor's final chapter that has a creature deal damage equal to its power to each opponent (also boosted by Thor's damage-plus-one static ability). Overall the deck plays a grindy burn-value game, chaining small damage triggers together to snowball Molten Lavamancer tokens and card advantage while chipping opponents down.",
+      "description": "Thor is a mono-red burn/damage-doubling deck anchored by Thor, Asgard's Avenger, whose static ability adds 1 extra damage to any noncombat damage your other sources deal to opponents or their permanents, pumping up every burn spell and pinger in the deck. This turns Lightning Bolt and Lightning Strike into 4-damage spells, makes Sif's Spearmaster's tap ability hit harder, and boosts Origin of Thor's chapter III finisher. Molten Lavamancer converts that same non-combat damage into free 1/1 Elemental tokens once per turn, while Loki Laufeyson can copy your cheap burn spells for extra value, and Asgardian Inspiration recurs itself from the graveyard whenever you ping an opponent. The deck wants to land Thor early, then chain burn spells and tap abilities to snowball incremental damage, tokens, and card advantage simultaneously.",
+      "playstyle": [
+        "Burn",
+        "Damage doubling",
+        "Value/tempo"
+      ],
+      "tips": [
+        "Land Thor early to boost all burn",
+        "Use Molten Lavamancer to farm free tokens",
+        "Loki copies your best burn spell",
+        "Recur Asgardian Inspiration by pinging opponents",
+        "Tap Sif's Spearmaster for repeatable reach"
+      ],
       "cards": [
         {
           "title": "K'un-Lun Warrior",
@@ -2546,7 +2947,19 @@
     {
       "theme": "Young Avengers",
       "color": "red",
-      "description": "Young Avengers is a mono-red spells-matter tribal deck where nearly every creature has a 'whenever you cast a noncreature spell' trigger, so the deck wants to chain together cheap instants and sorceries to turn on multiple payoffs at once. Iron Lad, Young Avenger makes those noncreature spells cost {1} less, effectively subsidizing the whole engine, while Stature becomes a 4/4 and Patriot gets +1/+1 from prowess and Wiccan exiles the top card of your library to play for free, all off the same single spell cast. Hulkling, Young Avenger is the standout combo piece: casting a noncreature spell lets him become a copy of another creature you control (as a 4/4 flier) until end of turn, so copying Hawkeye, Young Avenger turns Hulkling into a second damage-doubling threat, while Hawkeye's Bow further amplifies noncombat damage output whenever an equipped creature taps. Teamwork spells like Crossover Collaboration and Team Tactics also let you tap your creatures as an additional cost for bonus value (a Treasure token or trample), rewarding a wide, aggressive board alongside the spellslinger shell.",
+      "description": "Young Avengers is a mono-red spells-matter deck where nearly every creature has a trigger off casting noncreature spells, rewarding you for jamming as many instants and sorceries as possible each turn. Iron Lad, Young Avenger discounts those noncreature spells by {1}, making it easier to chain them and trigger Stature (who becomes a 4/4 until end of turn), Patriot (prowess plus a team-wide +1/+0 while equipped), Wiccan (exiling and letting you play the top card of your library), and especially Hulkling, Young Avenger, who becomes a copy of any other target creature you control (turning into a 4/4 flying version of your best creature) every time you cast a noncreature spell. Hawkeye's static ability adds his power to any noncombat damage a source you control deals, so pairing him with burn spells like Lightning Strike or Marvelous Melee, or with Hawkeye's Bow's tap trigger, meaningfully increases damage output. The deck's teamwork spells (Crossover Collaboration, Team Tactics) let you tap down cheap creatures for bonus value like extra card exiles or trample, rewarding a wide, spell-slinging board.",
+      "playstyle": [
+        "Spells-matter",
+        "Prowess/triggers",
+        "Value engine"
+      ],
+      "tips": [
+        "Cast noncreature spells to trigger everyone",
+        "Hulkling copies your best creature each turn",
+        "Hawkeye boosts all noncombat damage sources",
+        "Equip Patriot for team-wide pump",
+        "Use teamwork spells for bonus value"
+      ],
       "cards": [
         {
           "title": "Stature, Young Avenger",
@@ -2623,7 +3036,19 @@
     {
       "theme": "Fearless",
       "color": "red",
-      "description": "Fearless is a mono-red masochistic-damage deck that wants you to take damage from your own permanents in order to convert that pain into card advantage and burn. Stick, Fearless Mentor and Daredevil, Fearless Fighter both trigger whenever a source you control deals damage to you: Stick lets you exile and play the top card of your library, while Daredevil redirects that same damage back at an opponent, meaning cards like Fogwell's Gym (which deals 1 damage to you for mana) or Daredevil's Billy Club (which pings you for 1 when it enters) double as both fixing/removal and direct triggers for these two engines simultaneously. Daredevil further exiles a card off the top of your library whenever he attacks, taking self-damage equal to that card's mana value, letting you chain playable cards while pumping Daredevil's own damage-to-opponent conversion. Elektra, Femme Fatale offers an optional 2-damage self-hit for 4 damage to a creature, and Jessica Jones lets you tap down to dig into your deck via stun counters, rounding the deck out as a value-oriented aggro shell that punishes itself to punish the opponent harder.",
+      "description": "Fearless is a mono-red self-damage/masochism deck that turns damage dealt to you into card advantage and reach. Stick, Fearless Mentor and Daredevil, Fearless Fighter both trigger whenever a source you control deals damage to you: Stick exiles and lets you play the top card of your library, while Daredevil redirects that same damage straight at an opponent, meaning painlands like Fogwell's Gym or self-damaging cards like Daredevil's Billy Club and Elektra, Femme Fatale double as both card advantage engines and direct burn once Daredevil is on board. Daredevil also exiles a card off his own attack trigger and burns you for its mana value, feeding the same synergy loop. Jessica Jones and Unlucky Witness add further card selection through stun counters and death triggers, while Stegron the Dinosaur Man and Hire a Crew provide combat-oriented pump and tokens to close out games once the card advantage has piled up.",
+      "playstyle": [
+        "Self-damage value",
+        "Card advantage",
+        "Burn/aggro"
+      ],
+      "tips": [
+        "Play Daredevil to redirect self-damage as burn",
+        "Use Fogwell's Gym to trigger Stick/Daredevil repeatedly",
+        "Billy Club and Elektra double as card engines",
+        "Stun Jessica Jones for a big card dig",
+        "Attack with Daredevil to exile and burn yourself"
+      ],
       "cards": [
         {
           "title": "Unlucky Witness",
@@ -2700,7 +3125,19 @@
     {
       "theme": "Heroes for Hire",
       "color": "red",
-      "description": "Heroes for Hire is a mono-red Treasure-generation deck that converts a steady stream of artifact tokens into both mana acceleration and payoff triggers. Stark Industries Executive, Contract Hero, Luke Cage, and the Heroes for Hire enchantment (which makes three Treasures on entry) flood the board with Treasures, which K'un-Lun Warrior and Contract Hero can sacrifice for card draw or a +2/+0 attack boost, and which the Heroes for Hire enchantment itself can later sacrifice to exile and play cards off the top of your library. Misty Knight, Hero for Hire and Big Score both want you discarding or churning through cards, letting Misty Knight refill your hand for each card discarded that turn while Big Score turns one discarded card into two cards and two more Treasures, compounding the resource engine. Red Hulk's Enrage ability turns incoming damage into both growth and a direct damage trigger, giving the deck a defensive/value threat alongside its ramp-fueled game plan of casting bigger spells like Iron Fist's five-target power-up finisher ahead of curve.",
+      "description": "Heroes for Hire is a mono-red Treasure-generation deck that ramps hard and converts extra mana and artifacts into card advantage and damage. Stark Industries Executive, Contract Hero, Luke Cage, and Heroes for Hire itself all pump out Treasure tokens, which feed Misty Knight's discard-loop card draw, K'un-Lun Warrior's ETB draw, and Iron Fist's expensive but explosive power-up that deals 5 damage divided among targets while adding five +1/+1 counters. Heroes for Hire's enchantment lets you sacrifice any of those Treasures to exile and play cards off the top of your library, effectively turning excess mana into card advantage on demand. Red Hulk's Enrage ability converts incoming damage into permanent +1/+1 counters and a damage ping, rewarding you for playing into combat, while Big Score and Bionic Blow give additional card draw and creature-based removal. The overall plan is to flood the board with Treasures early, use them to fix mana and dig for cards, then close with Iron Fist's or Red Hulk's damage output.",
+      "playstyle": [
+        "Treasure ramp",
+        "Value engine",
+        "Big mana payoffs"
+      ],
+      "tips": [
+        "Flood board with Treasures early",
+        "Sac Treasures via Heroes for Hire to dig",
+        "Use extra Treasures to power up Iron Fist",
+        "Red Hulk turns damage into counters and burn",
+        "Discard loop with Misty Knight for card draw"
+      ],
       "cards": [
         {
           "title": "Stark Industries Executive",
@@ -2777,7 +3214,19 @@
     {
       "theme": "Spider-Verse",
       "color": "red",
-      "description": "Spider-Verse is a mono-red discard-synergy deck where the entire Spider-Man cast wants you discarding cards to trigger rewards, turning what would normally be a resource loss into a repeatable value or damage engine. Spider-Gwen, Free Spirit and Iceman and Firestar both offer discard-a-card-draw-a-card loops whenever they tap or you cast red spells, while Lady Spider, Maybelle Reilly turns every discard into a +1/+1 counter on a Spider, and Spider-Man, New Champion converts any discards into direct damage equal to the number of cards discarded. This lets Astonishing Spider-Man's ability—discard your entire hand, then draw a card for each card discarded that turn—combo directly with Spider-Man, New Champion, since dumping a full hand simultaneously refills your hand and blasts the opponent for that many points of damage. Daily Bugle Newspaper and Romantic Rendezvous provide additional discard-then-draw filtering to keep the engine running, while Masked Meower and Hobgoblin give the deck early aggressive bodies that also benefit from the constant discarding.",
+      "description": "Spider-Verse is a mono-red discard-matters deck where nearly every creature cares about you discarding cards, turning what would normally be a drawback into a repeatable value and damage engine. Spider-Man, New Champion deals damage equal to the number of cards discarded any time you discard, so pairing him with Astonishing Spider-Man's attack trigger (discard your hand, draw a card for each card discarded) or Daily Bugle Newspaper's loot ability can produce a burst of direct damage. Lady Spider, Maybelle Reilly and Hobgoblin, Mantled Marauder reward every discard with counters or a temporary power boost respectively, while Spider-Gwen, Free Spirit and Iceman and Firestar convert discarding into looting for card selection. Stegron the Dinosaur Man's Dinosaur Formula gives you a discard outlet that also pumps a creature, making it easy to keep the discard engine running turn after turn while snowballing damage and stats.",
+      "playstyle": [
+        "Discard synergy",
+        "Value/burn engine",
+        "Aggro"
+      ],
+      "tips": [
+        "Discard triggers Spider-Man's damage",
+        "Attack with Astonishing Spider-Man for card refill",
+        "Chain discards to grow Lady Spider's counters",
+        "Use Stegron as a discard outlet",
+        "Loot with Daily Bugle Newspaper repeatedly"
+      ],
       "cards": [
         {
           "title": "Masked Meower",
@@ -2859,7 +3308,19 @@
     {
       "theme": "Vehicles",
       "color": "red",
-      "description": "Vehicles is a mono-red artifact-crew deck that fills the board with Vehicles and small creatures whose only job is to crew them, then leans on enter-the-battlefield triggers to generate value and damage as those Vehicles come online. Machinesmith Automaton grows with a +1/+1 counter every time another artifact enters, meaning each new Vehicle (Big Wheel, Captain America's Motorcycle, Sky Cycle, S.H.I.E.L.D. Helicarrier, The Thanos-Copter) directly pumps it, and HYDRA Assault Robot similarly converts every Villain or artifact entering into 1 damage to an opponent. Sky Cycle's damage-on-entry scales directly with the number of Vehicles you already control, making it hit harder the more the deck's core theme is established, while The Thanos-Copter turns all your other Vehicles into creatures for the turn and draws a card whenever a Vehicle connects, capping off a go-wide crew-then-swing plan. Truck Toss rewards the Vehicle count with a cost discount, giving the deck a cheap removal/burn spell once the Vehicle plan is underway.",
+      "description": "Vehicles is a mono-red artifact-crewing deck that builds around Vehicles entering the battlefield and being crewed for combat damage, with several payoffs scaling off how many Vehicles you control. Sky Cycle deals damage equal to twice your Vehicle count when it enters, so playing it after other Vehicles like Big Wheel or Captain America's Motorcycle land makes it a bigger removal spell, and Truck Toss costs {2} less whenever you control a Vehicle, turning it into cheap reach. The Thanos-Copter is the deck's centerpiece: it turns all your Vehicles into artifact creatures for the turn (letting you swing with everything at once without crewing) and then draws you a card whenever any Vehicle deals combat damage to a player, generating card advantage off a wide alpha strike. Machinesmith Automaton grows with every other artifact that enters, and HYDRA Assault Robot pings opponents off Villains and artifacts entering, giving the deck incidental reach alongside its Vehicle-crewing beatdown plan.",
+      "playstyle": [
+        "Vehicles/artifacts",
+        "Go-wide combat",
+        "Value burn"
+      ],
+      "tips": [
+        "Play multiple Vehicles before Sky Cycle",
+        "Truck Toss is cheap once a Vehicle is out",
+        "Thanos-Copter lets all Vehicles attack at once",
+        "Draw cards off Vehicle combat damage",
+        "Crew smartly, don't overcommit blockers"
+      ],
       "cards": [
         {
           "title": "Intrepid Ace",
@@ -2936,7 +3397,19 @@
     {
       "theme": "Runaways",
       "color": "red",
-      "description": "Runaways is a mono-red graveyard-and-exile value deck that plays spells from unusual zones to snowball card advantage and damage. Alex Wilder, Runaway rewards casting creatures from anywhere but your hand with +2/+0 and haste, which directly combos with his own Escape ability (exiling three cards from your graveyard to recast him) and with Nico Minoru, Runaway, whose static ability deals 2 damage to each opponent whenever you cast a spell from anywhere other than your hand—meaning escaping Alex Wilder or casting a card off Nico's own free-cast ability both trigger Nico's damage and Alex's haste-boost simultaneously. Nico Minoru also has an activated ability to exile cards until finding a nonland spell and cast it for free, directly feeding both of those triggers again, while Victor Mancha, Runaway grants long-term access to a graveyard card and Chase Stein, Molly Hayes, and Crossover Collaboration all provide additional impulse-draw style card advantage. The deck's overall plan is grinding incremental value out of casting spells from exile/graveyard rather than hand, converting that into direct damage and tempo.",
+      "description": "Runaways is a mono-red graveyard/exile value deck that leans on casting spells from outside the hand to trigger its payoffs. Alex Wilder, Runaway gives +2/+0 and haste to any creature (including himself) that enters from somewhere other than hand, which combines directly with his own Escape ability, letting you exile three cards from the graveyard to recast him as a hasty beater. Nico Minoru, Runaway deals 2 damage to each opponent whenever you cast a spell from anywhere but your hand, and her activated ability exiles cards until hitting a nonland card you can cast for free, meaning every free cast off Nico also pings opponents thanks to her own trigger. Karolina Dean, Runaway ramps five colors of mana each turn (though it can't cast hand spells) to help pay for Nico and escape costs, while Victor Mancha, Chase Stein, and cards like Blazing Crescendo and Crossover Collaboration keep exiling and replaying cards to fuel the graveyard/exile engine.",
+      "playstyle": [
+        "Exile/graveyard value",
+        "Cast-from-elsewhere synergy",
+        "Midrange"
+      ],
+      "tips": [
+        "Escape Alex Wilder for a hasty attacker",
+        "Nico's free casts trigger her own damage",
+        "Use Karolina's mana for Nico/escape costs",
+        "Fill graveyard fast for Escape costs",
+        "Chain exile effects to keep card advantage"
+      ],
       "cards": [
         {
           "title": "Chase Stein, Runaway",
@@ -3013,7 +3486,19 @@
     {
       "theme": "Scarlet",
       "color": "red",
-      "description": "Scarlet is a mono-red spellslinger deck focused on casting a high volume of cheap instants and sorceries to trigger prowess, copy effects, and free-casting engines. The Vision and Scarlet Witch adds a red mana and a +1/+1 counter every time you cast any spell, effectively refunding mana to keep the chain going, while Wanda's Vision exiles cards until it hits a nonland spell and casts it for free whenever you cast your second spell in a turn, letting a single extra cheap spell like Shock or Lightning Bolt cascade into a free additional spell. Loki Laufeyson's ability to copy an instant or sorcery combos directly with burn spells such as Lightning Bolt or the storm-based Grapeshot, whose storm count is boosted further by the sheer number of spells the deck naturally casts in a turn, letting Grapeshot deal significantly more than 1 damage late in a game. Hex Magic and Vision of Love provide raw card advantage by refilling the hand or replacing discarded/sacrificed resources, keeping the spell-slinging engine fueled turn after turn.",
+      "description": "Scarlet is a mono-red spells-matter deck centered on The Vision and Scarlet Witch, who adds a red mana and a +1/+1 counter to herself every time you cast a spell, letting you chain additional spells off the extra mana she generates while growing into a real threat. Loki Laufeyson can copy an upcoming cheap instant or sorcery for extra value, Wiccan, Young Avenger exiles and lets you play the top card of your library off each noncreature spell, and Wanda's Vision triggers on your second spell each turn to let you cast a free spell exiled from the top of your library, encouraging you to jam as many cheap spells as possible in a single turn. Molten Lavamancer converts any noncombat damage dealt to opponents into free 1/1 tokens, and Grapeshot's Storm ability scales with how many spells you've already cast that turn, making it a potential finisher once the deck has chained multiple cheap spells through Vision's mana and Wanda's Vision's free casts.",
+      "playstyle": [
+        "Spells-matter",
+        "Storm-lite",
+        "Value/burn"
+      ],
+      "tips": [
+        "Chain spells to grow Vision and Scarlet Witch",
+        "Cast second spell to trigger Wanda's Vision",
+        "Save Grapeshot for a big spell-heavy turn",
+        "Loki copies your best cheap spell",
+        "Molten Lavamancer farms tokens off burn"
+      ],
       "cards": [
         {
           "title": "Stark Industries Executive",
@@ -3090,7 +3575,19 @@
     {
       "theme": "Animal",
       "color": "green",
-      "description": "Animal is a mono-green lifegain/counters deck built around gaining life to trigger a chain of payoffs. Lucky the Pizza Dog puts a +1/+1 counter on itself at end step whenever you gained life that turn, while Tigra, Feline Fury gets a counter every single time you gain life, and Tippy-Toe, Terrific Partner draws you a card at end step under the same condition — so any lifegain source (Wakandan Tusker's tap trigger, Food tokens from Ant-Man's Army or Heroic Feast, or Scout the City's Look Around mode) is effectively tripling as a growth and card-advantage engine. Heroic Feast doubles down on this by turning every point of lifegain into a +1/+1 counter distributed among your creatures. The deck doesn't have a single explosive combo so much as a web of 'gain life -> counters/cards' triggers that all fire off the same handful of Food-token and lifegain effects, making it a steady incremental value deck rather than an aggressive rush.",
+      "description": "This mono-green deck is built around a lifegain-to-counters engine, where every point of life gained snowballs into bigger creatures and more resources. Tigra, Feline Fury gets a +1/+1 counter whenever you gain life, and Heroic Feast doubles down by handing out a counter to up to that many target creatures whenever you gain life at all, meaning a single Food token sacrifice can pump your whole board. Tippy-Toe, Terrific Partner turns every token-making effect (like Ant-Man's Army's Food/Treasure choice or Lucky the Pizza Dog's Food generation off Cat/Dog/Hero spells) into an extra Food token plus a card draw at end step if you gained life that turn. Wakandan Tusker also gains life just from being tapped, feeding the engine passively. The deck isn't purely about racing; it grinds out incremental advantage through repeated small life gains that compound into permanent stat boosts, backed by removal like Guerrilla Gorilla's artifact/enchantment destruction and Scout the City's flexible mill-or-flying-removal mode.",
+      "playstyle": [
+        "Lifegain counters",
+        "Value grind",
+        "Token synergy"
+      ],
+      "tips": [
+        "Sac Food tokens for counters",
+        "Chain lifegain into Heroic Feast triggers",
+        "Tippy-Toe doubles token value",
+        "Tap Wakandan Tusker for free lifegain",
+        "Save Guerrilla Gorilla for key artifacts"
+      ],
       "cards": [
         {
           "title": "Lucky the Pizza Dog",
@@ -3167,7 +3664,19 @@
     {
       "theme": "Rampaging",
       "color": "green",
-      "description": "Rampaging is a green +1/+1 counter fight deck that wants to load up creatures with counters and then use fight effects like Colossal Collision and Rhino's Rampage to clear blockers. Bushmaster, Coiled Henchman gives every other creature with a counter deathtouch, so cards like Rhino, Terrible Trampler (which distributes three counters on entry) or Titania, Rugged Rumbler's ETB effects turn your whole board into deathtouch fighters that trade up in combat. Knight of Wundagore snowballs alongside this, getting its own counter whenever you put one on another creature, so any counter-spreading spell (Claim the Kingdom's landfall trigger, Rhino's ETB, or Colossal Collision) also grows Knight of Wundagore. Mister Hyde, Monster Within offers a build-around choice each upkeep to either keep growing or cash counters in for card draw, giving the deck some late-game fuel once the board is established.",
+      "description": "This is a +1/+1 counter fight deck that wants to stack counters onto a few key threats and then use fight effects to clear blockers. Bushmaster, Coiled Henchman gives deathtouch to every other creature that already has a counter on it, so once creatures start picking up counters from Rhino, Terrible Trampler's ETB distribution or Claim the Kingdom's landfall trigger, they become efficient trading pieces in fights like Go Nuts! or Rhino's Rampage. Knight of Wundagore triggers off any other creature getting a counter (once per turn), snowballing its own size passively. Mister Hyde, Monster Within offers a choice engine, either growing himself or converting counters into card draw when you need gas instead of stats. Powerful Broker can double up any counter type on a permanent, further accelerating the counters plan. Overall it's a grindy, counter-centric midrange deck that leans on fighting removal rather than direct damage.",
+      "playstyle": [
+        "+1/+1 counters",
+        "Fight removal",
+        "Counter synergy"
+      ],
+      "tips": [
+        "Stack counters before fighting",
+        "Bushmaster grants deathtouch to countered creatures",
+        "Use Mister Hyde flexibly for cards or size",
+        "Claim the Kingdom rewards landfall",
+        "Double counters with Powerful Broker"
+      ],
       "cards": [
         {
           "title": "Serpent Specialist",
@@ -3244,7 +3753,19 @@
     {
       "theme": "Towering",
       "color": "green",
-      "description": "Towering is a green deck obsessed with reaching and maintaining creatures with power 4 or greater, since several cards key off that exact threshold. Goliath, Mass Manipulator's power-up draws a card for each creature you control with power 4+, Giant-Man, Gargantuan Genius ramps mana equal to the number of such creatures, and Atlas, Sizable Stooge gains life for each of them when he attacks or blocks — meaning cards like Reptil, Dinomorpher (which can become a 6/6) or a pumped Stature, Young Avenger (base 4/4 whenever you cast a noncreature spell) directly enable all three payoffs simultaneously. Ms. Marvel, Elastic Ally and Ant-Man, Reformed Rogue both convert pumped-up or unblockable attackers into extra card draw, so the deck's plan is to inflate a creature's power with combat tricks (Giant Growth, Terrific Team-Up) or size-changing abilities and then cash that in for cards, mana, and life across multiple triggers at once.",
+      "description": "This deck is a ramp-into-big-power shell that cares specifically about creatures with power 4 or greater, using them to both draw cards and generate mana. Giant-Man, Gargantuan Genius adds green mana for each creature you control with power 4+, and Goliath, Mass Manipulator's power-up ability draws a card for each such creature, meaning once you have a couple of large bodies out, both ramp and card advantage explode. Atlas, Sizable Stooge similarly gains life for each power-4-plus creature whenever it attacks or blocks, tying the power theme into incidental life gain. Ms. Marvel, Elastic Ally and Ant-Man, Reformed Rogue reward pushing power above base stats or casting spells of certain colors to draw extra cards, while Reptil and Spider-Rex provide flexible large bodies to hit the power threshold. The deck plays out as a slower ramp deck that wants to establish a couple of size-4+ threats to unlock its payoffs, then close with fight spells like Colossal Collision and Terrific Team-Up.",
+      "playstyle": [
+        "Ramp",
+        "Power-matters",
+        "Card draw payoffs"
+      ],
+      "tips": [
+        "Get creatures to power 4+ fast",
+        "Giant-Man ramps off big bodies",
+        "Goliath draws cards per big creature",
+        "Use Terrific Team-Up as fight removal",
+        "Atlas gains life while defending"
+      ],
       "cards": [
         {
           "title": "Reptil, Dinomorpher",
@@ -3321,7 +3842,19 @@
     {
       "theme": "Wild",
       "color": "green",
-      "description": "Wild is a green landfall deck that wants to play extra lands and turn each one into value. Mole Man, Moloid Master lets you play lands from your graveyard and creates a Moloid token off every land drop, Ka-Zar of the Savage Land lets you play lands straight off the top of your library while also making Zabu, whose landfall ability puts a +1/+1 counter on itself every time a land enters, and Claim the Kingdom piles +1/+1 counters onto a creature and plan counters on itself with each land drop, eventually granting a permanent indestructible counter. Gert and Old Lace, Runaways offers a discard-a-card-to-tutor-a-basic-land ETB that directly feeds these landfall triggers, letting you generate extra land drops to snowball Zabu, Moloid tokens, and Claim the Kingdom's counters simultaneously; the deck is less about big individual threats and more about turning a high land count into a wide, growing board.",
+      "description": "This deck is a landfall and land-recursion engine that wants to flood the board with lands and tokens rather than just curve out normally. Ka-Zar of the Savage Land lets you play lands off the top of your library while creating Zabu, which grows every time a land enters, and Mole Man, Moloid Master lets you replay lands from the graveyard while spawning a 1/1 Moloid token on every landfall trigger. Claim the Kingdom also converts each land drop into a +1/+1 counter plus progress toward an indestructible counter payoff, and Gert and Old Lace can fetch an extra basic land straight to hand on ETB. Hellcat, Undying Vigilante provides a resilient recurring threat that returns bigger after dying, while Accelerated Evolution offers a combat trick that also protects a creature with hexproof. The overall plan is to jam as many lands into play as possible to trigger these landfall payoffs repeatedly, turning what looks like a ramp package into a wide, grindy value engine.",
+      "playstyle": [
+        "Landfall",
+        "Land recursion",
+        "Value grind"
+      ],
+      "tips": [
+        "Maximize land drops for landfall",
+        "Mole Man replays lands from graveyard",
+        "Zabu grows with every land",
+        "Claim the Kingdom rewards extra lands",
+        "Hellcat comes back bigger after dying"
+      ],
       "cards": [
         {
           "title": "Hellcat, Undying Vigilante",
@@ -3398,7 +3931,19 @@
     {
       "theme": "Great Lakes Avengers",
       "color": "green",
-      "description": "Great Lakes Avengers is a green go-wide token and counters deck anchored by The Unbeatable Squirrel Girl, whose 'I LOVE Squirrels!' ability creates X Squirrel tokens equal to your current Squirrel count, letting a couple of attack-trigger Squirrels snowball into a huge token army. Tippy-Toe, Terrific Partner adds an extra Food token to every token-creation event, meaning every Squirrel Girl trigger (and any other token maker) nets bonus Food alongside the Squirrels, feeding into life gain and Tippy-Toe's own end-step card draw when you've gained life. Training Regimen puts a +1/+1 counter on a creature every combat and grants trample to anything with counters, working well with Big Bertha's counter-accumulation ability, while oddball utility pieces like Mister Immortal's graveyard/exile recursion and Flatman's power/toughness swap round out a deck that's more about incremental value and go-wide tokens than a single combo finish.",
+      "description": "This deck centers on The Unbeatable Squirrel Girl's token generation feeding into an explosive payoff: she creates a Squirrel on entry and on every attack, and her second ability, I LOVE Squirrels!, can be activated repeatedly to create X new Squirrels equal to your current Squirrel count, letting the token count double or more each activation if you have the mana. Tippy-Toe, Terrific Partner turns every one of those token-creation events into an extra Food token as well, and further rewards any lifegain that results with a card draw at end step. Mister Immortal offers cheap, repeatable recursion, coming back from graveyard or exile to rebuild the board after a wrath or combat losses. Training Regimen backs up the go-wide plan by handing out trample to countered creatures and adding a counter every combat, while Big Bertha scales directly with however much mana you invest into her enter-the-battlefield X cost.",
+      "playstyle": [
+        "Go-wide tokens",
+        "Squirrel synergy",
+        "Value recursion"
+      ],
+      "tips": [
+        "Attack with Squirrel Girl to snowball tokens",
+        "I LOVE Squirrels! doubles your board",
+        "Tippy-Toe adds Food to every token trigger",
+        "Mister Immortal recurs cheaply",
+        "Training Regimen grants trample to counters"
+      ],
       "cards": [
         {
           "title": "Guerrilla Gorilla",
@@ -3475,7 +4020,19 @@
     {
       "theme": "Incredible",
       "color": "green",
-      "description": "Incredible is a green Gamma-creature counters deck built around doubling effects. Hulk, Strongest There Is doubles the number of +1/+1 counters on each Gamma creature you control at your upkeep, and Doc Samson, Super Psychiatrist adds an extra counter of each kind whenever counters would be placed on your permanents — so together they compound: Doc Samson's static trigger adds bonus counters before Hulk's ability doubles the total on every Gamma creature, rapidly inflating your board. She-Hulk, Attorney-at-Law's power-up ability similarly doubles the counters on every creature you control once active, stacking further with Doc Samson's counter-boosting replacement effect. Brawn, Amadeus Cho's power-up scales with cards in hand for an explosive late-game counter dump, while Abomination and Hulk's Thunderclap provide fight-based removal to clear the way for your growing threats.",
+      "description": "This is a Gamma-creature +1/+1 counter doubling deck built around explosive exponential growth. Hulk, Strongest There Is doubles the number of counters on each Gamma creature you control every upkeep, and Doc Samson, Super Psychiatrist adds an extra counter of each kind whenever counters would be placed, so a single Origin of the Hulk chapter II trigger or Go Nuts! activation snowballs fast once both are online. She-Hulk, Attorney-at-Law's power-up doubles counters across your whole board on top of that, meaning stacking Doc Samson, Hulk, and She-Hulk together can turn a handful of counters into a lethal army in a single turn cycle. Brawn, Amadeus Cho draws cards on entry and later converts your whole hand into a massive one-time counter payload. The deck plays a slower buildup early, using Guerrilla Gorilla and Hulk's Thunderclap for removal, before unleashing a huge doubling turn to close the game.",
+      "playstyle": [
+        "Counter doubling",
+        "Gamma synergy",
+        "Explosive scaling"
+      ],
+      "tips": [
+        "Stack Doc Samson before adding counters",
+        "Hulk doubles Gamma counters each upkeep",
+        "She-Hulk power-up doubles whole board",
+        "Use Brawn's power-up with a full hand",
+        "Hold removal for key blockers"
+      ],
       "cards": [
         {
           "title": "Brawn, Amadeus Cho",
@@ -3552,7 +4109,19 @@
     {
       "theme": "Trained",
       "color": "green",
-      "description": "Trained is a green counters deck centered on Shang-Chi, Martial Mentor's static ability that doubles any +1/+1 counters placed on your creatures, turning every counter source into two. This combos directly with Wakandan Royal Guard's ETB (which already doubles to two counters on a Hero) and with any power-up ability like Serpent Specialist's two-counter power-up, She-Hulk's counter-doubling power-up, or White Tiger's counter-and-token power-up, all of which get doubled again by Shang-Chi for explosive growth. Advancing the Spirit lets you activate the first power-up ability each turn for free, meaning you can trigger these doubled-counter abilities repeatedly without paying their often-steep costs, while Punishing Punch and Colossal Collision turn your inflated creatures into efficient removal by dealing damage equal to (or twice) their power.",
+      "description": "This deck is built entirely around cheap 'power-up' abilities that scale down in cost the turn a creature enters, then reward stacking +1/+1 counters across the board. Shang-Chi, Martial Mentor doubles every +1/+1 counter placed on your creatures, so activating Wakandan Royal Guard's ETB (which already gives two counters to Heroes) or any power-up ability after Shang-Chi resolves effectively doubles its value. Advancing the Spirit lets you activate one power-up ability each turn for free, letting you discount and then completely waive the cost of your biggest power-up creature, such as She-Hulk's counter-doubling ability or Hercules's indestructible/haste grant. Punishing Punch and Colossal Collision turn all those pumped-up creatures into efficient removal by dealing damage equal to power (or twice power) to an opponent's creature. The overall plan is an incremental value-and-size engine that gets sharply better the more power-up abilities you chain together in a single turn.",
+      "playstyle": [
+        "Power-up synergy",
+        "+1/+1 counters",
+        "Counter doubling"
+      ],
+      "tips": [
+        "Play Shang-Chi before adding counters",
+        "Advancing the Spirit frees a power-up",
+        "Chain multiple power-ups per turn",
+        "Punishing Punch scales with power",
+        "Wakandan Royal Guard favors Heroes"
+      ],
       "cards": [
         {
           "title": "Serpent Specialist",
@@ -3629,7 +4198,19 @@
     {
       "theme": "Uncanny",
       "color": "green",
-      "description": "Uncanny is a green Mutant tribal deck that rewards playing Mutants and growing them with counters. X-23, Deadly Weapon puts a +1/+1 counter on both herself and any other Mutant that enters, directly synergizing with Darwin, Adaptive Mutant's Evolve ability (which also triggers off creatures entering with higher power/toughness) to rapidly stack counters on your early plays. Wolverine, Claws Out doubles the power of any attacking Mutant, so pumping a Mutant's power beforehand with Wolfsbane's activated +2/+2, Training Regimen's combat-phase counter, or Colossus's tribal +1/+1 anthem makes Wolverine's doubling hit even harder. Colossus, Steel Stalwart gives indestructibility during your turn and pumps other Mutants, rounding out a resilient tribal beatdown plan that leans on entering-the-battlefield triggers and combat math rather than card draw.",
+      "description": "This is a tribal Mutant deck that rewards playing Mutants into each other for compounding stat growth and combat math advantage. X-23, Deadly Weapon puts a +1/+1 counter on both herself and any other Mutant that enters, Colossus, Steel Stalwart buffs all other Mutants by +1/+1 passively, and Wolverine, Claws Out doubles the power of any attacking Mutant, turning even modest counter growth into huge damage swings once Wolverine and a buffed Mutant attack together. Darwin, Adaptive Mutant grows via Evolve whenever a bigger creature enters and can spend counters for emergency indestructibility, while Beast, Erudite Aerialist gains flying and draws cards whenever he's been pumped with counters that turn. Training Regimen adds trample to any countered creature, letting the deck's growing Mutants actually punch through blockers instead of just getting bigger for no purpose.",
+      "playstyle": [
+        "Mutant tribal",
+        "+1/+1 counters",
+        "Combat math"
+      ],
+      "tips": [
+        "Sequence Mutants for X-23 counters",
+        "Wolverine doubles attacking Mutant power",
+        "Buff before attacking with Mutants",
+        "Darwin trades counters for indestructible",
+        "Training Regimen adds trample"
+      ],
       "cards": [
         {
           "title": "Black Tom Cassidy",
@@ -3706,7 +4287,19 @@
     {
       "theme": "Savage Lands",
       "color": "green",
-      "description": "Savage Lands is a green Dinosaur tribal deck that reduces Dinosaur costs and buffs the tribe broadly. Moon-Boy, Dino Rider makes your Dinosaur spells cost {1} less and grows himself when attacking alongside a Dinosaur, while Devil Dinosaur gives every other Dinosaur +1/+1 and hexproof, protecting your board from removal once established. Sauron, Dino Devotee can turn any other creature into a 5/5 green Dinosaur via a saurian counter, which then qualifies for Devil Dinosaur's tribal buff and Moon-Boy's discount/attack trigger, effectively expanding your Dinosaur count on the fly. Ka-Zar of the Savage Land lets you play lands off the top of the library and creates Zabu, whose landfall ability grows itself with counters, giving the deck extra land drops and incremental value on top of its dinosaur-synergy beatdown plan.",
+      "description": "This three-color-adjacent (mono-green splash-enabled via Savage Lands) deck is a Dinosaur tribal build focused on turning any creature into a Dinosaur and then protecting and pumping the tribe. Sauron, Dino Devotee's saurian counter ability can turn any target creature into a 5/5 green Dinosaur, instantly qualifying it for Devil Dinosaur's blanket +1/+1 and hexproof buff to all other Dinosaurs, and for Moon-Boy, Dino Rider's cost reduction and attack trigger, which only fires while you control a Dinosaur. Ka-Zar of the Savage Land plays lands off the top of the library while making Zabu, a token that grows with every landfall, feeding the ramp needed for Reptil's expensive mode-shifting abilities. Lurking Lizards passively grows off any expensive spell you cast, rewarding the deck's naturally high curve, while Commune with Dinosaurs digs specifically for more Dinosaurs or lands to keep the plan rolling.",
+      "playstyle": [
+        "Dinosaur tribal",
+        "+1/+1 counters",
+        "Ramp"
+      ],
+      "tips": [
+        "Sauron converts any creature to Dinosaur",
+        "Devil Dinosaur buffs and protects tribe",
+        "Ka-Zar plus Zabu ramps landfall",
+        "Cast big spells to grow Lurking Lizards",
+        "Commune with Dinosaurs finds pieces"
+      ],
       "cards": [
         {
           "title": "Reptil, Dinomorpher",
@@ -3788,7 +4381,19 @@
     {
       "theme": "Tenacious",
       "color": "green",
-      "description": "Tenacious is a green graveyard-value deck that cares about creature cards piling up in the graveyard to power its payoffs. Voracious Brood enters with a +1/+1 counter for every creature card already in your graveyard and continues to grow whenever more creatures die, while Undercover Skrull becomes a +2/+2 all-creature-type creature once two or more creatures are in the graveyard, and Punishing Punch gets cheaper under the same condition, letting a hulking creature deal double its power in damage to a blocker or attacker cheaply. Hellcat, Undying Vigilante feeds this plan directly by returning from death with a +1/+1 counter, refilling the graveyard-count triggers each time she dies, while Call Damage Control and Return of the Mole Man let you recur permanents or convert the graveyard into a horde of Moloid tokens, tying the whole deck's grindy, attrition-based game plan together.",
+      "description": "This is a graveyard-matters green deck that wants creatures dying and cards milling into the yard to fuel its payoffs. Voracious Brood enters with a +1/+1 counter for every creature card already in your graveyard and keeps growing every time more creatures die anywhere, making it a scaling late-game threat if you've been trading creatures away. Punishing Punch gets cheaper and hits harder once two or more creature cards are in your graveyard, turning cheap fights into big removal. Hellcat, Undying Vigilante and White Tiger, Amulet Keeper both offer graveyard recursion or exile-for-value effects, letting you grind resources back even after creatures die. Return of the Mole Man and Scout the City add self-mill to feed the graveyard count, while Call Damage Control can retrieve almost any permanent type back to hand once it's there, making this deck resilient to attrition and rewarding a slower, grindier game plan.",
+      "playstyle": [
+        "Graveyard value",
+        "Self-mill",
+        "Attrition grind"
+      ],
+      "tips": [
+        "Mill early to fuel Voracious Brood",
+        "Punishing Punch cheaper with dead creatures",
+        "Let creatures trade to grow payoffs",
+        "Return of the Mole Man mills for tokens",
+        "Call Damage Control rebuys key permanents"
+      ],
       "cards": [
         {
           "title": "Undercover Skrull",
@@ -3870,7 +4475,19 @@
     {
       "theme": "Fantastic",
       "color": "multi",
-      "description": "This is a Bant/Grixis-ish (actually GWUR-leaning, built around Fantastic Four Heroes) value deck that wants to draw extra cards, trigger Hero payoffs, and grind out incremental advantage rather than race with raw stats. The engine centers on card draw feeding damage and counters: Human Torch, Johnny Storm pings an opponent for 1 whenever you draw a card as long as you control another Hero, so cheap cantrips like H.E.R.B.I.E. Scout Unit's ETB draw, Daily Bugle Newspaper's loot, and Fantastic Bounce's draw all double as direct damage triggers. Mister Fantastic, Reed Richards turns any token production (like the 0/4 Wall tokens made by Invisible Woman, Sue Storm, Wall Off, or The Fantastic Four's modal ability) into another card draw, so the deck naturally chains defensive Wall tokens into extra cards, which in turn triggers Human Torch again. Invisible Woman's ability to spawn a Wall whenever counters are placed on other Heroes synergizes with The Thing, Ben Grimm, who gets two +1/+1 counters whenever a Hero deals combat damage to a player, meaning a single successful Hero attack can generate a Wall blocker via Sue Storm's trigger while also growing The Thing into a bigger trampler. The Fantastic Four itself is a value machine that lets you pick a mode (Wall token, 3 damage to each opponent, counters, or a card) whenever you cast a 4-power/toughness/mana-value spell, reinforcing the deck's grindy, card-advantage-driven, incidental-damage game plan. Cost-reduction spells like Inspired Fire (cheaper the more you've drawn that turn), Fantastic Bounce (cheaper against tapped creatures), and Thing Swing (cheaper if it targets your own Hero) all reward the deck's natural draw-heavy, Hero-centric sequencing, while mana fixers like Farseek, Thriving Grove, Pym Technologies, and Baxter Building smooth out the multicolor manabase and Baxter Building's late-game draw ability rewards having stuck a big toughness creature.",
+      "description": "This four-color Fantastic Four deck is built around card draw and +1/+1 counter synergies that snowball into big damage and defensive Wall tokens. Mister Fantastic, Reed Richards draws you a card whenever tokens enter, which is fed directly by Invisible Woman, Sue Storm's ability to create a 0/4 Wall token whenever you put counters on other Heroes, and by The Fantastic Four's modal ability which can also make Walls. Human Torch, Johnny Storm punishes that same card-draw engine by pinging opponents for 1 damage every time you draw, so a single Mister Fantastic trigger can chain into extra draws and extra pings. The Thing, Ben Grimm grows permanently whenever Heroes deal combat damage, turning him into a late-game trampling threat, while spells like Inspired Fire and Daily Bugle Newspaper get cheaper or more efficient the more you're drawing and discarding that turn. Thing Swing lets a beefed-up Hero (especially a counter-loaded The Thing) snipe an opposing creature by dealing double its power as damage, rewarding you for growing your creatures first. The deck ramps with Farseek, Terramorphic Expanse, and multicolor lands like Baxter Building and Pym Technologies to smooth out its four-color mana base while accumulating incremental card advantage and defensive bodies until it can close with The Fantastic Four's direct damage mode or a huge Thing attack.",
+      "playstyle": [
+        "Value/card-draw engine",
+        "Counter synergy",
+        "Go-wide defense into big finisher"
+      ],
+      "tips": [
+        "Chain draws off Mister Fantastic",
+        "Use Sue Storm for free Walls",
+        "Grow The Thing before attacking",
+        "Combo Thing Swing with pumped Heroes",
+        "Ramp mana with Farseek/Terramorphic first"
+      ],
       "cards": [
         {
           "title": "Human Torch, Johnny Storm",
